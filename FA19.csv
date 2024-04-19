@@ -1,0 +1,100 @@
+﻿Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+AHS,AHSE0112,01,AHSE0112: The Olin Conductorless Orchestra,"Dabby, Diana",T 7:30pm-9:00pm; R 6:30-9:00pm,AC318,1,26,"yes, small",,AHS Elective
+AHS,AHSE2170,01,AHSE2170: Teaching and Learning in Undergraduate Education,"Zastavker, Yevgeniya; Burger, Jordyn",T 12:50-3:15pm; T 6:30pm-7:15pm,"CC209, 211
+Crescent Room",4,15,"yes, large",,AHS Elective
+AHS,AHSE2170,02,AHSE2170: Teaching and Learning in Undergraduate Education,"Zastavker, Yevgeniya; Burger, Jordyn",T 12:50-3:15pm; W 6:30pm-7:15pm,"CC209, 211
+Crescent Room",4,15,"yes, large",,AHS Elective
+AHS,AHSE3130,01,AHSE3130: Advanced Digital Photography,"Donis-Keller, Helen",TF 1:30-3:10pm,AC313,4,12,"yes, small",,AHS Elective
+AHS,AHSE3190,01,"AHSE3190: Arts, Humanities, Social Science Prepstone","Epstein, Gillian",n/a,n/a,1,50,n/a,,AHS Capstone Prereq
+CAPSTONE,ENGR4190,01,ENGR4190: SCOPE: Senior Capstone Program in Engineering,"Ferzoco, Alessandra; Hersey, Scott; Sarang- Sieminski, Alisha; Stein, Lynn",W 9-6:00pm,varies,4,90,n/a,,CAPSTONE
+CAPSTONE,ENGR4290,01,ENGR4290: Affordable Design and Entrepreneurship Engineering Capstone,"Graeff, Erhardt; Hersey, Scott; Linder, Ben; Taha, Kofi, Johansen, Elizabeth",T 3:30-6:30pm; R 3:30-5:30pm,Weissman Foundry,4,15,"yes, small",,CAPSTONE
+CAPSTONE,ENGR4599,01,ENGR4599: Entrepreneurial Engineering Capstone,"Harris, Scott; Woodard, Jason",W 1-5:30pm,AC318,4,by application only,n/a,"Interested Students should see Scott Harris and/or Jason
+Woodard",Capstone
+DSN,ENGR2299,01,ENGR2299:  Special Topics in Design Engineering:  Creativity Practicum,"Ferguson Sauder, Tim; Hendren, Sara","M 1:30-4:10pm; R 1:30-
+3:10pm",AC309,4,24,"yes, small",,"Elective (can be taken
+before UOCD)"
+DSN,ENGR3220,01,ENGR3220: User Experience Design,"Millner, Amon",TF 1:30-3:10pm,AC213,4,28,"yes, small",,DSN Depth
+DSN,ENGR3240,01,ENGR3240: Tell the Story of What you Make,"Ferguson Sauder, Tim",MR 9:50-12:30pm,AC309,4,25,"yes, small",,DSN Depth
+DSN,ENGR3260,01,ENGR3260: Design for Manufacturing,"Barrett, Dave; Faas, Daniela",TF 10:50-12:30pm,AC128,4,20,"yes, large","Student must elect lab A OR B, not both along with the standard
+TF 10:50-12:30pm time",ME Elective Design Depth
+DSN,ENGR3260 L,A B,Design for Manufacturing LAB,"Barrett, Dave; Faas, Daniela","Lab A: M 1:30-4:10pm
+Lab B: Tues 1:30-4:10pm",Machine Shop,0,10 in each Lab,"yes, large","Student must elect lab A OR B, not both along with the standard
+TF 10:50-12:30pm time",
+Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship,"Graeff, Erhardt; Hersey, Scott; Linder, Ben; Taha, Kofi, Johansen, Elizabeth",T 3:30-6:30pm; R 3:30-5:30pm,Weissman Foundry,4,15,"yes, large",,DSN Depth
+DSN,ENGR3299,01,ENGR3299: Special Topics in Engineering Design: Introduction to Immersive Experience Design,"Pearson, Tom",TF 9-12:30pm,AC326,4,28,"yes, small",,Design Depth
+E:C,ENGR2510,01,ENGR2510: Software Design,"Hill, Benjamin",TF 1:30-3:10pm,AC318,4,24,"yes, small",,E:C Requirement and ECE Requirement
+E:C,ENGR3520,01,ENGR3520: Foundations of Computer Science,"Pucella, Riccardo",T 3:20-5:50pm,AC326,4,32,"yes, small",,E:C Requirement
+E:C,ENGR3540,01,ENGR3540: Complexity Science,"Downey, Allen",TF 10:50-12:30pm,AC417,4,30,"yes, small",,E:C Elective
+ECE,ENGR3410,01,ENGR3410: Computer Architecture,"Hill, Benjamin",TF 9-10:40am,AC304,4,32,"yes, small",,"ECE Requirement and
+E:C Elective"
+ECE,ENGR3420,01,ENGR3420: Introduction to Analog and Digital Communication,"Govindasamy, Siddhartan",MR 10:50-12:30pm,AC304,4,24,"yes, small",,
+ENGR,ENGR1330,01,ENGR1330: Fundamentals of Machine Shop Operations,"Andruskiewicz, Bruce",W 1-5:00pm,Machine Shop,4,6,"yes, small",,Elective
+ENGR,ENGR2110,01,ENGR2110: Principles of Engineering,"Govindasamy, Siddhartan; Hoover, Aaron; Millner, Amon; Reifel, Stan",TF 9-10:40am,AC306,4,25,"yes, small",,Engineering Foundation
+ENGR,ENGR2110,02,ENGR2110: Principles of Engineering,"Govindasamy, Siddhartan; Hoover, Aaron; Millner, Amon; Reifel, Stan",TF 9-10:40am,AC309,4,25,"yes, small",,Engineering Foundation
+ENGR,ENGR2110,03,ENGR2110: Principles of Engineering,"Govindasamy, Siddhartan; Hoover, Aaron; Millner, Amon; Reifel, Stan",TF 10:50-12:30pm,AC306,4,25,"yes, small",,Engineering Foundation
+ENGR,ENGR2110,04,ENGR2110: Principles of Engineering,"Govindasamy, Siddhartan; Hoover, Aaron; Millner, Amon; Reifel, Stan",TF 10:50-12:30pm,AC309,4,25,"yes, small",,Engineering Foundation
+ENGR,ENGR2199,01,ENGR2199: Special Topics in Engineering: Small Satellite Lab I,"Lee, Chris",MR 3:20-5:30pm,AC304,4,18,"yes, small",,Elective
+Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+ENGR,ENGR3199,01,ENGR3199: Special Topics in Engineering:  Renewable Energy,"Vanasupa, Linda",TF 10:50-12:30pm,AC304,4,28,"yes, large",Prerequisite: successful completion of all first year courses,ECE Elective ME Elective
+ENTRP,AHSE2515,01,AHSE2515: Iterate,TBD,MR 9-10:40am,AC318,2,21,"yes,  small",Session I,E! Elective
+ENTRP,AHSE2515A,01,AHSE2515A: Iterate,TBD,MR 9-10:40am,AC318,2,21,"yes,  small",Session II,E! Elective
+FYR,OIE1000,01,OIE1000: Olin First Year Introduction (OFYI),"Waranyuwat, Adva",W 1:30-3:10pm,MH120; AC304; AC326; AC328,1,90,n/a,,First Year Only
+FYR: AHS,AHSE1100,01,AHSE1100: History of Technology: A Cultural & Contextual Approach,"Martello, Rob",TF 1:30-3:10pm,AC328,4,16,no,"Available to First Year Students Only;
+There will be an additional writing activity during the semester on a Monday and/or Thursday at 1:30p; specific dates will be on
+each syllabus",AHS Foundation
+FYR: AHS,AHSE1122,01,"AHSE1122: The Wired Ensemble - Instruments, Voices, Players","Dabby, Diana",TF 1:30-3:10pm,AC304; AC305,4,15,no,"Available to First Year Students Only;
+There will be an additional writing activity during the semester on a Monday and/or Thursday at 1:30p; specific dates will be on
+each syllabus",AHS Foundation
+FYR: AHS,AHSE1135,01,"AHSE1135: The Digital Eye: Photography, Vision, and Visual Communication","Donis-Keller, Helen",TF 10:50-12:30pm,AC313,4,14,no,"Available to First Year Students Only;
+There will be an additional writing activity during the semester on a Monday and/or Thursday at 1:30p; specific dates will be on
+each syllabus",AHS Foundation
+FYR: AHS,AHSE1148,01,AHSE1148: Dirt to Shirt: Global Garments in Context,"Lynch, Caitrin",TF 10:50-12:30pm,Weissman Foundry,4,16,no,"Available to First Year Students Only;
+There will be an additional writing activity during the semester on a Monday and/or Thursday at 1:30p; specific dates will be on
+each syllabus",AHS Foundation
+FYR: AHS,AHSE1199,01,"AHSE1199:  Arts, Humanities, Social Science Foundation: Writers’ Workshop: Creativity and the Literary Imagination","Lynch, Caitrin; Taaffe, Lauren",TF 1:30-3:10pm,AC326,4,16,no,"Available to First Year Students Only;
+There will be an additional writing activity during the semester on a Monday and/or Thursday at 1:30p; specific dates will be on
+each syllabus",AHS Foundation
+FYR: AHS,AHSE1199,02,"AHSE1199:  Arts, Humanities, Social Science Foundation:
+Infrastructure Studies","Chachra, Debbie",MR 1:30-3:10pm,AC304,4,16,no,"Available to First Year Students Only;
+There will be an additional writing activity during the semester on a Monday and/or Thursday at 1:30p; specific dates will be on
+each syllabus",AHS Foundation
+FYR: ENGR,ENGR1125,01,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Michalka, Sam; Nugent, Carrie;Vanasupa, Linda",M 3:20-5:00pm; T 10:50-12:30pm,M: AC326; T: AC428,4,22,no,,Engineering Foundation
+FYR: ENGR,ENGR1125,02,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Michalka, Sam; Nugent, Carrie;Vanasupa, Linda",M 3:20-5:00pm; T 1:30-3:10pm,M: AC328; T: AC428,4,22,no,,Engineering Foundation
+FYR: ENGR,ENGR1125,03,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Michalka, Sam; Nugent, Carrie;Vanasupa, Linda",R 3:20-5:00pm F 10:50-12:30pm,R: AC326; F: AC428,4,22,no,,Engineering Foundation
+Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+FYR: ENGR,ENGR1125,04,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Michalka, Sam; Nugent, Carrie;Vanasupa, Linda",R 3:20-5:00pm; F 1:30-3:10pm,R: AC328; F: AC428,4,22,no,,Engineering Foundation
+FYR: ENGR,ENGR1200,01,ENGR1200: Design Nature,"Chachra, Debbie; Linder, Ben; Stein, Lynn; Ewing, Lucas",MR 9:50-12:30pm,"MH120; AC204, 206, 209",4,32,no,,Design Foundation
+FYR: ENGR,ENGR1200,02,ENGR1200: Design Nature,"Chachra, Debbie; Linder, Ben; Stein, Lynn; Ewing, Lucas",MR 9:50-12:30pm,"MH120; AC204, 206, 209",4,32,no,,Design Foundation
+FYR: ENGR,ENGR1200,03,ENGR1200: Design Nature,"Chachra, Debbie; Linder, Ben; Stein, Lynn; Ewing, Lucas",MR 9:50-12:30pm,"MH120; AC204, 206, 209",4,32,no,,Design Foundation
+"FYR:
+Interdisciplinar y",MTH1111 / SCI1111,01,MTH1111 / SCI1111: Modeling and Simulation of the Physical World,"Graeff, Erhardt; Matsumoto, Steve; Paul, Alice; Woodard, Jason",TWF 9-10:40am,"MH120; AC204, 206, 209, 213",2+2,89,no,,Modeling Foundation
+Interdisciplinar y,CIE2019B,01,CIE2019B: Curriculum Innovation Prototype: Quantitative Engineering Analysis II,"Dusek, Jeff; Geddes, John; Lohmeyer, Whitney; Tow, Emily",MR 9-10:40am,AC109,4,36,n/a,"Credit breakdown: 2 Math, 1 Science, 1  Engineering",Requirement
+Interdisciplinar y,CIE2019B,02,CIE2019B: Curriculum Innovation Prototype: Quantitative Engineering Analysis II,"Dusek, Jeff; Geddes, John; Lohmeyer, Whitney; Tow, Emily",MR 9-10:40am,AC113,4,36,n/a,"Credit breakdown: 2 Math, 1 Science, 1  Engineering",Requirement
+Interdisciplinar y,MTH2136 / SCI2136,01,MTH2136 / SCI2136: Astronomy and Statistics: AstroStats,"Nugent, Carrie",MR 1:30-3:10pm,AC318,2 + 2,22,"yes, small",,"Probability/Statistics; SCI
+Elective"
+Interdisciplinar y,MTH2188A / ENGR3599A,01,MTH2188A / ENGR3599A: Machine Learning,"Ruvolo, Paul; Michalka, Sam",MR 10:50-12:30pm,AC328,2 + 2,32,"yes, large",,"Probabiity/Statistics; E:C
+Elective"
+Interdisciplinar y,MTH2188A / ENGR3599A,02,MTH2188A / ENGR3599A: Machine Learning,"Ruvolo, Paul; Michalka, Sam",MR 1:30-3:10pm,AC328,2 + 2,32,"yes, large",,"Probabiity/Statistics; E:C
+Elective"
+ME,ENGR3310,01,ENGR3310: Transport Phenomena,"Tow, Emily",MR 10:50-12:30pm,AC326,4,48,"yes, small",,ME Requirement
+ME,ENGR3330,01,ENGR3330: Mechanical Design,"Barrett, Dave",TF 9-10:40am,AC128,4,32,"yes, large",,ME Requirement
+ME,ENGR3350,01,ENGR3350: Finite Element Analysis,"Lee, Chris",MR 9-10:40am,AC328,4,32,"yes, small",,ME Elective
+Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+MTH,MTH2110,01,MTH2110: Discrete Math (Letter Grading),"Spence Adams, Sarah",MR 9-10:40am,AC417,4,33,"yes, large",Offered as Letter grade only,Advanced Math
+MTH,MTH2110,02,MTH2110: Discrete Math (Experimental Grading),"Spence Adams, Sarah",MR 10:50-12:30pm,AC417,4,21,"yes, large",Offered using EXPERIMENTAL Grading,Advanced Math
+MTH,MTH2220,01,MTH2220: Linearity II,"Geddes, John",MR 10:50-12:30pm,AC318,4,36,no,,Requirement
+SCI,SCI1199,01,SCI1199: Special Topics in Physics: Contemplating Science: Educational Context and Ethics,"Zastavker, Yevgeniya",MR 9-10:40am,AC326,4,21,"yes, small",,Physics Foundation
+SCI,SCI1240,01,SCI1240: Designing Better Drugs with Laboratory,"Pratt, Joanne","MR 1:30-3:10pm; R 3:20-
+6pm","AC417; AC406
+lab",4,24,"yes, large",,BIO Foundation
+SCI,SCI1399,01,"SCI1399: Special Topics in Chemistry: Paper Panacea, Part I","Vanasupa, Linda",TW 3:20-6:00pm,AC413; AC417,4,24,"yes, small",Offered using Experimental Grading,MatSci/Chem Foundation
+SCI,SCI1410,01,SCI1410: Materials Science and Solid State Chemistry,"Neal, Matt",MR 3:20-6:00pm,AC413,4,24,"yes, small",,MatSci/Chem Foundation
+SCI,SCI2210,01,SCI2210: Immunology,"Pratt, Joanne",W 12:30-3:10pm; F 1:30-3:10pm,AC417; AC406,4,18,"yes, large",,Bio Advanced
+Seminar,ISR0077,S1,ISR0077: Independent Study and Research: Grand Challenge Scholars Program: GCSP Seminar,"Wood, Alison",M 9-10:40am,AC304,1,16,"yes, large",Pass/No Credit Grading; General Credit Only,Seminar
+Sustainability (BOW),SUST2201,01,SUST2201: Introduction to Sustainability,"Stolk, Jon",W 3:30-6:30pm,AC328,4,"45
+(15 per school)","yes, small","CORE requirement for 3CollegesBOW Sustainability Certificate;
+earns 2 AHS + 2 ENGR credits at Olin;",BOW Cert / Sustainability
+ADMIN,AWAY1000,01,Study Away Program,Administration,n/a,n/a,12,n/a,,Enroll in this course block to confirm your Study Away Semester,
+ADMIN,OIP1000,01,The Olin Internship Practicum I,Phelps,n/a,n/a,1,n/a,,See Post Graduate Planning to Enroll,
+ADMIN,OIP1001,01,The Olin Internship Practicum II,Phelps,n/a,n/a,1,n/a,,See Post Graduate Planning to Enroll,
