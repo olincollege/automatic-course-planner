@@ -1,0 +1,90 @@
+﻿Area,Course #,Section #,Course Title,Credits,Instructor,Time,Location,Enroll Limits,Notes
+AHS,AHSE 0112,01,The Olin Conductorless Orchestra,1,Dabby,R 6:45-9:00pm,"AC304; AC305;
+AC318",,
+AHS,AHSE 2199,01,"Special Topics in Arts, Humanties, Social Sciences: Critical Reflective Writing: A Journey to Knowing Oneself",4,Epstein; Zastavker,M 9:30-12:30pm,MH373,16,
+AHS,AHSE 3190,01,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",1,Epstein,n/a,n/a,n/a,
+AHS,AHSE 4190,01,"Arts, Humanities, Social Sciences Capstone",4,Lynch,R 3:20-6:00pm,AC318,18,
+DSN,ENGR 3220,01,Human Factors Interface Design,4,Stein; Morales,MR 3:20-5:50pm,AC109,24,Design Depth
+DSN,ENGR 3250,01,Integrated Product Design,4,Linder,R 3:30-6:30pm,AC213 when at Olin,15,Design Depth (with Babson and Mass College of Art)
+DSN,ENGR 3290,01,Affordable Design and Entrepreneurship (DESIGN DEPTH OPTION),4,Linder; Govindasamy,T 3:30-6:30pm,AC213 when at Olin,15,Design Depth
+DSN,ENGR 3299,01,Special Topics in Design Engineering:  Investigating Normal: Adaptive and Assistive Technologies,4,Hendren,"T 1:30-5:00pm; F 1:30-
+3:10pm",AC128,20,Design Depth
+DSN,ENGR 3710,01,Systems,4,Bennett,TF 1:30-3:10pm,AC328,24,Design Depth
+DSN,ENGR 4290,01,Affordable Design and Entrepreneurship (CAPSTONE OPTION),4,Linder; Govindasamy,T 3:30-6:30pm,AC213 when at Olin,15,Capstone Experience
+E!,AHSE 1515,01,Products and Markets,4,Neeley,MR 10:50-1:00pm; W 9- 10:40am,AC417,30,Upperclass Offering (Rising Soph-Seniors); Note: Wed time is a project time; students also enrolled in SCOPE will need to find an alternative project time
+E!,AHSE 3510,01,New Technology Ventures,4,Klein-Marmer,TR 4:45-6:30pm,AC328,15,"Note: This offering may be used as a designated alternative for a students Entrepreneurship foundation requirement.  If used, it may not be counted in an Entrepreneurship concentration."
+E!,AHSE 3599,01,Special Topics in Entrepreneurship: Intellectual Property Protection for Innovative Designs,4,Covello,MR 3:20-5:00pm,MH273,12,"October 22, 2015 Meeting will be held in AC113"
+E!,AHSE 4590,01,Entrepreneurship Capstone,4,Neeley,MR 1:30-3:10pm,CC214,15,
+E:BE,ENGR3630,01,Transport in Biological Systems,4,Sarang-Sieminski,MR 10:50-12:30pm,AC318,20,
+E:C,ENGR 2510,01,Software Design,4,Millner,TF 1:30-3:10pm,AC326,25,
+E:C,ENGR 3525,01,Software Systems,4,Downey,TF 10:50-12:30pm,AC328,30,
+E:C,ENGR 3590,01,A Computational Introduction to Robotics,4,Ruvolo,MR 1:30-3:10pm,AC318,15,
+E:C,ENGR 3590,02,A Computational Introduction to Robotics,4,Ruvolo,TF 1:30-3:10pm,AC318,15,
+E:C,ENGR 3599,01,Special Topics in Computing: Visualizing Data,4,Pucella,M 6:15-8:45pm,AC326,30,prerequisite of ENGR2510
+Area,Course #,Section #,Course Title,Credits,Instructor,Time,Location,Enroll Limits,Notes
+ECE,ENGR 3410,01,Computer Architecture,4,Hill,MR 10:50-12:30pm,AC326,35,
+ECE,ENGR 3420,01,Introduction to Analog and Digital Communications,4,Govindasamy,TF 9-10:40am,AC304,24,
+ECE,ENGR 3430,01,EE Prototyping,4,Lundberg,MR 3:20-6pm,AC304,24,NOTE: This was typically a spring offering - moving to fall; won't be offered SP16
+ENGR,ENGR 1330,01,Fundamentals of Machine Shop Operations,4,Andruskiewicz,W 1-5:00pm,AC104,6,
+ENGR,ENGR 2125,01,"The Engineer's Orchestra I:  Acoustics, Waves, Vibrations",4,Dabby; Lee,TF 1:30-3:10pm,AC304,15,CANCELLED
+ENGR,ENGR 2210,01,Principles of Engineering,4,Hoover; Bennett; Govindasamy; Minch,TF 10:50-12:30pm,AC306,25,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016
+ENGR,ENGR 2210,02,Principles of Engineering,4,Hoover; Bennett; Govindasamy; Minch,TF 10:50-12:30pm,AC309,25,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016
+ENGR,ENGR 2210,03,Principles of Engineering,4,Hoover; Bennett; Govindasamy; Minch,TF 1:30-3:10pm,AC306,25,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016
+ENGR,ENGR 2210,04,Principles of Engineering,4,Hoover; Bennett; Govindasamy; Minch,TF 1:30-3:10pm,AC309,25,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016
+ENGR,ENGR 4190,01-14,Senior Capstone Program in Engineering (SCOPE),4,Mulitiple Teams; Various Faculty Advisers and Angels,W 9-10:40am; 1-6:00pm,varied,90,Enroll in section '01; Team Assignments TBD
+FYR,AHSE 1100,01,History of Technology,4,Martello,TF 10:50-12:30pm,AC417,16,AHS Foundation
+FYR,AHSE 1122,01,Wired Ensemble,4,Dabby,T 3:20-5:pm; F 10:50- 12:30pm,AC304 AC305,16,AHS Foundation
+FYR,AHSE 1135,01,"The Digital Eye: Photography, Vision, and Visual Communication",4,Donis-Keller,TF 10:50-12:30pm,AC313,14,AHS Foundation
+FYR,AHSE 1145,01,The Human Connection: Tools and Concepts from Anthropology for Understanding Today's World,4,Lynch,T 10:50-12:30pm; F 9:30- 12:30pm,AC326,16,AHS Foundation
+FYR,AHSE 1199,01,"Special Topics in Arts Humanities Social Science Foundation:
+Media Revolution: Activism and Technology",4,Vitols,TF 9-10:40am,AC318,16,AHS Foundation
+FYR,AHSE 1199,02,"Special Topics in Arts Humanities Social Science Foundation:
+Robots, Mutants, and Monsters: Envisioning Science in CInema",4,Vitols,TF 10:50-12:30pm,AC318,16,AHS Foundation; Students enrolled in this course will need to reserve Monday evenings from 7:30-10p for film screenings.
+FYR,ENGR 1125,01,"Introduction to Sensors, Instrumentation and Measurement",4,Storey; Minch,"M 1:30-3:10pm; T 1-
+3:10pm",MH120 Mon; AC428,21,
+FYR,ENGR 1125,02,"Introduction to Sensors, Instrumentation and Measurement",4,Storey; Minch,"M 1:30-3:10pm; W 1-
+3:10pm",MH120 Mon; AC428,21,
+FYR,ENGR 1125,03,"Introduction to Sensors, Instrumentation and Measurement",4,Storey; Minch,"M 1:30-3:10pm; R 1-
+3:10pm",MH120 Mon; AC428,21,
+FYR,ENGR 1125,04,"Introduction to Sensors, Instrumentation and Measurement",4,Storey; Minch,"M 1:30-3:10pm; F 1-
+3:10pm",MH120 Mon; AC428,21,
+Area,Course #,Section #,Course Title,Credits,Instructor,Time,Location,Enroll Limits,Notes
+FYR,ENGR 1200,01,Design Nature,4,Linder; Hendren; Coso; Rosenwinkel,MW 3:20-6pm,MH120; AC204,28,
+FYR,ENGR 1200,02,Design Nature,4,Linder; Hendren; Coso; Rosenwinkel,MW 3:20-6pm,MH120; AC206,28,
+FYR,ENGR 1200,03,Design Nature,4,Linder; Hendren; Coso; Rosenwinkel,MW 3:20-6pm,MH120; AC209,28,
+FYR,"MTH 1111 and
+SCI 1111",01,Modeling and Simulation of the Physical World,2+2,Somerville; Geddes; Patel; Woodard,MR 10:50-12:30pm; W 9- 10:40am,MH120; AC204,28,
+FYR,"MTH 1111 and
+SCI 1111",02,Modeling and Simulation of the Physical World,2+2,Somerville; Geddes; Patel; Woodard,MR 10:50-12:30pm; W 9- 10:40am,MH120; AC206,28,
+FYR,"MTH 1111 and
+SCI 1111",03,Modeling and Simulation of the Physical World,2+2,Somerville; Geddes; Patel; Woodard,MR 10:50-12:30pm; W 9- 10:40am,MH120; AC209,28,
+FYR,OIE 1000,01,Olin Introductory Experience,1,Tatar,R 3:20-5:00pm,MH120,84,
+"INTEG RATE
+D",ENGR 2199B MTH 2188B,B1,Special Topics in Engineering and Mathematics: Regional Analysis For Development,2+2,Mur-Miranda,MR 3:20-5:00pm,AC326,30,Prob/Stat Designated Alternative
+"INTEG RATE
+D",SCI 1121A / MTH 2220A,A1,Electricity and Magnetism: Project Based Approach w/ Vector Calculus,4+2,Christianson,MTRF 10:50-12:30pm,AC428,25,Experimental Offering; Will satisfy both Physics Foundation requirement and Linearity II (note: additional mathematics credits may be necessary for certain majors)
+"INTEG RATE
+D",SCI 1210A / AHSE 2199A,A1,Special Topics in AHS and Science: 6 Microbes that Changed the World,4+4,Huang; Martello,"M 1:00-3:10pm; W 1-
+6:00pm",AC406; AC417,24,Will satisfy Biology requirement
+ME,ENGR 2340,01,Dynamics,4,Lee,TF 9-10:40am; W 9:30- 10:30am,AC328,40,
+ME,ENGR 3310,01,Transport Phenomena,4,Storey,MR 10:50-12:30pm,AC328,28,
+ME,ENGR 3330,01,Mechanical Design,4,Barrett,MR 9-10:40am,AC128,28,
+ME,ENGR 3370,01,Controls,4,Lundberg,MR 1:30-3:10pm,AC304,25,NOTE: This was typically a spring offering - moving to fall; won't be offered SP16
+ME,ENGR 3390,01,Fundamentals of Robotics,4,Barrett,MR 3:20-5:00pm,AC128,24,
+MTH,MTH 2110,01,Discrete Math,4,Adams,MR 9-10:40am,AC326,30,
+MTH,MTH 2130,01,Probability and Statistics,2,Patel,TF 1:30-3:10pm,AC113,32,Session I
+MTH,MTH 2220,01,Linearity II,4,Geddes; Somerville,MR 1:30-3:10pm,"CC209-213
+Crescent Rm",28,
+MTH,MTH 2220,02,Linearity II,4,Geddes; Somerville,MR 1:30-3:10pm,"CC209-213
+Crescent Rm",28,
+MTH,MTH 3170,01,Non-linear Dynamics and Chaos,4,Hoffman,MR 1:30-3:10pm,AC113,24,
+Area,Course #,Section #,Course Title,Credits,Instructor,Time,Location,Enroll Limits,Notes
+SCI,SCI 1210,01,Principles of Modern Biology (with Lab): Designing Better Drugs to Fight Disease,4,Pratt,TF 1:30-3:10pm; Tues 3:20-6:00pm,AC406; AC417,24,
+SCI,SCI 1410,01,Introduction to Material Science and Solid State Chemistry,4,Chachra,TR 3:20-6pm,AC413; AC417,21,
+SCI,SCI 1410,C1,"Introduction to Material Science and Solid State Chemistry:
+Biomaterials, Polymers and Mechanical Properties",4,Chachra,MW 3:20-6pm,AC413; AC328,21,
+SEM,SEM 104,S1,"Work, Play, Balance",1,Betsch,R 6:30-8:10pm,AC128,12,
+SEM,SEM 303,S1,Musical Instrument Design and Engineering,1,Dorsk,T 6:30-8:10pm,AC306,20,
+SEM,SEM 502,S1,Data Dashboard Design,1,Ritter,T 6:30-8:10pm,AC318,15,Python experience (not necessarily from a class)
+ADMIN,AWAY 1000,01,Study Away Program,,Administration,n/a,n/a,n/a,
+ADMIN,OIP 1000,01,The Olin Internship Practicum,1,Phelps,n/a,n/a,n/a,If engaged in a CPT work activity; see PGP for enrollment
