@@ -1,59 +1,59 @@
 import pandas as pd
 
-# Create column names for each semester
+# Example DataFrame
 columns = [
-    "Freshmen Fall",
-    "Freshmen Spring",
-    "Sophomore Fall",
-    "Sophomore Spring",
-    "Junior Fall",
-    "Junior Spring",
-    "Senior Fall",
-    "Senior Spring",
+    "Semester 1",
+    "Semester 2",
+    "Semester 3",
+    "Semester 4",
+    "Semester 5",
+    "Semester 6",
+    "Semester 7",
+    "Semester 8",
 ]
-# Create an empty DataFrame with 4 rows and 8 columns
-data = pd.DataFrame(index=range(0, 4), columns=columns)
+data = pd.DataFrame(None, index=range(4), columns=columns)
+
+# Required Courses for E:C
+electives = {"FoCS": "90%", "Discrete": "10%", "CompRobo": "50%"}
+
+# Dictionary containing courses for each semester
+sem_courses = {
+    "Semester 1": ["QEA1", "Modsim", "DesNat", "AHS Concentration"],
+    "Semester 2": ["QEA2", "ISIM", "Products & Markets", "Softdes"],
+    "Semester 3": ["PIE", "Discrete"],
+    "Semester 4": ["CD", "SoftSys"],
+    "Semester 5": ["Bio", "MatSci"],
+    "Semester 6": [electives],
+    "Semester 7": ["Senior Capstone"],
+    "Semester 8": ["Senior Capstone"],
+}
+
+# Loop through the dictionary and assign courses to DataFrame
+for semester, courses in sem_courses.items():
+    for i, course in enumerate(courses):
+        data.at[i, semester] = course
 
 # Fill the DataFrame with blank values for now
 data = data.fillna("")
 
-# Required Courses for E:C
-# electives = ["FoCS", "Discrete", "CompRobo"]
-
-# Sem 1
-sem1_courses = ["QEA1", "Modsim", "DesNat", "AHS Concentration"]
-for i, item in enumerate(sem1_courses):
-    data.loc[i, columns[0]] = item
-
-# Sem 2
-sem2_courses = ["QEA2", "ISIM", "Products & Markets", "Softdes"]
-for i, item in enumerate(sem2_courses):
-    data.loc[i, columns[1]] = item
-
-# Sem 3
-sem3_courses = ["PIE", "Discrete"]
-for i, item in enumerate(sem3_courses):
-    data.loc[i, columns[2]] = item
-
-# Sem 4
-sem4_courses = ["CD", "SoftSys"]
-for i, item in enumerate(sem4_courses):
-    data.loc[i, columns[3]] = item
-
-# Sem 5
-sem5_courses = ["Bio", "MatSci"]
-for i, item in enumerate(sem5_courses):
-    data.loc[i, columns[4]] = item
-
-# Sem 7
-sem7_courses = ["Senior Capstone"]
-for i, item in enumerate(sem7_courses):
-    data.loc[i, columns[6]] = item
-
-# Sem 8
-sem8_courses = ["Senior Capstone"]
-for i, item in enumerate(sem8_courses):
-    data.loc[i, columns[7]] = item
+# Display the DataFrame
+# data
 
 
-return data
+# Create a function to check if a cell has a value and is a string
+def is_string(val):
+    return isinstance(val, str)
+
+
+# Create a function to apply background color based on the condition
+def highlight_strings(val):
+    if is_string(val) and val != "":
+        return "background-color: green"
+    return ""
+
+
+# Apply the style
+styled_df = data.style.applymap(highlight_strings)
+
+# Display the styled DataFrame
+styled_df
