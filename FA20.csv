@@ -1,0 +1,64 @@
+﻿Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+AHS,AHSE0112,01,AHSE0112: The Olin Conductorless Orchestra: Building a Community of Practice,"Dabby, Diana",R 6-8pm,Fully Remote,1,no cap,no,New Description available in the Supplement,AHS Elective
+AHS,AHSE2199A,01,"AHSE2199A: Special Topics in Arts, Humanities and Social Science: Democracy in Action: Election2020","Lynch, Caitrin; Martello, Rob",Tues & Fri 10-11:30am,Fully Remote,4,no cap,no,Experimental Grading,AHS Elective
+AHS,AHSE2199B,01,"AHSE2199B: Special Topics in Arts, Humanities and Social Science: Weaving the Future: New Ideologies of Making","Keizer, Arlene",MW 2-3:30pm,Fully Remote,4,35,yes,,AHS Elective
+AHS,AHSE2199C,01,"AHSE2199C: Special Topics in Arts, Humanities and Social Science:  Connecting with Stories","Adler, Jon; Epstein, Gillian",TR 10-11:30am,Fully Remote,4,20,yes,NEW; offered with Experimental Grading; some work may be required during ext lunch block,AHS Elective
+AHS,AHSE3190,01,"AHSE3190: Arts, Humanities, Social Science Prepstone","Epstein, Gillian",n/a,Fully Remote,1,50,n/a,,AHS Capstone Prereq
+CAPSTONE,ENGR4190,01,ENGR4190: SCOPE: Senior Capstone Program in Engineering,"Ferzoco, Alessandra; Hersey, Scott; Sarang- Sieminski, Alisha; Stein, Lynn; Woodard, Jason",TR 8-10am; F 12-5pm,Faculty Remote,4,90,n/a,Registration handled by Capstone Program,CAPSTONE
+CAPSTONE,ENGR4290,01,ENGR4290: Affordable Design and Entrepreneurship Engineering Capstone,"Graeff, Erhardt; Hersey, Scott; Linder, Ben; Taha, Kofi, Johansen, Elizabeth",T 3:30-6:30pm; R 3:30-5:30pm,Faculty Remote,4,15,"yes, small",Registration handled by Capstone Program,CAPSTONE
+DSN,ENGR2299,01,ENGR2299:  Special Topics in Design Engineering: Creativity Practicum,"Hendren, Sara",TR 2-3:30pm,Faculty Remote,4,24,yes,New,ELECTIVE
+DSN,ENGR3220,01,ENGR3220: User Experience Design,"Morales, Marco",MW 4-5:30pm,Fully Remote,4,28,"yes, small",,DSN Depth
+DSN,ENGR3240,01,ENGR3240: Tell the Story of What You Make,"Ferguson Sauder, Tim",MW 9-11:30am,Fully Remote,4,30,"yes, small",,DSN Depth
+DSN,ENGR3260,01,ENGR3260: Design for Manufacturing,"Barrett, Dave; Faas, Daniela",TR 2-3:30pm,Faculty or Fully Remote,4,20,"yes, large",,ME Elective Design Depth
+DSN,ENGR3260 L,A B,Design for Manufacturing LAB,"Barrett, Dave; Faas, Daniela",Lab A: M 10-11:00am Lab B: T 10-11:00am,Faculty or Fully Remote,0,10 in each Lab,"yes, large","Student must elect lab A OR B, not both along with the standard TR 2-3:30pm time",ME Elective Design Depth
+Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship,"Graeff, Erhardt; Hersey, Scott; Linder, Ben; Taha, Kofi, Johansen, Elizabeth",T 3:30-6:30pm; R 3:30-5:30pm,Faculty Remote,4,15,"yes, large",,DSN Depth
+E:C,ENGR2510,01,ENGR2510: Software Design,"Matsumoto, Steve",TR 10-11:30am,Fully Remote,4,28,"yes, small",,E:C Requirement and ECE Requirement
+E:C,ENGR3520,01,ENGR3520: Foundations of Computer Science,"Pucella, Riccardo",MW 10-11:30am,Fully Remote,4,32,yes,,E:C Core
+E:C,"ENGR3531
+_and_MTH2131",01,ENGR3531_and_MTH2131: Data Science,"del Rosario, Zach",TR 2-3:30pm,Fully Remote,2+2,24,yes,Satisfies ProbStat Requirement,ProbStat_E:Computing
+E:Robo,ENGR3590,01,ENGR3590: A Computational Introduction to Robotics,"Malley, Melinda; Ruvolo, Paul",MW 12-1:30pm,Fully Remote,4,30,"yes, small",,Core E:Robo
+ECE,ENGR2420,01,ENGR2420: Intro Microelectronic Circuits with laboratory,"Minch, Brad",TR 2-3:30pm,Fully Remote,4,32,yes,New Addition to Schedule,ECE Requirement
+ECE,ENGR3410,01,ENGR3410: Computer Architecture,"Tse, Jonathan",TR 12-1:30pm,Fully Remote,4,36,"yes, small",,"ECE Requirement and
+E:C Elective"
+ECE,ENGR3420,01,ENGR3420: Introduction to Analog and Digital Communication,"Lohmeyer, Whitney",MW 12-1:30pm,Fully Remote,4,32,"yes, small",,ECE Elective
+ECE,ENGR3499,02,ENGR3499:  Special Topics in Electrical and Computer Engineering: Microcontrollers for the Real World,"Reifel, Stan",W 6-7:30pm if needed; Mostly Self Scheduled with Instructor,Fully Remote,4,12,"yes, small",New Addition to Schedule,ECE Elective
+ENGR,ENGR3199,01,ENGR3199: Special Topics in Engineering:  Renewable Energy,"Vanasupa, Linda",MW 12-1:30pm,Fully Remote,4,32,"yes, large",,ECE Elective ME Elective
+ENTRP,AHSE2515,01,AHSE2515: Iterate,"Neeley, Lawrence",MW 2-3:30pm,Fully Remote,2,24,"yes, small",Session I: 9/8/20-10/26/2020,E! Elective
+ENTRP,AHSE2515A,01,AHSE2515A: Iterate,"Neeley, Lawrence",MW 2-3:30pm,Fully Remote,2,24,"yes, small",Session II: 10/28/2020 - 12/14/2020,E! Elective
+Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+FYR,OIE1000,01,OIE1000: Olin First Year Introduction (OFYI),"Waranyuwat, Adva",T 4-5:30pm,Mixed,1,90,n/a,Available to First Year Students Only,First Year Only
+FYR: AHS,AHSE1100,01,AHSE1100: History of Technology: A Cultural & Contextual Approach,"Martello, Rob",TR 2-3:30pm,Fully Remote,4,16,no,Available to First Year Students Only,AHS Foundation
+FYR: AHS,AHSE1155,01,AHSE1155: Identity from the Mind & the Brain: Who Am I and How Do I Know,"Adler, Jon",TR 2-3:30pm,Fully Remote,4,16,no,Available to First Year Students Only,AHS Foundation
+FYR: AHS,AHSE1199,01,"AHSE1199:  Arts, Humanities, Social Science Foundation: Democracy and Media","Graeff, Erhardt",TR 2-3:30pm,Fully Remote,4,16,no,Available to First Year Students Only,AHS Foundation
+FYR: AHS,AHSE1199,03,"AHSE1199: Singular Voices, Dual Lives: Nabokov, Leonardo, Bach, Borodin","Dabby, Diana",TR 2-3:30pm,Fully Remote,4,16,"yes, small",Available to First Year Students Only,AHS Foundation
+FYR: AHS,AHSE1199,02,"AHSE1199:  Arts, Humanities, Social Science Foundation: Infrastructure Studies","Chachra, Debbie",TR 2-3:30pm,Fully Remote,4,16,"yes, small",Available to First Year Students Only,AHS Foundation
+FYR: AHS,AHSE1199,04,"AHSE1199:  Arts, Humanities, Social Science Foundation: Writers’ Workshop: Creativity and the Literary Imagination","Lynch, Caitrin",TR 7:30-9:00am,Fully Remote,4,5,"yes, small",Available to First Year Students Only,AHS Foundation
+FYR: ENGR,ENGR1200,01,ENGR1200: Design Nature,"Edmonds, Tess; Ferguson Sauder, Tim; Linder, Ben; Zastavker, Yevgeniya",MW 1-4:00pm,Faculty Remote,4,86,no,,Design Foundation
+"FYR:
+Interdisciplina ry",ENGX2000,01,ENGX2000: Quantitative Engineering Analysis 1a,"Geddes, John; Govindasamy, Siddhartan; Ruvolo, Paul; Somerville, Mark",TR 10-11:30am,Fully Remote,4,86,n/a,,"Requirement, FYR"
+"FYR:
+Interdisciplina ry","MTH1111
+_and_SCI1111",01,MTH1111_ and_SCI1111: Modeling and Simulation of the Physical World,"del Rosario, Zachary; Wood, Alison; Woodard, Jason",MWF 10-11:30am,Fully Remote,2+2,86,no,,Modeling Foundation
+Interdisciplina ry,ENGX2010,01,ENGX2010: Quantitative Engineering Analysis 2,"Dusek, Jeff; Lohmeyer, Whitney; Malley, Melinda; Tow, Emily",MW 2-3:30pm,Fully Remote,4,90,n/a,"Credit breakdown: 2 Math, 1 Science, 1 Engineering","Requirement, 2nd Yr"
+Interdisciplina ry,"MTH2188A
+_and_SCI2099A",01,MTH2188A_and_SCI2099A: Decision-Making in Sustainable Systems,"Wood, Alison",MW 2-3:30pm,Fully Remote,2+2,30,"yes, large",Satisfies ProbStat Requirement,ProbStat
+Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+ME,ENGR2320,01,ENGR2320: Mechanics of Solids & Structures,"Storey, Brian",TR 2-3:30pm,Fully Remote,4,40,yes,New Addition to Schedule,ME Requirement
+ME,ENGR3310,01,ENGR3310: Transport Phenomena,"Tow, Emily",MW 10-11:30am,Fully Remote,4,48,"yes, small",,ME Requirement
+ME,ENGR3330,01,ENGR3330: Mechanical Design,"Barrett, Dave",TR 12-1:30pm,Fully Remote,4,32,"yes, small",,ME Requirement
+MTH,MTH2110,01,MTH2110: Discrete Math,"Spence Adams, Sarah",MW 12-1:30pm,Faculty or Fully Remote,4,36,"yes, large",,Advanced Math
+MTH,MTH2110,02,MTH2110: Discrete Math,"Spence Adams, Sarah",MW 2-3:30pm,Faculty or Fully Remote,4,36,"yes, large",,Advanced Math
+SCI,SCI1240,01,SCI1240: Designing Better Drugs with Laboratory,"Pratt, Joanne",MW 10-11:30am,Fully Remote,4,32,"yes, large",,BIO Foundation
+SCI,SCI1299,01,SCI1299: Biology Foundation Topic: What an engineer needs to know and why,"Donis-Keller, Helen","TR 10-11:30am
+T 4-7pm Lab",Fully Remote,4,24,"yes, large",,BIO Foundation
+SCI,SCI1420,01,"SCI1420: Metals, Mining and the Environment","Stolk, Jon",MW 4-6:00pm,Fully Remote,4,25,"yes, large",,"MatSci/Chem/Env Engr
+Requirement"
+SCI,SCI1440,01,"SCI1440: Materials Creation, Consumption, and Impact","Stolk, Jon",TR 4-6:00pm,Fully Remote,4,25,"yes, large",,"MatSci/Chem/Env Engr
+Requirement"
+Sustainability (BOW),SUST3301,01,SUST3301: Sustainability Synthesis,"Huang, Jean",M 3:30-6:30pm,Fully Remote,4,"45
+(15 per school)","yes, small",,Elective
+XADMIN,AWAY1000,01,Study Away Program,Administration,n/a,,12,n/a,n/a,Enroll in this course block to confirm your Study Away Semester,
+XADMIN,OIP1000,01,The Olin Internship Practicum I,"Phelps, Sally",n/a,,1,n/a,n/a,See Post Graduate Planning to Enroll,
+Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+XADMIN,OIP1001,01,The Olin Internship Practicum II,"Phelps, Sally",n/a,,1,n/a,n/a,See Post Graduate Planning to Enroll,
