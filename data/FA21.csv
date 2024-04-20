@@ -17,9 +17,6 @@ DSN,ENGR3260,01,ENGR3260: Design for Manufacturing,"Barrett, Dave",MR 10-11:30am
 DSN,ENGR3260 L,A B,Design for Manufacturing LAB,"Barrett, Dave",Lab A: M 12-1:30pm Lab B: R 2-3:30pm,Machine Shop,0,"10
 per lab",small,"Student must elect lab A or B, along with the standard M/R 10-11:30am",ME Elective DESIGN Dpth
 DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship,"Graeff, Erhardt; Hersey, Scott; Linder, Ben; et al",T 3:30-6:30pm R 3:30-5:30pm,Weissman Foundry,4,5,large,,DESIGN Dpth
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,"Location: MAC
-(unless noted
-otherwise)",Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 DSN,ENGR3299,01,ENGR3299: Special Topics in Design Engineering: Educational Design for Engineers,"Zastavker, Yevgeniya",MR 12-1:30pm,318,4,24,small,,DESIGN Dpth
 E:C,ENGR3515,01,ENGR3515: Data Structures and Algorithms,"Downey, Allen",MR 2-3:30pm,318,4,40,large,,Core E:C
 E:C,ENGR3540,01,ENGR3540: Complexity Science,"Downey, Allen",TF 10-11:30am,318,4,40,large,,Core E:C
@@ -40,9 +37,6 @@ ENGR,ENGR2110,"05
 06",ENGR2110: Principles of Integrated Engineering (PIE),"Lee, Chris; Malley, Melinda; Millner, Amon; Minch, Brad; Reifel, Stan",TF 10-11:30am,"306
 309",4,30+30,small,,Required ENGR
 ENGR,ENGR3180,01,ENGR3180: Renewable Energy,"Vanasupa, Linda",TF 2-3:30pm,318,4,30,large,,ME Elective E:Sust Elective ECE Elective
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,"Location: MAC
-(unless noted
-otherwise)",Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 ENGR,ENGX2199,01,ENGX2199: Environmental Consulting at Olin (ECO),"Nugent, Carrie; Rodgers, Claire",MR 10-11:30am,213,4,28,small,,ELECTIVE
 ENTRP,AHSE2515,01,AHSE2515: Iterate,"Neeley, Lawrence",TF 12-1:30pm,428,2,24,small,Session I; 2 credits,ENTRP
 ENTRP,AHSE2515,02,AHSE2515: Iterate,"Neeley, Lawrence",TF 2-3:30pm,428,2,24,small,Session I; 2 credits,ENTRP
@@ -60,9 +54,6 @@ FYR,ENGR1200,all section s,ENGR1200: Design Nature,"Chachra, Debbie; Ferguson Sa
 209
 MH120",4,90,NA,Available to First Year Students Only,DESIGN Fnd
 FYR,OIE1000,01,OIE1000: Olin First Year Introduction OFYI,"Waranyuwat, Adva",W 2-3:30pm,MH120,1,90,NA,Available to First Year Students Only,Required FYR
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,"Location: MAC
-(unless noted
-otherwise)",Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 "FYR:
 Interdisciplin ary",MTH1111_SCI 1111,01-03,MTH1111_SCI1111: Modeling and Simulation of the Physical World,"del Rosario, Zachary; Matsumoto, Steve; Wood, Alison",MWR 4-5:30pm,"204
 206
@@ -90,9 +81,6 @@ W 2-4:30pm (lab)","417
 406(lab)",4,21,small,,BIO
 SCI,SCI1410,01,SCI1410: Materials Science and Solid State Chemistry: Materials and the Practice of Experimentation,"Neal, Matt",MR 12-3:30pm,413,4,21,large,,"MATSCI_CHEM_ENV
 Engr"
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,"Location: MAC
-(unless noted
-otherwise)",Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 SCI,SCI1440,01,"SCI1440: Materials Creation, Consumption, and Impact","Stolk, Jon",TW 4-7:00pm,413,4,21,large,Experimental Grading,"MATSCI_CHEM_ENV
 Engr"
 SCI,SCI1440,02,"SCI1440: Materials Creation, Consumption, and Impact","Stolk, Jon",MR 4-7:00pm,413,4,21,large,Experimental Grading,"MATSCI_CHEM_ENV

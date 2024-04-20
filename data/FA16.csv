@@ -10,7 +10,6 @@ DSN,ENGR3250,01,Integrated Product Design,Neeley,R 3:30-6:30pm,AC213,4,15,"Y, sm
 Mass College of Art",Design Depth Option
 DSN,ENGR3290,01,Affordable Design and Entrepreneurship,"Linder, Govindasamy, Hersey,  Mur- Miranda, Taha, Staff",T 3:30-6:30pm,AC213,4,15,"Y, small",,Design Depth Option
 DSN,ENGR4290,01,Affordable Design and Entrepreneurship,"Linder, Govindasamy, Hersey,  Mur- Miranda, Taha, Staff",T 3:30-6:30pm,AC213,4,15,"Y, small",,Required Capstone Option
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 E:Bio,ENGR3600,01,Topics in Bioengineering,Sarang- Sieminski,MR 9-10:40am,AC417,4,20,N,,BioE Core
 E:C,ENGR2510,01,Software Design,Steele,MR 3:20-5:00pm,AC128,4,25,"Y, small",,ECE or E:C Core
 E:C,ENGR3520,01,Foundations of Computer Science,Steele; Stein,MR 1:30-3:10pm,AC326,4,25,"Y, large",,E:C Core
@@ -21,7 +20,6 @@ ECE,ENGR3410,01,Computer Architecture,Hill,MR 9-10:40am,AC318,4,25,"Y, small",,E
 ECE,ENGR3415,01,Digital Signal Processing,Dabby,TF 1:30-3:10pm,AC304,4,25,N,,ECE Core
 ECE,ENGR3426,01,Mixed Analog-Digital VLSI I,Minch,MR 1:30-3:10pm,AC304,4,25,N,,ECE Elective Option
 ECE / ME,ENGR3370,01,Controls,Mur-Miranda,MR 3:20-5:00pm,AC304,4,24,"Y, small",,ECE or ME Elective
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 ENGR,ENGR1330,01,Fundamentals of Machine Shop Operations,Andruskiewicz,W 1-5:00pm,AC104,4,6,"Y, small",,Elective
 ENGR,ENGR2110,01,Principles of Engineering,Bennett; Hoover; Minch; Faas,TF 9-10:40am,AC306,4,25,"Y, small",Note: New Number,Engineering Core Requirement
 ENGR,ENGR2110,02,Principles of Engineering,Bennett; Hoover; Minch; Faas,TF 9-10:40am,AC309,4,25,"Y, small",Note: New Number,Engineering Core Requirement
@@ -32,7 +30,6 @@ ENTRP,AHSE3510,01,New Technology Ventures,Gale,MW 4:45-6:20pm,Tomasso 101 at Bab
 ENTRP,AHSE3599,01,Special Topics in Entrepreneurship: Intellectual Property Protection for Innovative Designs,Covello,MR 3:20-5:00pm,MH273,4,12,"Y, small",,ENTRP Elective
 FYR,OIE1000,01,Olin Introductory Experience,Tatar,W 9-10:40am,"CC209, 211, 213",1,84,N,,Required First Year Course
 FYR: AHS,AHSE1100,01,History of Technology: A Cultural & Contextual Approach,Martello,TF 10:50-12:30pm,AC326,4,16,N,,AHS Foundation Option
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 FYR: AHS,AHSE1122,01,"The Wired Ensemble - Instruments, Voices, Players",Dabby,W 3:20-5:00pm; F 10:50-12:30pm,AC304; AC305,4,15,N,,AHS Foundation Option
 FYR: AHS,AHSE1135,01,"The Digital Eye: Photography, Vision, and Visual Communication",Donis-Keller,TF 10:50-12:30pm,AC313,4,14,N,,AHS Foundation Option
 FYR: AHS,AHSE1155,01,Identity from the Mind & the Brain: Who Am I and How Do I Know,Adler,TF 10:50-12:30pm,AC328,4,16,N,,AHS Foundation Option
@@ -43,7 +40,6 @@ FYR: DSN,ENGR1200,02,Design Nature,"Hoover, Linder, Chachra, Sauder",MR 9:50-12:
 FYR: DSN,ENGR1200,03,Design Nature,"Hoover, Linder, Chachra, Sauder",MR 9:50-12:30pm,MH120; AC209,4,32,"Y, small for xreg",,Gen. Engineering Req't
 FYR: ENGR,ENGR1125,01,Introduction to Sensors Instrumentation and Measurement,Hill; Storey; Geddes; Michalka,M 1:30-3:10p Lecture; T 1-3:10pm LAB,MH120 on Mon; AC428,4,21,"Y, small for xreg",,Engineering Core Requirement
 FYR: ENGR,ENGR1125,02,Introduction to Sensors Instrumentation and Measurement,Hill; Storey; Geddes; Michalka,M 1:30-3:10p Lecture; W 1-3:10pm LAB,MH120 on Mon; AC428,4,21,"Y, small for xreg",,Engineering Core Requirement
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 FYR: ENGR,ENGR1125,03,Introduction to Sensors Instrumentation and Measurement,Hill; Storey; Geddes; Michalka,M 1:30-3:10p Lecture; R 1-3:10pm LAB,MH120 on Mon; AC428,4,21,"Y, small for xreg",,Engineering Core Requirement
 FYR: ENGR,ENGR1125,04,Introduction to Sensors Instrumentation and Measurement,Hill; Storey; Geddes; Michalka,M 1:30-3:10p Lecture; F 1-3:10pm LAB,MH120 on Mon; AC428,4,21,"Y, small for xreg",,Engineering Core Requirement
 FYR: INTEGRA TED,MTH1111/ SCI1111,01,Modeling and Simulation of the Physical World,"Somerville, Strong, Woodard, Wood",MTR 3:20-5:00pm,MH120; AC204,2+2,30,"Y, small for xreg",,Mathematics/Scienc e Core
@@ -54,7 +50,6 @@ ME,ENGR2340,01,Dynamics,Mahajan,TF 9-10:40am,AC328,4,48,Y; large,,ME Core
 ME,ENGR3310,01,Transport Phenomena,Storey,TF 9-10:40am,AC417,4,32,"Y, small",,ME Core
 ME,ENGR3330,01,Mechanical Design,Barrett,MR 9-10:40am,AC128,4,25,"Y, small",,ME Core
 ME,ENGR3710,01,Systems,Bennett,TF 1:30-3:10pm,AC328,4,15,"Y, small",,Design Depth or ME Elective
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 MTH,MTH2110,01,Discrete Math,Adams,TF 10:50-12:30pm,AC417,4,30,"Y, large",,Advanced Math in Major (ECE and others as designed)
 MTH,MTH2133,01,Computational Bayesian Statistics,Downey,MR 3:20-5:00pm,AC326,2,25,"Y, small",SESSION I,Prob Stat Option
 MTH,MTH2220,01,Linearity II,Hoffman,MR 10:50-12:30pm,AC328,4,48,N,,Mathematics Core
@@ -68,7 +63,6 @@ Environmental Systems Science",Hersey,TF 1:30-3:10pm; W 12:30-3:10pm,AC326; AC40
 SCI,SCI1410,01,Materials Science and Solid State Chemistry,Christianson,MR 3:20-6:00pm,AC413,4,24,"Y, small",,Foundation Mat Sci / Chem Option
 SCI,SCI1410,B1,"Materials Science and Solid State Chemistry:
 Environmental and Societal Impact of Materials",Stolk,TF 10:50-2:15pm (with a 40 minute break for lunch,AC413,4,24,N,Offered Using EXPERIMENTAL Grading,Foundation Mat Sci / Chem Option
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 SCI,SCI2050,01,Art of Approximation in Science and Engineering,Mahajan,TF 10:50-12:30pm,AC109,4,32,"Y, small",,Science Elective
 SCI,SCI2210,01,Immunology,Pratt,M 1:00-3:40; R 1-2:40p,AC417; AC406,4,12,"Y, small",,Advanced Biology
 SUST,SUST2201,01,Introduction to Sustainability,Linder,W 3:30-6:30pm,AC213,4,15,"Y, small",,SUST Cert Prog Requirement

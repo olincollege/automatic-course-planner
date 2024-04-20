@@ -11,7 +11,6 @@ DSN,ENGR3220,01,ENGR3220: User Experience Design,"Morales, Marco",MW 4-5:30pm,Fu
 DSN,ENGR3240,01,ENGR3240: Tell the Story of What You Make,"Ferguson Sauder, Tim",MW 9-11:30am,Fully Remote,4,30,"yes, small",,DSN Depth
 DSN,ENGR3260,01,ENGR3260: Design for Manufacturing,"Barrett, Dave; Faas, Daniela",TR 2-3:30pm,Faculty or Fully Remote,4,20,"yes, large",,ME Elective Design Depth
 DSN,ENGR3260 L,A B,Design for Manufacturing LAB,"Barrett, Dave; Faas, Daniela",Lab A: M 10-11:00am Lab B: T 10-11:00am,Faculty or Fully Remote,0,10 in each Lab,"yes, large","Student must elect lab A OR B, not both along with the standard TR 2-3:30pm time",ME Elective Design Depth
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship,"Graeff, Erhardt; Hersey, Scott; Linder, Ben; Taha, Kofi, Johansen, Elizabeth",T 3:30-6:30pm; R 3:30-5:30pm,Faculty Remote,4,15,"yes, large",,DSN Depth
 E:C,ENGR2510,01,ENGR2510: Software Design,"Matsumoto, Steve",TR 10-11:30am,Fully Remote,4,28,"yes, small",,E:C Requirement and ECE Requirement
 E:C,ENGR3520,01,ENGR3520: Foundations of Computer Science,"Pucella, Riccardo",MW 10-11:30am,Fully Remote,4,32,yes,,E:C Core
@@ -26,7 +25,6 @@ ECE,ENGR3499,02,ENGR3499:  Special Topics in Electrical and Computer Engineering
 ENGR,ENGR3199,01,ENGR3199: Special Topics in Engineering:  Renewable Energy,"Vanasupa, Linda",MW 12-1:30pm,Fully Remote,4,32,"yes, large",,ECE Elective ME Elective
 ENTRP,AHSE2515,01,AHSE2515: Iterate,"Neeley, Lawrence",MW 2-3:30pm,Fully Remote,2,24,"yes, small",Session I: 9/8/20-10/26/2020,E! Elective
 ENTRP,AHSE2515A,01,AHSE2515A: Iterate,"Neeley, Lawrence",MW 2-3:30pm,Fully Remote,2,24,"yes, small",Session II: 10/28/2020 - 12/14/2020,E! Elective
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 FYR,OIE1000,01,OIE1000: Olin First Year Introduction (OFYI),"Waranyuwat, Adva",T 4-5:30pm,Mixed,1,90,n/a,Available to First Year Students Only,First Year Only
 FYR: AHS,AHSE1100,01,AHSE1100: History of Technology: A Cultural & Contextual Approach,"Martello, Rob",TR 2-3:30pm,Fully Remote,4,16,no,Available to First Year Students Only,AHS Foundation
 FYR: AHS,AHSE1155,01,AHSE1155: Identity from the Mind & the Brain: Who Am I and How Do I Know,"Adler, Jon",TR 2-3:30pm,Fully Remote,4,16,no,Available to First Year Students Only,AHS Foundation
@@ -43,7 +41,6 @@ _and_SCI1111",01,MTH1111_ and_SCI1111: Modeling and Simulation of the Physical W
 Interdisciplina ry,ENGX2010,01,ENGX2010: Quantitative Engineering Analysis 2,"Dusek, Jeff; Lohmeyer, Whitney; Malley, Melinda; Tow, Emily",MW 2-3:30pm,Fully Remote,4,90,n/a,"Credit breakdown: 2 Math, 1 Science, 1 Engineering","Requirement, 2nd Yr"
 Interdisciplina ry,"MTH2188A
 _and_SCI2099A",01,MTH2188A_and_SCI2099A: Decision-Making in Sustainable Systems,"Wood, Alison",MW 2-3:30pm,Fully Remote,2+2,30,"yes, large",Satisfies ProbStat Requirement,ProbStat
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 ME,ENGR2320,01,ENGR2320: Mechanics of Solids & Structures,"Storey, Brian",TR 2-3:30pm,Fully Remote,4,40,yes,New Addition to Schedule,ME Requirement
 ME,ENGR3310,01,ENGR3310: Transport Phenomena,"Tow, Emily",MW 10-11:30am,Fully Remote,4,48,"yes, small",,ME Requirement
 ME,ENGR3330,01,ENGR3330: Mechanical Design,"Barrett, Dave",TR 12-1:30pm,Fully Remote,4,32,"yes, small",,ME Requirement
@@ -60,5 +57,4 @@ Sustainability (BOW),SUST3301,01,SUST3301: Sustainability Synthesis,"Huang, Jean
 (15 per school)","yes, small",,Elective
 XADMIN,AWAY1000,01,Study Away Program,Administration,n/a,,12,n/a,n/a,Enroll in this course block to confirm your Study Away Semester,
 XADMIN,OIP1000,01,The Olin Internship Practicum I,"Phelps, Sally",n/a,,1,n/a,n/a,See Post Graduate Planning to Enroll,
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 XADMIN,OIP1001,01,The Olin Internship Practicum II,"Phelps, Sally",n/a,,1,n/a,n/a,See Post Graduate Planning to Enroll,

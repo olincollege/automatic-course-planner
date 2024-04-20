@@ -14,7 +14,6 @@ DSN,ENGR3232,01,ENGR3232: Biomedical Device Design,"Sarang-Sieminski, Alisha",TF
 DSN,ENGR3240,01,ENGR3240: Tell the Story of What you Make,"Ferguson Sauder, Tim",MR 1:30-4:10pm,AC213,4,24,"yes, small",Offered using EXPERIMENTAL Grading,DSN Depth
 DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship,"Hersey, Scott; Linder, Ben; Staff","T 3:30-6:30pm; R 3:30-
 5:30pm",Weissman Foundry,4,17,"yes, 15",,DSN Depth
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 E: Robo,ENGR3390,01,ENGR3390: Fundamentals of Robotics,"Barrett, Dave",TF 1:30-3:10pm,AC128,4,25,"yes, large",,Core E:Robo
 E: Robo,ENGR3590,01,ENGR3590: A Computational Introduction to Robotics,"Ruvolo, Paul",TF 1:30-3:10pm,AC109,4,22,"yes, small",,Core E:Robo
 E:C,ENGR2510,01,ENGR2510: Software Design,"Hill, Ben",MR 10:50-12:30pm,AC304,4,24,"yes, small",,"Core E:C, Core ECE"
@@ -25,7 +24,6 @@ ENGR,ENGR1330,01,ENGR1330: Fundamentals of Machine Shop Operations,"Andruskiewic
 ENGR,ENGR2110,01,ENGR2110: Principles of Engineering,"Faas, Daniela; Millner, Amon; Minch, Brad; Reifel, Stan",TF 9-10:40am,AC306,4,25,"yes, small",,Requirement - POE
 ENGR,ENGR2110,02,ENGR2110: Principles of Engineering,"Faas, Daniela; Millner, Amon; Minch, Brad; Reifel, Stan",TF 9-10:40am,AC309,4,25,"yes, small",,Requirement - POE
 ENGR,ENGR2110,03,ENGR2110: Principles of Engineering,"Faas, Daniela; Millner, Amon; Minch, Brad; Reifel, Stan",TF 10:50-12:30pm,AC306,4,25,"yes, small",,Requirement - POE
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 ENGR,ENGR2110,04,ENGR2110: Principles of Engineering,"Faas, Daniela; Millner, Amon; Minch, Brad; Reifel, Stan",TF 10:50-12:30pm,AC309,4,25,"yes, small",,Requirement - POE
 ENGR,ENGR2199,01,ENGR2199: Special Topics in Engineering: Small Satellite Laboratory,"Harris, Scott; Lee, Chris",T 3:20-5:30pm,AC304,4,18,"yes, small","Enroll in section 01 and then choose a corresponding working group, either ENGR2199 L, L1 or L2
 enrollment will be open to 6 rising seniors, 6 rising juniors and 6 rising sophomores
@@ -42,7 +40,6 @@ FYR: AHS,AHSE1100,01,AHSE1100: History of Technology: A Cultural & Contextual Ap
 each syllabus",AHS Foundation
 FYR: AHS,AHSE1122,01,"AHSE1122: The Wired Ensemble -Instruments, Voices, Players","Dabby, Diana",TF 1:30-3:10pm,AC304; AC305,4,15,no,"Available to First Year Students Only; All First year students will also be booked for Wednesday related AHS sessions between 12:30 and 3pm; specific dates will be on
 each syllabus",AHS Foundation
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 FYR: AHS,AHSE1135,01,"AHSE1135: The Digital Eye: Photography, Vision, and Visual Communication","Donis-Keller, Helen",TF 10:50-12:30pm,AC313,4,14,no,"Available to First Year Students Only; All First year students will also be booked for Wednesday related AHS sessions between 12:30 and 3pm; specific dates will be on
 each syllabus",AHS Foundation
 FYR: AHS,AHSE1199,01,AHSE1199:  Writers’ Workshop: Creativity and the Literary Imagination,"Lynch, Caitrin; Taaffe, Lauren",TF 10:50-12:30pm,AC326,4,15,no,"Available to First Year Students Only; All First year students will also be booked for Wednesday related AHS sessions between 12:30 and 3pm; specific dates will be on
@@ -59,7 +56,6 @@ FYR: ENGR,ENGR1200,01,ENGR1200: Design Nature,"Chachra, Debbie; Ferguson Sauder,
 DesNat"
 FYR: ENGR,ENGR1200,02,ENGR1200: Design Nature,"Chachra, Debbie; Ferguson Sauder, Tim; Lee, Chris; Townsend, Jessica",MR 9:50-12:30pm,"MH120; AC204, 206, 209",4,32,no,,"Requirement -
 DesNat"
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 FYR: ENGR,ENGR1200,03,ENGR1200: Design Nature,"Chachra, Debbie; Ferguson Sauder, Tim; Lee, Chris; Townsend, Jessica",MR 9:50-12:30pm,"MH120; AC204, 206, 209",4,32,no,,"Requirement -
 DesNat"
 "FYR:
@@ -82,7 +78,6 @@ Interdisciplinary,"MTH2132
 Elective"
 ME,ENGR2340,01,ENGR2340: Dynamics,"Lee, Chris",TF 9-10:40am; W 9:30- 10:30am,AC328,4,40,"yes, small",,Core ME
 ME,ENGR3310,01,ENGR3310: Transport Phenomena,"Ferzoco, Alesandra; Storey, Brian",MR 10:50-12:30pm,AC417; AC409,4,32,"yes, small",,Core ME
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 ME,ENGR3330,01,ENGR3330: Mechanical Design,"Barrett, Dave",TF 10:50-12:30pm,AC128,4,28,"yes, large",,Core ME
 MTH,MTH2110,01,MTH2110: Discrete Math,"Spence Adams, Sarah",MR 9-10:40am,AC326,4,33,"yes, large",,"Math - Adv ECE;
 E:C"
@@ -102,7 +97,6 @@ Requirement"
 SCI,SCI1410,B1,"SCI1410: Materials Science and Solid State Chemistry:
 Environmental and Societal Impact of Materials","Stolk, Jon",TR 3:20-6:00pm,AC413,4,21,"yes, small",Offered using EXPERIMENTAL Grading,"SCI - MatSci Chem
 Requirement"
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 ADMIN,AWAY1000,01,Study Away Program,Administration,n/a,n/a,12,n/a,,"Enroll in this course block to confirm your
 Study Away Semester",
 ADMIN,OIP1000,01,The Olin Internship Practicum I,Phelps,n/a,n/a,1,n/a,,See Post Graduate Planning to Enroll,
