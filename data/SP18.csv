@@ -22,7 +22,6 @@ E:Bio,ENGR3610,01,Biomedical Materials,Chachra,MR 10:50-12:30pm,AC406 AC409 
 E:C,ENGR2510,01,Software Design,"Millner, Hill, Ruvolo",TF 1:30-3:10pm,AC326,4,30,waitlist available,
 E:C,ENGR2510,02,Software Design,"Millner, Hill, Ruvolo",TF 1:30-3:10pm,AC328,4,30,waitlist available,
 E:C,ENGR3525,01,Software Systems,Downey,TF 9-10:40am,AC326,4,25,limited waitlist,
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Registration Notes,Curriculum Notes
 E:C,ENGR3599,01,Special Topics in Computing: Computer Networks,Morrow,"TF 10:50-12:30pm; W 7-10pm
 lab",AC428,4,28,,
 E:C,ENGR3599A,01,Special Topics in Computing: Hacking the Library,Steele,MR 3:20-5:00pm,Library,4,20,small waitlist available,
@@ -48,7 +47,6 @@ in catalog"
 Integrated,CIE2018A,01,Curriculum Innov Experiment: Quantitative Engineering Analysis I,"Christianson, Geddes, Somerville, Dusek, Downey",MR 9-12:30pm,AC109,8,36,"requires understanding and agreement of participation in the
 curricular experiment","4 MTH, 2 SCI and 2 ENGR credit
 breakdown"
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Registration Notes,Curriculum Notes
 Integrated,CIE2018A,02,Curriculum Innov Experiment: Quantitative Engineering Analysis I,"Christianson, Geddes, Somerville, Dusek, Downey",MR 9-12:30pm,AC113,8,36,"requires understanding and agreement of participation in the
 curricular experiment","4 MTH, 2 SCI and 2 ENGR credit
 breakdown"
@@ -75,7 +73,6 @@ with permission"
 SCI,SCI2140,01,Relativity,Holt,TF 10:50-12:30pm,AC109,2,15,Session I: 1/2 Session Offering,
 SUST,SUST3301,01,Sustainability Synthesis,Wood,R 3:30-6:30pm,AC417,4,15,,"Capstone course to Sustainability
 Certificate"
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Registration Notes,Curriculum Notes
 ADMN,AWAY1000,01,The Study Away Program,Administration,n/a,n/a,4,n/a,"enroll in this course if you will be studying away in the spring 2017
 semester",
 ADMN,OIP1000,01,Olin Internship Practicum,Phelps,n/a,n/a,1,n/a,"See Post Graduate Planning to

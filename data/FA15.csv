@@ -21,7 +21,6 @@ E:C,ENGR 3525,01,Software Systems,4,Downey,TF 10:50-12:30pm,AC328,30,
 E:C,ENGR 3590,01,A Computational Introduction to Robotics,4,Ruvolo,MR 1:30-3:10pm,AC318,15,
 E:C,ENGR 3590,02,A Computational Introduction to Robotics,4,Ruvolo,TF 1:30-3:10pm,AC318,15,
 E:C,ENGR 3599,01,Special Topics in Computing: Visualizing Data,4,Pucella,M 6:15-8:45pm,AC326,30,prerequisite of ENGR2510
-Area,Course #,Section #,Course Title,Credits,Instructor,Time,Location,Enroll Limits,Notes
 ECE,ENGR 3410,01,Computer Architecture,4,Hill,MR 10:50-12:30pm,AC326,35,
 ECE,ENGR 3420,01,Introduction to Analog and Digital Communications,4,Govindasamy,TF 9-10:40am,AC304,24,
 ECE,ENGR 3430,01,EE Prototyping,4,Lundberg,MR 3:20-6pm,AC304,24,NOTE: This was typically a spring offering - moving to fall; won't be offered SP16
@@ -48,7 +47,6 @@ FYR,ENGR 1125,03,"Introduction to Sensors, Instrumentation and Measurement",4,St
 3:10pm",MH120 Mon; AC428,21,
 FYR,ENGR 1125,04,"Introduction to Sensors, Instrumentation and Measurement",4,Storey; Minch,"M 1:30-3:10pm; F 1-
 3:10pm",MH120 Mon; AC428,21,
-Area,Course #,Section #,Course Title,Credits,Instructor,Time,Location,Enroll Limits,Notes
 FYR,ENGR 1200,01,Design Nature,4,Linder; Hendren; Coso; Rosenwinkel,MW 3:20-6pm,MH120; AC204,28,
 FYR,ENGR 1200,02,Design Nature,4,Linder; Hendren; Coso; Rosenwinkel,MW 3:20-6pm,MH120; AC206,28,
 FYR,ENGR 1200,03,Design Nature,4,Linder; Hendren; Coso; Rosenwinkel,MW 3:20-6pm,MH120; AC209,28,
@@ -78,7 +76,6 @@ Crescent Rm",28,
 MTH,MTH 2220,02,Linearity II,4,Geddes; Somerville,MR 1:30-3:10pm,"CC209-213
 Crescent Rm",28,
 MTH,MTH 3170,01,Non-linear Dynamics and Chaos,4,Hoffman,MR 1:30-3:10pm,AC113,24,
-Area,Course #,Section #,Course Title,Credits,Instructor,Time,Location,Enroll Limits,Notes
 SCI,SCI 1210,01,Principles of Modern Biology (with Lab): Designing Better Drugs to Fight Disease,4,Pratt,TF 1:30-3:10pm; Tues 3:20-6:00pm,AC406; AC417,24,
 SCI,SCI 1410,01,Introduction to Material Science and Solid State Chemistry,4,Chachra,TR 3:20-6pm,AC413; AC417,21,
 SCI,SCI 1410,C1,"Introduction to Material Science and Solid State Chemistry:

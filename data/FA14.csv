@@ -16,7 +16,6 @@ E!,AHSE 4590,01,Entrepreneurship Capstone,Brand,4,MR 1:30-3:10p,AC313,15,
 E:BE,ENGR 3600,01,Topics in Bioengineering,Sarang-Sieminski,4,MR 10:50-12:30p,AC318,25,EXPERIMENTAL GRADING
 E:C,ENGR 2510,01,Software Design,Millner,4,TF 1:30-3:10p,AC326,30,
 E:C,ENGR 3599,01,Special Topics in Computing: Computational Signal Processing,Downey,2,TF 10:50-12:30p,AC126,30,SESSION II; EXPERIMENTAL GRADING
-Area,Course #,Sec #,Course Title,Instructor,Credits,Time,Location,Enroll Limits,Notes
 E:C,ENGR 3599A,01,Special Topics in Computing: A Computational Introduction to Robotics,Ruvolo,4,TF 1:30-3:10p,AC128,18,see registration booklet for specifics of this new offering and changes to the E:Robo concentration; WAITLIST Available
 E:C,ENGR 3599A,02,Special Topics in Computing: A Computational Introduction to Robotics,Ruvolo,4,MR 1:30-3:10p,AC128,18,see registration booklet for specifics of this new offering and changes to the E:Robo concentration; WAITLIST Available
 E:C,ENGR 3599B,01,Special Topics in Computing: Game Programming,Pucella,4,TF 1:30-3:10p,AC126,30,
@@ -32,7 +31,6 @@ ENGR,ENGR 2210,02,Principles of Engineering,Govindasamy/Hoo ver & Bennett,4,TF 1
 ENGR,ENGR 2210,03,Principles of Engineering,Govindasamy/Hoo ver & Bennett,4,TF 1:30-3:10p,AC306,28,
 ENGR,ENGR 4190,1-14,Senior Capstone Program in Engineering (SCOPE),Sarang-Sieminski; Minch; Hoover; Bennett; Barrett; Lee; Govindasamy; Ruvolo; Millner; Mur-Miranda; Downey; Byrne; Christianson,4,W 9-10:40a; 12:30-6p,varies,5,"Team Assignments made later; Enroll in
 section 01"
-Area,Course #,Sec #,Course Title,Instructor,Credits,Time,Location,Enroll Limits,Notes
 ENGR,ENGR 4290,01,Affordable Design and Entrepreneurship,Linder,4,T 3:30-6:30p,AC213,15,CAPSTONE Offering
 INTEGRA TED,ENGR 2199B MTH 2188B,B1,Special Topics in Engineering and Mathematics: Regional Analysis For Development,Mur-Miranda; Staff,2 + 2,TR 3:20-5:00p,AC326,25,"Designated Alternative for MTH2130: Probability and Statistics (tentative offering
 based on adjunct availability)"
@@ -50,7 +48,6 @@ MTH,MTH 2220,02,Linearity II,Geddes; Patel; Somerville,4,MR 1:30-3:10p,AC326,30,
 MTH,MTH 2220,03,Linearity II,Geddes; Patel; Somerville,4,MR 1:30-3:10p,AC328,30,
 MTH,MTH 3150,01,Numerical Methods and Scientific Computing,Geddes,4,MR 3:20-5:00p,AC318,16,Waitlist AVAILABLE
 MTH,MTH 3160,01,Introduction to Complex Variables,Hoffman,4,MR 1:30-3:10p,AC417,24,May be used as an ME Math
-Area,Course #,Sec #,Course Title,Instructor,Credits,Time,Location,Enroll Limits,Notes
 OIE,AHSE 1100,01,History of Technology,Martello,4,TF 10:50-12:30p,AC318,15,AHS Foundation
 OIE,AHSE 1122,01,Wired Ensemble,Dabby,4,T 3:20-5:00p; F 10:50-12:30p,AC304; AC305,15,AHS Foundation
 OIE,AHSE 1145,01,The Human Connection,Lynch,4,T 10:50-12:30p; F 9:30- 12:30p,CC214,15,AHS Foundation
@@ -71,7 +68,6 @@ OIE,"MTH 1111 and
 SCI 1111",01,Modeling and Simulation of the Physical World,Downey; Hoffman; Somerville; Townsend,2 + 2,MR 10:50-12:30p; W 9- 10:40a,MH120; AC204,28,
 OIE,"MTH 1111 and
 SCI 1111",02,Modeling and Simulation of the Physical World,Downey; Hoffman; Somerville; Townsend,2 + 2,MR 10:50-12:30p; W 9- 10:40a,MH120; AC206,28,
-Area,Course #,Sec #,Course Title,Instructor,Credits,Time,Location,Enroll Limits,Notes
 OIE,"MTH 1111 and
 SCI 1111",03,Modeling and Simulation of the Physical World,Downey; Hoffman; Somerville; Townsend,2 + 2,MR 10:50-12:30p; W 9- 10:40a,MH120; AC209,28,
 SCI,SCI 1121,01,Electricity and Magnetism: Project Based Approach,Christianson,4,TWF 9-10:40a,AC428,30,

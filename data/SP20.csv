@@ -19,7 +19,6 @@ DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship,"Graeff, Erhard
 Waitlist Available",DSN Depth
 E:C,ENGR2510,01,ENGR2510: Software Design,"Graeff, Erhardt; Matsumoto, Steve; Millner, Amon",TF 10:50-12:30pm,AC318 AC326,4,54,Waitlist Available,E:C Requirement and ECE Requirement
 E:C,ENGR3525,01,ENGR3525: Software Systems,"Downey, Allen",TF 1:30-3:10pm,AC326,4,40,Waitlist Available,E:C Requirement
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Registration Notes,Curriculum Notes
 E:C,ENGR3599,01,ENGR3599: Special Topics in Computing: Programming Languages,"Pucella, Riccardo",R 1:30-4:00pm,AC304,4,30,Waitlist Available,E:C Elective
 E:C,ENGR3599A,01,ENGR3599A: Special Topics in Computing: Data Structures and Algorithms,"Paul, Alice",MR 1:30-3:10pm,AC309,4,25,Waitlist Available,E:C Elective
 E:C,ENGR3599B,SL,ENGR3599B: Special Topics in Computing: Advanced Algorithms,"Student Led Team (Paul, Alice )",TF 1:30-3:10pm,AC318,4,24,Student Led Course; Waitlist Available,E:C Elective
@@ -38,7 +37,6 @@ ENTRP,AHSE1515,01,AHSE1515: Products and Markets,"Chachra, Debbie; Lynch, Caitri
 Jason",MR 1:30-4:10pm,AC318 AC326 AC328 AC428 MH120,4,90,,E! Foundation
 ENTRP,AHSE2515,01,AHSE2515: Iterate,"Zamir, Lee",T 3:20-6:00pm,AC318,2,18,Session I; Waitlist Available,E! Elective
 ENTRP,AHSE2515A,01,AHSE2515A: Iterate,"Zamir, Lee",T 3:20-6:00pm,AC318,2,18,Session II; Waitlist Available,E! Elective
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Registration Notes,Curriculum Notes
 Interdisciplinary,ENGR3531 / MTH2131,01,ENGR3531_and_MTH2131: Data Science,"Downey, Allen",MR 1:30-3:10pm,AC417,2+2,25,Waitlist Available,Probability/Statistics
 Interdisciplinary,ENGX2000,01,ENGX2000: Quantitative Engineering Analysis Ia,"Geddes, John; Houston- Edwards, Kelsey; Ruvolo, Paul; Somerville, Mark; Vanasupa, Linda",MR 9:00-12:30pm,AC109 AC113 AC128,4,90,Session I,Requirement
 Interdisciplinary,ENGX2001,01,ENGX2001: Quantitative Engineering Analysis Ib,"Dusek, Jeff; Geddes, John; Ruvolo, Paul; Somerville, Mark; Vanasupa, Linda",MR 9:00-12:30pm,AC109 AC113 AC128,4,90,Session II,Requirement

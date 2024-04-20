@@ -22,7 +22,6 @@ design depth; WAITLIST Available"
 DSN,ENGR 3299,01,Special Topics in Design Engineering:  Investigating Normal: Adaptive and Assistive Technologies,Hendren,MR 10:50- 12:30p,AC213,4,22,Waitlist Available
 E!,AHSE 1515,01,Products and Markets,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,T 9-12:30p; R 9- 10:40a,AC318; MH120,4,28,Note: non-standard pattern
 E!,AHSE 1515,02,Products and Markets,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,T 9-12:30p; R 9- 10:40a,AC326; MH120,4,28,Note: non-standard pattern
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
 E!,AHSE 1515,03,Products and Markets,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,T 9-12:30p; R 9- 10:40a,AC328; MH120,4,28,Note: non-standard pattern
 E!,AHSE 3599,01,Special Topics in Entrepreneurship:  Intellectual Property Protection for Innovative Designs,Covello,R 3:20-5:00p,AC318,2,15,Full Semester Offering
 E!,AHSE 4590,01,Entrepreneurship Capstone,Brand,TF 1:30-3:10p,AC328,4,20,Waitlist Available
@@ -42,7 +41,6 @@ ENGR,ENGR 1199,01,"Special Topics in Engineering: Introduction to the Microelect
 ENGR,ENGR 1199A,01,Special Topics in Engineering: Linear Systems Lab,Storey,R 3:20-5:30pm,AC428,2,25,Full Semester Offering
 ENGR,ENGR 1330,01,Fundamentals of Machine Shop Operations,Andruskiewicz,W 12:30-4:30p,AC104,4,6,
 ENGR,ENGR 2199,01,Special Topics in Engineering: Applications of Microfluidics,Irimia; Storey,T 3:20-6:00p,AC428,4,25,Note: contingent on demand
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
 ENGR,ENGR 2210,01,Principles of Engineering,Govindasamy,MR 1:30-3:10p,AC306,4,28,
 ENGR,ENGR 3199,01,Special Topics in Engineering:  Designing Resources for Empowerment and Making (DREAM),Millner,TF 1:30-3:10p,AC109,4,25,
 ENGR,ENGR 3199A,01,Special Topics in Engineering: Elecanisms,Hoover; Minch,M 9-12:30p; R 10:50-12:30p,AC306,4,25,Waitlist Available
@@ -66,7 +64,6 @@ ME,ENGR 3392,01,Robotics Systems Integration,Bennett,MR 10:50- 12:30p,AC309,4,25
 MTH,MTH 2130,01,Probability and Statistics,Patel,MR 9-10:40a,AC213,2,25,Session I
 MTH,MTH 2199,01,Special Topics in Mathematics:  A Mathematical Introduction to Cryptography,Patel,MR 1:30-3:10p,AC128,4,25,
 MTH,MTH 2199A,01,Special Topics in Mathematics:  Structure in Randomness: A Mathematical Perspective,Patel,MR 9-10:40a,AC213,2,25,Session II
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
 MTH,MTH 2210,01,Linearity I,Adams; Hoffman; Storey,W 9-10:40a; F 9- 12:30p,"2nd Floor Campus Center; CC209, 210, 211, 213, 214",4,90,Note: non-standard pattern
 MTH,MTH 3120,01,Partial Differential Equations,Hoffman,TF 1:30-3:10p,AC326,4,28,
 SCI,SCI 1130,A1,Mechanics: Theoretical / Experimental Approach,Zastavker,MR 10:50- 12:30p,AC318,4,30,Waitlist Available

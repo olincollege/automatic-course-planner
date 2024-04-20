@@ -16,7 +16,6 @@ DSN,ENGR3299,01,Special Topics in Design Engineering: Return Design Studio/Shop 
 Experimental Grading",Design Depth Option
 DSN OR E:BE,ENGR3699,01,Special Topics in Bioengineering: Biomedical Device Design,Sarang- Sieminski,TF 1:30-3:10pm,AC326,4,15,"Y, small",,"Core - BioE OR
 Design Depth"
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 E:C,ENGR2510,01,Software Design,Steele,MR 10:50-12:30pm,AC128,4,25,"Y, small",,Core - E:C and ECE
 E:C,ENGR3520,01,Foundations of Computer Science,Pucella,R 4-6:30pm,AC326,4,32,"Y, small",,Core - E:C
 E:C,ENGR3540,01,Complexity Science,Downey,TF 9-10:40am,AC326,4,25,"Y, small",formerly Computational Modeling,Elective E:C
@@ -27,7 +26,6 @@ ECE,ENGR3430,01,Eclectronics,Minch,MR 3:20-5pm,AC304,4,24,"Y, small",formerly EE
 ENGR,ENGR1330,01,Fundamentals of Machine Shop Operations,Andruskiewicz,W 1-5:00pm,AC104,4,6,"Y, small",,
 ENGR,ENGR2110,01,Principles of Engineering,Faas; Hoover; Minch,TF 9-10:40am,AC306,4,25,"Y, small",,Core Requirement
 ENGR,ENGR2110,02,Principles of Engineering,Faas; Hoover; Minch,TF 9-10:40am,AC309,4,25,"Y, small",,Core Requirement
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 ENGR,ENGR2110,03,Principles of Engineering,Faas; Hoover; Minch,TF 10:50-12:30pm,AC306,4,25,"Y, small",,Core Requirement
 ENGR,ENGR2110,04,Principles of Engineering,Faas; Hoover; Minch,TF 10:50-12:30pm,AC309,4,25,"Y, small",,Core Requirement
 "ENGR
@@ -44,7 +42,6 @@ Seminar",OIE1000,01,Olin Introductory Experience,Tatar,W 9-10:40am,"CC209, 211, 
 FYR: AHS,AHSE1100,01,History of Technology: A Cultural & Contextual Approach,Martello,TF 10:50-12:30pm,CC209,4,18,,Reserved for First Years,AHS Foundation
 FYR: AHS,AHSE1122,01,The Wired Ensemble,Dabby,W 3:20-5pm; F 10:50- 12:30pm,AC318; AC305,4,15,,Reserved for First Years,AHS Foundation
 FYR: AHS,AHSE1135,01,"The Digital Eye: Photography, Vision, and Visual Communication",Donis-Keller,TF 10:50-12:30pm,AC313,4,14,,Reserved for First Years,AHS Foundation
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 FYR: AHS,AHSE1155,01,Identity from the Mind & Brain: Who Am I and How Do I Know,Adler,TF 9-10:40am,AC328,4,18,,Reserved for First Years,AHS Foundation
 FYR: AHS,AHSE1155,02,Identity from the Mind & Brain: Who Am I and How Do I Know,Adler,TF 10:50-12:30pm,AC328,4,18,,Reserved for First Years,AHS Foundation
 FYR: AHS,AHSE1199,01,AHS Foundation Topic:  From Dirt to Shirt,Lynch,TF 10:50-12:30pm,AC128,4,18,,Reserved for First Years,AHS Foundation
@@ -59,7 +56,6 @@ FYR: ENGR,ENGR1125,03,"Introduction to Sensors, Instrumentation and Measurement"
 3:10pm",Mondays in MH120; AC428,4,24,,,Core Requirement
 FYR: ENGR,ENGR1125,04,"Introduction to Sensors, Instrumentation and Measurement",Dusek; Hill; Michalka; Storey,"M 1:30-3:10pm; F 1-
 3:10pm",Mondays in MH120; AC428,4,24,,,Core Requirement
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 "FYR:
 Interdiscipl inary",MTH1111 SCI1111,01,Modeling and Simulation of the Physical World,Downey; Lee; Wood; Woodard,MTR 3:20-5:00pm,AC204; MH120,4,30,,,Core Requirement
 "FYR:
@@ -75,7 +71,6 @@ ME,ENGR3330,01,Mechanical Design,Barrett,TF 9-10:40am,AC128,4,25,"Y, small",,Cor
 ME/ECE,ENGR3370,01,Controls,Mur-Miranda,TF 9-10:40am,AC304,4,24,"Y, small",,Elective - ME or ECE
 MTH,MTH2110,01,Discrete Math,Adams,MR 9-10:40am,AC326,4,33,"Y, large",,"ECE; E:C Adv
 Mathematics"
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 MTH,MTH2220,01,Linearity II,Hoffman,MR 1:30-3:10pm,AC328,4,42,"Y, small",,Core Requirement
 SCI,SCI1121,01,Electricity and Magnetism,Mur-Miranda,TF 10:50-12:30pm,AC326,4,24,"Y, small",,Physics Foundation
 SCI,SCI1230,01,Think Like a Biologist with Laboratory,Huang,MR 1:30-3:10pm,AC417,4,36,"Y, small","select either L1 or L2 of SCI1230 L for the
@@ -90,7 +85,6 @@ SCI,SCI1410,01,Materials Science and Solid State Chemistry (with laboratory): De
 SCI,SCI1410,B1,Materials Science and Solid State Chemistry (with laboratory): Environmental and Societal Impacts,Stolk,TW 3:20-6pm,AC413,4,24,"Y, small",Offered using Experimental Grading,Materials Science Foundation
 SCI,SCI2050,01,Art of Approximation in Science and Engineering,Mahajan,TF 10:50-12:30pm,AC109,4,48,"Y, small",,
 SCI,SCI2215,01,"Emerging Technologies in Cancer Research, Diagnosis and Treatment with Laboratory",Pratt,T 10:50-12:30pm; F 9:50-12:30pm,AC406; AC417,4,15,"Y, small",May be taken in lieu of Biology foundation if AP Bio score of 4 or 5; or by placement test,Adv Biology
-Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Degree Requirement Note
 SCI,SCI2299,01,Special Topics in Biological Sciences: Quantitative Biology,Wasylenko,MR 10:50-12:30pm,AC318,2,18,"Y, small",Session I,Prob Stat Designated Alternative
 SUST,SUST2201,01,Introduction to Sustainability,Edmonds,W 3:30-6:30pm,at Olin AC213; also meets at Babson and Wellesley,4,15,"Y,
 medium",,CORE requirement for 3CollegesBOW Sustainability Certificate

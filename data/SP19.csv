@@ -20,7 +20,6 @@ DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship,"Hersey, Scott;
 DSN,ENGR3299,01,ENGR3299: Special Topics in Design Engineering: Scientific Instrument Design for the Environment,"Ferzoco, Alessandra",M 9-12:30pm; R 10:50- 12:30pm,AC306,4,24,small waitlist available,DSN Depth
 E: BE,ENGR3600,01,ENGR3600: Topics in Bioengineering,"Sarang-Sieminski, Alisha",TF 10:50-12:30pm,AC109,4,12,,Core BioE
 E:C,ENGR2510,01,ENGR2510: Software Design,"Hill, Ben; Millner, Amon; Staff",TF 10:50-12:30pm,AC318,4,30,waitlist available,Core ECE; Core E:C
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Registration Notes,Curriculum Notes
 E:C,ENGR2510,02,ENGR2510: Software Design,"Hill, Ben; Millner, Amon; Staff",TF 10:50-12:30pm,AC326,4,30,waitlist available,Core ECE; Core E:C
 E:C,ENGR3525,01,ENGR3525: Software Systems,"Downey, Allen",TF 1:30-3:10pm,AC326,4,25,waitlist available,Core E:C
 E:C,ENGR3599,01,ENGR3599: Special Topics in Computing: Databases,"Pucella, Riccardo",R 1:30-4:00pm,AC428,4,30,small waitlist available,Elective E:C
@@ -42,7 +41,6 @@ ENTRP,AHSE2515A,A1,AHSE2515A: Iterate,"Bowen, Jim",TF 9-10:40am,AC318,2,20,"Sess
 ENTRP,AHSE3515,01,AHSE3515: Launch,"Bowen, Jim",TF 9-10:40am,AC318,4,15,,see Entrepreneurship concentration in catalog
 Interdisciplinary,AHSE2141 / ENGR2141,01,Engineering for Humanity,"Ben-Ur, Ela; Lynch, Caitrin","M 4:30-7:30pm; W 12:30-
 3:10pm",AC306,2+2,24,,AHS Elective / ENGR Elective
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Registration Notes,Curriculum Notes
 Interdisciplinary,AHSE2160 / SCI1260,01,"AHSE2160/SCI1260: The Intersection of Biology, Art and Technology","Donis-Keller, Helen",M 1-3:10pm; W 1-6:00pm,AC313 AC406,4+4,16,small waitlist available,AHS Elective / Bio Foundation
 Interdisciplinary,CIE2019A,01,CIE2019A: Curriculum Innov Experiment: Quantitative Engineering Analysis I,"Dusek, Jeff; Geddes, John; Somerville, Mark; Tow, Emily","MR 9:00-12:30pm; W 9-
 10:50am optional Review Session",AC109 AC113,8,36,"Credit Distribution: 4 MTH, 3 SCI, 1 ENGR Content Distribution: 2 cr Multi-variable Calc; 2cr Linear Algebra, 3 cr Physics, 1 cr Engineering",Experiment-QEA1
@@ -66,7 +64,6 @@ SCI,SCI1399,01,"SCI1399: Special Topics in Chemistry: Paper Panacea, Part 1","Va
 SCI,SCI1410,B1,SCI1410: Materials Science and Solid State Chemistry: Environmental and Societal Impacts,"Stolk, Jon",MR 3:20-6:00pm,AC413,4,21,,SCI - MatSci Chem Requirement
 E: BE,ENGR3600,01,ENGR3600: Topics in Bioengineering,"Sarang-Sieminski, Alisha",TF 10:50-12:30pm,AC109,4,12,,Advanced Biology
 SUST,SUST3301,01,SUST3301: Sustainability Synthesis,"Wood, Alison",M 3:30-6:30pm,AC417,4,8,max enrollment is 20 for all 3 colleges; small waitlist available,BOW Cert; Capstone course to Sustainability Certificate
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Registration Notes,Curriculum Notes
 ADMIN,AWAY1000,01,AWAY1000: The Study Away Program,Administration,n/a,n/a,4,n/a,enroll in this course if you will be studying away in the spring 2019 semester,
 ADMIN,OIP1000,01,The Olin Internship Practicum I,Phelps,n/a,n/a,1,n/a,See Post Graduate Planning to Enroll,
 ADMIN,OIP1001,01,The Olin Internship Practicum II,Phelps,n/a,n/a,1,n/a,See Post Graduate Planning to Enroll,
