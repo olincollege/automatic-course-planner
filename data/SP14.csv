@@ -23,7 +23,6 @@ E:BE,ENGR 3620,01,Cellular Bioengineering,Sarang- Sieminski,MR 10:50- 12:30pm,AC
 E:C,ENGR 2510,01,Software Design,Ruvolo,MR 3:20-5pm,AC326,4,25,Small WAITLIST Available (5)
 E:C,ENGR 2510,02,Software Design,Ruvolo,MR 1:30-3:10pm,AC326,4,25,Small WAITLIST Available (5)
 E:C,ENGR 2599,01,Special Topics in Computing: Computer Networks,Morrow,MR 3:20-5pm,AC328,4,25,WAITLIST Available
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
 E:C,ENGR 3525,01,Software Systems,Downey,MR 10:50- 12:30pm,AC326,4,30,WAITLIST Available
 E:C,ENGR 3599,01,Special Topics in Computing: Programming Language Design and Implementation,Pucella,TF 10:50- 12:30pm,AC128,4,25,WAITLIST Available
 E:MS,ENGR 3810,01,Structural Biomaterials,Chachra,MR 1:30-3:10pm,AC328,4,20,
@@ -48,7 +47,6 @@ INTEGRATED,"AHSE 2141 /
 ENGR 2141",01,Engineering for Humanity,Lynch Ben Ur,M 10:50-1:00pm & W 2-5:00pm,AC109,4,18,WAITLIST Available
 INTEGRATED,MTH 2199C / ENGR 2199C,01,Special Topics in Mathematics & Engineering: Data Science,Downey,TF 1:30-3:10pm,AC417,4,25,"Satisfies Probability and Statistics Requirement; See notes in Registration Booklet about who is eligible to enroll in this Prob
 Stat option; WAITLIST Available"
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
 ME,ENGR 2320,01,Mechanics of Solids and Structures,Barrett,TF 1:30-3:10pm,AC128,4,28,
 ME,ENGR 2330,01,Introduction to Mechanical Prototyping,Hoover,"T 3:20-6pm, R 9- 10:40am",AC109,4,25,WAITLIST Available
 ME,ENGR 2350,01,Thermodynamics,Townsend,MR 1:30-3:10pm,AC318,4,30,Small WAITLIST Available (5)
@@ -73,7 +71,6 @@ SCI,SCI 1310,01,Introduction to Chemistry (with Lab),Morse,MR 1:30-3:10pm; W 12:
 SCI,SCI 1410,01,Materials Science and Solid State Chemistry (with Lab),Christianson,TF 8:30-10:40am,AC413,4,21,
 SCI,SCI 1410,02,Materials Science and Solid State Chemistry (with Lab),Christianson,T 3:20-5:30pm; W 1-3:10pm,AC413,4,21,
 SCI,SCI 2130,01,Quantum Physics,Holt,TF 9-10:40am,AC113,4,25,Foundation option for students with strong physics background
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
 SCI,SCI 2140,01,Relativity,Holt,TF 10:50- 12:30pm,AC113,2,25,Session I
 SCI,SCI 2214,01,Microbial Diversity,Huang,W 1:00-4pm,AC417; AC404,4,15,
 SCI,SCI 2320,01,Organic Chemistry w/ Lab,Morse,"MR 9-10:40am;

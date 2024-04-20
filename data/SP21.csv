@@ -11,7 +11,6 @@ AHS,AHSE3190,01,"AHSE3190: Arts, Humanities, Social Science Prepstone","Epstein,
 AHS,AHSE4190,01,AHSE4190: AHS Capstone Project,"Epstein, Gillian",MW 10-11:30am,Fully Remote,NA,4,25,yes,,AHS Cap
 CAPSTONE,ENGR4190,01,ENGR4190: SCOPE: Senior Capstone Program in Engineering,"Ferzoco, Alessandra; Hersey, Scott; Sarang- Sieminski, Alisha; Stein, Lynn; Woodard, Jason",TR 8-10:00am F 12-5:00pm,Hybrid,CC Crescent Rooms,4,NA,NA,Students will be pre-enrolled based on Fall20 assignment,CAPSTONE
 CAPSTONE,ENGR4290,01,ENGR4290: Affordable Design and Entrepreneurship CAPSTONE,"Graeff, Erhardt; Hersey, Scott; Johansen, Elizabeth; Linder, Ben; Taha, Kofi",T 3:30-6:30pm R 3:30-5:30pm,Hybrid,MAC 306/309,4,15,NA,,Capstone
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Location for Instr Delivery or Staging of Materials,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 CAPSTONE,ENGR4599,01,ENGR4599: Engineering Capstone Alternative: Entreprene,"Harris, Scott; Miller, Scott",NA,NA,NA,4,NA,NA,,
 Crosslisted,ENGR3235_or_ SCI2235,01,ENGR3235_or_SCI2235: Biomimicry,"Huang, Jean; Linder, Ben",MW 2-3:30pm,Fully Remote,MAC 306/309,4,30,yes,Register for ENGR3225 for DesignDpth Credit or SCI2235 for Science Credit,DESIGN Dpth_or_Adv Bio
 Crosslisted,MTH1199_or_ ENGR1199,01,MTH1199_or_ENGR1199: Service Learning: Mathematics/Engineering Outreach for Adolescent Learners,"Spence Adams, Sarah",MW 12-1:30pm,Fully Remote,NA,4,30,yes,"one of the recommendations for first year students;
@@ -24,7 +23,6 @@ DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship DESIGN DEPTH,"G
 DSN,ENGR3299,01,ENGR3299: Special Topics in Engineering: Probabilistic Design Optimization,"del Rosario, Zach",MW 2-3:30pm,Fully Remote,NA,4,20,yes,,"Design Depth, ME elective, OR ECE elective"
 E:C,ENGR2510,01,ENGR2510: Software Design,"Graeff, Erhardt; Matsumoto, Steve; Nugent, Carrie",MW 2-3:30pm,Fully Remote,NA,4,75,yes,one of the recommendations for first year students,"Core E:C, Core ECE"
 E:C,ENGR3525,01,ENGR3525: Software Systems,"Matsumoto, Steve",MW 10-11:30am,Fully Remote,NA,4,40,yes,,Core E:C
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Location for Instr Delivery or Staging of Materials,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 E:C,ENGR3599,01,ENGR3599: Special Topics in Computing: Web Development,"Pucella, Riccardo",TR 2-3:30pm,Fully Remote,NA,4,40,yes,,E:C Elective
 E:Robo,ENGR3390,01,ENGR3390: Fundamentals of Robotics,"Barrett, Dave",MW 12-1:30pm,Hybrid,MAC 226/228,4,30,yes,,Core E:Robo_or_ME Elective
 E:Robo,ENGR3392,01,ENGR3392: Robotics Systems Integration,"Malley, Melinda; with Dusek, Jeff",TR 12-1:30pm,Fully Remote,NA,4,30,yes,,Core E:Robo_or_ME Elective
@@ -34,7 +32,6 @@ ECE,ENGR3499,01,ENGR3499: Special Topics in Electrical and Computer Engineering:
 ENGR,ENGR2199C,01,ENGR2199C: Special Topics in Engineering: Mechanical Components and Systems,"Faas, Daniella",TR 12-1:30pm,Fully Remote,NA,4,25,yes,one of the recommendations for first year students,ELECTIVE
 ENGR,ENGR3599A,SL,ENGR3599A: Special Topics in Computing: Data Structures and Algorithms,"Matsumoto, Steve; Ku, Megan; Brehm, Dieter; Sieving, Jane; Mazza, Duncan",MW 4-5:30pm,Fully Remote,NA,4,30,yes,Does not fulfill E:C theory of CS requirement; substitution dependent on post-course interview with faculty content advisor,"Student Led Course, E:C elective"
 ENGR,ENGR3599B,SL,ENGR3599B: Special Topics in Computing: Advanced Algorithms,"Spence Adams, Sarah; Overney, Cassandra; Shen, Xierui; Swaminathan, Shashank",MW 12-1:30pm,Fully Remote,NA,4,30,yes,Prerequisites: DSA(faculty or student led) and Discrete Math or with permission of instructor; Students cannot take DSA and Adv Algorithms simultaneously,"Student Led Course, E:C elective"
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Location for Instr Delivery or Staging of Materials,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 ENTRP,AHSE2515,01,AHSE2515: Iterate,"Neeley, Lawrence",TR 2-3:30pm,Fully Remote,NA,2,15,yes,Session I,ENTRP
 ENTRP,AHSE2515A,01,AHSE2515A: Iterate,"Neeley, Lawrence",TR 2-3:30pm,Fully Remote,NA,2,15,yes,Session II,ENTRP
 ENTRP,AHSE3515,01,AHSE3515: Launch,"Neeley, Lawrence",TR 2-3:30pm,Fully Remote,NA,4,15,yes,Full Semester Offering,ENTRP
@@ -54,7 +51,6 @@ F 10-11:30am (Lab)",Fully Remote,NA,4+4,24,yes,8 credit Offering; Bio Foundation
 Interdisciplinary,"ENGR2141_and
 _AHSE2141",01,ENGR2141_and_AHSE2141: Engineering for Humanity,"Lynch, Caitrin; Ben- Ur, Ela",MW 4-7:30pm,Fully Remote,"MAC 113
 project work",2+2,30,yes,one of the recommendations for first year students,AHS_and_ENGR Elective
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Location for Instr Delivery or Staging of Materials,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 Interdisciplinary,ENGR2199,01,ENGR2199: Special Topics in Engineering: Engineering Systems Analysis,"Dabby, Diana; Lee, Chris",TR 10-11:30am,Fully Remote,NA,2,60,yes,"Session I; ENGR2199/ENGR2199A/ENGER2199B: all 3
 courses can be taken for 6 credits",Core ECE; Core ME
 Interdisciplinary,ENGR2199A,01,ENGR2199A: Special Topics in Engineering: Engineering Systems Analysis with Dynamics,"Dabby, Diana; Lee, Chris",TR 10-11:30am,Fully Remote,NA,2,30,yes,"Session II:
@@ -71,7 +67,6 @@ ME,ENGR3350,01,ENGR3350: Finite Element Analysis,"Lee, Chris",MW 10-11:30am,Full
 ME,ENGR3370,01,ENGR3370: Controls,"Barragan, Patrick",MW 5-6:30pm,Fully Remote,NA,4,25,yes,,ECE Elective_or_ME Elective
 ME,ENGR3399,01,"ENGR3399: Special Topics in Mechanical Engineering:
 Advanced Transport Phenomena","Tow, Emily",TR 2-3:30pm,Fully Remote,NA,4,15,yes,,ME Elective
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Location for Instr Delivery or Staging of Materials,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 MTH,MTH3120,01,MTH3120: Partial Differential Equations,"Geddes, John",TR 4:30-6:00pm,Fully Remote,NA,4,24,yes,,ADV MATH
 SCI,SCI1399,01,SCI1399: Special Topics in Chemistry: Paper Panacea: Part Pandemic!,"Vanasupa, Linda",MW 2-3:30pm,Fully Remote,"MAC
 409 for labs",4,25,yes,"one of the recommendations for first year students;

@@ -21,7 +21,6 @@ DSN,ENGR 3290,01,Affordable Design and Entrepreneurship,"Linder, Govindasamy, Mu
 E!,AHSE 1515,01,Products and Markets,"Neeley, Hoover, Rubenstein, Woodard, Staff",TF 9-12:30pm,AC318,4,28,Note: non-standard pattern
 E!,AHSE 1515,02,Products and Markets,"Neeley, Hoover, Rubenstein, Woodard, Staff",TF 9-12:30pm,AC326,4,28,Note: non-standard pattern
 E!,AHSE 1515,03,Products and Markets,"Neeley, Hoover, Rubenstein, Woodard, Staff",TF 9-12:30pm,AC328,4,28,Note: non-standard pattern
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
 E!,AHSE 4590,01,Entrepreneurship Capstone,Neeley,TF 1:30-3:10pm,CC214,4,15,Waitlist Available
 E:C,ENGR 2510,01,Software Design,"Hill, Ruvolo",MR 1:30-3:10pm,AC326,4,25,
 E:C,ENGR 2510,02,Software Design,"Hill, Ruvolo",MR 3:20-5:00pm,AC326,4,25,
@@ -51,7 +50,6 @@ Using Experimental Grading"
 ,"MTH 2131 /
 ENGR 3531",01,Data Science,Ruvolo,TF 1:30-3:10pm,AC326,2 + 2,25,PROB/STAT Designated Alternative
 ,MTH 2132 / SCI 2032,01,Bayesian Inference and Reasoning,Mahajan,TF 10:50-12:30pm,AC113,2+2,32,PROB/STAT Designated Alternative
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
 ME,ENGR 2320,01,Mechanics of Solids and Structures,Lee,MR 1:30-3:10p; W 9:30-10:30am,AC328; Wed AC113,4,32,Waitlist Available
 ME,ENGR 2330,01,Introduction to Mechanical Prototyping,Barrett,MR 1:30-3:10pm,AC128,4,25,Waitlist Available
 ME,ENGR 2350,01,Thermodynamics,Townsend,MR 9-10:40am,AC318,4,25,Waitlist Available
@@ -73,5 +71,4 @@ SEM,SEM 105,S1,Industrial Media Super-Taster,Betsch; Pierce,M 6:30-8:30pm,AC104 
 SEM,SEM 201,S1,An Introduction to Product Design and Engineering in a Large(r) Corporate Environment,Tsang,R 6:30-8:30p,AC326,1,15,Waitlist Available
 SEM,SEM 503,S1,Introduction to Embedded Software,Ting,R 7-9:00pm,AC328,1,15,Waitlist Available
 ADMIN,AWAY 1000,01,Study Away Program,Administration,,,12,,
-Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
 ADMIN,OIP 1000,01,The Olin Internship Practicum,Phelps,,,1,,
