@@ -7,6 +7,7 @@ import tkinter as tk
 from tkinter import ttk
 from pandastable import Table, TableModel
 import pandas as pd
+import random
 
 
 class DataFrameViewer(tk.Toplevel):
@@ -31,42 +32,47 @@ class DataFrameViewer(tk.Toplevel):
         self.table.show()
 
 
-def get_required(major):
-    columns = [
-        "Semester 1",
-        "Semester 2",
-        "Semester 3",
-        "Semester 4",
-        "Semester 5",
-        "Semester 6",
-        "Semester 7",
-        "Semester 8",
-    ]
-    df = pd.DataFrame(None, index=range(5), columns=columns)
+def create_student_schedule(major, study_abroad_semesters, electives):
 
     sem_courses = {}
 
-    # Required Courses for E:C
+    # Define default course names
     if major == "E: Computing":
-        # electives = {"FoCS": "90%", "Discrete": "10%", "CompRobo": "50%"}
         sem_courses = {
-            "Semester 1": ["QEA1", "Modsim", "DesNat", "AHS Concentration"],
-            "Semester 2": ["QEA2", "ISIM", "Products & Markets", "Softdes"],
-            "Semester 3": ["PIE", "Discrete"],
-            "Semester 4": ["CD", "SoftSys"],
-            "Semester 5": ["Bio", "MatSci"],
-            "Semester 6": [],
-            "Semester 7": ["Senior Capstone"],
-            "Semester 8": ["Senior Capstone"],
+            "Freshmen Fall": ["QEA1", "Modsim", "DesNat", "AHS"],
+            "Freshmen Spring": ["QEA2", "ISIM", "P&M", "SoftDes"],
+            "Sophomore Fall": ["PIE", "Discrete", "", ""],
+            "Sophomore Spring": ["CD", "SoftSys", "", ""],
+            "Junior Fall": ["Bio", "MatSci", "", ""],
+            "Junior Spring": ["", "", "", ""],
+            "Senior Fall": ["Capstone", "", "", ""],
+            "Senior Spring": ["Capstone", "", "", ""],
         }
-    else:
-        print("No courses for selected major")
-    # Loop through the dictionary and assign courses to DataFrame
-    for semester, courses in sem_courses.items():
-        for i, course in enumerate(courses):
-            df.at[i, semester] = course
-    df = df.fillna("")
-    return df
+        sem_courses["Sophomore Fall"][2] = random.choices(
+            ["FoCS", "CompRobo"], weights=(50, 50)
+        )[0]
+
+    elif major == "E: Robo":
+        pass
+
+    elif major == "MechE":
+        pass
+
+    # Create an empty DataFrame with 4 rows and 8 columns
+    data = pd.DataFrame(index=range(1, 5), columns=sem_courses.keys())
+
+    # Fill in course names for each semester
+    for col, courses in zip(sem_courses.keys(), sem_courses.values()):
+        data[col] = courses
+
+    # Change index name to "Study Abroad" for specified semesters
+    for semester in study_abroad_semesters:
+        data = data.rename(columns={semester: f"{semester} (Study Abroad)"})
+
+    for course in electives:
+        data.loc[course[0][0], course[0][1]] = course[1]
+
+    return data
 
 
 def main():
@@ -85,7 +91,13 @@ def main():
             hide_button()
 
     def get_df():
-        return get_required(major.get())
+        electives = [
+            ((4, "Junior Fall"), ["Discrete"]),
+            ((1, "Sophomore Spring"), ["ComArch", "CompRobo", "RoboSys"]),
+        ]
+        return create_student_schedule(
+            major.get(), ["Junior Spring", "Senior Fall"], electives
+        )
 
     # Create Tkinter root window
     root = tk.Tk()
