@@ -1,0 +1,79 @@
+Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Delivery Mode,Location for Instr Delivery or Staging of Materials,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+AHS,AHSE0112,01,AHSE0112: The Olin Conductorless Orchestra: Building a Community of Practice,"Dabby, Diana",R 6:30-8:00pm,Fully Remote,NA,1,30,yes,,AHS
+AHS,AHSE2112,01,AHSE2112: Six Books that Changed the World,"Martello, Rob",TR 2-3:30pm,Fully Remote,NA,2,75,yes,Session I; 2 credits,AHS
+AHS,AHSE2114,01,AHSE2114: Science Fiction and Historical Context,"Martello, Rob",TR 2-3:30pm,Fully Remote,NA,2,75,yes,Session II; 2 credits,AHS
+AHS,AHSE2199,01,"AHSE2199: Special Topics in Arts, Humanities and Social Science: Change the World: Personal Values, Global Impacts, and Making an Olin GCSP","Wood, Alison",MW 10-11:30am,Fully Remote,NA,4,75,yes,Experimental Grading,AHS Elective
+AHS,AHSE2199A,01,"AHSE2199A: Special Topics in Arts, Humanities and Social Science: Contemplating Science","Zastavker, Yevgeniya; Venkatesh, Madhvi J.",TR 12-1:30pm,Fully Remote,NA,4,18,yes,"4 AHS elective credit;
+Experimental Grading",ELECTIVE
+AHS,AHSE2199B,01,"AHSE2199B: Special Topics in Arts, Humanities and Social Science: Context and Consequences","Lynch, Caitrin; Stein, Lynn; Wood, Alison;",F 10-11:30am,In Person,MAC 113,2,16,yes,"2 credits;
+Experimental Grading",AHS Elective
+AHS,AHSE3190,01,"AHSE3190: Arts, Humanities, Social Science Prepstone","Epstein, Gillian",N/A,Fully Remote,NA,1,25,yes,,AHS Cap
+AHS,AHSE4190,01,AHSE4190: AHS Capstone Project,"Epstein, Gillian",MW 10-11:30am,Fully Remote,NA,4,25,yes,,AHS Cap
+CAPSTONE,ENGR4190,01,ENGR4190: SCOPE: Senior Capstone Program in Engineering,"Ferzoco, Alessandra; Hersey, Scott; Sarang- Sieminski, Alisha; Stein, Lynn; Woodard, Jason",TR 8-10:00am F 12-5:00pm,Hybrid,CC Crescent Rooms,4,NA,NA,Students will be pre-enrolled based on Fall20 assignment,CAPSTONE
+CAPSTONE,ENGR4290,01,ENGR4290: Affordable Design and Entrepreneurship CAPSTONE,"Graeff, Erhardt; Hersey, Scott; Johansen, Elizabeth; Linder, Ben; Taha, Kofi",T 3:30-6:30pm R 3:30-5:30pm,Hybrid,MAC 306/309,4,15,NA,,Capstone
+CAPSTONE,ENGR4599,01,ENGR4599: Engineering Capstone Alternative: Entreprene,"Harris, Scott; Miller, Scott",NA,NA,NA,4,NA,NA,,
+Crosslisted,ENGR3235_or_ SCI2235,01,ENGR3235_or_SCI2235: Biomimicry,"Huang, Jean; Linder, Ben",MW 2-3:30pm,Fully Remote,MAC 306/309,4,30,yes,Register for ENGR3225 for DesignDpth Credit or SCI2235 for Science Credit,DESIGN Dpth_or_Adv Bio
+Crosslisted,MTH1199_or_ ENGR1199,01,MTH1199_or_ENGR1199: Service Learning: Mathematics/Engineering Outreach for Adolescent Learners,"Spence Adams, Sarah",MW 12-1:30pm,Fully Remote,NA,4,30,yes,"one of the recommendations for first year students;
+Experimental Grading;
+Register for MTH1199 for Math Credit or ENGR1199 for Engineering Credit",ELECTIVE
+DSN,ENGR2250,01,ENGR2250: User-Oriented Collaborative Design,"Adler, Jon; Bloomer, Sarah; Chachra, Debbie, Hendren, Sara; Sauder, Tim; Zastavker, Yevgeniya",TR 1:45-4:15pm,Fully Remote,NA,4,75,yes,required of all sophomores,DESIGN Fnd
+DSN,ENGR3210,01,ENGR3210: Sustainable Design,"Edmonds, Tess; Linder, Ben",TR 10-11:30am,Faculty Remote/Hybrid,MAC 306/309,4,30,yes,,DESIGN Dpth
+DSN,ENGR3232,01,ENGR3232: Biomedical Device Design,"Sarang-Sieminski, Alisha",MW 10-11:30am,Hybrid,MAC 113,4,16,yes,,DESIGN Dpth_or_ME Elective
+DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship DESIGN DEPTH,"Graeff, Erhardt; Hersey, Scott; Johansen, Elizabeth; Linder, Ben; Taha, Kofi",T 3:30-6:30pm R 3:30-5:30pm,Hybrid,MAC 306/309,4,15,yes,,DESIGN Dpth
+DSN,ENGR3299,01,ENGR3299: Special Topics in Engineering: Probabilistic Design Optimization,"del Rosario, Zach",MW 2-3:30pm,Fully Remote,NA,4,20,yes,,"Design Depth, ME elective, OR ECE elective"
+E:C,ENGR2510,01,ENGR2510: Software Design,"Graeff, Erhardt; Matsumoto, Steve; Nugent, Carrie",MW 2-3:30pm,Fully Remote,NA,4,75,yes,one of the recommendations for first year students,"Core E:C, Core ECE"
+E:C,ENGR3525,01,ENGR3525: Software Systems,"Matsumoto, Steve",MW 10-11:30am,Fully Remote,NA,4,40,yes,,Core E:C
+E:C,ENGR3599,01,ENGR3599: Special Topics in Computing: Web Development,"Pucella, Riccardo",TR 2-3:30pm,Fully Remote,NA,4,40,yes,,E:C Elective
+E:Robo,ENGR3390,01,ENGR3390: Fundamentals of Robotics,"Barrett, Dave",MW 12-1:30pm,Hybrid,MAC 226/228,4,30,yes,,Core E:Robo_or_ME Elective
+E:Robo,ENGR3392,01,ENGR3392: Robotics Systems Integration,"Malley, Melinda; with Dusek, Jeff",TR 12-1:30pm,Fully Remote,NA,4,30,yes,,Core E:Robo_or_ME Elective
+ECE,ENGR3426,01,ENGR3426: Mixed Analog-Digital VLSI,"Minch, Brad",TR 10-11:30am,Fully Remote,NA,4,30,yes,,ECE Elective
+ECE,ENGR3440,01,ENGR3440: Principles of Wireless Communication,"Lohmeyer, Whitney",TR 12-1:30pm,Fully Remote,NA,4,25,yes,,ECE Elective
+ECE,ENGR3499,01,ENGR3499: Special Topics in Electrical and Computer Engineering: Digital Power Conversion,"Arnet, Beat",MW 4-5:30pm,Fully Remote,NA,4,15,yes,,ECE Elective
+ENGR,ENGR2199C,01,ENGR2199C: Special Topics in Engineering: Mechanical Components and Systems,"Faas, Daniella",TR 12-1:30pm,Fully Remote,NA,4,25,yes,one of the recommendations for first year students,ELECTIVE
+ENGR,ENGR3599A,SL,ENGR3599A: Special Topics in Computing: Data Structures and Algorithms,"Matsumoto, Steve; Ku, Megan; Brehm, Dieter; Sieving, Jane; Mazza, Duncan",MW 4-5:30pm,Fully Remote,NA,4,30,yes,Does not fulfill E:C theory of CS requirement; substitution dependent on post-course interview with faculty content advisor,"Student Led Course, E:C elective"
+ENGR,ENGR3599B,SL,ENGR3599B: Special Topics in Computing: Advanced Algorithms,"Spence Adams, Sarah; Overney, Cassandra; Shen, Xierui; Swaminathan, Shashank",MW 12-1:30pm,Fully Remote,NA,4,30,yes,Prerequisites: DSA(faculty or student led) and Discrete Math or with permission of instructor; Students cannot take DSA and Adv Algorithms simultaneously,"Student Led Course, E:C elective"
+ENTRP,AHSE2515,01,AHSE2515: Iterate,"Neeley, Lawrence",TR 2-3:30pm,Fully Remote,NA,2,15,yes,Session I,ENTRP
+ENTRP,AHSE2515A,01,AHSE2515A: Iterate,"Neeley, Lawrence",TR 2-3:30pm,Fully Remote,NA,2,15,yes,Session II,ENTRP
+ENTRP,AHSE3515,01,AHSE3515: Launch,"Neeley, Lawrence",TR 2-3:30pm,Fully Remote,NA,4,15,yes,Full Semester Offering,ENTRP
+ENTRP,AHSE1515,01,AHSE1515: Products and Markets,"Chachra, Debbie; Lynch, Caitrin; Neeley, Lawrence; Pratt, Joanne",TR 9-11:30am,Fully Remote,NA,4,86,yes,required of all first year students,ENTRP
+FYR,ENGR1125,01-03,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Minch, Brad; Storey, Brian; Vanasupa, Linda",TR 2-3:30pm,Hybrid,"MAC 204, 206,
+304
+MAC428 staging",4,NA,yes,required of all first year students; students will be pre-enrolled,Required Foundation
+FYR,ENGR1125,04-06,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Minch, Brad; Storey, Brian; Vanasupa, Linda",TR 4-5:30pm,Hybrid,"MAC 213, 218,
+209 with MAC428 staging",4,NA,yes,required of all first year students; students will be pre-enrolled,Required Foundation
+FYR,ENGR1125,07-10,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Minch, Brad; Storey, Brian; Vanasupa, Linda",MW 8-9:30am,Hybrid,"MAC 313, 318,
+326, 328 with MAC428 staging",4,NA,yes,required of all first year students; students will be pre-enrolled,Required Foundation
+Interdisciplinary,AHSE2150_and_ SCI1250,01,AHSE2150_and_SCI1250: Six Microbes that Changed the World with Laboratory,"Martello, Rob; Huang, Jean","TR 10-11:30am
+F 10-11:30am (Lab)","Remote, labs will be adapted for both remote and hybrid engagement","MAC 404, 406
+for labs",4+4,30,yes,8 credit Offering; Bio Foundation,Bio_and_AHS
+Interdisciplinary,AHSE2160_and_ SCI1260,01,"AHSE2160_and_SCI1260: The Intersection of Biology, Art and Technology","Donis-Keller, Helen","TR 2-3:30pm
+F 10-11:30am (Lab)",Fully Remote,NA,4+4,24,yes,8 credit Offering; Bio Foundation,Bio_and_AHS
+Interdisciplinary,"ENGR2141_and
+_AHSE2141",01,ENGR2141_and_AHSE2141: Engineering for Humanity,"Lynch, Caitrin; Ben- Ur, Ela",MW 4-7:30pm,Fully Remote,"MAC 113
+project work",2+2,30,yes,one of the recommendations for first year students,AHS_and_ENGR Elective
+Interdisciplinary,ENGR2199,01,ENGR2199: Special Topics in Engineering: Engineering Systems Analysis,"Dabby, Diana; Lee, Chris",TR 10-11:30am,Fully Remote,NA,2,60,yes,"Session I; ENGR2199/ENGR2199A/ENGER2199B: all 3
+courses can be taken for 6 credits",Core ECE; Core ME
+Interdisciplinary,ENGR2199A,01,ENGR2199A: Special Topics in Engineering: Engineering Systems Analysis with Dynamics,"Dabby, Diana; Lee, Chris",TR 10-11:30am,Fully Remote,NA,2,30,yes,"Session II:
+required for sophomores in ME or relevant Engineering majors; ENGR2199/ENGR2199A/ENGR2199B: all 3
+courses can be taken for 6 credits",Core ME
+Interdisciplinary,ENGR2199B,01,ENGR2199B: Special Topics in Engineering: Engineering Systems Analysis with Signals,"Dabby, Diana; Lee, Chris",TR 5-6:30pm,Fully Remote,NA,2,30,yes,"Session II:
+required for sophomores in ECE or relevant Engineering majors; ENGR2199/ENGR2199A/ENGR2199B: all 3
+courses can be taken for 6 credits",Core ECE
+Interdisciplinary,ENGX2005,01,ENGX2005: Quantitative Engineering Analysis 2 (formerly 1b),"Geddes, John; Malley, Melinda; Dusek, Jeff; delRosario, Zach",MW 10-11:30am,Fully Remote,NA,4,86,yes,required of all first year students,Required Foundation
+Interdisciplinary,MTH2135_and_ ENGR3635,01,"MTH2135_and_ENGR3635: Neurotechnology, Brains and Machines","Michalka, Sam",MW 2-3:30pm,Fully Remote/Hybrid,MAC 417,2+2,30,yes,,ProbStat_and_Bioeng r
+Interdisciplinary,MTH2136_and_ SCI2136,01,MTH2136_and_SCI2136: Astrostats,"Nugent, Carrie",MW 12-1:30pm,Fully Remote,NA,2+2,25,yes,,ProbStat_and_SCI
+ME,ENGR2350,01,ENGR2350: Thermodynamics,"Townsend, Jessica",TR 12-1:30pm,Fully Remote,NA,4,25,yes,,Core ME
+ME,ENGR3350,01,ENGR3350: Finite Element Analysis,"Lee, Chris",MW 10-11:30am,Fully Remote,NA,4,25,yes,,ME Elective
+ME,ENGR3370,01,ENGR3370: Controls,"Barragan, Patrick",MW 5-6:30pm,Fully Remote,NA,4,25,yes,,ECE Elective_or_ME Elective
+ME,ENGR3399,01,"ENGR3399: Special Topics in Mechanical Engineering:
+Advanced Transport Phenomena","Tow, Emily",TR 2-3:30pm,Fully Remote,NA,4,15,yes,,ME Elective
+MTH,MTH3120,01,MTH3120: Partial Differential Equations,"Geddes, John",TR 4:30-6:00pm,Fully Remote,NA,4,24,yes,,ADV MATH
+SCI,SCI1399,01,SCI1399: Special Topics in Chemistry: Paper Panacea: Part Pandemic!,"Vanasupa, Linda",MW 2-3:30pm,Fully Remote,"MAC
+409 for labs",4,25,yes,"one of the recommendations for first year students;
+Matsci_Chem Foundation",MATSCI_CHEM
+SCI,SCI1420,01,"SCI1420: Metals, Mining, and the Environment","Neal, Matt",MW 4-6:00pm,Fully Remote,"MAC
+413 for labs",4,25,yes,"one of the recommendations for first year students;
+Matsci_Chem Foundation",MATSCI_CHEM
+ADMIN,AWAY1000,01,AWAY1000: The Study Away Program,Administration,NA,NA,NA,12,NA,NA,Enroll in this course if you will be studying away in the spring 2021 semester,
+ADMIN,OIP1000,01,The Olin Internship Practicum I,"Phelps, Sally",NA,NA,NA,1,NA,NA,See Post Graduate Planning to Enroll,
+ADMIN,OIP1001,01,The Olin Internship Practicum II,"Phelps, Sally",NA,NA,NA,1,NA,NA,See Post Graduate Planning to Enroll,

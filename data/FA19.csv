@@ -20,7 +20,6 @@ TF 10:50-12:30pm time",ME Elective Design Depth
 DSN,ENGR3260 L,A B,Design for Manufacturing LAB,"Barrett, Dave; Faas, Daniela","Lab A: M 1:30-4:10pm
 Lab B: Tues 1:30-4:10pm",Machine Shop,0,10 in each Lab,"yes, large","Student must elect lab A OR B, not both along with the standard
 TF 10:50-12:30pm time",
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship,"Graeff, Erhardt; Hersey, Scott; Linder, Ben; Taha, Kofi, Johansen, Elizabeth",T 3:30-6:30pm; R 3:30-5:30pm,Weissman Foundry,4,15,"yes, large",,DSN Depth
 DSN,ENGR3299,01,ENGR3299: Special Topics in Engineering Design: Introduction to Immersive Experience Design,"Pearson, Tom",TF 9-12:30pm,AC326,4,28,"yes, small",,Design Depth
 E:C,ENGR2510,01,ENGR2510: Software Design,"Hill, Benjamin",TF 1:30-3:10pm,AC318,4,24,"yes, small",,E:C Requirement and ECE Requirement
@@ -35,7 +34,6 @@ ENGR,ENGR2110,02,ENGR2110: Principles of Engineering,"Govindasamy, Siddhartan; H
 ENGR,ENGR2110,03,ENGR2110: Principles of Engineering,"Govindasamy, Siddhartan; Hoover, Aaron; Millner, Amon; Reifel, Stan",TF 10:50-12:30pm,AC306,4,25,"yes, small",,Engineering Foundation
 ENGR,ENGR2110,04,ENGR2110: Principles of Engineering,"Govindasamy, Siddhartan; Hoover, Aaron; Millner, Amon; Reifel, Stan",TF 10:50-12:30pm,AC309,4,25,"yes, small",,Engineering Foundation
 ENGR,ENGR2199,01,ENGR2199: Special Topics in Engineering: Small Satellite Lab I,"Lee, Chris",MR 3:20-5:30pm,AC304,4,18,"yes, small",,Elective
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 ENGR,ENGR3199,01,ENGR3199: Special Topics in Engineering:  Renewable Energy,"Vanasupa, Linda",TF 10:50-12:30pm,AC304,4,28,"yes, large",Prerequisite: successful completion of all first year courses,ECE Elective ME Elective
 ENTRP,AHSE2515,01,AHSE2515: Iterate,TBD,MR 9-10:40am,AC318,2,21,"yes,  small",Session I,E! Elective
 ENTRP,AHSE2515A,01,AHSE2515A: Iterate,TBD,MR 9-10:40am,AC318,2,21,"yes,  small",Session II,E! Elective
@@ -62,7 +60,6 @@ each syllabus",AHS Foundation
 FYR: ENGR,ENGR1125,01,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Michalka, Sam; Nugent, Carrie;Vanasupa, Linda",M 3:20-5:00pm; T 10:50-12:30pm,M: AC326; T: AC428,4,22,no,,Engineering Foundation
 FYR: ENGR,ENGR1125,02,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Michalka, Sam; Nugent, Carrie;Vanasupa, Linda",M 3:20-5:00pm; T 1:30-3:10pm,M: AC328; T: AC428,4,22,no,,Engineering Foundation
 FYR: ENGR,ENGR1125,03,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Michalka, Sam; Nugent, Carrie;Vanasupa, Linda",R 3:20-5:00pm F 10:50-12:30pm,R: AC326; F: AC428,4,22,no,,Engineering Foundation
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 FYR: ENGR,ENGR1125,04,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Michalka, Sam; Nugent, Carrie;Vanasupa, Linda",R 3:20-5:00pm; F 1:30-3:10pm,R: AC328; F: AC428,4,22,no,,Engineering Foundation
 FYR: ENGR,ENGR1200,01,ENGR1200: Design Nature,"Chachra, Debbie; Linder, Ben; Stein, Lynn; Ewing, Lucas",MR 9:50-12:30pm,"MH120; AC204, 206, 209",4,32,no,,Design Foundation
 FYR: ENGR,ENGR1200,02,ENGR1200: Design Nature,"Chachra, Debbie; Linder, Ben; Stein, Lynn; Ewing, Lucas",MR 9:50-12:30pm,"MH120; AC204, 206, 209",4,32,no,,Design Foundation
@@ -80,7 +77,6 @@ Elective"
 ME,ENGR3310,01,ENGR3310: Transport Phenomena,"Tow, Emily",MR 10:50-12:30pm,AC326,4,48,"yes, small",,ME Requirement
 ME,ENGR3330,01,ENGR3330: Mechanical Design,"Barrett, Dave",TF 9-10:40am,AC128,4,32,"yes, large",,ME Requirement
 ME,ENGR3350,01,ENGR3350: Finite Element Analysis,"Lee, Chris",MR 9-10:40am,AC328,4,32,"yes, small",,ME Elective
-Area,Course #,Sect #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
 MTH,MTH2110,01,MTH2110: Discrete Math (Letter Grading),"Spence Adams, Sarah",MR 9-10:40am,AC417,4,33,"yes, large",Offered as Letter grade only,Advanced Math
 MTH,MTH2110,02,MTH2110: Discrete Math (Experimental Grading),"Spence Adams, Sarah",MR 10:50-12:30pm,AC417,4,21,"yes, large",Offered using EXPERIMENTAL Grading,Advanced Math
 MTH,MTH2220,01,MTH2220: Linearity II,"Geddes, John",MR 10:50-12:30pm,AC318,4,36,no,,Requirement

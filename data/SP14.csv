@@ -1,0 +1,84 @@
+Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
+AHS,AHSE 0112,01,The Olin Conductorless Orchestra,Dabby,R 6:45-9pm,"AC304, 305,
+318",1,30,
+AHS,AHSE 2199,01,"Special Topics in Arts, Humanities, Social Sciences: Eco- Docs: Environmental Activism in Documentary Cinema",Vitols,TF 9-10:40am,AC128,4,24,
+AHS,AHSE 2199A,01,"Special Topics in Arts, Humanities, Social Sciences: Critical Reflective Writing",Zastavker Epstein,T 10:50-12:30pm,CC214,2,24,FULL Semester Offering
+AHS,AHSE 2199B,01,"Special Topics in Arts, Humanities, Social Sciences:
+Narrative Psychology",Adler,MR 11:10- 12:20pm,Wellesley College,4,5 Olin seats,At Wellesley. Enroll with permission of instructor.
+AHS,AHSE 3100,01,Issues in Leadership and Ethics,"Miller, R.",R 6:00-8pm,AC326,2,8 Olin seats,
+AHS,AHSE 3190,01,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",Epstein,n/a,n/a,1,20,"Required if you plan on completing an AHS Capstone Project
+(AHSE4190)"
+AHS,AHSE 4190,01,"Arts, Humanities, Social Sciences Capstone",Epstein,M 9:10-10:40am,CC214,4,30,
+AHS,AHSE 4190,02,"Arts, Humanities, Social Sciences Capstone",Epstein,M 10:50-12:20pm,CC214,4,30,
+DSN,ENGR 2250,01,User Oriented Collaborative Design,Linder; Adler; Stein; Millner; Ben-Ur; Bator,MR 3:20-6pm,MH120; AC204,4,30,
+DSN,ENGR 2250,02,User Oriented Collaborative Design,,MR 3:20-6pm,MH120; AC206,4,30,
+DSN,ENGR 2250,03,User Oriented Collaborative Design,,MR 3:20-6pm,MH120; AC209,4,30,
+DSN,ENGR 3260,01,Design for Manufacturing,Tong,TF 9-10:40am,AC309,4,25,Design Depth Option; WAITLIST Available
+DSN,ENGR 3299,01,Special Topics in Design: Design of Energy Systems,Mechtenberg,TF 1:30-3:10pm,AC213,4,24,Design Depth Option
+DSN / ENGR,ENGR 3290,01,Affordable Design and Entrepreneurship (as a Design Depth),Linder; Mechtenberg,T 3:30-6:30pm,AC213,4,15,Design Depth Option; WAITLIST Available
+DSN / ENGR,ENGR 4290,01,Affordable Design and Entrepreneurship (as a Capstone),Linder; Mechtenberg,T 3:30-6:30pm,AC213,4,12,WAITLIST Available
+E!,AHSE 1500,01,The Entrepreneurial Initiative,Neeley,MR 10:50- 12:30pm,AC328,4,30,
+E!,AHSE 4590,01,Entrepreneurship Capstone,Brand,MR 9-10:40am,CC210,4,15,
+E:BE,ENGR 3620,01,Cellular Bioengineering,Sarang- Sieminski,MR 10:50- 12:30pm,AC417,4,18,
+E:C,ENGR 2510,01,Software Design,Ruvolo,MR 3:20-5pm,AC326,4,25,Small WAITLIST Available (5)
+E:C,ENGR 2510,02,Software Design,Ruvolo,MR 1:30-3:10pm,AC326,4,25,Small WAITLIST Available (5)
+E:C,ENGR 2599,01,Special Topics in Computing: Computer Networks,Morrow,MR 3:20-5pm,AC328,4,25,WAITLIST Available
+E:C,ENGR 3525,01,Software Systems,Downey,MR 10:50- 12:30pm,AC326,4,30,WAITLIST Available
+E:C,ENGR 3599,01,Special Topics in Computing: Programming Language Design and Implementation,Pucella,TF 10:50- 12:30pm,AC128,4,25,WAITLIST Available
+E:MS,ENGR 3810,01,Structural Biomaterials,Chachra,MR 1:30-3:10pm,AC328,4,20,
+E:MS,ENGR 3820,01,Failure Analysis and Prevention,Stolk,TF 1:30-3:10pm,AC413,4,20,EXPERIMENTAL GRADING; WAITLIST Available
+ECE,ENGR 2410,01,Signals and Systems,Mur-Miranda,MR 1:30-3:10pm,AC126,4,32,WAITLIST Available
+ECE,ENGR 2410,02,Signals and Systems,Mur-Miranda,MR 10:50- 12:30pm,AC126,4,32,WAITLIST Available
+ECE,ENGR 2420,01,Introduction to Microelectronic Circuits with LAB,Minch,TRF 9-10:40am,AC304,4,30,WAITLIST Available
+ECE,ENGR 3415,01,Digital Signal Processing,Dabby,TF 10:50- 12:30pm,AC304,4,25,WAITLIST Available
+ECE,ENGR 3499,01,Special Topics in Electrical and Computer Engineering: EE Prototyping,Lundberg Minch,MR 3:20-6pm,AC304,4,25,
+ECE,ENGR 3499A,01,Special Topics in ECE: Introduction to Information Theory and its Applications,Govindasamy,TF 1:30-3:10pm,AC304,4,25,EXPERIMENTAL GRADING
+ENGR,ENGR 1121,01,Real World Measurements,Minch; VanWyk,M 9-10:40am; M 10:50-12:30pm,MH120; AC428,3,23,
+ENGR,ENGR 1121,02,Real World Measurements,Govindasamy; Manno,M 9-10:40am; T 10:50-12:30pm,MH120; AC428,3,23,
+ENGR,ENGR 1121,03,Real World Measurements,Minch; VanWyk,M 9-10:40am; R 10:50-12:30pm,MH120; AC428,3,23,
+ENGR,ENGR 1121,04,Real World Measurements,Govindasamy; Manno,M 9-10:40am; F 10:50-12:30pm,MH120; AC428,3,23,
+ENGR,ENGR1199,01,Special Topics in Engineering: Physics of Conservation Laws: Energy Focused,Mechtenberg,TF 9-10:40am,AC213,4,24,"Small WAITLIST Available (6); Crosslisted with SCI1199.  This course number will receive ENGR credit.  If you want SCI credit, enroll in SCI1199. You cannot change your designation
+after the add deadline of Feb 3"
+ENGR,ENGR 1330,01,Fundamentals of Machine Shop Operations,Andruskiewicz,W 12:30-4:30pm,AC104,4,6,WAITLIST Available
+ENGR,ENGR 2210,01,Principles of Engineering,Cavalcanti,MR 1:30-3:10pm,AC306,4,28,
+ENGR,ENGR 3199,01,Special Topics in Engineering: Energy Harvesting,Lee Mur-Miranda,TF 10:50- 12:30pm,AC309,4,15,Small WAITLIST Available (5)
+ENGR,ENGR 4190,01-14,Senior Capstone Program in Engineering (SCOPE),"Sarang- Sieminski, et al",W 9-10:40am; 12:30-6pm,team locations,4,tbd,Enroll in same section as you are enrolled in for Fall 2013
+INTEGRATED,"AHSE 2141 /
+ENGR 2141",01,Engineering for Humanity,Lynch Ben Ur,M 10:50-1:00pm & W 2-5:00pm,AC109,4,18,WAITLIST Available
+INTEGRATED,MTH 2199C / ENGR 2199C,01,Special Topics in Mathematics & Engineering: Data Science,Downey,TF 1:30-3:10pm,AC417,4,25,"Satisfies Probability and Statistics Requirement; See notes in Registration Booklet about who is eligible to enroll in this Prob
+Stat option; WAITLIST Available"
+ME,ENGR 2320,01,Mechanics of Solids and Structures,Barrett,TF 1:30-3:10pm,AC128,4,28,
+ME,ENGR 2330,01,Introduction to Mechanical Prototyping,Hoover,"T 3:20-6pm, R 9- 10:40am",AC109,4,25,WAITLIST Available
+ME,ENGR 2350,01,Thermodynamics,Townsend,MR 1:30-3:10pm,AC318,4,30,Small WAITLIST Available (5)
+ME,ENGR 3370,01,Controls,Santarelli,MR 6:30-8:10pm,AC328,4,25,
+ME,ENGR 3392,01,Robotics II,Bennett,TF 1:30-3:10pm,AC309,4,20,WAITLIST Available
+ME,ENGR 3399,01,Special Topics in Mechanical Engineering: Biomedical CAD and FEA,Lee,MR 3:20-5pm,AC109,4,10,Small WAITLIST Available (5)
+MTH,MTH 2188,01,Special Topics in Mathematics: Linearity 1,"Byrne, Geddes, Hoffman",TF 1:30-3:10pm,"AC318, 326,
+328",4,90,
+MTH,MTH 2199,01,Special Topics in Mathematics: Modeling with Probabilities,Patel,MR 9-10:40am,AC128,4,40,"Satisfies Probability and Statistics Requirement; See notes in Registration Booklet about who is eligible to enroll in this Prob
+Stat option"
+MTH,MTH 2199A,01,Special Topics in Mathematics: A Mathematical Introduction to Cryptography,Patel,MR 10:50- 12:30pm,AC128,2,40,Session I
+MTH,MTH 2199B,01,Special Topics in Mathematics: The Logic of Logicomix,Patel,MR 10:50- 12:30pm,AC128,2,40,Session II
+MTH,MTH 3120,01,Partial Differential Equations,Byrne,TF 10:50- 12:30pm,AC326,4,26,WAITLIST Available
+MTH,MTH 3170,01,Nonlinear Dynamics and Chaos,Geddes,TF 10:50- 12:30pm,AC318,4,16,EXPERIMENTAL GRADING
+SCI,SCI 1130,A1,Mechanics: Theoretical / Experimental Approach,Zastavker,MR 1:30-3:10pm,AC128,4,32,
+SCI,SCI 1130,C1,Mechanics: Modeling and Simulation Approach,Somerville,TF 9-10:40am,AC328,4,30,
+SCI,SCI 1130,C2,Mechanics: Modeling and Simulation Approach,Somerville,TF 10:50- 12:30pm,AC328,4,30,
+SCI,SCI 1199,01,Special Topics in Physics Foundation: Physics of Conservation Laws: Energy Focused,Mechtenberg,TF 9-10:40am,AC213,4,24,"Small WAITLIST Available (6); Crosslisted with ENGR1199. This course number will receive SCI credit.  If you want ENGR credit, enroll in ENGR1199. You cannot change your designation after the add deadline of Feb 3"
+SCI,SCI 1210,01,Principles of Modern Biology (with Lab): Designing Better Drugs to Fight Disease,Pratt,TF 10:50-12:30pm; T 3:20-6pm,AC417; AC406,4,25,WAITLIST Available
+SCI,SCI 1210,02,Principles of Modern Biology (with Lab): Human Genetics and Genomics,Donis-Keller,MR 1:30-3:10pm; W 12:30-3:10pm,AC417; AC406,4,30,WAITLIST Available
+SCI,SCI 1310,01,Introduction to Chemistry (with Lab),Morse,MR 1:30-3:10pm; W 12:30-3:10pm,AC313; AC409,4,24,
+SCI,SCI 1410,01,Materials Science and Solid State Chemistry (with Lab),Christianson,TF 8:30-10:40am,AC413,4,21,
+SCI,SCI 1410,02,Materials Science and Solid State Chemistry (with Lab),Christianson,T 3:20-5:30pm; W 1-3:10pm,AC413,4,21,
+SCI,SCI 2130,01,Quantum Physics,Holt,TF 9-10:40am,AC113,4,25,Foundation option for students with strong physics background
+SCI,SCI 2140,01,Relativity,Holt,TF 10:50- 12:30pm,AC113,2,25,Session I
+SCI,SCI 2214,01,Microbial Diversity,Huang,W 1:00-4pm,AC417; AC404,4,15,
+SCI,SCI 2320,01,Organic Chemistry w/ Lab,Morse,"MR 9-10:40am;
+Tues 3:20-6pm",AC318; AC409,4,30,
+SCI,SCI 3320,01,Organic Chemistry II (with lab),Morse,see Professor Morse,,4,8,Will run as an independent study; See Professor Morse
+SUST,SUST 3301,01,Sustainability Certificate Synthesis Course,Huang,M 3:30-6:30pm,AC213,4,15,
+SEMINAR,SEM  301,S1,Seminar: Fundamentals of Mechanical Design,Cavalcanti,M 6-7:40pm,AC306,1,20,WAITLIST Available
+SEMINAR,SEM  302,S1,Seminar: Introduction to Pneumatic and Hydraulic Systems,Cavalcanti,R 6-7:40pm,AC306,1,20,WAITLIST Available
+SEMINAR,SEM  401,S1,Seminar: Introductory Power Supplies,VanWyk,M 6-7:40pm,AC318,1,18,Pre-requisite: Completion of First Year Requirements
+ADMN,AWAY 1000,01,The Study Away Program,,,,12,30,"Enrollment in this course (fulltime, 12 credits) is required for those planning to study away in Spring 2014"
+ADMN,OIP 1000,01,The Olin Internship Practicum,,,,1,n/a,see PGP for details

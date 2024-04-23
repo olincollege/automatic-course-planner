@@ -1,0 +1,85 @@
+Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Notes
+AHS,AHSE 0112,01,The Olin Conductorless Orchestra,Dabby,R 6:45-9:00pm,"AC304, AC305,
+AC318",1,25,
+AHS,AHSE 2131,01,Responsive Drawing and Visual Thinking,Donis-Keller,TF 10:50- 12:30p,AC313,4,15,
+AHS,AHSE 2199,01,"Special Topics in Arts, Humanities and Social Sciences:
+Foundations of Psychology",Adler,TF 10:50- 12:30p,AC128,4,24,Waitlist Available
+AHS,AHSE 2199B,01,"Special Topics in Arts, Humanities and Social Sciences:
+Digital Documentary Storytelling",Vitols,MR 10:50- 12:30p,AC326,2,15,Session I
+AHS,AHSE 2199C,01,"Special Topics in Arts, Humanities and Social Sciences:
+Hacktivism: Hacking for the Greater Good",Vitols,MR 10:50- 12:30p,AC326,2,15,Session II
+AHS,AHSE 3100,01,Issues in Leadership and Ethics,"Miller, R.",R 6-8:00pm,AC326,2,8,
+AHS,AHSE 3190,01,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",Epstein,n/a,n/a,1,20,
+AHS,AHSE 4190,01,"Arts, Humanities, Social Sciences Capstone",Epstein,T 9:10-10:40a,CC214,4,15,
+AHS,AHSE 4190,02,"Arts, Humanities, Social Sciences Capstone",Epstein,T 10:50-12:20p,CC214,4,15,
+DSN,ENGR 2250,01,User Oriented Collaborative Design,Linder; Stolk; Mur-Miranda; Hendren; Ben Ur; Staff,MR 3:20-6:00p,AC204; MH120,4,32,
+DSN,ENGR 2250,02,User Oriented Collaborative Design,Linder; Stolk; Mur-Miranda; Hendren; Ben Ur; Staff,MR 3:20-6:00p,AC206; MH120,4,32,
+DSN,ENGR 2250,03,User Oriented Collaborative Design,Linder; Stolk; Mur-Miranda; Hendren; Ben Ur; Staff,MR 3:20-6:00p,AC209; MH120,4,32,
+DSN,ENGR 3210,01,Sustainable Design,Linder,TF 1:30-3:10p,AC213,4,25,
+DSN,ENGR 3260,01,Design for Manufacturing,Tong,MR 9-10:40a,AC128,4,25,Tentative Offering
+DSN,ENGR 3290,01,Affordable Design and Entrepreneurship,Linder,T 3:30-6:30p,AC213,4,12,"Note: enroll in this section if you are taking the course as a
+design depth; WAITLIST Available"
+DSN,ENGR 3299,01,Special Topics in Design Engineering:  Investigating Normal: Adaptive and Assistive Technologies,Hendren,MR 10:50- 12:30p,AC213,4,22,Waitlist Available
+E!,AHSE 1515,01,Products and Markets,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,T 9-12:30p; R 9- 10:40a,AC318; MH120,4,28,Note: non-standard pattern
+E!,AHSE 1515,02,Products and Markets,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,T 9-12:30p; R 9- 10:40a,AC326; MH120,4,28,Note: non-standard pattern
+E!,AHSE 1515,03,Products and Markets,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,T 9-12:30p; R 9- 10:40a,AC328; MH120,4,28,Note: non-standard pattern
+E!,AHSE 3599,01,Special Topics in Entrepreneurship:  Intellectual Property Protection for Innovative Designs,Covello,R 3:20-5:00p,AC318,2,15,Full Semester Offering
+E!,AHSE 4590,01,Entrepreneurship Capstone,Brand,TF 1:30-3:10p,AC328,4,20,Waitlist Available
+E:BE,ENGR 3640,01,Tissue Engineering,Sarang-Sieminski,MR 1-3:10p,AC404; AC417,4,12,Waitlist Available
+E:C,ENGR 3599,01,Special Topics in Computing: Computer Networks,Morrow,MR 10:50- 12:30p,AC128,4,25,
+E:C,ENGR 2510,01,Software Design,Ruvolo; Hill,MR 1:30-3:10p,AC326,4,35,
+E:C,ENGR 2510,02,Software Design,Ruvolo; Hill,MR 3:20-5:00p,AC326,4,35,
+E:C,ENGR 3520,01,Foundations of Computer Science,Pucella,"MR 6:30-
+8:10pm",AC128,4,30,Waitlist Available
+E:MS,ENGR 3610,01,Biomedical Materials,Chachra,MR 9:00-10:40p,AC406; AC413; AC417,4,20,
+ECE,ENGR 2410,01,Signals and Systems,Mur-Miranda; Downey; Govindasamy,MR 10:50- 12:30p,AC304,4,32,
+ECE,ENGR 2420,01,Introduction to Microelectronic Circuits with LAB,Minch,TRF 9-10:40a,AC304,4,48,
+ECE,ENGR 3415,01,Digital Signal Processing,Dabby,TF 1:30-3:10p,AC304,4,25,
+ECE,ENGR 3430,01,EE Prototyping,Lundberg,MR 3:20-6:00p,AC304,4,24,
+ECE,ENGR 3450,01,Semiconductor Devices,"Kerns, S; Kerns, D",TF 10:50- 12:30p,AC126,4,20,
+ENGR,ENGR 1199,01,"Special Topics in Engineering: Introduction to the Microelectronics, Nanotechnology and MEMS Revolution(s)","Kerns, S; Kerns, D",TF 1:30-3:10p,AC126,4,12,
+ENGR,ENGR 1199A,01,Special Topics in Engineering: Linear Systems Lab,Storey,R 3:20-5:30pm,AC428,2,25,Full Semester Offering
+ENGR,ENGR 1330,01,Fundamentals of Machine Shop Operations,Andruskiewicz,W 12:30-4:30p,AC104,4,6,
+ENGR,ENGR 2199,01,Special Topics in Engineering: Applications of Microfluidics,Irimia; Storey,T 3:20-6:00p,AC428,4,25,Note: contingent on demand
+ENGR,ENGR 2210,01,Principles of Engineering,Govindasamy,MR 1:30-3:10p,AC306,4,28,
+ENGR,ENGR 3199,01,Special Topics in Engineering:  Designing Resources for Empowerment and Making (DREAM),Millner,TF 1:30-3:10p,AC109,4,25,
+ENGR,ENGR 3199A,01,Special Topics in Engineering: Elecanisms,Hoover; Minch,M 9-12:30p; R 10:50-12:30p,AC306,4,25,Waitlist Available
+ENGR,ENGR 4190,01-14,Senior Capstone Program in Engineering (SCOPE),Sarang-Sieminski; Minch; Bennett; Barrett; Lee; Govindasamy; Ruvolo; Coats; Downey; Stein; Christianson; Millner,W 9-10:40a; 12:30-6:00p,varies,4,n/a,"Note: enroll in the same section you are presently in for Fall
+2014"
+ENGR,ENGR 4290,01,Affordable Design and Entrepreneurship,Linder,T 3:30-6:30p,AC213,4,15,"Note: enroll in this section if you are taking this course as your
+capstone"
+INTEGRAT ED,"AHSE 2141 /
+ENGR 2141",01,Engineering for Humanity,Ben Ur; Lynch,M 1:30-3:10p; W 1-4:00p,AC109,2+2,18,
+INTEGRAT ED,AHSE 2199A / SCI 2099A,01,"Special Topics in AHS and Science: Paradigms, Predictions and Joules - Historical and Scientific Approach to Energy and the Environment",Martello,T 3:30-8:00pm,"at Olin: AC326
+/ will also meet at Wellesley",3+3,9,Waitlist Available
+INTEGRAT ED,MTH 2188A / ENGR 2199A,01,"Designated Alternative in Engineering and Mathematics:
+Data Science",Downey,TF 10:50-12:30p,AC417,2 + 2,25,Note: satisfies ProbStat requirement; WAITLIST Available
+ME,ENGR 2320,01,Mechanics of Solids and Structures,Lee,M 9-10:00a; WF 9-10:40a,AC328,4,42,Waitlist Available
+ME,ENGR 2330,01,Introduction to Mechanical Prototyping,Barrett,TF 1:30-3:10p,AC309,4,25,Waitlist Available
+ME,ENGR 2350,01,Thermodynamics,Townsend; Manno,MR 1:30-3:10p,AC318,4,25,Waitlist Available
+ME,ENGR 3330,01,Mechanical Design,Barrett,TF 10:50- 12:30p,AC309,4,25,Waitlist Available
+ME,ENGR 3345,01,Mechanical and Aerospace Systems,Lee,MR 10:50- 12:30p,AC109,4,15,Waitlist Available
+ME,ENGR 3370,01,Controls,Lundberg,MR 1:30-3:10p,AC304,4,25,
+ME,ENGR 3392,01,Robotics Systems Integration,Bennett,MR 10:50- 12:30p,AC309,4,25,
+MTH,MTH 2130,01,Probability and Statistics,Patel,MR 9-10:40a,AC213,2,25,Session I
+MTH,MTH 2199,01,Special Topics in Mathematics:  A Mathematical Introduction to Cryptography,Patel,MR 1:30-3:10p,AC128,4,25,
+MTH,MTH 2199A,01,Special Topics in Mathematics:  Structure in Randomness: A Mathematical Perspective,Patel,MR 9-10:40a,AC213,2,25,Session II
+MTH,MTH 2210,01,Linearity I,Adams; Hoffman; Storey,W 9-10:40a; F 9- 12:30p,"2nd Floor Campus Center; CC209, 210, 211, 213, 214",4,90,Note: non-standard pattern
+MTH,MTH 3120,01,Partial Differential Equations,Hoffman,TF 1:30-3:10p,AC326,4,28,
+SCI,SCI 1130,A1,Mechanics: Theoretical / Experimental Approach,Zastavker,MR 10:50- 12:30p,AC318,4,30,Waitlist Available
+SCI,SCI 1130,C1,Mechanics: Modeling and Simulation Approach,Somerville,MR 10:50- 12:30p,AC328,4,30,Waitlist Available
+SCI,SCI 1130,C2,Mechanics: Modeling and Simulation Approach,Somerville,MR 1:30-3:10p,AC328,4,30,Waitlist Available
+SCI,SCI 1210,01,Principles of Modern Biology (with Lab): Human Genetics and Genomics,Donis-Keller,TF 1:30-3:10p; W 12:30-3:10p,AC318; AC406,4,24,Waitlist Available
+SCI,SCI 1210,02,Principles of Modern Biology (with Lab),Huang,TF 1:30-3:10p; T 3:20-6p,AC417; AC406,4,24,Waitlist Available
+SCI,SCI 1410,01,Materials Science and Solid State Chemistry (with Lab),Christianson,MR 3:20-6:00p,AC413,4,21,Waitlist Available
+SCI,SCI 1410,B1,"Materials Science and Solid State Chemistry (with Lab):
+Environmental and Societal Impact of Materials",Stolk,TW 3:20-6:00p,AC413,4,21,Waitlist Available
+SCI,SCI 2130,01,Quantum Physics,Holt,TF 1:30-3:10p,AC113,4,25,
+SCI,SCI 2145,01,High Energy Astrophyics,Holt,TF 10:50- 12:30p,AC113,2,25,Session I
+SCI,SCI 3130,01,Advanced Classical Mechanics,Zastavker,MR 1:30-3:10p,MH373,4,30,
+SEM,SEM 101,S1,Seminar:  Product Management,Chisa,W 6:30-9:00p,AC318,1,25,
+SEM,SEM 102,S2,Seminar:  Olin Workshop on the Library,Goldenson,R 6:30-8:30p,The Library,1,25,
+SEM,SEM 103,S2,Seminar:  Big Ideas in Pedagogy and Educational Technology Trends,Morales,T 6:30-8:30p,AC318,1,25,
+SUST,SUST 3301,01,Sustainability Certificate Synthesis Course,"Linder; Higgins, Monica (Wellesley)",R 3:30-6:30p,AC213,4,15,
+,AWAY 1000,01,Study Away Program,Administration,n/a,n/a,12,n/a,
+,OIP 1000,01,The Olin Internship Practicum,Phelps,n/a,n/a,1,n/a,

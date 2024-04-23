@@ -1,0 +1,58 @@
+Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credits,Enroll Limits,Registration Notes,Curriculum Notes
+AHS,AHSE0112,01,AHSE0112: The Olin Conductorless Orchestra,"Dabby, Diana",T 7:30-9:00pm R 6:30-8:00pm,AC318,1,n/a,,AHS Elective
+AHS,AHSE2131,01,AHSE2131: Responsive Drawing and Visual Thinking,"Donis-Keller, Helen",TF 10:50-12:30pm,AC313,4,12,Waitlist Available,AHS Elective
+AHS,AHSE2199,01,"AHSE2199: Special Topics in Arts, Humanities, Social Sciences: Personal Values, Global Impacts, and Making an Olin GCSP","Martello, Rob; Wood, Alison",TF 1:30-3:10pm,AC417,4,30,Waitlist Available,AHS Elective
+AHS,AHSE2199A,01,"AHSE2199A: Special Topics in Arts, Humanities, Social Sciences: Identity from the Mind and the Brain, Advanced","Adler, Jon",MR 1:30-3:10pm,AC128,4,25,Waitlist Available,AHS Elective
+AHS,AHSE3190,01,AHSE3190: Arts Humanities Social Sciences Capstone Preparatory Workshop,"Epstein, Gillian",n/a,n/a,1,n/a,,AHS Capstone Prereq
+AHS,AHSE4190,01,AHSE4190: Arts Humanities Social Sciences Capstone Project,"Epstein, Gillian",M 9:00-12:30pm,Library,4,30,,AHS Capstone
+CAPSTONE,ENGR4190,01-14,ENGR4190: SCOPE: Senior Capstone Program in Engineering,"Ferzoco, Alessandra; Hersey, Scott; Sarang- Sieminski, Alisha; Stein, Lynn",W 9:00-6:00pm,varied,4,75,please enroll in the same section you are in for FALL 2019,Capstone
+CAPSTONE,ENGR4290,01,ENGR4290: Affordable Design and Entrepreneurship Engineering Capstone,"Graeff, Erhardt; Hersey, Scott; Johansen, Elizabeth; Linder, Ben; Taha, Kofi",T 3:30-6:30pm R 3:30-5:30pm,Weissman Foundry,4,TBD,Register for this course as a capstone; not a design depth,Capstone
+Crosslisted,AHSE2599 or ENGR3299,01,AHSE2599_or_ENGR3299: Environmental Consulting at Olin,"Lynch, Caitrin; Nugent, Carrie",T 10:50-12:30pm F 9:00-12:30pm,AC213,4,28,Register for AHSE2599 for Entrepreneurship credit or ENGR3299 for Design Depth credit; Waitlist Available,"E! Elective or Design
+Depth"
+Crosslisted,"ENGR3235 or
+SCI2235",01,ENGR3235_or_SCI2235: Biomimicry,"Huang, Jean; Linder, Ben",MR 10:50-12:30pm,AC213,4,30,Register for ENGR3235 for Design Depth credit or SCI2235 for Science credit; Waitlist Available,"Design Depth OR Adv
+Science"
+DSN,ENGR2250,01,ENGR2250: User-Oriented Collaborative Design,"Adler, Jon; Bloomer, Sarah; Hendren, Sara; Sauder, Tim; Wood Alison; Zastavker, Yevgeniya",MR 9:50-12:30pm,AC204 MH120,4,32,Waitlist Available,Design Foundation
+DSN,ENGR2250,02,ENGR2250: User-Oriented Collaborative Design,"Adler, Jon; Bloomer, Sarah; Hendren, Sara; Sauder, Tim; Wood Alison; Zastavker, Yevgeniya",MR 9:50-12:30pm,AC206 MH120,4,32,Waitlist Available,Design Foundation
+DSN,ENGR2250,03,ENGR2250: User-Oriented Collaborative Design,"Adler, Jon; Bloomer, Sarah; Hendren, Sara; Sauder, Tim; Wood Alison; Zastavker, Yevgeniya",MR 9:50-12:30pm,AC209 MH120,4,32,Waitlist Available,Design Foundation
+DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship,"Graeff, Erhardt; Hersey, Scott; Johansen, Elizabeth; Linder, Ben; Taha, Kofi",T 3:30-6:30pm R 3:30-5:30pm,Weissman Foundry,4,15,"Register for this course as design depth;
+Waitlist Available",DSN Depth
+E:C,ENGR2510,01,ENGR2510: Software Design,"Graeff, Erhardt; Matsumoto, Steve; Millner, Amon",TF 10:50-12:30pm,AC318 AC326,4,54,Waitlist Available,E:C Requirement and ECE Requirement
+E:C,ENGR3525,01,ENGR3525: Software Systems,"Downey, Allen",TF 1:30-3:10pm,AC326,4,40,Waitlist Available,E:C Requirement
+E:C,ENGR3599,01,ENGR3599: Special Topics in Computing: Programming Languages,"Pucella, Riccardo",R 1:30-4:00pm,AC304,4,30,Waitlist Available,E:C Elective
+E:C,ENGR3599A,01,ENGR3599A: Special Topics in Computing: Data Structures and Algorithms,"Paul, Alice",MR 1:30-3:10pm,AC309,4,25,Waitlist Available,E:C Elective
+E:C,ENGR3599B,SL,ENGR3599B: Special Topics in Computing: Advanced Algorithms,"Student Led Team (Paul, Alice )",TF 1:30-3:10pm,AC318,4,24,Student Led Course; Waitlist Available,E:C Elective
+E:Robo,ENGR3390,01,ENGR3390: Fundamentals of Robotics,"Barrett, Dave",TF 9:00-10:40am,AC109,4,30,Waitlist Available,E:Robo One of N Requirement
+E:Robo,ENGR3392,01,ENGR3392: Robotics Systems Integration,"Barrett, Dave; Dusek, Jeff",TF 1:30-3:10pm,AC109,4,30,Waitlist Available,E:Robo Requirement
+ECE,ENGR2420,01,ENGR2420: Intro Microelectronic Circuits with laboratory,"Minch, Brad",TF 9:00-10:40am W 1:00-2:30pm LAB,AC309,4,28,Waitlist Available,ECE Requirement
+ECE,ENGR3499,01,ENGR3499: Special Topics in Electrical and Computer Engineering: Digital Power Conversion,"Arnet, Beat",T 3:20-6:00pm,AC304,4,24,Waitlist Available,ECE Elective
+ENGR,ENGR1330,01,ENGR1330: Fundamentals of Machine Shop Operations,"Andruskiewicz, Bruce",W 1:00-5:00pm,AC104,4,6,,Elective
+ENGR,ENGR2199,01,"ENGR2199: Special Topics in Engineering: Engineering Systems Analysis,","Dabby, Diana; Govindasamy, Siddhartan; Lee, Chris",TF 10:50-12:30pm,AC109 AC113,2,48,Session I,"Required for ECE and
+ME Majors"
+ENGR,ENGR2199A,01,ENGR2199A: Special Topics in Engineering: Engineering Systems Analysis: Dynamics,"Dabby, Diana; Govindasamy, Siddhartan; Lee, Chris",TF 10:50-12:30pm,AC328,2,48,Session II,Required for ME Majors
+ENGR,ENGR2199B,01,ENGR2199B: Special Topics in Engineering: Engineering Systems Analysis: Signals,"Dabby, Diana; Govindasamy, Siddhartan; Lee, Chris",TF 1:30-3:10pm,AC304,2,32,Session II,Required for ECE Majors
+ENGR,ENGR3110,01,ENGR3110: Elecanisms,"Hoover, Aaron; Minch, Brad",M 3:20-5:00pm R 3:20-6:00pm,AC306,4,25,Waitlist Available,"ECE, ME Elective"
+ENGR,ENGR3199,01,ENGR3199: Special Topics in Engineering: Satellite Systems and Consulting Business Practices,"Lohmeyer, Whitney",W 3:20-6:00pm,AC318,4,21,,"ECE, ME Elective"
+ENTRP,AHSE1515,01,AHSE1515: Products and Markets,"Chachra, Debbie; Lynch, Caitrin; Pratt, Joanne; Woodard,
+Jason",MR 1:30-4:10pm,AC318 AC326 AC328 AC428 MH120,4,90,,E! Foundation
+ENTRP,AHSE2515,01,AHSE2515: Iterate,"Zamir, Lee",T 3:20-6:00pm,AC318,2,18,Session I; Waitlist Available,E! Elective
+ENTRP,AHSE2515A,01,AHSE2515A: Iterate,"Zamir, Lee",T 3:20-6:00pm,AC318,2,18,Session II; Waitlist Available,E! Elective
+Interdisciplinary,ENGR3531 / MTH2131,01,ENGR3531_and_MTH2131: Data Science,"Downey, Allen",MR 1:30-3:10pm,AC417,2+2,25,Waitlist Available,Probability/Statistics
+Interdisciplinary,ENGX2000,01,ENGX2000: Quantitative Engineering Analysis Ia,"Geddes, John; Houston- Edwards, Kelsey; Ruvolo, Paul; Somerville, Mark; Vanasupa, Linda",MR 9:00-12:30pm,AC109 AC113 AC128,4,90,Session I,Requirement
+Interdisciplinary,ENGX2001,01,ENGX2001: Quantitative Engineering Analysis Ib,"Dusek, Jeff; Geddes, John; Ruvolo, Paul; Somerville, Mark; Vanasupa, Linda",MR 9:00-12:30pm,AC109 AC113 AC128,4,90,Session II,Requirement
+Interdisciplinary,MTH2135 / ENGR3635,01,"MTH2135_and_ENGR3635: Neurotechnology, Brains and Machines","Michalka, Sam",W 3:20-6:00pm,AC428,2+2,36,Waitlist Available,"Probability/Statistics;
+E:Bio option"
+Interdisciplinary,SCI1250 / AHSE2150,01,SCI1250_and_AHSE2150: Six Microbes that Changed the World with Laboratory,"Huang, Jean; Martello, Rob",TF 9:00-12:30pm,AC417 Lab: AC406,4+4,36,Waitlist Available,"BIO Foundation & AHS
+Elective"
+ME,ENGR2320,01,ENGR2320: Mechanics of Solids & Structures,"Tow, Emily",TF 9:00-10:40am W 9:00-10:00am,AC328,4,36,Extra lecture session on Wednesday AM; Waitlist Available,ME Requirement
+ME,ENGR2330,01,ENGR2330: Introduction to Mechanical Prototyping,"Faas, Daniela",TF 1:30-3:10pm,AC128,4,38,,Elective
+ME,ENGR2350,01,ENGR2350: Thermodynamics,"Ferzoco, Alessandra",TF 1:30-3:10pm,AC309,4,32,Waitlist Available,ME Requirement
+ME,ENGR3370,01,ENGR3370: Controls,"Barragan, Patrick",T 7:00-10:00pm,AC304,4,24,,"ME, ECE Elecitvie; E:Robo, mechanical
+course option"
+MTH,MTH3120,01,MTH3120: Partial Differential Equations,"Houston-Edwards, Kelsey",MR 1:30-3:10pm,AC109,4,30,Waitlist Available,Advanced Math
+SCI,SCI1410,01,SCI1410: Materials Science and Solid State Chemistry: Materials and the Practice of Experimentation,"Neal, Matt",TF 9:00-12:30pm,AC413,4,21,,Materials Science Foundation Option
+SCI,SCI1420,01,"SCI1420: Metals, Mining, and the Environment","Stolk, Jon",MR 3:20-6:00pm,AC413,4,18,Waitlist Available,Materials Science Foundation Option
+SUST,SUST2201,01,SUST2201: Intro to Sustainability,"Stolk, Jon",W 3:00-6:00pm,AC417,4,15,Waitlist Available,2 AHSE; 2ENGR credits; Foundation Course for BOW Certificate
+XADMIN,AWAY1000,01,AWAY1000: The Study Away Program,Administration,n/a,n/a,4,n/a,Enroll in this course if you will be studying away in the spring 2020 semester,
+XADMIN,OIP1000,01,The Olin Internship Practicum I,Phelps,n/a,n/a,1,n/a,See Post Graduate Planning to Enroll,
+XADMIN,OIP1001,01,The Olin Internship Practicum II,Phelps,n/a,n/a,1,n/a,See Post Graduate Planning to Enroll,

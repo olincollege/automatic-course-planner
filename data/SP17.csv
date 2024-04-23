@@ -1,0 +1,88 @@
+Area,Course #,Sec #,Course Title,Instructor,Time,Location,Credit s,Enroll Limits,Registration Notes,Curriculum Notes
+AHS,AHSE0112,01,Olin Conductorless Orchestra,Dabby,R 6:45-9:00pm,AC305; AC318,1,25,,AHS Elective
+AHS,AHSE2112,01,Six Books that Changed the World,Martello,MR 10:50-12:30pm,AC318,2,24,Session I; small Waitlist available,AHS Elective
+AHS,AHSE2114,01,Science Fiction and Historical Context,Martello,MR 10:50-12:30pm,AC318,2,24,Session II; small Waitlist available,AHS Elective
+AHS,AHSE2199A,01,Special Topics in Arts Humanities Social Sciences: Constructing and Performing the Self,Adler,TR 1:15pm-2:55pm,Babson-Sorensen Rehearsal Studio,4,8,small Waitlist available,AHS Elective
+AHS,AHSE2199B,01,Special Topics in Arts Humanities Social Sciences: Virtualities: An Introduction to Video Gaming History and Theory,Vitols,TF 10:50-12:30pm,AC128,2,15,Session I,AHS Elective
+AHS,AHSE2199C,01,Special Topics in Arts Humanities Social Sciences: Digital Documentary Storytelling,Vitols,TF 10:50-12:30pm,AC128,2,10,Session II,AHS Elective
+AHS,AHSE3190,01,Arts Humanities Social Sciences Preparatory Workshop (AHS Prepstone),Epstein,n/a,n/a,1,n/a,this class has no meeting time,Required prerquisite to enroll in AHSE4190
+AHS,AHSE4190,01,Arts Humanities Social Sciences Capstone,Epstein,T 9:10-10:40am,AC417,4,20,NOTE: the Prepstone is a required prerequisite for the Capstone,AHS Capstone
+Crosslisted,AHSE2199D OR ENGR2299,01,"Special Topics in Arts Humanites Social Science: Tell The Story of What You Make  OR
+S pecial Topics in Engineering Design: Tell The Story of What You Make",Sauder,MR 9-10:40am,AC213,4,18,"Choose either AHSE or ENGR option.  small
+Waitlist available",AHSE course choice grants AHS credit; ENGR grants ENGR credit
+Crosslisted,ENGR2999 OR SCI2399,01,Special Topics in Engineering: Environmental Analysis and Engineering       OR Special Topics in Science: Environmental Analysis and Engineering,Hersey; Wood,MTR 1-3:10,AC417 (MR); AC409 (MTR); AC213 (T),4,24,"Choose either ENGR or SCI option.  small
+Waitlist available",Meets Mat Sci/Chem foundation if SCI option chosen
+Design,ENGR2250,01,User Oriented Collaborative Design,Hendren; Adler; Ben- Ur; Strong; Stein; Adjunct,TF 9:50-12:30pm,AC204; MH120,4,32,,"Gen. Engineering
+Req't"
+Design,ENGR2250,02,User Oriented Collaborative Design,Hendren; Adler; Ben- Ur; Strong; Stein; Adjunct,TF 9:50-12:30pm,AC206; MH120,4,32,,"Gen. Engineering
+Req't"
+Design,ENGR2250,03,User Oriented Collaborative Design,Hendren; Adler; Ben- Ur; Strong; Stein; Adjunct,TF 9:50-12:30pm,AC209; MH120,4,32,,"Gen. Engineering
+Req't"
+Design,ENGR3210,01,Sustainable Design,Linder,MR 3:20-5pm,AC213,4,24,,Design Depth Option
+Design,ENGR3290,01,Affordable Design and Entrepreneurship,Linder; Govindasamy; Hersey; Mur-Miranda; Taha; Babson,T 3:30-6:30pm,AC213,4,15,Waitlist available,Design Depth Option
+Design,ENGR3299,01,Special Topics in Design: Educational Design Studio,Strong; Stolk,TF 1:30-3:10pm,AC417,4,24,small Waitlist available,Design Depth Option
+E!,AHSE1515,01,Products and Markets,Neeley; Lynch; Pratt; Woodard,TF 9-12:30pm,AC318; AC326; AC328; MH120,4,85,,E! Foundation
+E!,AHSE2599A,01,Special Topics in Entrepreneurship: Iterate   (Offered in both Session I and II),Neeley,TF 1:30-3:10pm,AC318,2,5,"This is a 2-credit course and may be taken multiple times for credit. Four credits of this course may also be used to satisfy the entrepreneurship
+capstone requirement.",E! Core
+E!,AHSE2599B,01,Special Topics in Entrepreneurship: Iterate   (Offered in both Session I and II),Neeley,TF 1:30-3:10pm,AC318,2,5,"This is a 2-credit course and may be taken multiple times for credit. Four credits of this course may also be used to satisfy the entrepreneurship
+capstone requirement.",E! Core
+E!,AHSE3599,01,Special Topics in Entrepreneurship: Launch!,Neeley,TF 1:30-3:10pm,AC318,4,5,This is a 4-credit course and may be taken multiple times for credit. It may also be used to satisfy the entrepreneurship capstone requirement.,E! Core
+E!,AHSE4590,01,Entrepreneurship Capstone,Neeley,TF 1:30-3:10pm,AC318,4,10,Students enrolled in this course should NOT be enrolling in either Iterate or Launch topics,E! Capstone
+E:Bio,ENGR3699,01,Special Topics in Bioengineering: Biomedical Device Design,Sarang-Sieminski,MR 10:50-12:30pm,AC309,4,20,,"BioE Core; May also count as Design Depth or ME Elective
+by petition"
+E:C,ENGR2510,01,Software Design,Millner; Steele,MR 1:30-3:10pm,AC326,4,28,small Waitlist available,ECE or E:C Core
+E:C,ENGR2510,02,Software Design,Millner; Steele,MR 1:30-3:10pm,AC328,4,28,small Waitlist available,ECE or E:C Core
+E:C,ENGR3520,01,Foundations of Computer Science,Pucella,R 4-6:30pm,AC318,4,32,,E:C Core
+E:C,ENGR3525,01,Software Systems,Downey; Hill,MR 10:50-12:30pm,AC326; AC328,4,50,small Waitlist available,E:C Core
+E:C,ENGR3599,01,Special Topics in Computing: Computer Networks,Morrow,MR 1:30-3:10pm,AC428,4,20,,E:C Elective
+E:C,ENGR3599A,01,Special Topics in Computing: Hacking the Library,Steele,MR 10:50-12:30pm,AC304,4,25,"Prereq: Software Design or equivalent programming familiarity; small waitlist
+available",E:C Elective
+E:Robo,ENGR3392,01,Robotics Systems Integration,Bennett,MR 1:30-3:10pm,AC128,4,30,,"E: Robo Core / ME
+Elective"
+E:Robo,ENGR3590,01,A Computational Introduction to Robotics,Ruvolo,MR 3:20-5pm,AC109,4,15,small Waitlist available,E: Robo Core
+E:Robo,ENGR3590,02,A Computational Introduction to Robotics,Ruvolo,TF 10:50-12:30pm,AC109,4,15,small Waitlist available,E: Robo Core
+ECE,ENGR2410,01,Signals and Systems,Mur-Miranda,MR 3:20-5pm,AC304,4,25,,ECE Core
+ECE,ENGR2420,01,Introduction to Microelectronic Circuits with Laboratory,Minch,MR 1:30-3:10pm; F 9-10:40am,AC309,4,20,,ECE Core
+ECE,ENGR3420,01,Intro to Analog and Digital Communication,Govindasamy,TF 10:50-12:30pm,AC304,4,20,,ECE Core
+ECE,ENGR3499A,01,Special Topics in Electrical and Computer Engineering: Asynchronous VLSI Design,Hill,MR 3:20-5pm,AC326,2,5,"Session I; Prereqs: Software Design or equivalent programming familiarity, Circuits, CompArch knowledge is strongly encouraged",
+ECE,ENGR3499B,01,Special Topics in Electrical and Computer Engineering: Asynchronous VLSI Design,Hill,MR 3:20-5pm,AC326,2,5,"Session II; Prereqs: completion of Session I
+offering",
+ENGR,ENGR1330,01,Fundamentals of Machine Shop Operations,Andruskiewicz,W 12:30-4:30pm,AC104,4,6,,Engr. Elective
+ENGR,ENGR2199,01,Special Topics in Engineering: Designing Resources for Empowerment and Making (DREAM),Millner,M 3:20-6:00pm,AC328,4,18,Waitlist available,Engr. Elective
+ENGR,ENGR2330,01,Introduction to Mechanical Prototyping,Barrett; Faas,MR 3:20-5pm,AC128,4,40,small Waitlist available,Engr. Elective
+ENGR,ENGR3110,01,Elecanisms,Hoover; Minch,M 9-12:30pm; R 10:50- 12:30pm,AC306,4,25,small Waitlist available,"ECE/ME Elective
+Option"
+ENGR,ENGR3199,01,Special Topics in Engineering: Acoustics,Lackritz,MW 6-7:40pm,AC304,4,24,small Waitlist available,ECE Elective
+ENGR,ENGR3299A,01,Special Topics in Design: Making Music,Linder; Lee; Dabby,T 3:20-5:00pm,AC309,4,15,,"Engr Elective; not a
+design depth"
+ENGR,ENGR4190,01-14,Senior Capstone Program in Engineering (SCOPE),SCOPE Faculty,W 9-6:00pm,various locations,4,99,"please enroll in the team section you are for
+fall 2016",Capstone Option
+ENGR,ENGR4290,01,Affordable Design and Entrepreneurship,Linder; Govindasamy; Hersey; Mur-Miranda; Taha; Babson,T 3:30-6:30pm,AC213,4,15,Waitlist available,Capstone Option
+Integrated,AHSE2141 / ENGR2141,01,Engineering For Humanity,Lynch; Staff,T 1:30-4:30pm; F 1:30-3:10pm,AC306,2+2,20,Waitlist available,AHS/ENGR Elective
+Integrated,AHSE2199 / SCI1299,01,"Intersection of Biology, Art and Technology",Donis-Keller,M 1-3:10p; W 1-6:00pm,AC313; AC406 (W),4+4,20,small Waitlist available,"Integrated Offering: AHS and
+Biology (meets bio
+requirement)"
+Integrated,CIE2017A,01,Curriculum Innovation Experiment: Quantitative Engineering Analysis I,Christianson; Geddes; Govindasamy; Michalka; Ruvolo,MR 9-12:30pm,AC113,8,36,"opt-in experiment; commit for 2 semesters;
+enroll via lottery","Satisfies Lin I, II, Physics Fnd, Dynamics, Signals &
+Systems"
+Integrated,MTH2131 / ENGR3531,01,Data Science,Downey,TF 1:30-3:10pm,AC326,4,30,small Waitlist available,Prob Stat Option
+Integrated,MTH2132 / SCI2032,01,Bayesian Inference and Reasoning,Mahajan,MR 9-10:40am,AC109,4,48,small Waitlist available,Prob Stat Option
+MTH,MTH2210,01,Linearity I,Hoffman; Mur-Miranda,MR 10:50-12:30pm; W 9- 10:40am,AC417; AC428,4,48,,Math Requirement
+MTH,MTH3120,01,Partial Differential Equations,Hoffman,TF 10:50-12:30pm,AC417,4,32,,"Advanced Math in
+Major"
+ME,ENGR2320,01,Mechanics of Solids and Structures,Lee,MR 9-10:40am; W 9:30- 10:30am,AC328,4,40,,ME Core
+ME,ENGR2350,01,Thermodynamics,Storey,MR 1:30-3:10pm,AC318,4,28,,ME Core
+ME,ENGR3399,01,Special Topics in Mechanical Engineering: Finite Element Analysis,Lee,TF 9-10:40am,AC109,4,24,Prerequisite of ENGR2320: Mech Solids and Structures; small Waitlist available,ME Elective Option
+Science,SCI1130,01,Mechanics,Holt,TW 3:20-5pm,AC328,4,24,small Waitlist available,Standard Physics Foundation Option
+Science,SCI1210,01,Principles of Modern Biology with lab,Wasylenko,MR 1:30-3:10; R 3:20-6pm,AC109 (MR); AC406 (R lab),4,24,small Waitlist available,"Biology Requirement
+Option"
+Science,SCI2130,01,Quantum Physics,Holt,TF 1:30-3:10pm,AC328,4,15,small Waitlist available,"optional Physics
+Foundation"
+Science,SCI2299,01,Special Topics in Biological Sciences: Quantitative Biology,Wasylenko,TF 1:30-3:10pm,AC304,4,18,"prereq of Mod Bio or equivalent; small
+Waitlist available","Advanced Biology or Prob Stat Designated
+Alternative"
+Seminar,SEM 106,S1,What's It Worth? - Valuing Your Startup or Project Idea,Murray. '12,R 7-9:00pm,AC128,1,24,,general credit
+Seminar,SEM 504,S1,"Working the Data Science Process with Python… or Dirty Data, Done Dirt Cheap (D4C)","Mitchell, '11",T 7-9:00pm,AC328,1,36,"Experience with Python encouraged, but not required.
+Please contact the instructor at ryan.e.mitchell@gmail.com if you have any concerns.",general credit
+ADMN,OIP1000,01,Olin Internship Practicum,Phelps,n/a,n/a,1,n/a,See Post Graduate Planning to Enroll,required for international student with internships
+ADMN,AWAY1000,01,The Study Away Program,Administration,n/a,n/a,4,n/a,enroll in this course if you will be studying away in the spring 2017 semester,

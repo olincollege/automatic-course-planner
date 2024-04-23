@@ -1,0 +1,103 @@
+﻿Area,Course #,Section #,Course Title,Instructor / Teaching Team,Time,Location,Credits,Enroll Limits,Waitlist,Notes,Curriculum Category
+AHS,AHSE0112,01,AHSE0112: The Olin Conductorless Orchestra,"Dabby, Diana",R 6:45-9:00pm,AC318,1,27,"yes, small",,AHS Elective
+AHS,AHSE2199,01,"AHSE2199: Special Topics in Arts, Humanities, Social Sciences:  Creative Approaches to Emerging Technology","Onuoha, Mimi",W 12:30-3:00pm,AC326,4,18,yes; small,"offered by the Mellon Grant Creative-in- Reference Sketch Model Initiative
+Contact Mellon grant lead Sara Hendren
+with questions.",AHS Elective
+AHS,AHSE3190,01,AHSE3190: Arts Humanities Social Sciences Capstone Preparatory Workshop,"Epstein, Gillian",n/a,n/a,1,50,n/a,,AHS Capstone
+BOW Cert,SUST2201,01,SUST2201: Introduction to Sustainability,"Huang, Jean",W 3:30-6:30pm,AC213,4,15,"yes, small","CORE requirement for 3CollegesBOW
+Sustainability Certificate",BOW Cert
+CAPSTONE,ENGR4190,01-14,ENGR4190: SCOPE: Senior Capstone Program in Engineering,"Hersey, Scott; Michalka, Sam; Sarang-Sieminski, Alisha; Stein, Lynn",W 9-6:00pm,varies,4,90,n/a,,CAPSTONE
+CAPSTONE,ENGR4290,01,ENGR4290: Affordable Design and Entrepreneurship Engineering Capstone,"Hersey, Scott; Linder, Ben; Staff","T 3:30-6:30pm; R 3:30-
+5:30pm",Weissman Foundry,4,13,"yes, small",,CAPSTONE
+DSN,ENGR3220,01,ENGR3220: User Experience Design,"Morales, Marco",MR 9-10:40am,AC213,4,28,"yes, small",,DSN Depth
+DSN,ENGR3232,01,ENGR3232: Biomedical Device Design,"Sarang-Sieminski, Alisha",TF 1:30-3:10pm,AC326,4,20,"yes, small",,DSN Depth
+DSN,ENGR3240,01,ENGR3240: Tell the Story of What you Make,"Ferguson Sauder, Tim",MR 1:30-4:10pm,AC213,4,24,"yes, small",Offered using EXPERIMENTAL Grading,DSN Depth
+DSN,ENGR3290,01,ENGR3290: Affordable Design and Entrepreneurship,"Hersey, Scott; Linder, Ben; Staff","T 3:30-6:30pm; R 3:30-
+5:30pm",Weissman Foundry,4,17,"yes, 15",,DSN Depth
+E: Robo,ENGR3390,01,ENGR3390: Fundamentals of Robotics,"Barrett, Dave",TF 1:30-3:10pm,AC128,4,25,"yes, large",,Core E:Robo
+E: Robo,ENGR3590,01,ENGR3590: A Computational Introduction to Robotics,"Ruvolo, Paul",TF 1:30-3:10pm,AC109,4,22,"yes, small",,Core E:Robo
+E:C,ENGR2510,01,ENGR2510: Software Design,"Hill, Ben",MR 10:50-12:30pm,AC304,4,24,"yes, small",,"Core E:C, Core ECE"
+E:C,ENGR3520,01,ENGR3520: Foundations of Computer Science,"Pucella, Riccardo",T 3:20-5:50pm,AC326,4,32,"yes, small",,Core E:C
+E:C,ENGR3570,01,ENGR3570: Computer Networks,"Morrow, Alex",MR 10:50-12:30pm,AC428,4,30,"yes, small",,Elective E:C
+ECE,ENGR3410,01,ENGR3410: Computer Architecture,"Hill, Ben",TF 10:50-12:30pm,AC304,4,32,"yes, small",,Core ECE
+ENGR,ENGR1330,01,ENGR1330: Fundamentals of Machine Shop Operations,"Andruskiewicz, Bruce",W 1-5:00pm,Machine Shop,4,6,"yes, small",,Elective
+ENGR,ENGR2110,01,ENGR2110: Principles of Engineering,"Faas, Daniela; Millner, Amon; Minch, Brad; Reifel, Stan",TF 9-10:40am,AC306,4,25,"yes, small",,Requirement - POE
+ENGR,ENGR2110,02,ENGR2110: Principles of Engineering,"Faas, Daniela; Millner, Amon; Minch, Brad; Reifel, Stan",TF 9-10:40am,AC309,4,25,"yes, small",,Requirement - POE
+ENGR,ENGR2110,03,ENGR2110: Principles of Engineering,"Faas, Daniela; Millner, Amon; Minch, Brad; Reifel, Stan",TF 10:50-12:30pm,AC306,4,25,"yes, small",,Requirement - POE
+ENGR,ENGR2110,04,ENGR2110: Principles of Engineering,"Faas, Daniela; Millner, Amon; Minch, Brad; Reifel, Stan",TF 10:50-12:30pm,AC309,4,25,"yes, small",,Requirement - POE
+ENGR,ENGR2199,01,ENGR2199: Special Topics in Engineering: Small Satellite Laboratory,"Harris, Scott; Lee, Chris",T 3:20-5:30pm,AC304,4,18,"yes, small","Enroll in section 01 and then choose a corresponding working group, either ENGR2199 L, L1 or L2
+enrollment will be open to 6 rising seniors, 6 rising juniors and 6 rising sophomores
+please note that we will be managing enrollment after each registration period in order to balance enrollment between class years",Elective
+ENGR,ENGR2199 L,L1,Small Satellite Laboratory Working Group,,M 3:20-5:30pm,,0,18 total,,,
+ENGR,ENGR2199 L,L2,Small Satellite Laboratory Working Group,,W 3:20-5:30pm,,0,,,,
+ENGR,ENGR2199A,01,ENGR2199A: Special Topics in Engineering: Designing with Stakeholder Groups AC Reboot,"Barrett, Annie; Goldenson, Jeff; Hoover, Aaron; Somerville, Mark",W 9-10:50am,AC213,2,by applicati on,,,ENGR Elective
+ENTRP,AHSE2515,01,AHSE2515: Iterate,"Bowen, Jim",MR 9-10:40am,AC318,2,21,"yes, small",Session I,"ENTRP
+Concentration"
+ENTRP,AHSE2515A,01,AHSE2515A: Iterate,"Bowen, Jim",MR 9-10:40am,AC318,2,21,"yes, small",Session II,"ENTRP
+Concentration"
+FYR,OIE1000,01-'04,OIE1000: Olin First Year Introduction (OFYI),"Waranyuwat, Adva",W 9-10:50am,MH120 AC304 AC318 AC326 AC417,1,90,n/a,,First Year Only
+FYR: AHS,AHSE1100,01,AHSE1100: History of Technology: A Cultural & Contextual Approach,"Martello, Rob",TF 10:50-12:30pm,AC318,4,15,no,"Available to First Year Students Only; All First year students will also be booked for Wednesday related AHS sessions between 12:30 and 3pm; specific dates will be on
+each syllabus",AHS Foundation
+FYR: AHS,AHSE1122,01,"AHSE1122: The Wired Ensemble -Instruments, Voices, Players","Dabby, Diana",TF 1:30-3:10pm,AC304; AC305,4,15,no,"Available to First Year Students Only; All First year students will also be booked for Wednesday related AHS sessions between 12:30 and 3pm; specific dates will be on
+each syllabus",AHS Foundation
+FYR: AHS,AHSE1135,01,"AHSE1135: The Digital Eye: Photography, Vision, and Visual Communication","Donis-Keller, Helen",TF 10:50-12:30pm,AC313,4,14,no,"Available to First Year Students Only; All First year students will also be booked for Wednesday related AHS sessions between 12:30 and 3pm; specific dates will be on
+each syllabus",AHS Foundation
+FYR: AHS,AHSE1199,01,AHSE1199:  Writers’ Workshop: Creativity and the Literary Imagination,"Lynch, Caitrin; Taaffe, Lauren",TF 10:50-12:30pm,AC326,4,15,no,"Available to First Year Students Only; All First year students will also be booked for Wednesday related AHS sessions between 12:30 and 3pm; specific dates will be on
+each syllabus",AHS Foundation
+FYR: AHS,AHSE1148,01,AHSE1148: Dirt to Shirt: Global Garments in Context,"Lynch, Caitrin",TF 1:30-3:10pm,AC328,4,15,no,"Available to First Year Students Only; All First year students will also be booked for Wednesday related AHS sessions between 12:30 and 3pm; specific dates will be on
+each syllabus",AHS Foundation
+FYR: AHS,AHSE1150,01,AHSE1150: What is 'I'?,"Stein, Lynn",TF 1:30-3:10pm,AC313,4,15,no,"Available to First Year Students Only; All First year students will also be booked for Wednesday related AHS sessions between 12:30 and 3pm; specific dates will be on
+each syllabus",AHS Foundation
+FYR: ENGR,ENGR1125,01,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Minch, Brad; Storey, Brian; Vanasupa, Linda",MR 1:30-3:10pm,AC428,4,22,no,,Requirement - ISIM
+FYR: ENGR,ENGR1125,02,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Minch, Brad; Storey, Brian; Vanasupa, Linda",TF 9-10:40am,AC428,4,22,no,,Requirement - ISIM
+FYR: ENGR,ENGR1125,03,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Minch, Brad; Storey, Brian; Vanasupa, Linda",TF 10:50-12:30pm,AC428,4,22,no,,Requirement - ISIM
+FYR: ENGR,ENGR1125,04,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement","Ferzoco, Alessandra; Minch, Brad; Storey, Brian; Vanasupa, Linda",TF 1:30-3:10pm,AC428,4,22,no,,Requirement - ISIM
+FYR: ENGR,ENGR1200,01,ENGR1200: Design Nature,"Chachra, Debbie; Ferguson Sauder, Tim; Lee, Chris; Townsend, Jessica",MR 9:50-12:30pm,"MH120; AC204, 206, 209",4,32,no,,"Requirement -
+DesNat"
+FYR: ENGR,ENGR1200,02,ENGR1200: Design Nature,"Chachra, Debbie; Ferguson Sauder, Tim; Lee, Chris; Townsend, Jessica",MR 9:50-12:30pm,"MH120; AC204, 206, 209",4,32,no,,"Requirement -
+DesNat"
+FYR: ENGR,ENGR1200,03,ENGR1200: Design Nature,"Chachra, Debbie; Ferguson Sauder, Tim; Lee, Chris; Townsend, Jessica",MR 9:50-12:30pm,"MH120; AC204, 206, 209",4,32,no,,"Requirement -
+DesNat"
+"FYR:
+Interdisciplinary",MTH1111 / SCI1111,01,MTH1111: Modeling and Simulation of the Physical World,"Downey, Allen; Graeff, Erhardt; Wood, Alison; Woodard, Jason",MTR 3:20-5:00pm,"MH120; AC204, 206, 209, 318",2+2,32,no,,"Requirement -
+ModSim"
+"FYR:
+Interdisciplinary",MTH1111 / SCI1111,02,MTH1111: Modeling and Simulation of the Physical World,"Downey, Allen; Graeff, Erhardt; Wood, Alison; Woodard, Jason",MTR 3:20-5:00pm,"MH120; AC204, 206, 209, 318",2+2,32,no,,"Requirement -
+ModSim"
+"FYR:
+Interdisciplinary",MTH1111 / SCI1111,03,MTH1111: Modeling and Simulation of the Physical World,"Downey, Allen; Graeff, Erhardt; Wood, Alison; Woodard, Jason",MTR 3:20-5:00pm,"MH120; AC204, 206, 209, 318",2+2,32,no,,"Requirement -
+ModSim"
+Interdisciplinary,CIE2018B,01,Curriculum Innov Experiment: Quantitative Engineering Analysis II,"Christianson, Rebecca; Dusek, Jeff; Houston- Edwards, Kelsey; Nugent, Carrie; Ruvolo, Paul",MR 1:30-5:00pm,AC109,8,32,no,must have successfully completed CIE2018A QEA I in Spring 2018,"Lin I, Lin II, Physics
+Fnd, Signals Systems, Dynamics"
+Interdisciplinary,CIE2018B,02,Curriculum Innov Experiment: Quantitative Engineering Analysis II,"Christianson, Rebecca; Dusek, Jeff; Houston- Edwards, Kelsey; Nugent, Carrie; Ruvolo, Paul",MR 1:30-5:00pm,AC113,8,32,no,must have successfully completed CIE2018A QEA I in Spring 2018,"Lin I, Lin II, Physics
+Fnd, Signals Systems, Dynamics"
+Interdisciplinary,ENGR3533/M TH2133,01,ENGR3533/MTH2133: Computational Bayesian Statistics,"Downey, Allen",TF 1:30-3:10pm,AC318,2+2,25,"yes, small","must enroll in both ENGR3533 and
+MTH2133",Math - ProbStat Requirement ; Elective E:C
+Interdisciplinary,"MTH2132
+/SCI2032",01,MTH2132/SCI2032: Bayesian Inference and Reasoning,"Mahajan, Sanjoy",TF 10:50-12:30pm,AC328,2+2,50,"yes, small",must enroll in both MTH2132 and SCI2032,"Math - ProbStat Requirement; SCI
+Elective"
+ME,ENGR2340,01,ENGR2340: Dynamics,"Lee, Chris",TF 9-10:40am; W 9:30- 10:30am,AC328,4,40,"yes, small",,Core ME
+ME,ENGR3310,01,ENGR3310: Transport Phenomena,"Ferzoco, Alesandra; Storey, Brian",MR 10:50-12:30pm,AC417; AC409,4,32,"yes, small",,Core ME
+ME,ENGR3330,01,ENGR3330: Mechanical Design,"Barrett, Dave",TF 10:50-12:30pm,AC128,4,28,"yes, large",,Core ME
+MTH,MTH2110,01,MTH2110: Discrete Math,"Spence Adams, Sarah",MR 9-10:40am,AC326,4,33,"yes, large",,"Math - Adv ECE;
+E:C"
+MTH,MTH2110,02,MTH2110: Discrete Math,"Spence Adams, Sarah",MR 10:50-12:30pm,AC326,4,33,"yes, large",,"Math - Adv ECE;
+E:C"
+MTH,MTH2220,01,MTH2220: Linearity II,"Hoffman, Aaron",MR 1:30-3:10pm,AC328,4,32,no,,Requirement - Lin2
+Research,"AHSE2097, ENGR2097, MTH2097, SCI2097",01,"AHSE2097, ENGR2097, MTH2097, SCI2097:
+Cross-disciplinary Research Methods","Barrett, Dave; Huang, Jean; Morrow, Alex","W 1:30-3:10pm
+required AC428; optional research lab time MR 6-8pm in AC417",AC318,2,25,"yes, large",See course description as enrollment in this course requires enrollment in a specific research activity or research course,Elective
+SCI,SCI1121,01,SCI1121: Electricity and Magnetism,"Somerville, Mark",MR 9-10:40am,AC304,4,24,"yes, small",,SCI - Physics Foundation
+SCI,SCI1240,01,SCI1240: Designing Better Drugs with Laboratory,"Pratt, Joanne",TF 10:50-12:30pm; LAB R 3:20-6:00pm,"AC417; AC406
+lab",4,24,"yes, small",,SCI - Bio Foundation
+SCI,SCI1240,02,SCI1240: Designing Better Drugs with Laboratory,"Pratt, Joanne",TF 1:30-3:10pm; LAB W 12:30-3:10pm,"AC417; AC406
+lab",4,24,"yes, small",,SCI - Bio Foundation
+SCI,SCI1410,01,SCI1410: Materials Science and Solid State Chemistry,"Vanasupa, Linda",MW 3:20-6:00pm,AC413,4,21,"yes, small",,"SCI - MatSci Chem
+Requirement"
+SCI,SCI1410,B1,"SCI1410: Materials Science and Solid State Chemistry:
+Environmental and Societal Impact of Materials","Stolk, Jon",TR 3:20-6:00pm,AC413,4,21,"yes, small",Offered using EXPERIMENTAL Grading,"SCI - MatSci Chem
+Requirement"
+ADMIN,AWAY1000,01,Study Away Program,Administration,n/a,n/a,12,n/a,,"Enroll in this course block to confirm your
+Study Away Semester",
+ADMIN,OIP1000,01,The Olin Internship Practicum I,Phelps,n/a,n/a,1,n/a,,See Post Graduate Planning to Enroll,
+ADMIN,OIP1001,01,The Olin Internship Practicum II,Phelps,n/a,n/a,1,n/a,,See Post Graduate Planning to Enroll,
