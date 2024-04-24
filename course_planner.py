@@ -4,7 +4,7 @@ Main program to set up and run the automated course planner
 
 import tkinter as tk
 
-from dongim_view import CourseView
+from vivian_view import CourseView
 
 
 def main():
