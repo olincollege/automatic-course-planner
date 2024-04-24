@@ -99,7 +99,7 @@ SP,2023,AHS,AHSE0112,AHSE0112: The Olin Conductorless Orchestra,R 6-8:40pm,"318
 SP,2023,AHS,AHSE2150_SC I1250,AHSE2150_SCI1250: Six Microbes that Changed the World with Laboratory,MR 9:20am-12:00pm,"417
 406",8,24,"Huang, Jean; Martello, Rob",01,6.0,"AHS Elective & SCI -
 Bio Foundatin",8 credit course,
-SP,2023,AHS,AHSE2160_SC I1260,"AHSE2160_SCI1260: The Intersection of Biology, Art and Technology with Laboratory",TF 9:20am-12:00pm,"313
+SP,2023,AHS,AHSE2160 / SCI1260,"AHSE2160_SCI1260: The Intersection of Biology, Art and Technology with Laboratory",TF 9:20am-12:00pm,"313
 406",8,20,"Donis-Keller, Helen",01,5.0,"AHS Elective & SCI -
 Bio Foundatin",8 credit course,
 SP,2023,AHS,AHSE2199,"AHSE2199: Special Topics in Arts, Humanities and Social Science: Writing Gets Real",TF 1:00pm-2:40pm,328,2,26,"Epstein, Gillian",01,5.0,AHS,Session I,
@@ -110,10 +110,7 @@ SP,2023,AHS,AHSE4190,AHSE4190: AHS Capstone Project,M 2:50pm-5:30pm,Library,4,25
 SP,2023,CAPSTONE,ENGR4190,ENGR4190: SCOPE: Senior Capstone Program in Engineering,W 8:30am-5:30pm F 8:30am-10:10am,Varied,4,90,"Bloomer, Sarah; Ferzoco, Alessandra; Neeley, Lawrence; Stein, Lynn",01,,CAPSTONE,Students will be pre-registered based on FA22 enrollment,
 SP,2023,CAPSTONE,ENGR4290,ENGR4290: Affordable Design and Entrepreneurship Engineering Capstone,T 3:30-6:30pm R 3:30-5:30pm,Weissman Foundry,4,20,"Graeff, Erhardt; Johansen, Elizabeth; Linder, Benjamin; Majluf, Francesca; Taha, Kofi",01,5.0,CAPSTONE,,
 SP,2023,CAPSTONE,ENGR4599,ENGR4599: Senior Capstone Alternative: Entrepeneurial Engineering Capstone,W 1-5:00pm,126,4,,"Harris, Scott; Miller, Scott",01,,CAPSTONE,Students will be pre-registered based on FA22 enrollment,
-SP,2023,Cross-listed,"ENGR3235_or
-_SCI2235",ENGR3235_or_SCI2235: Biomimicry,TF 1:00pm-2:40pm,213,4,24,"Huang, Jean; Linder, Benjamin",01,6.0,DSN Depth or Adv Bio,,
-SP,2023,Cross-listed,SCI2235_or_E NGR3235,SCI2235_OR_ENGR3235: Biomimicry,TF 1:00pm-2:40pm,213,4,24,"Huang, Jean; Linder, Benjamin",01,6.0,Adv Bio or Dsn Depth,,
-SP,2023,(unless noted,,,,,,,,,,,,
+SP,2023,Cross-listed,"ENGR3235 / SCI2235",ENGR3235_or_SCI2235: Biomimicry,TF 1:00pm-2:40pm,213,4,24,"Huang, Jean; Linder, Benjamin",01,6.0,DSN Depth or Adv Bio,,
 SP,2023,"otherwise)""",Credits,Waitlist,Curriculum Role,,,,Notes,Enroll Limits,,,,
 SP,2023,DSN,ENGR2250,ENGR2250: Collaborative Design,MR 1:00pm-3:30pm,"204
 206
@@ -167,7 +164,7 @@ SP,2023,Interdisciplinary,ENGR2340,ENGR2340: Engineering Systems Analysis: Dynam
 must be taken with ENGX2134",
 SP,2023,Interdisciplinary,ENGR2410,ENGR2410: Engineering Systems Analysis: Signals (2 cr),TF 1:00pm-2:40pm,304,2,30,"Goenka, Chhavi",01,5.0,Core ECE,"Session II
 must be taken with ENGX2134",
-SP,2023,Interdisciplinary,ENGR3531_M TH2131,ENGR3531_MTH2131: Data Science,MR 3:40pm-5:20pm,113,2+2,30,"del Rosario, Zachary",01,5.0,"ProbStat Requirement_E:C
+SP,2023,Interdisciplinary,ENGR3531 / MTH2131,ENGR3531_MTH2131: Data Science,MR 3:40pm-5:20pm,113,2+2,30,"del Rosario, Zachary",01,5.0,"ProbStat Requirement_E:C
 elective",,
 SP,2023,Interdisciplinary,ENGX2005,ENGX2005: Quantitative Engineering Analysis 2,MR 1:00pm-2:40pm,"113
 126
@@ -184,10 +181,10 @@ SP,2023,MTH,MTH3120,MTH3120: Partial Differential Equations,MR 3:40pm-5:20pm,126
 SP,2023,(unless noted,,,,,,,,,,,,
 SP,2023,"otherwise)""",Credits,Waitlist,Curriculum Role,,,,Notes,Enroll Limits,,,,
 SP,2023,SCI,SCI1199,SCI1199: Special Topics in Physics: Electricity and Magnetism,MR 1:00pm-2:40pm,309,4,18,"Neely, Andy",01,,SCI Elective,,
-SP,2023,SCI,SCI1250_AHS E2150,SCI1250_AHSE2150: Six Microbes that Changed the World with Laboratory,MR 9:20am-12:00pm,"417
+SP,2023,SCI,SCI1250 / AHSE2150,SCI1250_AHSE2150: Six Microbes that Changed the World with Laboratory,MR 9:20am-12:00pm,"417
 406",8,24,"Huang, Jean; Martello, Rob",01,6.0,"SCI - Bio Foundation &
 AHS Elective",8 credit course,
-SP,2023,SCI,SCI1260_AHS E2160,"SCI1260_AHSE2160: The Intersection of Biology, Art and Technology",TF 9:20am-12:00pm,"313
+SP,2023,SCI,SCI1260 / AHSE2160,"SCI1260_AHSE2160: The Intersection of Biology, Art and Technology",TF 9:20am-12:00pm,"313
 406",8,20,"Donis-Keller, Helen",01,5.0,"SCI - Bio Foundation &
 AHS Elective",8 credit course,
 SP,2023,SCI,SCI1320,SCI1320: Paper Panacea: Part I with Laboratory,MR 9:20am-12:00pm,"409
@@ -202,244 +199,239 @@ SP,2023,ADMIN,OIP1000,The Olin Internship Practicuum I,,,1,,"Alcott, Suzanne",01
 SP,2023,ADMIN,OIP1001,The Olin Internship Practicuum II,,,1,,"Alcott, Suzanne",01,,,See Post Graduate Planning to Enroll,
 SP,2015,AHS,AHSE 0112,The Olin Conductorless Orchestra,R 6:45-9:00pm,"AC304, AC305,
 AC318",1,25.0,Dabby,01,,,,
-SP,2015,AHS,AHSE 2131,Responsive Drawing and Visual Thinking,TF 10:50- 12:30p,AC313,4,15.0,Donis-Keller,01,,,,
-SP,2015,AHS,AHSE 2199,"Special Topics in Arts, Humanities and Social Sciences:
+SP,2015,AHS,AHSE2131,Responsive Drawing and Visual Thinking,TF 10:50- 12:30p,AC313,4,15.0,Donis-Keller,01,,,,
+SP,2015,AHS,AHSE2199,"Special Topics in Arts, Humanities and Social Sciences:
 Foundations of Psychology",TF 10:50- 12:30p,AC128,4,24.0,Adler,01,,,Waitlist Available,
-SP,2015,AHS,AHSE 2199B,"Special Topics in Arts, Humanities and Social Sciences:
+SP,2015,AHS,AHSE2199B,"Special Topics in Arts, Humanities and Social Sciences:
 Digital Documentary Storytelling",MR 10:50- 12:30p,AC326,2,15.0,Vitols,01,,,Session I,
-SP,2015,AHS,AHSE 2199C,"Special Topics in Arts, Humanities and Social Sciences:
+SP,2015,AHS,AHSE2199C,"Special Topics in Arts, Humanities and Social Sciences:
 Hacktivism: Hacking for the Greater Good",MR 10:50- 12:30p,AC326,2,15.0,Vitols,01,,,Session II,
-SP,2015,AHS,AHSE 3100,Issues in Leadership and Ethics,R 6-8:00pm,AC326,2,8.0,"Miller, R.",01,,,,
-SP,2015,AHS,AHSE 3190,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",,,1,20.0,Epstein,01,,,,
-SP,2015,AHS,AHSE 4190,"Arts, Humanities, Social Sciences Capstone",T 9:10-10:40a,CC214,4,15.0,Epstein,01,,,,
-SP,2015,AHS,AHSE 4190,"Arts, Humanities, Social Sciences Capstone",T 10:50-12:20p,CC214,4,15.0,Epstein,02,,,,
-SP,2015,DSN,ENGR 2250,User Oriented Collaborative Design,MR 3:20-6:00p,AC204; MH120,4,32.0,Linder; Stolk; Mur-Miranda; Hendren; Ben Ur; Staff,01,,,,
-SP,2015,DSN,ENGR 2250,User Oriented Collaborative Design,MR 3:20-6:00p,AC206; MH120,4,32.0,Linder; Stolk; Mur-Miranda; Hendren; Ben Ur; Staff,02,,,,
-SP,2015,DSN,ENGR 2250,User Oriented Collaborative Design,MR 3:20-6:00p,AC209; MH120,4,32.0,Linder; Stolk; Mur-Miranda; Hendren; Ben Ur; Staff,03,,,,
-SP,2015,DSN,ENGR 3210,Sustainable Design,TF 1:30-3:10p,AC213,4,25.0,Linder,01,,,,
-SP,2015,DSN,ENGR 3260,Design for Manufacturing,MR 9-10:40a,AC128,4,25.0,Tong,01,,,Tentative Offering,
-SP,2015,DSN,ENGR 3290,Affordable Design and Entrepreneurship,T 3:30-6:30p,AC213,4,12.0,Linder,01,,,"Note: enroll in this section if you are taking the course as a
+SP,2015,AHS,AHSE3100,Issues in Leadership and Ethics,R 6-8:00pm,AC326,2,8.0,"Miller, R.",01,,,,
+SP,2015,AHS,AHSE3190,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",,,1,20.0,Epstein,01,,,,
+SP,2015,AHS,AHSE4190,"Arts, Humanities, Social Sciences Capstone",T 9:10-10:40a,CC214,4,15.0,Epstein,01,,,,
+SP,2015,AHS,AHSE4190,"Arts, Humanities, Social Sciences Capstone",T 10:50-12:20p,CC214,4,15.0,Epstein,02,,,,
+SP,2015,DSN,ENGR2250,User Oriented Collaborative Design,MR 3:20-6:00p,AC204; MH120,4,32.0,Linder; Stolk; Mur-Miranda; Hendren; Ben Ur; Staff,01,,,,
+SP,2015,DSN,ENGR2250,User Oriented Collaborative Design,MR 3:20-6:00p,AC206; MH120,4,32.0,Linder; Stolk; Mur-Miranda; Hendren; Ben Ur; Staff,02,,,,
+SP,2015,DSN,ENGR2250,User Oriented Collaborative Design,MR 3:20-6:00p,AC209; MH120,4,32.0,Linder; Stolk; Mur-Miranda; Hendren; Ben Ur; Staff,03,,,,
+SP,2015,DSN,ENGR3210,Sustainable Design,TF 1:30-3:10p,AC213,4,25.0,Linder,01,,,,
+SP,2015,DSN,ENGR3260,Design for Manufacturing,MR 9-10:40a,AC128,4,25.0,Tong,01,,,Tentative Offering,
+SP,2015,DSN,ENGR3290,Affordable Design and Entrepreneurship,T 3:30-6:30p,AC213,4,12.0,Linder,01,,,"Note: enroll in this section if you are taking the course as a
 design depth; WAITLIST Available",
-SP,2015,DSN,ENGR 3299,Special Topics in Design Engineering:  Investigating Normal: Adaptive and Assistive Technologies,MR 10:50- 12:30p,AC213,4,22.0,Hendren,01,,,Waitlist Available,
-SP,2015,E!,AHSE 1515,Products and Markets,T 9-12:30p; R 9- 10:40a,AC318; MH120,4,28.0,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,01,,,Note: non-standard pattern,
-SP,2015,E!,AHSE 1515,Products and Markets,T 9-12:30p; R 9- 10:40a,AC326; MH120,4,28.0,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,02,,,Note: non-standard pattern,
-SP,2015,E!,AHSE 1515,Products and Markets,T 9-12:30p; R 9- 10:40a,AC328; MH120,4,28.0,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,03,,,Note: non-standard pattern,
-SP,2015,E!,AHSE 3599,Special Topics in Entrepreneurship:  Intellectual Property Protection for Innovative Designs,R 3:20-5:00p,AC318,2,15.0,Covello,01,,,Full Semester Offering,
-SP,2015,E!,AHSE 4590,Entrepreneurship Capstone,TF 1:30-3:10p,AC328,4,20.0,Brand,01,,,Waitlist Available,
-SP,2015,E:BE,ENGR 3640,Tissue Engineering,MR 1-3:10p,AC404; AC417,4,12.0,Sarang-Sieminski,01,,,Waitlist Available,
-SP,2015,E:C,ENGR 3599,Special Topics in Computing: Computer Networks,MR 10:50- 12:30p,AC128,4,25.0,Morrow,01,,,,
-SP,2015,E:C,ENGR 2510,Software Design,MR 1:30-3:10p,AC326,4,35.0,Ruvolo; Hill,01,,,,
-SP,2015,E:C,ENGR 2510,Software Design,MR 3:20-5:00p,AC326,4,35.0,Ruvolo; Hill,02,,,,
-SP,2015,E:C,ENGR 3520,Foundations of Computer Science,"MR 6:30-
+SP,2015,DSN,ENGR3299,Special Topics in Design Engineering:  Investigating Normal: Adaptive and Assistive Technologies,MR 10:50- 12:30p,AC213,4,22.0,Hendren,01,,,Waitlist Available,
+SP,2015,E!,AHSE1515,Products and Markets,T 9-12:30p; R 9- 10:40a,AC318; MH120,4,28.0,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,01,,,Note: non-standard pattern,
+SP,2015,E!,AHSE1515,Products and Markets,T 9-12:30p; R 9- 10:40a,AC326; MH120,4,28.0,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,02,,,Note: non-standard pattern,
+SP,2015,E!,AHSE1515,Products and Markets,T 9-12:30p; R 9- 10:40a,AC328; MH120,4,28.0,Neeley; Hoover; Lynch; Pratt; Brand; Hopper,03,,,Note: non-standard pattern,
+SP,2015,E!,AHSE3599,Special Topics in Entrepreneurship:  Intellectual Property Protection for Innovative Designs,R 3:20-5:00p,AC318,2,15.0,Covello,01,,,Full Semester Offering,
+SP,2015,E!,AHSE4590,Entrepreneurship Capstone,TF 1:30-3:10p,AC328,4,20.0,Brand,01,,,Waitlist Available,
+SP,2015,E:BE,ENGR3640,Tissue Engineering,MR 1-3:10p,AC404; AC417,4,12.0,Sarang-Sieminski,01,,,Waitlist Available,
+SP,2015,E:C,ENGR3599,Special Topics in Computing: Computer Networks,MR 10:50- 12:30p,AC128,4,25.0,Morrow,01,,,,
+SP,2015,E:C,ENGR2510,Software Design,MR 1:30-3:10p,AC326,4,35.0,Ruvolo; Hill,01,,,,
+SP,2015,E:C,ENGR2510,Software Design,MR 3:20-5:00p,AC326,4,35.0,Ruvolo; Hill,02,,,,
+SP,2015,E:C,ENGR3520,Foundations of Computer Science,"MR 6:30-
 8:10pm",AC128,4,30.0,Pucella,01,,,Waitlist Available,
-SP,2015,E:MS,ENGR 3610,Biomedical Materials,MR 9:00-10:40p,AC406; AC413; AC417,4,20.0,Chachra,01,,,,
-SP,2015,ECE,ENGR 2410,Signals and Systems,MR 10:50- 12:30p,AC304,4,32.0,Mur-Miranda; Downey; Govindasamy,01,,,,
-SP,2015,ECE,ENGR 2420,Introduction to Microelectronic Circuits with LAB,TRF 9-10:40a,AC304,4,48.0,Minch,01,,,,
-SP,2015,ECE,ENGR 3415,Digital Signal Processing,TF 1:30-3:10p,AC304,4,25.0,Dabby,01,,,,
-SP,2015,ECE,ENGR 3430,EE Prototyping,MR 3:20-6:00p,AC304,4,24.0,Lundberg,01,,,,
-SP,2015,ECE,ENGR 3450,Semiconductor Devices,TF 10:50- 12:30p,AC126,4,20.0,"Kerns, S; Kerns, D",01,,,,
-SP,2015,ENGR,ENGR 1199,"Special Topics in Engineering: Introduction to the Microelectronics, Nanotechnology and MEMS Revolution(s)",TF 1:30-3:10p,AC126,4,12.0,"Kerns, S; Kerns, D",01,,,,
-SP,2015,ENGR,ENGR 1199A,Special Topics in Engineering: Linear Systems Lab,R 3:20-5:30pm,AC428,2,25.0,Storey,01,,,Full Semester Offering,
-SP,2015,ENGR,ENGR 1330,Fundamentals of Machine Shop Operations,W 12:30-4:30p,AC104,4,6.0,Andruskiewicz,01,,,,
-SP,2015,ENGR,ENGR 2199,Special Topics in Engineering: Applications of Microfluidics,T 3:20-6:00p,AC428,4,25.0,Irimia; Storey,01,,,Note: contingent on demand,
-SP,2015,ENGR,ENGR 2210,Principles of Engineering,MR 1:30-3:10p,AC306,4,28.0,Govindasamy,01,,,,
-SP,2015,ENGR,ENGR 3199,Special Topics in Engineering:  Designing Resources for Empowerment and Making (DREAM),TF 1:30-3:10p,AC109,4,25.0,Millner,01,,,,
-SP,2015,ENGR,ENGR 3199A,Special Topics in Engineering: Elecanisms,M 9-12:30p; R 10:50-12:30p,AC306,4,25.0,Hoover; Minch,01,,,Waitlist Available,
-SP,2015,ENGR,ENGR 4190,Senior Capstone Program in Engineering (SCOPE),W 9-10:40a; 12:30-6:00p,varies,4,,Sarang-Sieminski; Minch; Bennett; Barrett; Lee; Govindasamy; Ruvolo; Coats; Downey; Stein; Christianson; Millner,01-14,,,"Note: enroll in the same section you are presently in for Fall
+SP,2015,E:MS,ENGR3610,Biomedical Materials,MR 9:00-10:40p,AC406; AC413; AC417,4,20.0,Chachra,01,,,,
+SP,2015,ECE,ENGR2410,Signals and Systems,MR 10:50- 12:30p,AC304,4,32.0,Mur-Miranda; Downey; Govindasamy,01,,,,
+SP,2015,ECE,ENGR2420,Introduction to Microelectronic Circuits with LAB,TRF 9-10:40a,AC304,4,48.0,Minch,01,,,,
+SP,2015,ECE,ENGR3415,Digital Signal Processing,TF 1:30-3:10p,AC304,4,25.0,Dabby,01,,,,
+SP,2015,ECE,ENGR3430,EE Prototyping,MR 3:20-6:00p,AC304,4,24.0,Lundberg,01,,,,
+SP,2015,ECE,ENGR3450,Semiconductor Devices,TF 10:50- 12:30p,AC126,4,20.0,"Kerns, S; Kerns, D",01,,,,
+SP,2015,ENGR,ENGR1199,"Special Topics in Engineering: Introduction to the Microelectronics, Nanotechnology and MEMS Revolution(s)",TF 1:30-3:10p,AC126,4,12.0,"Kerns, S; Kerns, D",01,,,,
+SP,2015,ENGR,ENGR1199A,Special Topics in Engineering: Linear Systems Lab,R 3:20-5:30pm,AC428,2,25.0,Storey,01,,,Full Semester Offering,
+SP,2015,ENGR,ENGR1330,Fundamentals of Machine Shop Operations,W 12:30-4:30p,AC104,4,6.0,Andruskiewicz,01,,,,
+SP,2015,ENGR,ENGR2199,Special Topics in Engineering: Applications of Microfluidics,T 3:20-6:00p,AC428,4,25.0,Irimia; Storey,01,,,Note: contingent on demand,
+SP,2015,ENGR,ENGR2210,Principles of Engineering,MR 1:30-3:10p,AC306,4,28.0,Govindasamy,01,,,,
+SP,2015,ENGR,ENGR3199,Special Topics in Engineering:  Designing Resources for Empowerment and Making (DREAM),TF 1:30-3:10p,AC109,4,25.0,Millner,01,,,,
+SP,2015,ENGR,ENGR3199A,Special Topics in Engineering: Elecanisms,M 9-12:30p; R 10:50-12:30p,AC306,4,25.0,Hoover; Minch,01,,,Waitlist Available,
+SP,2015,ENGR,ENGR4190,Senior Capstone Program in Engineering (SCOPE),W 9-10:40a; 12:30-6:00p,varies,4,,Sarang-Sieminski; Minch; Bennett; Barrett; Lee; Govindasamy; Ruvolo; Coats; Downey; Stein; Christianson; Millner,01-14,,,"Note: enroll in the same section you are presently in for Fall
 2014",
-SP,2015,ENGR,ENGR 4290,Affordable Design and Entrepreneurship,T 3:30-6:30p,AC213,4,15.0,Linder,01,,,"Note: enroll in this section if you are taking this course as your
+SP,2015,ENGR,ENGR4290,Affordable Design and Entrepreneurship,T 3:30-6:30p,AC213,4,15.0,Linder,01,,,"Note: enroll in this section if you are taking this course as your
 capstone",
-SP,2015,INTEGRAT ED,"AHSE 2141 /
-ENGR 2141",Engineering for Humanity,M 1:30-3:10p; W 1-4:00p,AC109,2+2,18.0,Ben Ur; Lynch,01,,,,
-SP,2015,INTEGRAT ED,AHSE 2199A / SCI 2099A,"Special Topics in AHS and Science: Paradigms, Predictions and Joules - Historical and Scientific Approach to Energy and the Environment",T 3:30-8:00pm,"at Olin: AC326
+SP,2015,INTEGRAT ED,AHSE2141 / ENGR2141,Engineering for Humanity,M 1:30-3:10p; W 1-4:00p,AC109,2+2,18.0,Ben Ur; Lynch,01,,,,
+SP,2015,INTEGRAT ED,AHSE2199A / SCI2099A,"Special Topics in AHS and Science: Paradigms, Predictions and Joules - Historical and Scientific Approach to Energy and the Environment",T 3:30-8:00pm,"at Olin: AC326
 / will also meet at Wellesley",3+3,9.0,Martello,01,,,Waitlist Available,
-SP,2015,INTEGRAT ED,MTH 2188A / ENGR 2199A,"Designated Alternative in Engineering and Mathematics:
+SP,2015,INTEGRAT ED,MTH2188A / ENGR2199A,"Designated Alternative in Engineering and Mathematics:
 Data Science",TF 10:50-12:30p,AC417,2 + 2,25.0,Downey,01,,,Note: satisfies ProbStat requirement; WAITLIST Available,
-SP,2015,ME,ENGR 2320,Mechanics of Solids and Structures,M 9-10:00a; WF 9-10:40a,AC328,4,42.0,Lee,01,,,Waitlist Available,
-SP,2015,ME,ENGR 2330,Introduction to Mechanical Prototyping,TF 1:30-3:10p,AC309,4,25.0,Barrett,01,,,Waitlist Available,
-SP,2015,ME,ENGR 2350,Thermodynamics,MR 1:30-3:10p,AC318,4,25.0,Townsend; Manno,01,,,Waitlist Available,
-SP,2015,ME,ENGR 3330,Mechanical Design,TF 10:50- 12:30p,AC309,4,25.0,Barrett,01,,,Waitlist Available,
-SP,2015,ME,ENGR 3345,Mechanical and Aerospace Systems,MR 10:50- 12:30p,AC109,4,15.0,Lee,01,,,Waitlist Available,
-SP,2015,ME,ENGR 3370,Controls,MR 1:30-3:10p,AC304,4,25.0,Lundberg,01,,,,
-SP,2015,ME,ENGR 3392,Robotics Systems Integration,MR 10:50- 12:30p,AC309,4,25.0,Bennett,01,,,,
-SP,2015,MTH,MTH 2130,Probability and Statistics,MR 9-10:40a,AC213,2,25.0,Patel,01,,,Session I,
-SP,2015,MTH,MTH 2199,Special Topics in Mathematics:  A Mathematical Introduction to Cryptography,MR 1:30-3:10p,AC128,4,25.0,Patel,01,,,,
-SP,2015,MTH,MTH 2199A,Special Topics in Mathematics:  Structure in Randomness: A Mathematical Perspective,MR 9-10:40a,AC213,2,25.0,Patel,01,,,Session II,
-SP,2015,MTH,MTH 2210,Linearity I,W 9-10:40a; F 9- 12:30p,"2nd Floor Campus Center; CC209, 210, 211, 213, 214",4,90.0,Adams; Hoffman; Storey,01,,,Note: non-standard pattern,
-SP,2015,MTH,MTH 3120,Partial Differential Equations,TF 1:30-3:10p,AC326,4,28.0,Hoffman,01,,,,
-SP,2015,SCI,SCI 1130,Mechanics: Theoretical / Experimental Approach,MR 10:50- 12:30p,AC318,4,30.0,Zastavker,A1,,,Waitlist Available,
-SP,2015,SCI,SCI 1130,Mechanics: Modeling and Simulation Approach,MR 10:50- 12:30p,AC328,4,30.0,Somerville,C1,,,Waitlist Available,
-SP,2015,SCI,SCI 1130,Mechanics: Modeling and Simulation Approach,MR 1:30-3:10p,AC328,4,30.0,Somerville,C2,,,Waitlist Available,
-SP,2015,SCI,SCI 1210,Principles of Modern Biology (with Lab): Human Genetics and Genomics,TF 1:30-3:10p; W 12:30-3:10p,AC318; AC406,4,24.0,Donis-Keller,01,,,Waitlist Available,
-SP,2015,SCI,SCI 1210,Principles of Modern Biology (with Lab),TF 1:30-3:10p; T 3:20-6p,AC417; AC406,4,24.0,Huang,02,,,Waitlist Available,
-SP,2015,SCI,SCI 1410,Materials Science and Solid State Chemistry (with Lab),MR 3:20-6:00p,AC413,4,21.0,Christianson,01,,,Waitlist Available,
-SP,2015,SCI,SCI 1410,"Materials Science and Solid State Chemistry (with Lab):
+SP,2015,ME,ENGR2320,Mechanics of Solids and Structures,M 9-10:00a; WF 9-10:40a,AC328,4,42.0,Lee,01,,,Waitlist Available,
+SP,2015,ME,ENGR2330,Introduction to Mechanical Prototyping,TF 1:30-3:10p,AC309,4,25.0,Barrett,01,,,Waitlist Available,
+SP,2015,ME,ENGR2350,Thermodynamics,MR 1:30-3:10p,AC318,4,25.0,Townsend; Manno,01,,,Waitlist Available,
+SP,2015,ME,ENGR3330,Mechanical Design,TF 10:50- 12:30p,AC309,4,25.0,Barrett,01,,,Waitlist Available,
+SP,2015,ME,ENGR3345,Mechanical and Aerospace Systems,MR 10:50- 12:30p,AC109,4,15.0,Lee,01,,,Waitlist Available,
+SP,2015,ME,ENGR3370,Controls,MR 1:30-3:10p,AC304,4,25.0,Lundberg,01,,,,
+SP,2015,ME,ENGR3392,Robotics Systems Integration,MR 10:50- 12:30p,AC309,4,25.0,Bennett,01,,,,
+SP,2015,MTH,MTH2130,Probability and Statistics,MR 9-10:40a,AC213,2,25.0,Patel,01,,,Session I,
+SP,2015,MTH,MTH2199,Special Topics in Mathematics:  A Mathematical Introduction to Cryptography,MR 1:30-3:10p,AC128,4,25.0,Patel,01,,,,
+SP,2015,MTH,MTH2199A,Special Topics in Mathematics:  Structure in Randomness: A Mathematical Perspective,MR 9-10:40a,AC213,2,25.0,Patel,01,,,Session II,
+SP,2015,MTH,MTH2210,Linearity I,W 9-10:40a; F 9- 12:30p,"2nd Floor Campus Center; CC209, 210, 211, 213, 214",4,90.0,Adams; Hoffman; Storey,01,,,Note: non-standard pattern,
+SP,2015,MTH,MTH3120,Partial Differential Equations,TF 1:30-3:10p,AC326,4,28.0,Hoffman,01,,,,
+SP,2015,SCI,SCI1130,Mechanics: Theoretical / Experimental Approach,MR 10:50- 12:30p,AC318,4,30.0,Zastavker,A1,,,Waitlist Available,
+SP,2015,SCI,SCI1130,Mechanics: Modeling and Simulation Approach,MR 10:50- 12:30p,AC328,4,30.0,Somerville,C1,,,Waitlist Available,
+SP,2015,SCI,SCI1130,Mechanics: Modeling and Simulation Approach,MR 1:30-3:10p,AC328,4,30.0,Somerville,C2,,,Waitlist Available,
+SP,2015,SCI,SCI1210,Principles of Modern Biology (with Lab): Human Genetics and Genomics,TF 1:30-3:10p; W 12:30-3:10p,AC318; AC406,4,24.0,Donis-Keller,01,,,Waitlist Available,
+SP,2015,SCI,SCI1210,Principles of Modern Biology (with Lab),TF 1:30-3:10p; T 3:20-6p,AC417; AC406,4,24.0,Huang,02,,,Waitlist Available,
+SP,2015,SCI,SCI1410,Materials Science and Solid State Chemistry (with Lab),MR 3:20-6:00p,AC413,4,21.0,Christianson,01,,,Waitlist Available,
+SP,2015,SCI,SCI1410,"Materials Science and Solid State Chemistry (with Lab):
 Environmental and Societal Impact of Materials",TW 3:20-6:00p,AC413,4,21.0,Stolk,B1,,,Waitlist Available,
-SP,2015,SCI,SCI 2130,Quantum Physics,TF 1:30-3:10p,AC113,4,25.0,Holt,01,,,,
-SP,2015,SCI,SCI 2145,High Energy Astrophyics,TF 10:50- 12:30p,AC113,2,25.0,Holt,01,,,Session I,
-SP,2015,SCI,SCI 3130,Advanced Classical Mechanics,MR 1:30-3:10p,MH373,4,30.0,Zastavker,01,,,,
-SP,2015,SEM,SEM 101,Seminar:  Product Management,W 6:30-9:00p,AC318,1,25.0,Chisa,S1,,,,
-SP,2015,SEM,SEM 102,Seminar:  Olin Workshop on the Library,R 6:30-8:30p,The Library,1,25.0,Goldenson,S2,,,,
-SP,2015,SEM,SEM 103,Seminar:  Big Ideas in Pedagogy and Educational Technology Trends,T 6:30-8:30p,AC318,1,25.0,Morales,S2,,,,
-SP,2015,SUST,SUST 3301,Sustainability Certificate Synthesis Course,R 3:30-6:30p,AC213,4,15.0,"Linder; Higgins, Monica (Wellesley)",01,,,,
-SP,2015,,AWAY 1000,Study Away Program,,,12,,Administration,01,,,,
-SP,2015,,OIP 1000,The Olin Internship Practicum,,,1,,Phelps,01,,,,
-SP,2016,AHS,AHSE 0112,The Olin Conductorless Orchestra,R 6:45-9:00pm,AC318; AC305,1,25,Dabby,01,,,,
-SP,2016,AHS,AHSE 2199A,"Special Topics in Arts, Humanities and Social Sciences:
+SP,2015,SCI,SCI2130,Quantum Physics,TF 1:30-3:10p,AC113,4,25.0,Holt,01,,,,
+SP,2015,SCI,SCI2145,High Energy Astrophyics,TF 10:50- 12:30p,AC113,2,25.0,Holt,01,,,Session I,
+SP,2015,SCI,SCI3130,Advanced Classical Mechanics,MR 1:30-3:10p,MH373,4,30.0,Zastavker,01,,,,
+SP,2015,SEM,SEM101,Seminar:  Product Management,W 6:30-9:00p,AC318,1,25.0,Chisa,S1,,,,
+SP,2015,SEM,SEM102,Seminar:  Olin Workshop on the Library,R 6:30-8:30p,The Library,1,25.0,Goldenson,S2,,,,
+SP,2015,SEM,SEM103,Seminar:  Big Ideas in Pedagogy and Educational Technology Trends,T 6:30-8:30p,AC318,1,25.0,Morales,S2,,,,
+SP,2015,SUST,SUST3301,Sustainability Certificate Synthesis Course,R 3:30-6:30p,AC213,4,15.0,"Linder; Higgins, Monica (Wellesley)",01,,,,
+SP,2015,,AWAY1000,Study Away Program,,,12,,Administration,01,,,,
+SP,2015,,OIP1000,The Olin Internship Practicum,,,1,,Phelps,01,,,,
+SP,2016,AHS,AHSE0112,The Olin Conductorless Orchestra,R 6:45-9:00pm,AC318; AC305,1,25,Dabby,01,,,,
+SP,2016,AHS,AHSE2199A,"Special Topics in Arts, Humanities and Social Sciences:
 Narrative Psychology",MR 11:10- 12:20pm,at Wellesley,4,5,Adler,01,,,,
-SP,2016,AHS,AHSE 2199B,"Special Topics in Arts, Humanities and Social Sciences: World Creation as Cultural Commentary",MR 1:30-3:10pm,AC318,2,15,Vitols,01,,,"Session I; features student led teaching from Ben Kahle, '16",
-SP,2016,AHS,AHSE 2199C,"Special Topics in Arts, Humanities and Social Sciences: Virtualities: An Introduction to Video Gaming History and Theory",MR 1:30-3:10pm,AC318,2,15,Vitols,01,,,Session II,
-SP,2016,AHS,AHSE 2199E,"Special Topics in Arts, Humanities and Social Sciences: Designing the 21st Century Engineer: Leadership, Values,
+SP,2016,AHS,AHSE2199B,"Special Topics in Arts, Humanities and Social Sciences: World Creation as Cultural Commentary",MR 1:30-3:10pm,AC318,2,15,Vitols,01,,,"Session I; features student led teaching from Ben Kahle, '16",
+SP,2016,AHS,AHSE2199C,"Special Topics in Arts, Humanities and Social Sciences: Virtualities: An Introduction to Video Gaming History and Theory",MR 1:30-3:10pm,AC318,2,15,Vitols,01,,,Session II,
+SP,2016,AHS,AHSE2199E,"Special Topics in Arts, Humanities and Social Sciences: Designing the 21st Century Engineer: Leadership, Values,
 Innovation",T 5:30-7pm,CC209,2,15,"Gentile, Martello",01,,,Offered Using Experimental Grading,
-SP,2016,AHS,AHSE 2199F,"Special Topics in Arts, Humanities and Social Sciences: What's Your Story? Narrative with Purpose",M 9-10:40am,AC417,2,20,"Epstein, Zastavker",01,,,Full Semester Offering; Offered Using Experimental Grading,
-SP,2016,AHS,AHSE 3100,Issues in Leadership and Ethics,R 6-8:00pm,AC326,2,8,"Miller, R.",01,,,CANCELLED,
-SP,2016,AHS,AHSE 3190,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",,,1,20,Epstein,01,,,,
-SP,2016,AHS,AHSE 4190,"Arts, Humanities, Social Sciences Capstone",T 9:10-10:40am,AC417,4,15,Epstein,01,,,,
-SP,2016,AHS,AHSE 4190,"Arts, Humanities, Social Sciences Capstone",T 10:50-12:20pm,AC417,4,15,Epstein,02,,,,
-SP,2016,CROSSLIST,ENGR 2620,Biomechanics,MR 1:30-3:10pm,AC304,4,12,Zastavker,01,,,Students should choose ENGR or SCI offering for enrollment depending on the type of credit they desire to earn. Your decision at registration is not reversible.  Offered using Experimental Grading,
+SP,2016,AHS,AHSE2199F,"Special Topics in Arts, Humanities and Social Sciences: What's Your Story? Narrative with Purpose",M 9-10:40am,AC417,2,20,"Epstein, Zastavker",01,,,Full Semester Offering; Offered Using Experimental Grading,
+SP,2016,AHS,AHSE3100,Issues in Leadership and Ethics,R 6-8:00pm,AC326,2,8,"Miller, R.",01,,,CANCELLED,
+SP,2016,AHS,AHSE3190,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",,,1,20,Epstein,01,,,,
+SP,2016,AHS,AHSE4190,"Arts, Humanities, Social Sciences Capstone",T 9:10-10:40am,AC417,4,15,Epstein,01,,,,
+SP,2016,AHS,AHSE4190,"Arts, Humanities, Social Sciences Capstone",T 10:50-12:20pm,AC417,4,15,Epstein,02,,,,
+SP,2016,CROSSLIST,ENGR2620,Biomechanics,MR 1:30-3:10pm,AC304,4,12,Zastavker,01,,,Students should choose ENGR or SCI offering for enrollment depending on the type of credit they desire to earn. Your decision at registration is not reversible.  Offered using Experimental Grading,
 SP,2016,,SCI2220,,,,,,,01,,,,
-SP,2016,DSN,ENGR 2250,User Oriented Collaborative Design,TF 9:50-12:30pm,AC204; MH120,4,32,"Hendren, Adler, Ben Ur, Slutsky, Stein,  Strong",01,,,,
-SP,2016,DSN,ENGR 2250,User Oriented Collaborative Design,TF 9:50-12:30pm,AC206; MH120,4,32,"Hendren, Adler, Ben Ur, Slutsky, Stein,  Strong",02,,,,
-SP,2016,DSN,ENGR 2250,User Oriented Collaborative Design,TF 9:50-12:30pm,AC209; MH120,4,32,"Hendren, Adler, Ben Ur, Slutsky, Stein,  Strong",03,,,,
-SP,2016,DSN,ENGR 3210,Sustainable Design,MR 3:20-5pm,AC213,4,25,Linder,01,,,DESIGN Depth Offering,
-SP,2016,DSN,ENGR 3290,Affordable Design and Entrepreneurship,T 3:30-6:30pm,AC213,4,15,"Linder, Govindasamy, Mur- Miranda",01,,,DESIGN Depth Offering,
-SP,2016,E!,AHSE 1515,Products and Markets,TF 9-12:30pm,AC318,4,28,"Neeley, Hoover, Rubenstein, Woodard, Staff",01,,,Note: non-standard pattern,
-SP,2016,E!,AHSE 1515,Products and Markets,TF 9-12:30pm,AC326,4,28,"Neeley, Hoover, Rubenstein, Woodard, Staff",02,,,Note: non-standard pattern,
-SP,2016,E!,AHSE 1515,Products and Markets,TF 9-12:30pm,AC328,4,28,"Neeley, Hoover, Rubenstein, Woodard, Staff",03,,,Note: non-standard pattern,
-SP,2016,E!,AHSE 4590,Entrepreneurship Capstone,TF 1:30-3:10pm,CC214,4,15,Neeley,01,,,Waitlist Available,
-SP,2016,E:C,ENGR 2510,Software Design,MR 1:30-3:10pm,AC326,4,25,"Hill, Ruvolo",01,,,,
-SP,2016,E:C,ENGR 2510,Software Design,MR 3:20-5:00pm,AC326,4,25,"Hill, Ruvolo",02,,,,
-SP,2016,E:C,ENGR 3520,Foundations of Computer Science,R 4-6:30pm,AC318,4,24,Pucella,01,,,Waitlist Available,
-SP,2016,E:C,ENGR 3599,Special Topics in Computing: Computer Networks,MR 3:20-5pm,AC328,4,25,Morrow,01,,,,
-SP,2016,E:MS,ENGR 3610,Biomedical Materials,MR 10:50- 12:30pm,AC406; AC413; AC417,4,20,Chachra,01,,,"E: BE, E:MS and ME elective",
-SP,2016,ECE,ENGR 2410,Signals and Systems,MR 3:20-5:00pm,AC304,4,32,Mur-Miranda,01,,,,
-SP,2016,ECE,ENGR 2420,Introduction to Microelectronic Circuits with LAB,MR 1:30-3:10pm; R 9-10:40am,AC309,4,28,Minch,01,,,,
-SP,2016,ECE,ENGR 3415,Digital Signal Processing,TF 1:30-3:10pm,AC304,4,25,Dabby,01,,,,
-SP,2016,ECE,ENGR 3440,Special Topics in Electrical and Computer Engineering: Principles of Wireless Communication,TF 10:50-12:30pm,AC304,4,24,Govindasamy,01,,,ECE Advanced Elective,
-SP,2016,ENGR,ENGR 1330,Fundamentals of Machine Shop Operations,W 12:30-4:30pm,AC104,4,6,Andruskiewicz,01,,,,
-SP,2016,ENGR,ENGR 2199,Special Topics in Engineering: Designing Resources for Empowerment and Making (DREAM),TF 1:30-3:10pm,AC213,4,25,Millner,01,,,,
-SP,2016,ENGR,ENGR 3110,Elecanisms,M 9-12:30p; R 10:50-12:30pm,AC306,4,25,Hoover; Minch,01,,,Waitlist Available,
-SP,2016,ENGR,ENGR 4290,Affordable Design and Entrepreneurship,T 3:30-6:30pm,AC213,4,15,"Linder; Govindasamy, Mur- Miranda",01,,,Engineering Capstone Option,
+SP,2016,DSN,ENGR2250,User Oriented Collaborative Design,TF 9:50-12:30pm,AC204; MH120,4,32,"Hendren, Adler, Ben Ur, Slutsky, Stein,  Strong",01,,,,
+SP,2016,DSN,ENGR2250,User Oriented Collaborative Design,TF 9:50-12:30pm,AC206; MH120,4,32,"Hendren, Adler, Ben Ur, Slutsky, Stein,  Strong",02,,,,
+SP,2016,DSN,ENGR2250,User Oriented Collaborative Design,TF 9:50-12:30pm,AC209; MH120,4,32,"Hendren, Adler, Ben Ur, Slutsky, Stein,  Strong",03,,,,
+SP,2016,DSN,ENGR3210,Sustainable Design,MR 3:20-5pm,AC213,4,25,Linder,01,,,DESIGN Depth Offering,
+SP,2016,DSN,ENGR3290,Affordable Design and Entrepreneurship,T 3:30-6:30pm,AC213,4,15,"Linder, Govindasamy, Mur- Miranda",01,,,DESIGN Depth Offering,
+SP,2016,E!,AHSE1515,Products and Markets,TF 9-12:30pm,AC318,4,28,"Neeley, Hoover, Rubenstein, Woodard, Staff",01,,,Note: non-standard pattern,
+SP,2016,E!,AHSE1515,Products and Markets,TF 9-12:30pm,AC326,4,28,"Neeley, Hoover, Rubenstein, Woodard, Staff",02,,,Note: non-standard pattern,
+SP,2016,E!,AHSE1515,Products and Markets,TF 9-12:30pm,AC328,4,28,"Neeley, Hoover, Rubenstein, Woodard, Staff",03,,,Note: non-standard pattern,
+SP,2016,E!,AHSE4590,Entrepreneurship Capstone,TF 1:30-3:10pm,CC214,4,15,Neeley,01,,,Waitlist Available,
+SP,2016,E:C,ENGR2510,Software Design,MR 1:30-3:10pm,AC326,4,25,"Hill, Ruvolo",01,,,,
+SP,2016,E:C,ENGR2510,Software Design,MR 3:20-5:00pm,AC326,4,25,"Hill, Ruvolo",02,,,,
+SP,2016,E:C,ENGR3520,Foundations of Computer Science,R 4-6:30pm,AC318,4,24,Pucella,01,,,Waitlist Available,
+SP,2016,E:C,ENGR3599,Special Topics in Computing: Computer Networks,MR 3:20-5pm,AC328,4,25,Morrow,01,,,,
+SP,2016,E:MS,ENGR3610,Biomedical Materials,MR 10:50- 12:30pm,AC406; AC413; AC417,4,20,Chachra,01,,,"E: BE, E:MS and ME elective",
+SP,2016,ECE,ENGR2410,Signals and Systems,MR 3:20-5:00pm,AC304,4,32,Mur-Miranda,01,,,,
+SP,2016,ECE,ENGR2420,Introduction to Microelectronic Circuits with LAB,MR 1:30-3:10pm; R 9-10:40am,AC309,4,28,Minch,01,,,,
+SP,2016,ECE,ENGR3415,Digital Signal Processing,TF 1:30-3:10pm,AC304,4,25,Dabby,01,,,,
+SP,2016,ECE,ENGR3440,Special Topics in Electrical and Computer Engineering: Principles of Wireless Communication,TF 10:50-12:30pm,AC304,4,24,Govindasamy,01,,,ECE Advanced Elective,
+SP,2016,ENGR,ENGR1330,Fundamentals of Machine Shop Operations,W 12:30-4:30pm,AC104,4,6,Andruskiewicz,01,,,,
+SP,2016,ENGR,ENGR2199,Special Topics in Engineering: Designing Resources for Empowerment and Making (DREAM),TF 1:30-3:10pm,AC213,4,25,Millner,01,,,,
+SP,2016,ENGR,ENGR3110,Elecanisms,M 9-12:30p; R 10:50-12:30pm,AC306,4,25,Hoover; Minch,01,,,Waitlist Available,
+SP,2016,ENGR,ENGR4290,Affordable Design and Entrepreneurship,T 3:30-6:30pm,AC213,4,15,"Linder; Govindasamy, Mur- Miranda",01,,,Engineering Capstone Option,
 SP,2016,ENGR,ENGR4190,Senior Capstone Program in Engineering (SCOPE),"W 9-10:40a; 12:30-
 6pm",,12,99,"Lee; Strong, Hill, Barrett, Bennett, Ruvolo, Christianson, Minch, Storey, Millner, Woodard, Somerville, Geddes",01-14,,,enroll in the same section number you are presently in for Fall 2015,
-SP,2016,INTEGRATED,"AHSE 2199 /
-SCI 1310","Special Topics in AHS and Science: Chemistry in Context: Environmental Milestones, Opportunities, and the Human
+SP,2016,INTEGRATED,"AHSE2199 / SCI1310","Special Topics in AHS and Science: Chemistry in Context: Environmental Milestones, Opportunities, and the Human
 Connection","TF 1:30-3:10; W 1-
 5pm",AC328; AC409,4 + 4,24,"Hersey, Martello",01,,,,
-SP,2016,,"AHSE 2199D 
-/SCI 2099D","Special Topics in AHS and Science: The Intersection of Art, Biology and Technology",MR 10:50- 12:30pm; W 12:30-,"AC313; AC406
-Wed",2 + 2,15,Donis-Keller,01,,,CANCELLED,
+SP,2016,,"AHSE2199D /SCI2099D","Special Topics in AHS and Science: The Intersection of Art, Biology and Technology",MR 10:50- 12:30pm; W 12:30-,"AC313; AC406
+Wed",2 + 2,15,Donis-Keller,01,,,CANCELLED,
 SP,2016,,,,3:10pm,,,,,,,,,
-SP,2016,,CIE 2016A,Currriculum Innovation Experiment: Quantitative Engineering Analysis I,MR 9-12:30pm,AC109,8,tbd,"Geddes, Somerville, Lee, Christianson,Govindasamy",01,,,"Enrollment Based on Lottery; First Year Students Only; Offered
+SP,2016,,CIE2016A,Currriculum Innovation Experiment: Quantitative Engineering Analysis I,MR 9-12:30pm,AC109,8,tbd,"Geddes, Somerville, Lee, Christianson,Govindasamy",01,,,"Enrollment Based on Lottery; First Year Students Only; Offered
 Using Experimental Grading",
-SP,2016,,"MTH 2131 /
-ENGR 3531",Data Science,TF 1:30-3:10pm,AC326,2 + 2,25,Ruvolo,01,,,PROB/STAT Designated Alternative,
-SP,2016,,MTH 2132 / SCI 2032,Bayesian Inference and Reasoning,TF 10:50-12:30pm,AC113,2+2,32,Mahajan,01,,,PROB/STAT Designated Alternative,
-SP,2016,ME,ENGR 2320,Mechanics of Solids and Structures,MR 1:30-3:10p; W 9:30-10:30am,AC328; Wed AC113,4,32,Lee,01,,,Waitlist Available,
-SP,2016,ME,ENGR 2330,Introduction to Mechanical Prototyping,MR 1:30-3:10pm,AC128,4,25,Barrett,01,,,Waitlist Available,
-SP,2016,ME,ENGR 2350,Thermodynamics,MR 9-10:40am,AC318,4,25,Townsend,01,,,Waitlist Available,
-SP,2016,ME,ENGR 3392,Robotics Systems Integration,TF 9-10:40am,AC128,4,25,Bennett,01,,,,
-SP,2016,ME,ENGR 3399,Special Topics in Mechanical Engineering:  Bicycle Dynamics,TF 10:50-12:30pm,AC428,4,15,Storey,01,,,ME Advanced Elective; Waitlist AVAILABLE              CANCELLED,
-SP,2016,MTH,MTH 2110,Discrete Math,MR 9-10:40am,AC304,4,30,Patel,01,,,Waitlist AVAILABLE,
+SP,2016,,"MTH2131 / ENGR3531",Data Science,TF 1:30-3:10pm,AC326,2 + 2,25,Ruvolo,01,,,PROB/STAT Designated Alternative,
+SP,2016,,MTH2132 / SCI2032,Bayesian Inference and Reasoning,TF 10:50-12:30pm,AC113,2+2,32,Mahajan,01,,,PROB/STAT Designated Alternative,
+SP,2016,ME,ENGR2320,Mechanics of Solids and Structures,MR 1:30-3:10p; W 9:30-10:30am,AC328; Wed AC113,4,32,Lee,01,,,Waitlist Available,
+SP,2016,ME,ENGR2330,Introduction to Mechanical Prototyping,MR 1:30-3:10pm,AC128,4,25,Barrett,01,,,Waitlist Available,
+SP,2016,ME,ENGR2350,Thermodynamics,MR 9-10:40am,AC318,4,25,Townsend,01,,,Waitlist Available,
+SP,2016,ME,ENGR3392,Robotics Systems Integration,TF 9-10:40am,AC128,4,25,Bennett,01,,,,
+SP,2016,ME,ENGR3399,Special Topics in Mechanical Engineering: Bicycle Dynamics,TF 10:50-12:30pm,AC428,4,15,Storey,01,,,ME Advanced Elective; Waitlist AVAILABLE              CANCELLED,
+SP,2016,MTH,MTH2110,Discrete Math,MR 9-10:40am,AC304,4,30,Patel,01,,,Waitlist AVAILABLE,
 SP,2016,MTH,MTH2130,Probability and Statistics,MR 10:50- 12:30pm,AC304,2,32,Patel,01,,,Session I,
-SP,2016,MTH,MTH 2210,Linearity I,MWR 9-10:40am,AC326; AC328,4,48,"Hoffman, Mur-Miranda",01,,,,
-SP,2016,MTH,MTH 3120,Partial Differential Equations,TF 1:30-3:10pm,AC318,4,28,Hoffman,01,,,,
-SP,2016,MTH,MTH 3150,Numerical Methods and Scientific Computing,TF 9-10:40am,AC304,4,28,Storey,01,,,,
-SP,2016,SCI,SCI 1130,Mechanics: A Theoretical Approach,MR 10:50- 12:30pm,AC318,4,40,Zastavker,A1,,,Waitlist Available,
-SP,2016,SCI,SCI 1210,Principles of Modern Biology (with Lab): Human Genetics and Genomics,MR 1:30-3:10pm; W 3:20-6:00pm,AC313; AC406,4,24,Donis-Keller,01,,,Waitlist Available,
-SP,2016,SCI,SCI 1210,Principles of Modern Biology (with Lab): Think like a Biologist,TF 1:30-3:10pm; T 3:20-6pm,AC417; AC406,4,24,Huang,02,,,Waitlist Available,
-SP,2016,SCI,SCI 1410,Introduction to Material Science and Solid State Chemistry,MR 3:20-6:00pm,AC413,4,21,Christianson,01,,,Waitlist Available,
-SP,2016,SCI,SCI 2130,Quantum Physics,TF 1:30-3:10pm,AC113,4,25,Holt,01,,,This course may satisfy a Physics Foundation,
-SP,2016,SCI,SCI 2140,Relativity,TF 9-10:40am,AC113,2,25,Holt,01,,,Session I,
-SP,2016,SCI,SCI 2214,Microbial Diversity,W 1-4pm,AC417; AC404,4,24,Huang,01,,,,
-SP,2016,SEM,SEM 105,Industrial Media Super-Taster,M 6:30-8:30pm,AC104 & 1st Flr Hall,1,7,Betsch; Pierce,S1,,,Waitlist Available,
-SP,2016,SEM,SEM 201,An Introduction to Product Design and Engineering in a Large(r) Corporate Environment,R 6:30-8:30p,AC326,1,15,Tsang,S1,,,Waitlist Available,
-SP,2016,SEM,SEM 503,Introduction to Embedded Software,R 7-9:00pm,AC328,1,15,Ting,S1,,,Waitlist Available,
-SP,2016,ADMIN,AWAY 1000,Study Away Program,,,12,,Administration,01,,,,
-SP,2016,ADMIN,OIP 1000,The Olin Internship Practicum,,,1,,Phelps,01,,,,
-SP,2014,AHS,AHSE 0112,The Olin Conductorless Orchestra,R 6:45-9pm,"AC304, 305,
+SP,2016,MTH,MTH2210,Linearity I,MWR 9-10:40am,AC326; AC328,4,48,"Hoffman, Mur-Miranda",01,,,,
+SP,2016,MTH,MTH3120,Partial Differential Equations,TF 1:30-3:10pm,AC318,4,28,Hoffman,01,,,,
+SP,2016,MTH,MTH3150,Numerical Methods and Scientific Computing,TF 9-10:40am,AC304,4,28,Storey,01,,,,
+SP,2016,SCI,SCI1130,Mechanics: A Theoretical Approach,MR 10:50- 12:30pm,AC318,4,40,Zastavker,A1,,,Waitlist Available,
+SP,2016,SCI,SCI1210,Principles of Modern Biology (with Lab): Human Genetics and Genomics,MR 1:30-3:10pm; W 3:20-6:00pm,AC313; AC406,4,24,Donis-Keller,01,,,Waitlist Available,
+SP,2016,SCI,SCI1210,Principles of Modern Biology (with Lab): Think like a Biologist,TF 1:30-3:10pm; T 3:20-6pm,AC417; AC406,4,24,Huang,02,,,Waitlist Available,
+SP,2016,SCI,SCI1410,Introduction to Material Science and Solid State Chemistry,MR 3:20-6:00pm,AC413,4,21,Christianson,01,,,Waitlist Available,
+SP,2016,SCI,SCI2130,Quantum Physics,TF 1:30-3:10pm,AC113,4,25,Holt,01,,,This course may satisfy a Physics Foundation,
+SP,2016,SCI,SCI2140,Relativity,TF 9-10:40am,AC113,2,25,Holt,01,,,Session I,
+SP,2016,SCI,SCI2214,Microbial Diversity,W 1-4pm,AC417; AC404,4,24,Huang,01,,,,
+SP,2016,SEM,SEM105,Industrial Media Super-Taster,M 6:30-8:30pm,AC104 & 1st Flr Hall,1,7,Betsch; Pierce,S1,,,Waitlist Available,
+SP,2016,SEM,SEM201,An Introduction to Product Design and Engineering in a Large(r) Corporate Environment,R 6:30-8:30p,AC326,1,15,Tsang,S1,,,Waitlist Available,
+SP,2016,SEM,SEM503,Introduction to Embedded Software,R 7-9:00pm,AC328,1,15,Ting,S1,,,Waitlist Available,
+SP,2016,ADMIN,AWAY1000,Study Away Program,,,12,,Administration,01,,,,
+SP,2016,ADMIN,OIP1000,The Olin Internship Practicum,,,1,,Phelps,01,,,,
+SP,2014,AHS,AHSE0112,The Olin Conductorless Orchestra,R 6:45-9pm,"AC304, 305,
 318",1,30,Dabby,01,,,,
-SP,2014,AHS,AHSE 2199,"Special Topics in Arts, Humanities, Social Sciences: Eco- Docs: Environmental Activism in Documentary Cinema",TF 9-10:40am,AC128,4,24,Vitols,01,,,,
-SP,2014,AHS,AHSE 2199A,"Special Topics in Arts, Humanities, Social Sciences: Critical Reflective Writing",T 10:50-12:30pm,CC214,2,24,Zastavker Epstein,01,,,FULL Semester Offering,
-SP,2014,AHS,AHSE 2199B,"Special Topics in Arts, Humanities, Social Sciences:
+SP,2014,AHS,AHSE2199,"Special Topics in Arts, Humanities, Social Sciences: Eco- Docs: Environmental Activism in Documentary Cinema",TF 9-10:40am,AC128,4,24,Vitols,01,,,,
+SP,2014,AHS,AHSE2199A,"Special Topics in Arts, Humanities, Social Sciences: Critical Reflective Writing",T 10:50-12:30pm,CC214,2,24,Zastavker Epstein,01,,,FULL Semester Offering,
+SP,2014,AHS,AHSE2199B,"Special Topics in Arts, Humanities, Social Sciences:
 Narrative Psychology",MR 11:10- 12:20pm,Wellesley College,4,5 Olin seats,Adler,01,,,At Wellesley. Enroll with permission of instructor.,
-SP,2014,AHS,AHSE 3100,Issues in Leadership and Ethics,R 6:00-8pm,AC326,2,8 Olin seats,"Miller, R.",01,,,,
-SP,2014,AHS,AHSE 3190,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",,,1,20,Epstein,01,,,"Required if you plan on completing an AHS Capstone Project
+SP,2014,AHS,AHSE3100,Issues in Leadership and Ethics,R 6:00-8pm,AC326,2,8 Olin seats,"Miller, R.",01,,,,
+SP,2014,AHS,AHSE3190,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",,,1,20,Epstein,01,,,"Required if you plan on completing an AHS Capstone Project
 (AHSE4190)",
-SP,2014,AHS,AHSE 4190,"Arts, Humanities, Social Sciences Capstone",M 9:10-10:40am,CC214,4,30,Epstein,01,,,,
-SP,2014,AHS,AHSE 4190,"Arts, Humanities, Social Sciences Capstone",M 10:50-12:20pm,CC214,4,30,Epstein,02,,,,
-SP,2014,DSN,ENGR 2250,User Oriented Collaborative Design,MR 3:20-6pm,MH120; AC204,4,30,Linder; Adler; Stein; Millner; Ben-Ur; Bator,01,,,,
-SP,2014,DSN,ENGR 2250,User Oriented Collaborative Design,MR 3:20-6pm,MH120; AC206,4,30,,02,,,,
-SP,2014,DSN,ENGR 2250,User Oriented Collaborative Design,MR 3:20-6pm,MH120; AC209,4,30,,03,,,,
-SP,2014,DSN,ENGR 3260,Design for Manufacturing,TF 9-10:40am,AC309,4,25,Tong,01,,,Design Depth Option; WAITLIST Available,
-SP,2014,DSN,ENGR 3299,Special Topics in Design: Design of Energy Systems,TF 1:30-3:10pm,AC213,4,24,Mechtenberg,01,,,Design Depth Option,
-SP,2014,DSN / ENGR,ENGR 3290,Affordable Design and Entrepreneurship (as a Design Depth),T 3:30-6:30pm,AC213,4,15,Linder; Mechtenberg,01,,,Design Depth Option; WAITLIST Available,
-SP,2014,DSN / ENGR,ENGR 4290,Affordable Design and Entrepreneurship (as a Capstone),T 3:30-6:30pm,AC213,4,12,Linder; Mechtenberg,01,,,WAITLIST Available,
-SP,2014,E!,AHSE 1500,The Entrepreneurial Initiative,MR 10:50- 12:30pm,AC328,4,30,Neeley,01,,,,
-SP,2014,E!,AHSE 4590,Entrepreneurship Capstone,MR 9-10:40am,CC210,4,15,Brand,01,,,,
-SP,2014,E:BE,ENGR 3620,Cellular Bioengineering,MR 10:50- 12:30pm,AC417,4,18,Sarang- Sieminski,01,,,,
-SP,2014,E:C,ENGR 2510,Software Design,MR 3:20-5pm,AC326,4,25,Ruvolo,01,,,Small WAITLIST Available (5),
-SP,2014,E:C,ENGR 2510,Software Design,MR 1:30-3:10pm,AC326,4,25,Ruvolo,02,,,Small WAITLIST Available (5),
-SP,2014,E:C,ENGR 2599,Special Topics in Computing: Computer Networks,MR 3:20-5pm,AC328,4,25,Morrow,01,,,WAITLIST Available,
-SP,2014,E:C,ENGR 3525,Software Systems,MR 10:50- 12:30pm,AC326,4,30,Downey,01,,,WAITLIST Available,
-SP,2014,E:C,ENGR 3599,Special Topics in Computing: Programming Language Design and Implementation,TF 10:50- 12:30pm,AC128,4,25,Pucella,01,,,WAITLIST Available,
-SP,2014,E:MS,ENGR 3810,Structural Biomaterials,MR 1:30-3:10pm,AC328,4,20,Chachra,01,,,,
-SP,2014,E:MS,ENGR 3820,Failure Analysis and Prevention,TF 1:30-3:10pm,AC413,4,20,Stolk,01,,,EXPERIMENTAL GRADING; WAITLIST Available,
-SP,2014,ECE,ENGR 2410,Signals and Systems,MR 1:30-3:10pm,AC126,4,32,Mur-Miranda,01,,,WAITLIST Available,
-SP,2014,ECE,ENGR 2410,Signals and Systems,MR 10:50- 12:30pm,AC126,4,32,Mur-Miranda,02,,,WAITLIST Available,
-SP,2014,ECE,ENGR 2420,Introduction to Microelectronic Circuits with LAB,TRF 9-10:40am,AC304,4,30,Minch,01,,,WAITLIST Available,
-SP,2014,ECE,ENGR 3415,Digital Signal Processing,TF 10:50- 12:30pm,AC304,4,25,Dabby,01,,,WAITLIST Available,
-SP,2014,ECE,ENGR 3499,Special Topics in Electrical and Computer Engineering: EE Prototyping,MR 3:20-6pm,AC304,4,25,Lundberg Minch,01,,,,
-SP,2014,ECE,ENGR 3499A,Special Topics in ECE: Introduction to Information Theory and its Applications,TF 1:30-3:10pm,AC304,4,25,Govindasamy,01,,,EXPERIMENTAL GRADING,
-SP,2014,ENGR,ENGR 1121,Real World Measurements,M 9-10:40am; M 10:50-12:30pm,MH120; AC428,3,23,Minch; VanWyk,01,,,,
-SP,2014,ENGR,ENGR 1121,Real World Measurements,M 9-10:40am; T 10:50-12:30pm,MH120; AC428,3,23,Govindasamy; Manno,02,,,,
-SP,2014,ENGR,ENGR 1121,Real World Measurements,M 9-10:40am; R 10:50-12:30pm,MH120; AC428,3,23,Minch; VanWyk,03,,,,
-SP,2014,ENGR,ENGR 1121,Real World Measurements,M 9-10:40am; F 10:50-12:30pm,MH120; AC428,3,23,Govindasamy; Manno,04,,,,
+SP,2014,AHS,AHSE4190,"Arts, Humanities, Social Sciences Capstone",M 9:10-10:40am,CC214,4,30,Epstein,01,,,,
+SP,2014,AHS,AHSE4190,"Arts, Humanities, Social Sciences Capstone",M 10:50-12:20pm,CC214,4,30,Epstein,02,,,,
+SP,2014,DSN,ENGR2250,User Oriented Collaborative Design,MR 3:20-6pm,MH120; AC204,4,30,Linder; Adler; Stein; Millner; Ben-Ur; Bator,01,,,,
+SP,2014,DSN,ENGR2250,User Oriented Collaborative Design,MR 3:20-6pm,MH120; AC206,4,30,,02,,,,
+SP,2014,DSN,ENGR2250,User Oriented Collaborative Design,MR 3:20-6pm,MH120; AC209,4,30,,03,,,,
+SP,2014,DSN,ENGR3260,Design for Manufacturing,TF 9-10:40am,AC309,4,25,Tong,01,,,Design Depth Option; WAITLIST Available,
+SP,2014,DSN,ENGR3299,Special Topics in Design: Design of Energy Systems,TF 1:30-3:10pm,AC213,4,24,Mechtenberg,01,,,Design Depth Option,
+SP,2014,DSN / ENGR,ENGR3290,Affordable Design and Entrepreneurship (as a Design Depth),T 3:30-6:30pm,AC213,4,15,Linder; Mechtenberg,01,,,Design Depth Option; WAITLIST Available,
+SP,2014,DSN / ENGR,ENGR4290,Affordable Design and Entrepreneurship (as a Capstone),T 3:30-6:30pm,AC213,4,12,Linder; Mechtenberg,01,,,WAITLIST Available,
+SP,2014,E!,AHSE1500,The Entrepreneurial Initiative,MR 10:50- 12:30pm,AC328,4,30,Neeley,01,,,,
+SP,2014,E!,AHSE4590,Entrepreneurship Capstone,MR 9-10:40am,CC210,4,15,Brand,01,,,,
+SP,2014,E:BE,ENGR3620,Cellular Bioengineering,MR 10:50- 12:30pm,AC417,4,18,Sarang- Sieminski,01,,,,
+SP,2014,E:C,ENGR2510,Software Design,MR 3:20-5pm,AC326,4,25,Ruvolo,01,,,Small WAITLIST Available (5),
+SP,2014,E:C,ENGR2510,Software Design,MR 1:30-3:10pm,AC326,4,25,Ruvolo,02,,,Small WAITLIST Available (5),
+SP,2014,E:C,ENGR2599,Special Topics in Computing: Computer Networks,MR 3:20-5pm,AC328,4,25,Morrow,01,,,WAITLIST Available,
+SP,2014,E:C,ENGR3525,Software Systems,MR 10:50- 12:30pm,AC326,4,30,Downey,01,,,WAITLIST Available,
+SP,2014,E:C,ENGR3599,Special Topics in Computing: Programming Language Design and Implementation,TF 10:50- 12:30pm,AC128,4,25,Pucella,01,,,WAITLIST Available,
+SP,2014,E:MS,ENGR3810,Structural Biomaterials,MR 1:30-3:10pm,AC328,4,20,Chachra,01,,,,
+SP,2014,E:MS,ENGR3820,Failure Analysis and Prevention,TF 1:30-3:10pm,AC413,4,20,Stolk,01,,,EXPERIMENTAL GRADING; WAITLIST Available,
+SP,2014,ECE,ENGR2410,Signals and Systems,MR 1:30-3:10pm,AC126,4,32,Mur-Miranda,01,,,WAITLIST Available,
+SP,2014,ECE,ENGR2410,Signals and Systems,MR 10:50- 12:30pm,AC126,4,32,Mur-Miranda,02,,,WAITLIST Available,
+SP,2014,ECE,ENGR2420,Introduction to Microelectronic Circuits with LAB,TRF 9-10:40am,AC304,4,30,Minch,01,,,WAITLIST Available,
+SP,2014,ECE,ENGR3415,Digital Signal Processing,TF 10:50- 12:30pm,AC304,4,25,Dabby,01,,,WAITLIST Available,
+SP,2014,ECE,ENGR3499,Special Topics in Electrical and Computer Engineering: EE Prototyping,MR 3:20-6pm,AC304,4,25,Lundberg Minch,01,,,,
+SP,2014,ECE,ENGR3499A,Special Topics in ECE: Introduction to Information Theory and its Applications,TF 1:30-3:10pm,AC304,4,25,Govindasamy,01,,,EXPERIMENTAL GRADING,
+SP,2014,ENGR,ENGR1121,Real World Measurements,M 9-10:40am; M 10:50-12:30pm,MH120; AC428,3,23,Minch; VanWyk,01,,,,
+SP,2014,ENGR,ENGR1121,Real World Measurements,M 9-10:40am; T 10:50-12:30pm,MH120; AC428,3,23,Govindasamy; Manno,02,,,,
+SP,2014,ENGR,ENGR1121,Real World Measurements,M 9-10:40am; R 10:50-12:30pm,MH120; AC428,3,23,Minch; VanWyk,03,,,,
+SP,2014,ENGR,ENGR1121,Real World Measurements,M 9-10:40am; F 10:50-12:30pm,MH120; AC428,3,23,Govindasamy; Manno,04,,,,
 SP,2014,ENGR,ENGR1199,Special Topics in Engineering: Physics of Conservation Laws: Energy Focused,TF 9-10:40am,AC213,4,24,Mechtenberg,01,,,"Small WAITLIST Available (6); Crosslisted with SCI1199.  This course number will receive ENGR credit.  If you want SCI credit, enroll in SCI1199. You cannot change your designation
 after the add deadline of Feb 3",
-SP,2014,ENGR,ENGR 1330,Fundamentals of Machine Shop Operations,W 12:30-4:30pm,AC104,4,6,Andruskiewicz,01,,,WAITLIST Available,
-SP,2014,ENGR,ENGR 2210,Principles of Engineering,MR 1:30-3:10pm,AC306,4,28,Cavalcanti,01,,,,
-SP,2014,ENGR,ENGR 3199,Special Topics in Engineering: Energy Harvesting,TF 10:50- 12:30pm,AC309,4,15,Lee Mur-Miranda,01,,,Small WAITLIST Available (5),
-SP,2014,ENGR,ENGR 4190,Senior Capstone Program in Engineering (SCOPE),W 9-10:40am; 12:30-6pm,team locations,4,tbd,"Sarang- Sieminski, et al",01-14,,,Enroll in same section as you are enrolled in for Fall 2013,
-SP,2014,INTEGRATED,"AHSE 2141 /
-ENGR 2141",Engineering for Humanity,M 10:50-1:00pm & W 2-5:00pm,AC109,4,18,Lynch Ben Ur,01,,,WAITLIST Available,
-SP,2014,INTEGRATED,MTH 2199C / ENGR 2199C,Special Topics in Mathematics & Engineering: Data Science,TF 1:30-3:10pm,AC417,4,25,Downey,01,,,"Satisfies Probability and Statistics Requirement; See notes in Registration Booklet about who is eligible to enroll in this Prob
+SP,2014,ENGR,ENGR1330,Fundamentals of Machine Shop Operations,W 12:30-4:30pm,AC104,4,6,Andruskiewicz,01,,,WAITLIST Available,
+SP,2014,ENGR,ENGR2210,Principles of Engineering,MR 1:30-3:10pm,AC306,4,28,Cavalcanti,01,,,,
+SP,2014,ENGR,ENGR3199,Special Topics in Engineering: Energy Harvesting,TF 10:50- 12:30pm,AC309,4,15,Lee Mur-Miranda,01,,,Small WAITLIST Available (5),
+SP,2014,ENGR,ENGR4190,Senior Capstone Program in Engineering (SCOPE),W 9-10:40am; 12:30-6pm,team locations,4,tbd,"Sarang- Sieminski, et al",01-14,,,Enroll in same section as you are enrolled in for Fall 2013,
+SP,2014,INTEGRATED,"AHSE2141 / ENGR2141",Engineering for Humanity,M 10:50-1:00pm & W 2-5:00pm,AC109,4,18,Lynch Ben Ur,01,,,WAITLIST Available,
+SP,2014,INTEGRATED,MTH2199C / ENGR2199C,Special Topics in Mathematics & Engineering: Data Science,TF 1:30-3:10pm,AC417,4,25,Downey,01,,,"Satisfies Probability and Statistics Requirement; See notes in Registration Booklet about who is eligible to enroll in this Prob
 Stat option; WAITLIST Available",
-SP,2014,ME,ENGR 2320,Mechanics of Solids and Structures,TF 1:30-3:10pm,AC128,4,28,Barrett,01,,,,
-SP,2014,ME,ENGR 2330,Introduction to Mechanical Prototyping,"T 3:20-6pm, R 9- 10:40am",AC109,4,25,Hoover,01,,,WAITLIST Available,
-SP,2014,ME,ENGR 2350,Thermodynamics,MR 1:30-3:10pm,AC318,4,30,Townsend,01,,,Small WAITLIST Available (5),
-SP,2014,ME,ENGR 3370,Controls,MR 6:30-8:10pm,AC328,4,25,Santarelli,01,,,,
-SP,2014,ME,ENGR 3392,Robotics II,TF 1:30-3:10pm,AC309,4,20,Bennett,01,,,WAITLIST Available,
-SP,2014,ME,ENGR 3399,Special Topics in Mechanical Engineering: Biomedical CAD and FEA,MR 3:20-5pm,AC109,4,10,Lee,01,,,Small WAITLIST Available (5),
-SP,2014,MTH,MTH 2188,Special Topics in Mathematics: Linearity 1,TF 1:30-3:10pm,"AC318, 326,
+SP,2014,ME,ENGR2320,Mechanics of Solids and Structures,TF 1:30-3:10pm,AC128,4,28,Barrett,01,,,,
+SP,2014,ME,ENGR2330,Introduction to Mechanical Prototyping,"T 3:20-6pm, R 9- 10:40am",AC109,4,25,Hoover,01,,,WAITLIST Available,
+SP,2014,ME,ENGR2350,Thermodynamics,MR 1:30-3:10pm,AC318,4,30,Townsend,01,,,Small WAITLIST Available (5),
+SP,2014,ME,ENGR3370,Controls,MR 6:30-8:10pm,AC328,4,25,Santarelli,01,,,,
+SP,2014,ME,ENGR3392,Robotics II,TF 1:30-3:10pm,AC309,4,20,Bennett,01,,,WAITLIST Available,
+SP,2014,ME,ENGR3399,Special Topics in Mechanical Engineering: Biomedical CAD and FEA,MR 3:20-5pm,AC109,4,10,Lee,01,,,Small WAITLIST Available (5),
+SP,2014,MTH,MTH2188,Special Topics in Mathematics: Linearity 1,TF 1:30-3:10pm,"AC318, 326,
 328",4,90,"Byrne, Geddes, Hoffman",01,,,,
-SP,2014,MTH,MTH 2199,Special Topics in Mathematics: Modeling with Probabilities,MR 9-10:40am,AC128,4,40,Patel,01,,,"Satisfies Probability and Statistics Requirement; See notes in Registration Booklet about who is eligible to enroll in this Prob
+SP,2014,MTH,MTH2199,Special Topics in Mathematics: Modeling with Probabilities,MR 9-10:40am,AC128,4,40,Patel,01,,,"Satisfies Probability and Statistics Requirement; See notes in Registration Booklet about who is eligible to enroll in this Prob
 Stat option",
-SP,2014,MTH,MTH 2199A,Special Topics in Mathematics: A Mathematical Introduction to Cryptography,MR 10:50- 12:30pm,AC128,2,40,Patel,01,,,Session I,
-SP,2014,MTH,MTH 2199B,Special Topics in Mathematics: The Logic of Logicomix,MR 10:50- 12:30pm,AC128,2,40,Patel,01,,,Session II,
-SP,2014,MTH,MTH 3120,Partial Differential Equations,TF 10:50- 12:30pm,AC326,4,26,Byrne,01,,,WAITLIST Available,
-SP,2014,MTH,MTH 3170,Nonlinear Dynamics and Chaos,TF 10:50- 12:30pm,AC318,4,16,Geddes,01,,,EXPERIMENTAL GRADING,
-SP,2014,SCI,SCI 1130,Mechanics: Theoretical / Experimental Approach,MR 1:30-3:10pm,AC128,4,32,Zastavker,A1,,,,
-SP,2014,SCI,SCI 1130,Mechanics: Modeling and Simulation Approach,TF 9-10:40am,AC328,4,30,Somerville,C1,,,,
-SP,2014,SCI,SCI 1130,Mechanics: Modeling and Simulation Approach,TF 10:50- 12:30pm,AC328,4,30,Somerville,C2,,,,
-SP,2014,SCI,SCI 1199,Special Topics in Physics Foundation: Physics of Conservation Laws: Energy Focused,TF 9-10:40am,AC213,4,24,Mechtenberg,01,,,"Small WAITLIST Available (6); Crosslisted with ENGR1199. This course number will receive SCI credit.  If you want ENGR credit, enroll in ENGR1199. You cannot change your designation after the add deadline of Feb 3",
-SP,2014,SCI,SCI 1210,Principles of Modern Biology (with Lab): Designing Better Drugs to Fight Disease,TF 10:50-12:30pm; T 3:20-6pm,AC417; AC406,4,25,Pratt,01,,,WAITLIST Available,
-SP,2014,SCI,SCI 1210,Principles of Modern Biology (with Lab): Human Genetics and Genomics,MR 1:30-3:10pm; W 12:30-3:10pm,AC417; AC406,4,30,Donis-Keller,02,,,WAITLIST Available,
-SP,2014,SCI,SCI 1310,Introduction to Chemistry (with Lab),MR 1:30-3:10pm; W 12:30-3:10pm,AC313; AC409,4,24,Morse,01,,,,
-SP,2014,SCI,SCI 1410,Materials Science and Solid State Chemistry (with Lab),TF 8:30-10:40am,AC413,4,21,Christianson,01,,,,
-SP,2014,SCI,SCI 1410,Materials Science and Solid State Chemistry (with Lab),T 3:20-5:30pm; W 1-3:10pm,AC413,4,21,Christianson,02,,,,
-SP,2014,SCI,SCI 2130,Quantum Physics,TF 9-10:40am,AC113,4,25,Holt,01,,,Foundation option for students with strong physics background,
-SP,2014,SCI,SCI 2140,Relativity,TF 10:50- 12:30pm,AC113,2,25,Holt,01,,,Session I,
-SP,2014,SCI,SCI 2214,Microbial Diversity,W 1:00-4pm,AC417; AC404,4,15,Huang,01,,,,
-SP,2014,SCI,SCI 2320,Organic Chemistry w/ Lab,"MR 9-10:40am;
+SP,2014,MTH,MTH2199A,Special Topics in Mathematics: A Mathematical Introduction to Cryptography,MR 10:50- 12:30pm,AC128,2,40,Patel,01,,,Session I,
+SP,2014,MTH,MTH2199B,Special Topics in Mathematics: The Logic of Logicomix,MR 10:50- 12:30pm,AC128,2,40,Patel,01,,,Session II,
+SP,2014,MTH,MTH3120,Partial Differential Equations,TF 10:50- 12:30pm,AC326,4,26,Byrne,01,,,WAITLIST Available,
+SP,2014,MTH,MTH3170,Nonlinear Dynamics and Chaos,TF 10:50- 12:30pm,AC318,4,16,Geddes,01,,,EXPERIMENTAL GRADING,
+SP,2014,SCI,SCI1130,Mechanics: Theoretical / Experimental Approach,MR 1:30-3:10pm,AC128,4,32,Zastavker,A1,,,,
+SP,2014,SCI,SCI1130,Mechanics: Modeling and Simulation Approach,TF 9-10:40am,AC328,4,30,Somerville,C1,,,,
+SP,2014,SCI,SCI1130,Mechanics: Modeling and Simulation Approach,TF 10:50- 12:30pm,AC328,4,30,Somerville,C2,,,,
+SP,2014,SCI,SCI1199,Special Topics in Physics Foundation: Physics of Conservation Laws: Energy Focused,TF 9-10:40am,AC213,4,24,Mechtenberg,01,,,"Small WAITLIST Available (6); Crosslisted with ENGR1199. This course number will receive SCI credit.  If you want ENGR credit, enroll in ENGR1199. You cannot change your designation after the add deadline of Feb 3",
+SP,2014,SCI,SCI1210,Principles of Modern Biology (with Lab): Designing Better Drugs to Fight Disease,TF 10:50-12:30pm; T 3:20-6pm,AC417; AC406,4,25,Pratt,01,,,WAITLIST Available,
+SP,2014,SCI,SCI1210,Principles of Modern Biology (with Lab): Human Genetics and Genomics,MR 1:30-3:10pm; W 12:30-3:10pm,AC417; AC406,4,30,Donis-Keller,02,,,WAITLIST Available,
+SP,2014,SCI,SCI1310,Introduction to Chemistry (with Lab),MR 1:30-3:10pm; W 12:30-3:10pm,AC313; AC409,4,24,Morse,01,,,,
+SP,2014,SCI,SCI1410,Materials Science and Solid State Chemistry (with Lab),TF 8:30-10:40am,AC413,4,21,Christianson,01,,,,
+SP,2014,SCI,SCI1410,Materials Science and Solid State Chemistry (with Lab),T 3:20-5:30pm; W 1-3:10pm,AC413,4,21,Christianson,02,,,,
+SP,2014,SCI,SCI2130,Quantum Physics,TF 9-10:40am,AC113,4,25,Holt,01,,,Foundation option for students with strong physics background,
+SP,2014,SCI,SCI2140,Relativity,TF 10:50- 12:30pm,AC113,2,25,Holt,01,,,Session I,
+SP,2014,SCI,SCI2214,Microbial Diversity,W 1:00-4pm,AC417; AC404,4,15,Huang,01,,,,
+SP,2014,SCI,SCI2320,Organic Chemistry w/ Lab,"MR 9-10:40am;
 Tues 3:20-6pm",AC318; AC409,4,30,Morse,01,,,,
-SP,2014,SCI,SCI 3320,Organic Chemistry II (with lab),see Professor Morse,,4,8,Morse,01,,,Will run as an independent study; See Professor Morse,
-SP,2014,SUST,SUST 3301,Sustainability Certificate Synthesis Course,M 3:30-6:30pm,AC213,4,15,Huang,01,,,,
-SP,2014,SEMINAR,SEM  301,Seminar: Fundamentals of Mechanical Design,M 6-7:40pm,AC306,1,20,Cavalcanti,S1,,,WAITLIST Available,
-SP,2014,SEMINAR,SEM  302,Seminar: Introduction to Pneumatic and Hydraulic Systems,R 6-7:40pm,AC306,1,20,Cavalcanti,S1,,,WAITLIST Available,
-SP,2014,SEMINAR,SEM  401,Seminar: Introductory Power Supplies,M 6-7:40pm,AC318,1,18,VanWyk,S1,,,Pre-requisite: Completion of First Year Requirements,
-SP,2014,ADMN,AWAY 1000,The Study Away Program,,,12,30,,01,,,"Enrollment in this course (fulltime, 12 credits) is required for those planning to study away in Spring 2014",
-SP,2014,ADMN,OIP 1000,The Olin Internship Practicum,,,1,,,01,,,see PGP for details,
+SP,2014,SCI,SCI3320,Organic Chemistry II (with lab),see Professor Morse,,4,8,Morse,01,,,Will run as an independent study; See Professor Morse,
+SP,2014,SUST,SUST3301,Sustainability Certificate Synthesis Course,M 3:30-6:30pm,AC213,4,15,Huang,01,,,,
+SP,2014,SEMINAR,SEM301,Seminar: Fundamentals of Mechanical Design,M 6-7:40pm,AC306,1,20,Cavalcanti,S1,,,WAITLIST Available,
+SP,2014,SEMINAR,SEM302,Seminar: Introduction to Pneumatic and Hydraulic Systems,R 6-7:40pm,AC306,1,20,Cavalcanti,S1,,,WAITLIST Available,
+SP,2014,SEMINAR,SEM401,Seminar: Introductory Power Supplies,M 6-7:40pm,AC318,1,18,VanWyk,S1,,,Pre-requisite: Completion of First Year Requirements,
+SP,2014,ADMN,AWAY1000,The Study Away Program,,,12,30,,01,,,"Enrollment in this course (fulltime, 12 credits) is required for those planning to study away in Spring 2014",
+SP,2014,ADMN,OIP1000,The Olin Internship Practicum,,,1,,,01,,,see PGP for details,
 FA,2020,AHS,AHSE0112,AHSE0112: The Olin Conductorless Orchestra: Building a Community of Practice,R 6-8pm,,1,no cap,"Dabby, Diana",01,no,AHS Elective,New Description available in the Supplement,Fully Remote
 FA,2020,AHS,AHSE2199A,"AHSE2199A: Special Topics in Arts, Humanities and Social Science: Democracy in Action: Election2020",Tues & Fri 10-11:30am,,4,no cap,"Lynch, Caitrin; Martello, Rob",01,no,AHS Elective,Experimental Grading,Fully Remote
 FA,2020,AHS,AHSE2199B,"AHSE2199B: Special Topics in Arts, Humanities and Social Science: Weaving the Future: New Ideologies of Making",MW 2-3:30pm,,4,35,"Keizer, Arlene",01,yes,AHS Elective,,Fully Remote
@@ -451,12 +443,11 @@ FA,2020,DSN,ENGR2299,ENGR2299:  Special Topics in Design Engineering: Creativity
 FA,2020,DSN,ENGR3220,ENGR3220: User Experience Design,MW 4-5:30pm,,4,28,"Morales, Marco",01,"yes, small",DSN Depth,,Fully Remote
 FA,2020,DSN,ENGR3240,ENGR3240: Tell the Story of What You Make,MW 9-11:30am,,4,30,"Ferguson Sauder, Tim",01,"yes, small",DSN Depth,,Fully Remote
 FA,2020,DSN,ENGR3260,ENGR3260: Design for Manufacturing,TR 2-3:30pm,,4,20,"Barrett, Dave; Faas, Daniela",01,"yes, large",ME Elective Design Depth,,Faculty or Fully Remote
-FA,2020,DSN,ENGR3260 L,Design for Manufacturing LAB,Lab A: M 10-11:00am Lab B: T 10-11:00am,,0,10 in each Lab,"Barrett, Dave; Faas, Daniela",A B,"yes, large",ME Elective Design Depth,"Student must elect lab A OR B, not both along with the standard TR 2-3:30pm time",Faculty or Fully Remote
+FA,2020,DSN,ENGR3260L,Design for Manufacturing LAB,Lab A: M 10-11:00am Lab B: T 10-11:00am,,0,10 in each Lab,"Barrett, Dave; Faas, Daniela",A B,"yes, large",ME Elective Design Depth,"Student must elect lab A OR B, not both along with the standard TR 2-3:30pm time",Faculty or Fully Remote
 FA,2020,DSN,ENGR3290,ENGR3290: Affordable Design and Entrepreneurship,T 3:30-6:30pm; R 3:30-5:30pm,,4,15,"Graeff, Erhardt; Hersey, Scott; Linder, Ben; Taha, Kofi, Johansen, Elizabeth",01,"yes, large",DSN Depth,,Faculty Remote
 FA,2020,E:C,ENGR2510,ENGR2510: Software Design,TR 10-11:30am,,4,28,"Matsumoto, Steve",01,"yes, small",E:C Requirement and ECE Requirement,,Fully Remote
 FA,2020,E:C,ENGR3520,ENGR3520: Foundations of Computer Science,MW 10-11:30am,,4,32,"Pucella, Riccardo",01,yes,E:C Core,,Fully Remote
-FA,2020,E:C,"ENGR3531
-_and_MTH2131",ENGR3531_and_MTH2131: Data Science,TR 2-3:30pm,,2+2,24,"del Rosario, Zach",01,yes,ProbStat_E:Computing,Satisfies ProbStat Requirement,Fully Remote
+FA,2020,E:C,"ENGR3531 / MTH2131",ENGR3531_and_MTH2131: Data Science,TR 2-3:30pm,,2+2,24,"del Rosario, Zach",01,yes,ProbStat_E:Computing,Satisfies ProbStat Requirement,Fully Remote
 FA,2020,E:Robo,ENGR3590,ENGR3590: A Computational Introduction to Robotics,MW 12-1:30pm,,4,30,"Malley, Melinda; Ruvolo, Paul",01,"yes, small",Core E:Robo,,Fully Remote
 FA,2020,ECE,ENGR2420,ENGR2420: Intro Microelectronic Circuits with laboratory,TR 2-3:30pm,,4,32,"Minch, Brad",01,yes,ECE Requirement,New Addition to Schedule,Fully Remote
 FA,2020,ECE,ENGR3410,ENGR3410: Computer Architecture,TR 12-1:30pm,,4,36,"Tse, Jonathan",01,"yes, small","ECE Requirement and
@@ -477,11 +468,9 @@ FA,2020,FYR: ENGR,ENGR1200,ENGR1200: Design Nature,MW 1-4:00pm,,4,86,"Edmonds, T
 FA,2020,"FYR:
 Interdisciplina ry",ENGX2000,ENGX2000: Quantitative Engineering Analysis 1a,TR 10-11:30am,,4,86,"Geddes, John; Govindasamy, Siddhartan; Ruvolo, Paul; Somerville, Mark",01,,"Requirement, FYR",,Fully Remote
 FA,2020,"FYR:
-Interdisciplina ry","MTH1111
-_and_SCI1111",MTH1111_ and_SCI1111: Modeling and Simulation of the Physical World,MWF 10-11:30am,,2+2,86,"del Rosario, Zachary; Wood, Alison; Woodard, Jason",01,no,Modeling Foundation,,Fully Remote
+Interdisciplina ry","MTH1111 / SCI1111",MTH1111_ and_SCI1111: Modeling and Simulation of the Physical World,MWF 10-11:30am,,2+2,86,"del Rosario, Zachary; Wood, Alison; Woodard, Jason",01,no,Modeling Foundation,,Fully Remote
 FA,2020,Interdisciplina ry,ENGX2010,ENGX2010: Quantitative Engineering Analysis 2,MW 2-3:30pm,,4,90,"Dusek, Jeff; Lohmeyer, Whitney; Malley, Melinda; Tow, Emily",01,,"Requirement, 2nd Yr","Credit breakdown: 2 Math, 1 Science, 1 Engineering",Fully Remote
-FA,2020,Interdisciplina ry,"MTH2188A
-_and_SCI2099A",MTH2188A_and_SCI2099A: Decision-Making in Sustainable Systems,MW 2-3:30pm,,2+2,30,"Wood, Alison",01,"yes, large",ProbStat,Satisfies ProbStat Requirement,Fully Remote
+FA,2020,Interdisciplina ry,"MTH2188A / SCI2099A",MTH2188A_and_SCI2099A: Decision-Making in Sustainable Systems,MW 2-3:30pm,,2+2,30,"Wood, Alison",01,"yes, large",ProbStat,Satisfies ProbStat Requirement,Fully Remote
 FA,2020,ME,ENGR2320,ENGR2320: Mechanics of Solids & Structures,TR 2-3:30pm,,4,40,"Storey, Brian",01,yes,ME Requirement,New Addition to Schedule,Fully Remote
 FA,2020,ME,ENGR3310,ENGR3310: Transport Phenomena,MW 10-11:30am,,4,48,"Tow, Emily",01,"yes, small",ME Requirement,,Fully Remote
 FA,2020,ME,ENGR3330,ENGR3330: Mechanical Design,TR 12-1:30pm,,4,32,"Barrett, Dave",01,"yes, small",ME Requirement,,Fully Remote
@@ -499,87 +488,84 @@ FA,2020,Sustainability (BOW),SUST3301,SUST3301: Sustainability Synthesis,M 3:30-
 FA,2020,XADMIN,AWAY1000,Study Away Program,,,12,,Administration,01,,,Enroll in this course block to confirm your Study Away Semester,
 FA,2020,XADMIN,OIP1000,The Olin Internship Practicum I,,,1,,"Phelps, Sally",01,,,See Post Graduate Planning to Enroll,
 FA,2020,XADMIN,OIP1001,The Olin Internship Practicum II,,,1,,"Phelps, Sally",01,,,See Post Graduate Planning to Enroll,
-FA,2014,AHS,AHSE 0112,The Olin Conductorless Orchestra,R 6:45-9:00p,"AC304, 305,
+FA,2014,AHS,AHSE0112,The Olin Conductorless Orchestra,R 6:45-9:00p,"AC304, 305,
 318",1,25.0,Dabby,01,,,,
-FA,2014,AHS,AHSE 2170,Teaching & Learning in Undergraduate Science and Engineering,M 10:50-1:30p,AC128,4,18.0,Zastavker,01,,,,
-FA,2014,AHS,AHSE 3130,Advanced Digital Photography,TF 10:50-12:30p,AC313,4,15.0,Donis-Keller,01,,,,
-FA,2014,AHS,AHSE 3190,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",,,1,20.0,Epstein,01,,,required pre-requisite for AHSE4190,
-FA,2014,AHS,AHSE 4190,"Arts, Humanities, Social Sciences Capstone",T 1:30-4:10p,CC214,4,25.0,Adler,01,,,,
-FA,2014,DSN,ENGR 3220,Human Factors Interface Design,TF 9:40-12:30p,AC109,4,24.0,Stein; Millner,01,,,Waitlist AVAILABLE,
-FA,2014,DSN,ENGR 3250,Integrated Product Design,R 3:30-6:30p,AC213,4,18.0,Linder,01,,,new description in the registration booklet,
-FA,2014,DSN,ENGR 3290,Affordable Design and Entrepreneurship,T 3:30-6:30p,AC213,4,12.0,Linder,01,,,DESIGN Depth Offering,
-FA,2014,DSN,ENGR 3710,Systems,TF 1:30-3:10p,AC328,4,25.0,Bennett,01,,,,
-FA,2014,E!,AHSE 1515,Products and Markets,MWR 9-10:40a,AC318,4,28.0,Neeley; Hopper,01,,,"Arrangements will be made for Seniors Needing to Enroll with the Wednesday time
+FA,2014,AHS,AHSE2170,Teaching & Learning in Undergraduate Science and Engineering,M 10:50-1:30p,AC128,4,18.0,Zastavker,01,,,,
+FA,2014,AHS,AHSE3130,Advanced Digital Photography,TF 10:50-12:30p,AC313,4,15.0,Donis-Keller,01,,,,
+FA,2014,AHS,AHSE3190,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",,,1,20.0,Epstein,01,,,required pre-requisite for AHSE4190,
+FA,2014,AHS,AHSE4190,"Arts, Humanities, Social Sciences Capstone",T 1:30-4:10p,CC214,4,25.0,Adler,01,,,,
+FA,2014,DSN,ENGR3220,Human Factors Interface Design,TF 9:40-12:30p,AC109,4,24.0,Stein; Millner,01,,,Waitlist AVAILABLE,
+FA,2014,DSN,ENGR3250,Integrated Product Design,R 3:30-6:30p,AC213,4,18.0,Linder,01,,,new description in the registration booklet,
+FA,2014,DSN,ENGR3290,Affordable Design and Entrepreneurship,T 3:30-6:30p,AC213,4,12.0,Linder,01,,,DESIGN Depth Offering,
+FA,2014,DSN,ENGR3710,Systems,TF 1:30-3:10p,AC328,4,25.0,Bennett,01,,,,
+FA,2014,E!,AHSE1515,Products and Markets,MWR 9-10:40a,AC318,4,28.0,Neeley; Hopper,01,,,"Arrangements will be made for Seniors Needing to Enroll with the Wednesday time
 conflict",
-FA,2014,E!,AHSE 3510,New Technology Ventures,TR 4-5:35pm,AC128,4,15.0,Brand,01,,,,
-FA,2014,E!,AHSE 4590,Entrepreneurship Capstone,MR 1:30-3:10p,AC313,4,15.0,Brand,01,,,,
-FA,2014,E:BE,ENGR 3600,Topics in Bioengineering,MR 10:50-12:30p,AC318,4,25.0,Sarang-Sieminski,01,,,EXPERIMENTAL GRADING,
-FA,2014,E:C,ENGR 2510,Software Design,TF 1:30-3:10p,AC326,4,30.0,Millner,01,,,,
-FA,2014,E:C,ENGR 3599,Special Topics in Computing: Computational Signal Processing,TF 10:50-12:30p,AC126,2,30.0,Downey,01,,,SESSION II; EXPERIMENTAL GRADING,
-FA,2014,E:C,ENGR 3599A,Special Topics in Computing: A Computational Introduction to Robotics,TF 1:30-3:10p,AC128,4,18.0,Ruvolo,01,,,see registration booklet for specifics of this new offering and changes to the E:Robo concentration; WAITLIST Available,
-FA,2014,E:C,ENGR 3599A,Special Topics in Computing: A Computational Introduction to Robotics,MR 1:30-3:10p,AC128,4,18.0,Ruvolo,02,,,see registration booklet for specifics of this new offering and changes to the E:Robo concentration; WAITLIST Available,
-FA,2014,E:C,ENGR 3599B,Special Topics in Computing: Game Programming,TF 1:30-3:10p,AC126,4,30.0,Pucella,01,,,,
-FA,2014,ECE,ENGR 3410,Computer Architecture,MR 10:50-12:30p,AC328,4,40.0,VanWyk,01,,,,
-FA,2014,ECE,ENGR 3410,Computer Architecture,MR 3:20-5:00p,AC328,4,40.0,VanWyk,02,,,,
-FA,2014,ECE,ENGR 3420,Introduction to Analog and Digital Communications,TF 9-10:40a,AC304,4,25.0,Govindasamy,01,,,,
-FA,2014,ECE,ENGR 3426,"Mixed Analog and Digital VLSI, I",MR 3:20-5:00p,AC304,4,25.0,Minch,01,,,,
-FA,2014,ECE,ENGR 3450,Semiconductor Devices,MR 1:30-3:10p,AC126,4,18.0,"Kerns, S.",01,,,Cancelled,
-FA,2014,ENGR,ENGR 1199,Special Topics in Engineering: Introduction to the  Microelectronics and Nanotechnology Revolution  ,MR 9-10:40a,AC126,4,12.0,"Kerns, S.",01,,,Cancelled,
-FA,2014,ENGR,ENGR 1330,Fundamentals of Machine Shop Operations,W 1-5:00p,AC104,4,6.0,Andruskiewicz,01,,,,
-FA,2014,ENGR,ENGR 2210,Principles of Engineering,TF 10:50-12:30p,AC306,4,28.0,Govindasamy/Hoo ver & Bennett,01,,,,
-FA,2014,ENGR,ENGR 2210,Principles of Engineering,TF 10:50-12:30p,AC309,4,28.0,Govindasamy/Hoo ver & Bennett,02,,,,
-FA,2014,ENGR,ENGR 2210,Principles of Engineering,TF 1:30-3:10p,AC306,4,28.0,Govindasamy/Hoo ver & Bennett,03,,,,
-FA,2014,ENGR,ENGR 4190,Senior Capstone Program in Engineering (SCOPE),W 9-10:40a; 12:30-6p,varies,4,5.0,Sarang-Sieminski; Minch; Hoover; Bennett; Barrett; Lee; Govindasamy; Ruvolo; Millner; Mur-Miranda; Downey; Byrne; Christianson,1-14,,,"Team Assignments made later; Enroll in
+FA,2014,E!,AHSE3510,New Technology Ventures,TR 4-5:35pm,AC128,4,15.0,Brand,01,,,,
+FA,2014,E!,AHSE4590,Entrepreneurship Capstone,MR 1:30-3:10p,AC313,4,15.0,Brand,01,,,,
+FA,2014,E:BE,ENGR3600,Topics in Bioengineering,MR 10:50-12:30p,AC318,4,25.0,Sarang-Sieminski,01,,,EXPERIMENTAL GRADING,
+FA,2014,E:C,ENGR2510,Software Design,TF 1:30-3:10p,AC326,4,30.0,Millner,01,,,,
+FA,2014,E:C,ENGR3599,Special Topics in Computing: Computational Signal Processing,TF 10:50-12:30p,AC126,2,30.0,Downey,01,,,SESSION II; EXPERIMENTAL GRADING,
+FA,2014,E:C,ENGR3599A,Special Topics in Computing: A Computational Introduction to Robotics,TF 1:30-3:10p,AC128,4,18.0,Ruvolo,01,,,see registration booklet for specifics of this new offering and changes to the E:Robo concentration; WAITLIST Available,
+FA,2014,E:C,ENGR3599A,Special Topics in Computing: A Computational Introduction to Robotics,MR 1:30-3:10p,AC128,4,18.0,Ruvolo,02,,,see registration booklet for specifics of this new offering and changes to the E:Robo concentration; WAITLIST Available,
+FA,2014,E:C,ENGR3599B,Special Topics in Computing: Game Programming,TF 1:30-3:10p,AC126,4,30.0,Pucella,01,,,,
+FA,2014,ECE,ENGR3410,Computer Architecture,MR 10:50-12:30p,AC328,4,40.0,VanWyk,01,,,,
+FA,2014,ECE,ENGR3410,Computer Architecture,MR 3:20-5:00p,AC328,4,40.0,VanWyk,02,,,,
+FA,2014,ECE,ENGR3420,Introduction to Analog and Digital Communications,TF 9-10:40a,AC304,4,25.0,Govindasamy,01,,,,
+FA,2014,ECE,ENGR3426,"Mixed Analog and Digital VLSI, I",MR 3:20-5:00p,AC304,4,25.0,Minch,01,,,,
+FA,2014,ECE,ENGR3450,Semiconductor Devices,MR 1:30-3:10p,AC126,4,18.0,"Kerns, S.",01,,,Cancelled,
+FA,2014,ENGR,ENGR1199,Special Topics in Engineering: Introduction to the  Microelectronics and Nanotechnology Revolution  ,MR 9-10:40a,AC126,4,12.0,"Kerns, S.",01,,,Cancelled,
+FA,2014,ENGR,ENGR1330,Fundamentals of Machine Shop Operations,W 1-5:00p,AC104,4,6.0,Andruskiewicz,01,,,,
+FA,2014,ENGR,ENGR2210,Principles of Engineering,TF 10:50-12:30p,AC306,4,28.0,Govindasamy/Hoo ver & Bennett,01,,,,
+FA,2014,ENGR,ENGR2210,Principles of Engineering,TF 10:50-12:30p,AC309,4,28.0,Govindasamy/Hoo ver & Bennett,02,,,,
+FA,2014,ENGR,ENGR2210,Principles of Engineering,TF 1:30-3:10p,AC306,4,28.0,Govindasamy/Hoo ver & Bennett,03,,,,
+FA,2014,ENGR,ENGR4190,Senior Capstone Program in Engineering (SCOPE),W 9-10:40a; 12:30-6p,varies,4,5.0,Sarang-Sieminski; Minch; Hoover; Bennett; Barrett; Lee; Govindasamy; Ruvolo; Millner; Mur-Miranda; Downey; Byrne; Christianson,1-14,,,"Team Assignments made later; Enroll in
 section 01",
-FA,2014,ENGR,ENGR 4290,Affordable Design and Entrepreneurship,T 3:30-6:30p,AC213,4,15.0,Linder,01,,,CAPSTONE Offering,
-FA,2014,INTEGRA TED,ENGR 2199B MTH 2188B,Special Topics in Engineering and Mathematics: Regional Analysis For Development,TR 3:20-5:00p,AC326,2 + 2,25.0,Mur-Miranda; Staff,B1,,,"Designated Alternative for MTH2130: Probability and Statistics (tentative offering
+FA,2014,ENGR,ENGR4290,Affordable Design and Entrepreneurship,T 3:30-6:30p,AC213,4,15.0,Linder,01,,,CAPSTONE Offering,
+FA,2014,INTEGRA TED,ENGR2199B / MTH2188B,Special Topics in Engineering and Mathematics: Regional Analysis For Development,TR 3:20-5:00p,AC326,2 + 2,25.0,Mur-Miranda; Staff,B1,,,"Designated Alternative for MTH2130: Probability and Statistics (tentative offering
 based on adjunct availability)",
-FA,2014,INTEGRA TED,SCI 1210A / AHSE 2199A,Special Topics in AHS and Science: 6 Microbes that Changed the World,TF 1:30-3:10; W 1-5:00p,AC318 / AC406,4 + 4,24.0,Martello; Huang,A1,,,"Fulfills the Introductory Biology Requirement at
+FA,2014,INTEGRA TED,SCI1210A / AHSE2199A,Special Topics in AHS and Science: 6 Microbes that Changed the World,TF 1:30-3:10; W 1-5:00p,AC318 / AC406,4 + 4,24.0,Martello; Huang,A1,,,"Fulfills the Introductory Biology Requirement at
 Olin; small Waitlist AVAILABLE",
-FA,2014,ME,ENGR 2340,Dynamics,TF 9-10:40a; W 9:30-10:30a,AC328,4,40.0,Lee,01,,,,
-FA,2014,ME,ENGR 3310,Transport Phenomena,MR 9-10:40a,AC328,4,30.0,Storey,01,,,,
-FA,2014,ME,ENGR 3330,Mechanical Design,MR 10:50-12:30p,AC309,4,25.0,Barrett,01,,,Waitlist AVAILABLE,
-FA,2014,ME,ENGR 3390,Fundamentals of Robotics,MR 3:20-5:00p,AC309,4,25.0,Barrett,01,,,Formerly titled Robotics I; Waitlist AVAILABLE,
-FA,2014,MTH,MTH 2110,Discrete Math,MR 9-10:40a,AC326,4,35.0,Adams,01,,,Waitlist AVAILABLE,
-FA,2014,MTH,MTH 2110,Discrete Math,MR 9-10:40a,AC128,4,35.0,Patel,02,,,Waitlist AVAILABLE,
-FA,2014,MTH,MTH 2188A,Designated Alternative in Mathematics:  Computational Bayesian Statistics,TF 10:50-12:30p,AC126,2,24.0,Downey,01,,,SESSION I; Designated alternative for MTH2130: Probability and Statistics; EXPERIMENTAL GRADING,
-FA,2014,MTH,MTH 2220,Linearity II,MR 1:30-3:10p,AC318,4,30.0,Geddes; Patel; Somerville,01,,,,
-FA,2014,MTH,MTH 2220,Linearity II,MR 1:30-3:10p,AC326,4,30.0,Geddes; Patel; Somerville,02,,,,
-FA,2014,MTH,MTH 2220,Linearity II,MR 1:30-3:10p,AC328,4,30.0,Geddes; Patel; Somerville,03,,,,
-FA,2014,MTH,MTH 3150,Numerical Methods and Scientific Computing,MR 3:20-5:00p,AC318,4,16.0,Geddes,01,,,Waitlist AVAILABLE,
-FA,2014,MTH,MTH 3160,Introduction to Complex Variables,MR 1:30-3:10p,AC417,4,24.0,Hoffman,01,,,May be used as an ME Math,
-FA,2014,OIE,AHSE 1100,History of Technology,TF 10:50-12:30p,AC318,4,15.0,Martello,01,,,AHS Foundation,
-FA,2014,OIE,AHSE 1122,Wired Ensemble,T 3:20-5:00p; F 10:50-12:30p,AC304; AC305,4,15.0,Dabby,01,,,AHS Foundation,
-FA,2014,OIE,AHSE 1145,The Human Connection,T 10:50-12:30p; F 9:30- 12:30p,CC214,4,15.0,Lynch,01,,,AHS Foundation,
-FA,2014,OIE,AHSE 1155,Identity from the Mind and Brain,TF 10:50-12:30p,AC128,4,15.0,Adler,01,,,AHS Foundation,
-FA,2014,OIE,AHSE 1199,"Arts, Humanities, Social Sciences Foundation Topic: Robots, Mutants and Monsters: Envisioning Science in Cinema",TF 10:50-12:30p,AC326,4,15.0,Vitols,01,,,This course requires  attendance at Monday evening film screenings from 7-9:30pm.,
-FA,2014,OIE,AHSE 1199,"Arts, Humanities, Social Sciences Foundation Topic:  Media Revolution: Activism and Technology",TF 9-10:40a,AC326,4,15.0,Vitols,02,,,,
-FA,2014,OIE,ENGR 1125,"Introduction to Sensors, Instrumentation and Measurement",M 1:30-3:10p; T 1-3:10p,M: MH120; T: AC428,4,21.0,Storey; Minch; Christianson; Quinones,01,,,,
-FA,2014,OIE,ENGR 1125,"Introduction to Sensors, Instrumentation and Measurement",M 1:30-3:10p; W 1-3:10p,M: MH120; W: AC428,4,21.0,Storey; Minch; Christianson; Quinones,02,,,,
-FA,2014,OIE,ENGR 1125,"Introduction to Sensors, Instrumentation and Measurement",M 1:30-3:10p; R 1-3:10p,M: MH120; R: AC428,4,21.0,Storey; Minch; Christianson; Quinones,03,,,,
-FA,2014,OIE,ENGR 1125,"Introduction to Sensors, Instrumentation and Measurement",M 1:30-3:10p; F 1-3:10p,M: MH120; F: AC428,4,21.0,Storey; Minch; Christianson; Quinones,04,,,,
-FA,2014,OIE,ENGR 1200,Design Nature,MW 3:20-6:00p,MH120; AC204,4,32.0,"Linder; Chachra; Hendren; Mur- Miranda;
+FA,2014,ME,ENGR2340,Dynamics,TF 9-10:40a; W 9:30-10:30a,AC328,4,40.0,Lee,01,,,,
+FA,2014,ME,ENGR3310,Transport Phenomena,MR 9-10:40a,AC328,4,30.0,Storey,01,,,,
+FA,2014,ME,ENGR3330,Mechanical Design,MR 10:50-12:30p,AC309,4,25.0,Barrett,01,,,Waitlist AVAILABLE,
+FA,2014,ME,ENGR3390,Fundamentals of Robotics,MR 3:20-5:00p,AC309,4,25.0,Barrett,01,,,Formerly titled Robotics I; Waitlist AVAILABLE,
+FA,2014,MTH,MTH2110,Discrete Math,MR 9-10:40a,AC326,4,35.0,Adams,01,,,Waitlist AVAILABLE,
+FA,2014,MTH,MTH2110,Discrete Math,MR 9-10:40a,AC128,4,35.0,Patel,02,,,Waitlist AVAILABLE,
+FA,2014,MTH,MTH2188A,Designated Alternative in Mathematics:  Computational Bayesian Statistics,TF 10:50-12:30p,AC126,2,24.0,Downey,01,,,SESSION I; Designated alternative for MTH2130: Probability and Statistics; EXPERIMENTAL GRADING,
+FA,2014,MTH,MTH2220,Linearity II,MR 1:30-3:10p,AC318,4,30.0,Geddes; Patel; Somerville,01,,,,
+FA,2014,MTH,MTH2220,Linearity II,MR 1:30-3:10p,AC326,4,30.0,Geddes; Patel; Somerville,02,,,,
+FA,2014,MTH,MTH2220,Linearity II,MR 1:30-3:10p,AC328,4,30.0,Geddes; Patel; Somerville,03,,,,
+FA,2014,MTH,MTH3150,Numerical Methods and Scientific Computing,MR 3:20-5:00p,AC318,4,16.0,Geddes,01,,,Waitlist AVAILABLE,
+FA,2014,MTH,MTH3160,Introduction to Complex Variables,MR 1:30-3:10p,AC417,4,24.0,Hoffman,01,,,May be used as an ME Math,
+FA,2014,OIE,AHSE1100,History of Technology,TF 10:50-12:30p,AC318,4,15.0,Martello,01,,,AHS Foundation,
+FA,2014,OIE,AHSE1122,Wired Ensemble,T 3:20-5:00p; F 10:50-12:30p,AC304; AC305,4,15.0,Dabby,01,,,AHS Foundation,
+FA,2014,OIE,AHSE1145,The Human Connection,T 10:50-12:30p; F 9:30- 12:30p,CC214,4,15.0,Lynch,01,,,AHS Foundation,
+FA,2014,OIE,AHSE1155,Identity from the Mind and Brain,TF 10:50-12:30p,AC128,4,15.0,Adler,01,,,AHS Foundation,
+FA,2014,OIE,AHSE1199,"Arts, Humanities, Social Sciences Foundation Topic: Robots, Mutants and Monsters: Envisioning Science in Cinema",TF 10:50-12:30p,AC326,4,15.0,Vitols,01,,,This course requires  attendance at Monday evening film screenings from 7-9:30pm.,
+FA,2014,OIE,AHSE1199,"Arts, Humanities, Social Sciences Foundation Topic:  Media Revolution: Activism and Technology",TF 9-10:40a,AC326,4,15.0,Vitols,02,,,,
+FA,2014,OIE,ENGR1125,"Introduction to Sensors, Instrumentation and Measurement",M 1:30-3:10p; T 1-3:10p,M: MH120; T: AC428,4,21.0,Storey; Minch; Christianson; Quinones,01,,,,
+FA,2014,OIE,ENGR1125,"Introduction to Sensors, Instrumentation and Measurement",M 1:30-3:10p; W 1-3:10p,M: MH120; W: AC428,4,21.0,Storey; Minch; Christianson; Quinones,02,,,,
+FA,2014,OIE,ENGR1125,"Introduction to Sensors, Instrumentation and Measurement",M 1:30-3:10p; R 1-3:10p,M: MH120; R: AC428,4,21.0,Storey; Minch; Christianson; Quinones,03,,,,
+FA,2014,OIE,ENGR1125,"Introduction to Sensors, Instrumentation and Measurement",M 1:30-3:10p; F 1-3:10p,M: MH120; F: AC428,4,21.0,Storey; Minch; Christianson; Quinones,04,,,,
+FA,2014,OIE,ENGR1200,Design Nature,MW 3:20-6:00p,MH120; AC204,4,32.0,"Linder; Chachra; Hendren; Mur- Miranda;
 Zastavker",01,,,,
-FA,2014,OIE,ENGR 1200,Design Nature,MW 3:20-6:00p,MH120; AC206,4,32.0,"Linder; Chachra; Hendren; Mur- Miranda;
+FA,2014,OIE,ENGR1200,Design Nature,MW 3:20-6:00p,MH120; AC206,4,32.0,"Linder; Chachra; Hendren; Mur- Miranda;
 Zastavker",02,,,,
-FA,2014,OIE,ENGR 1200,Design Nature,MW 3:20-6:00p,MH120; AC209,4,32.0,"Linder; Chachra; Hendren; Mur- Miranda;
+FA,2014,OIE,ENGR1200,Design Nature,MW 3:20-6:00p,MH120; AC209,4,32.0,"Linder; Chachra; Hendren; Mur- Miranda;
 Zastavker",03,,,,
-FA,2014,OIE,"MTH 1111 and
-SCI 1111",Modeling and Simulation of the Physical World,MR 10:50-12:30p; W 9- 10:40a,MH120; AC204,2 + 2,28.0,Downey; Hoffman; Somerville; Townsend,01,,,,
-FA,2014,OIE,"MTH 1111 and
-SCI 1111",Modeling and Simulation of the Physical World,MR 10:50-12:30p; W 9- 10:40a,MH120; AC206,2 + 2,28.0,Downey; Hoffman; Somerville; Townsend,02,,,,
-FA,2014,OIE,"MTH 1111 and
-SCI 1111",Modeling and Simulation of the Physical World,MR 10:50-12:30p; W 9- 10:40a,MH120; AC209,2 + 2,28.0,Downey; Hoffman; Somerville; Townsend,03,,,,
-FA,2014,SCI,SCI 1121,Electricity and Magnetism: Project Based Approach,TWF 9-10:40a,AC428,4,30.0,Christianson,01,,,,
-FA,2014,SCI,SCI 1210,Principles of Modern Biology (with Lab): Designing Better Drugs to Fight Disease,TF 1:30-3:10p; lab T 3:20- 6:00p,AC417 AC406,4,24.0,Pratt,01,,,,
-FA,2014,SCI,SCI 1410,"Materials Science and Solid State Chemistry (with Lab):
+FA,2014,OIE,"MTH1111 / SCI1111",Modeling and Simulation of the Physical World,MR 10:50-12:30p; W 9- 10:40a,MH120; AC204,2 + 2,28.0,Downey; Hoffman; Somerville; Townsend,01,,,,
+FA,2014,OIE,"MTH1111 / SCI1111",Modeling and Simulation of the Physical World,MR 10:50-12:30p; W 9- 10:40a,MH120; AC206,2 + 2,28.0,Downey; Hoffman; Somerville; Townsend,02,,,,
+FA,2014,OIE,"MTH1111 / SCI1111",Modeling and Simulation of the Physical World,MR 10:50-12:30p; W 9- 10:40a,MH120; AC209,2 + 2,28.0,Downey; Hoffman; Somerville; Townsend,03,,,,
+FA,2014,SCI,SCI1121,Electricity and Magnetism: Project Based Approach,TWF 9-10:40a,AC428,4,30.0,Christianson,01,,,,
+FA,2014,SCI,SCI1210,Principles of Modern Biology (with Lab): Designing Better Drugs to Fight Disease,TF 1:30-3:10p; lab T 3:20- 6:00p,AC417 AC406,4,24.0,Pratt,01,,,,
+FA,2014,SCI,SCI1410,"Materials Science and Solid State Chemistry (with Lab):
 Environmental and Societal Impact of Materials",MW 3:20-6:00pm,AC413,4,21.0,Stolk,B1,,,,
-FA,2014,SCI,SCI 1410,"Materials Science and Solid State Chemistry (with Lab):
+FA,2014,SCI,SCI1410,"Materials Science and Solid State Chemistry (with Lab):
 Biomaterials, Polymers and Mechanical Properties",TR 3:20-6:00pm,AC413 AC417,4,21.0,Chachra,C1,,,,
-FA,2014,SCI,SCI 2299,Special Topics in Biology: Emerging Technologies in Cancer Research and Treatment,T 10:50-12:30p; F 9:50- 12:30p,AC417 AC406,4,12.0,Pratt,01,,,"see registration booklet for prerequisite info and how this might fulfill the Olin Intro Biology
+FA,2014,SCI,SCI2299,Special Topics in Biology: Emerging Technologies in Cancer Research and Treatment,T 10:50-12:30p; F 9:50- 12:30p,AC417 AC406,4,12.0,Pratt,01,,,"see registration booklet for prerequisite info and how this might fulfill the Olin Intro Biology
 requirement",
-FA,2014,,OIE 1000,Olin Introductory Experience,R 3:20-5:00p,MH120,1,90.0,Tatar,01,,,,
-FA,2014,,OIP 1000,The Olin Internship Practicum,,,1,,Phelps,01,,,See PGP to enroll,
+FA,2014,,OIE1000,Olin Introductory Experience,R 3:20-5:00p,MH120,1,90.0,Tatar,01,,,,
+FA,2014,,OIP1000,The Olin Internship Practicum,,,1,,Phelps,01,,,See PGP to enroll,
 SP,2021,AHS,AHSE0112,AHSE0112: The Olin Conductorless Orchestra: Building a Community of Practice,R 6:30-8:00pm,,1,30.0,"Dabby, Diana",01,yes,AHS,,Fully Remote
 SP,2021,AHS,AHSE2112,AHSE2112: Six Books that Changed the World,TR 2-3:30pm,,2,75.0,"Martello, Rob",01,yes,AHS,Session I; 2 credits,Fully Remote
 SP,2021,AHS,AHSE2114,AHSE2114: Science Fiction and Historical Context,TR 2-3:30pm,,2,75.0,"Martello, Rob",01,yes,AHS,Session II; 2 credits,Fully Remote
@@ -593,8 +579,8 @@ SP,2021,AHS,AHSE4190,AHSE4190: AHS Capstone Project,MW 10-11:30am,,4,25.0,"Epste
 SP,2021,CAPSTONE,ENGR4190,ENGR4190: SCOPE: Senior Capstone Program in Engineering,TR 8-10:00am F 12-5:00pm,CC Crescent Rooms,4,,"Ferzoco, Alessandra; Hersey, Scott; Sarang- Sieminski, Alisha; Stein, Lynn; Woodard, Jason",01,,CAPSTONE,Students will be pre-enrolled based on Fall20 assignment,Hybrid
 SP,2021,CAPSTONE,ENGR4290,ENGR4290: Affordable Design and Entrepreneurship CAPSTONE,T 3:30-6:30pm R 3:30-5:30pm,MAC 306/309,4,15.0,"Graeff, Erhardt; Hersey, Scott; Johansen, Elizabeth; Linder, Ben; Taha, Kofi",01,,Capstone,,Hybrid
 SP,2021,CAPSTONE,ENGR4599,ENGR4599: Engineering Capstone Alternative: Entreprene,,,4,,"Harris, Scott; Miller, Scott",01,,,,
-SP,2021,Crosslisted,ENGR3235_or_ SCI2235,ENGR3235_or_SCI2235: Biomimicry,MW 2-3:30pm,MAC 306/309,4,30.0,"Huang, Jean; Linder, Ben",01,yes,DESIGN Dpth_or_Adv Bio,Register for ENGR3225 for DesignDpth Credit or SCI2235 for Science Credit,Fully Remote
-SP,2021,Crosslisted,MTH1199_or_ ENGR1199,MTH1199_or_ENGR1199: Service Learning: Mathematics/Engineering Outreach for Adolescent Learners,MW 12-1:30pm,,4,30.0,"Spence Adams, Sarah",01,yes,ELECTIVE,"one of the recommendations for first year students;
+SP,2021,Crosslisted,ENGR3235 / SCI2235,ENGR3235_or_SCI2235: Biomimicry,MW 2-3:30pm,MAC 306/309,4,30.0,"Huang, Jean; Linder, Ben",01,yes,DESIGN Dpth_or_Adv Bio,Register for ENGR3225 for DesignDpth Credit or SCI2235 for Science Credit,Fully Remote
+SP,2021,Crosslisted,MTH1199 / ENGR1199,MTH1199_or_ENGR1199: Service Learning: Mathematics/Engineering Outreach for Adolescent Learners,MW 12-1:30pm,,4,30.0,"Spence Adams, Sarah",01,yes,ELECTIVE,"one of the recommendations for first year students;
 Experimental Grading;
 Register for MTH1199 for Math Credit or ENGR1199 for Engineering Credit",Fully Remote
 SP,2021,DSN,ENGR2250,ENGR2250: User-Oriented Collaborative Design,TR 1:45-4:15pm,,4,75.0,"Adler, Jon; Bloomer, Sarah; Chachra, Debbie, Hendren, Sara; Sauder, Tim; Zastavker, Yevgeniya",01,yes,DESIGN Fnd,required of all sophomores,Fully Remote
@@ -624,13 +610,12 @@ SP,2021,FYR,ENGR1125,"ENGR1125: Introduction to Sensors, Instrumentation and Mea
 209 with MAC428 staging",4,,"Minch, Brad; Storey, Brian; Vanasupa, Linda",04-06,yes,Required Foundation,required of all first year students; students will be pre-enrolled,Hybrid
 SP,2021,FYR,ENGR1125,"ENGR1125: Introduction to Sensors, Instrumentation and Measurement",MW 8-9:30am,"MAC 313, 318,
 326, 328 with MAC428 staging",4,,"Minch, Brad; Storey, Brian; Vanasupa, Linda",07-10,yes,Required Foundation,required of all first year students; students will be pre-enrolled,Hybrid
-SP,2021,Interdisciplinary,AHSE2150_and_ SCI1250,AHSE2150_and_SCI1250: Six Microbes that Changed the World with Laboratory,"TR 10-11:30am
+SP,2021,Interdisciplinary,AHSE2150 / SCI1250,AHSE2150_and_SCI1250: Six Microbes that Changed the World with Laboratory,"TR 10-11:30am
 F 10-11:30am (Lab)","MAC 404, 406
 for labs",4+4,30.0,"Martello, Rob; Huang, Jean",01,yes,Bio_and_AHS,8 credit Offering; Bio Foundation,"Remote, labs will be adapted for both remote and hybrid engagement"
-SP,2021,Interdisciplinary,AHSE2160_and_ SCI1260,"AHSE2160_and_SCI1260: The Intersection of Biology, Art and Technology","TR 2-3:30pm
+SP,2021,Interdisciplinary,AHSE2160 / SCI1260,"AHSE2160_and_SCI1260: The Intersection of Biology, Art and Technology","TR 2-3:30pm
 F 10-11:30am (Lab)",,4+4,24.0,"Donis-Keller, Helen",01,yes,Bio_and_AHS,8 credit Offering; Bio Foundation,Fully Remote
-SP,2021,Interdisciplinary,"ENGR2141_and
-_AHSE2141",ENGR2141_and_AHSE2141: Engineering for Humanity,MW 4-7:30pm,"MAC 113
+SP,2021,Interdisciplinary,"ENGR2141 / AHSE2141",ENGR2141_and_AHSE2141: Engineering for Humanity,MW 4-7:30pm,"MAC 113
 project work",2+2,30.0,"Lynch, Caitrin; Ben- Ur, Ela",01,yes,AHS_and_ENGR Elective,one of the recommendations for first year students,Fully Remote
 SP,2021,Interdisciplinary,ENGR2199,ENGR2199: Special Topics in Engineering: Engineering Systems Analysis,TR 10-11:30am,,2,60.0,"Dabby, Diana; Lee, Chris",01,yes,Core ECE; Core ME,"Session I; ENGR2199/ENGR2199A/ENGER2199B: all 3
 courses can be taken for 6 credits",Fully Remote
@@ -641,8 +626,8 @@ SP,2021,Interdisciplinary,ENGR2199B,ENGR2199B: Special Topics in Engineering: En
 required for sophomores in ECE or relevant Engineering majors; ENGR2199/ENGR2199A/ENGR2199B: all 3
 courses can be taken for 6 credits",Fully Remote
 SP,2021,Interdisciplinary,ENGX2005,ENGX2005: Quantitative Engineering Analysis 2 (formerly 1b),MW 10-11:30am,,4,86.0,"Geddes, John; Malley, Melinda; Dusek, Jeff; delRosario, Zach",01,yes,Required Foundation,required of all first year students,Fully Remote
-SP,2021,Interdisciplinary,MTH2135_and_ ENGR3635,"MTH2135_and_ENGR3635: Neurotechnology, Brains and Machines",MW 2-3:30pm,MAC 417,2+2,30.0,"Michalka, Sam",01,yes,ProbStat_and_Bioeng r,,Fully Remote/Hybrid
-SP,2021,Interdisciplinary,MTH2136_and_ SCI2136,MTH2136_and_SCI2136: Astrostats,MW 12-1:30pm,,2+2,25.0,"Nugent, Carrie",01,yes,ProbStat_and_SCI,,Fully Remote
+SP,2021,Interdisciplinary,MTH2135 / ENGR3635,"MTH2135_and_ENGR3635: Neurotechnology, Brains and Machines",MW 2-3:30pm,MAC 417,2+2,30.0,"Michalka, Sam",01,yes,ProbStat_and_Bioeng r,,Fully Remote/Hybrid
+SP,2021,Interdisciplinary,MTH2136 / SCI2136,MTH2136_and_SCI2136: Astrostats,MW 12-1:30pm,,2+2,25.0,"Nugent, Carrie",01,yes,ProbStat_and_SCI,,Fully Remote
 SP,2021,ME,ENGR2350,ENGR2350: Thermodynamics,TR 12-1:30pm,,4,25.0,"Townsend, Jessica",01,yes,Core ME,,Fully Remote
 SP,2021,ME,ENGR3350,ENGR3350: Finite Element Analysis,MW 10-11:30am,,4,25.0,"Lee, Chris",01,yes,ME Elective,,Fully Remote
 SP,2021,ME,ENGR3370,ENGR3370: Controls,MW 5-6:30pm,,4,25.0,"Barragan, Patrick",01,yes,ECE Elective_or_ME Elective,,Fully Remote
@@ -658,92 +643,89 @@ Matsci_Chem Foundation",Fully Remote
 SP,2021,ADMIN,AWAY1000,AWAY1000: The Study Away Program,,,12,,Administration,01,,,Enroll in this course if you will be studying away in the spring 2021 semester,
 SP,2021,ADMIN,OIP1000,The Olin Internship Practicum I,,,1,,"Phelps, Sally",01,,,See Post Graduate Planning to Enroll,
 SP,2021,ADMIN,OIP1001,The Olin Internship Practicum II,,,1,,"Phelps, Sally",01,,,See Post Graduate Planning to Enroll,
-FA,2015,AHS,AHSE 0112,The Olin Conductorless Orchestra,R 6:45-9:00pm,"AC304; AC305;
+FA,2015,AHS,AHSE0112,The Olin Conductorless Orchestra,R 6:45-9:00pm,"AC304; AC305;
 AC318",1,,Dabby,01,,,,
-FA,2015,AHS,AHSE 2199,"Special Topics in Arts, Humanties, Social Sciences: Critical Reflective Writing: A Journey to Knowing Oneself",M 9:30-12:30pm,MH373,4,16.0,Epstein; Zastavker,01,,,,
-FA,2015,AHS,AHSE 3190,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",,,1,,Epstein,01,,,,
-FA,2015,AHS,AHSE 4190,"Arts, Humanities, Social Sciences Capstone",R 3:20-6:00pm,AC318,4,18.0,Lynch,01,,,,
-FA,2015,DSN,ENGR 3220,Human Factors Interface Design,MR 3:20-5:50pm,AC109,4,24.0,Stein; Morales,01,,,Design Depth,
-FA,2015,DSN,ENGR 3250,Integrated Product Design,R 3:30-6:30pm,AC213 when at Olin,4,15.0,Linder,01,,,Design Depth (with Babson and Mass College of Art),
-FA,2015,DSN,ENGR 3290,Affordable Design and Entrepreneurship (DESIGN DEPTH OPTION),T 3:30-6:30pm,AC213 when at Olin,4,15.0,Linder; Govindasamy,01,,,Design Depth,
-FA,2015,DSN,ENGR 3299,Special Topics in Design Engineering:  Investigating Normal: Adaptive and Assistive Technologies,"T 1:30-5:00pm; F 1:30-
+FA,2015,AHS,AHSE2199,"Special Topics in Arts, Humanties, Social Sciences: Critical Reflective Writing: A Journey to Knowing Oneself",M 9:30-12:30pm,MH373,4,16.0,Epstein; Zastavker,01,,,,
+FA,2015,AHS,AHSE3190,"Arts, Humanities, Social Sciences Capstone Preparatory Workshop",,,1,,Epstein,01,,,,
+FA,2015,AHS,AHSE4190,"Arts, Humanities, Social Sciences Capstone",R 3:20-6:00pm,AC318,4,18.0,Lynch,01,,,,
+FA,2015,DSN,ENGR3220,Human Factors Interface Design,MR 3:20-5:50pm,AC109,4,24.0,Stein; Morales,01,,,Design Depth,
+FA,2015,DSN,ENGR3250,Integrated Product Design,R 3:30-6:30pm,AC213 when at Olin,4,15.0,Linder,01,,,Design Depth (with Babson and Mass College of Art),
+FA,2015,DSN,ENGR3290,Affordable Design and Entrepreneurship (DESIGN DEPTH OPTION),T 3:30-6:30pm,AC213 when at Olin,4,15.0,Linder; Govindasamy,01,,,Design Depth,
+FA,2015,DSN,ENGR3299,Special Topics in Design Engineering:  Investigating Normal: Adaptive and Assistive Technologies,"T 1:30-5:00pm; F 1:30-
 3:10pm",AC128,4,20.0,Hendren,01,,,Design Depth,
-FA,2015,DSN,ENGR 3710,Systems,TF 1:30-3:10pm,AC328,4,24.0,Bennett,01,,,Design Depth,
-FA,2015,DSN,ENGR 4290,Affordable Design and Entrepreneurship (CAPSTONE OPTION),T 3:30-6:30pm,AC213 when at Olin,4,15.0,Linder; Govindasamy,01,,,Capstone Experience,
-FA,2015,E!,AHSE 1515,Products and Markets,MR 10:50-1:00pm; W 9- 10:40am,AC417,4,30.0,Neeley,01,,,Upperclass Offering (Rising Soph-Seniors); Note: Wed time is a project time; students also enrolled in SCOPE will need to find an alternative project time,
-FA,2015,E!,AHSE 3510,New Technology Ventures,TR 4:45-6:30pm,AC328,4,15.0,Klein-Marmer,01,,,"Note: This offering may be used as a designated alternative for a students Entrepreneurship foundation requirement.  If used, it may not be counted in an Entrepreneurship concentration.",
-FA,2015,E!,AHSE 3599,Special Topics in Entrepreneurship: Intellectual Property Protection for Innovative Designs,MR 3:20-5:00pm,MH273,4,12.0,Covello,01,,,"October 22, 2015 Meeting will be held in AC113",
-FA,2015,E!,AHSE 4590,Entrepreneurship Capstone,MR 1:30-3:10pm,CC214,4,15.0,Neeley,01,,,,
+FA,2015,DSN,ENGR3710,Systems,TF 1:30-3:10pm,AC328,4,24.0,Bennett,01,,,Design Depth,
+FA,2015,DSN,ENGR4290,Affordable Design and Entrepreneurship (CAPSTONE OPTION),T 3:30-6:30pm,AC213 when at Olin,4,15.0,Linder; Govindasamy,01,,,Capstone Experience,
+FA,2015,E!,AHSE1515,Products and Markets,MR 10:50-1:00pm; W 9- 10:40am,AC417,4,30.0,Neeley,01,,,Upperclass Offering (Rising Soph-Seniors); Note: Wed time is a project time; students also enrolled in SCOPE will need to find an alternative project time,
+FA,2015,E!,AHSE3510,New Technology Ventures,TR 4:45-6:30pm,AC328,4,15.0,Klein-Marmer,01,,,"Note: This offering may be used as a designated alternative for a students Entrepreneurship foundation requirement.  If used, it may not be counted in an Entrepreneurship concentration.",
+FA,2015,E!,AHSE3599,Special Topics in Entrepreneurship: Intellectual Property Protection for Innovative Designs,MR 3:20-5:00pm,MH273,4,12.0,Covello,01,,,"October 22, 2015 Meeting will be held in AC113",
+FA,2015,E!,AHSE4590,Entrepreneurship Capstone,MR 1:30-3:10pm,CC214,4,15.0,Neeley,01,,,,
 FA,2015,E:BE,ENGR3630,Transport in Biological Systems,MR 10:50-12:30pm,AC318,4,20.0,Sarang-Sieminski,01,,,,
-FA,2015,E:C,ENGR 2510,Software Design,TF 1:30-3:10pm,AC326,4,25.0,Millner,01,,,,
-FA,2015,E:C,ENGR 3525,Software Systems,TF 10:50-12:30pm,AC328,4,30.0,Downey,01,,,,
-FA,2015,E:C,ENGR 3590,A Computational Introduction to Robotics,MR 1:30-3:10pm,AC318,4,15.0,Ruvolo,01,,,,
-FA,2015,E:C,ENGR 3590,A Computational Introduction to Robotics,TF 1:30-3:10pm,AC318,4,15.0,Ruvolo,02,,,,
-FA,2015,E:C,ENGR 3599,Special Topics in Computing: Visualizing Data,M 6:15-8:45pm,AC326,4,30.0,Pucella,01,,,prerequisite of ENGR2510,
-FA,2015,ECE,ENGR 3410,Computer Architecture,MR 10:50-12:30pm,AC326,4,35.0,Hill,01,,,,
-FA,2015,ECE,ENGR 3420,Introduction to Analog and Digital Communications,TF 9-10:40am,AC304,4,24.0,Govindasamy,01,,,,
-FA,2015,ECE,ENGR 3430,EE Prototyping,MR 3:20-6pm,AC304,4,24.0,Lundberg,01,,,NOTE: This was typically a spring offering - moving to fall; won't be offered SP16,
-FA,2015,ENGR,ENGR 1330,Fundamentals of Machine Shop Operations,W 1-5:00pm,AC104,4,6.0,Andruskiewicz,01,,,,
-FA,2015,ENGR,ENGR 2125,"The Engineer's Orchestra I:  Acoustics, Waves, Vibrations",TF 1:30-3:10pm,AC304,4,15.0,Dabby; Lee,01,,,CANCELLED,
-FA,2015,ENGR,ENGR 2210,Principles of Engineering,TF 10:50-12:30pm,AC306,4,25.0,Hoover; Bennett; Govindasamy; Minch,01,,,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016,
-FA,2015,ENGR,ENGR 2210,Principles of Engineering,TF 10:50-12:30pm,AC309,4,25.0,Hoover; Bennett; Govindasamy; Minch,02,,,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016,
-FA,2015,ENGR,ENGR 2210,Principles of Engineering,TF 1:30-3:10pm,AC306,4,25.0,Hoover; Bennett; Govindasamy; Minch,03,,,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016,
-FA,2015,ENGR,ENGR 2210,Principles of Engineering,TF 1:30-3:10pm,AC309,4,25.0,Hoover; Bennett; Govindasamy; Minch,04,,,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016,
-FA,2015,ENGR,ENGR 4190,Senior Capstone Program in Engineering (SCOPE),W 9-10:40am; 1-6:00pm,varied,4,90.0,Mulitiple Teams; Various Faculty Advisers and Angels,01-14,,,Enroll in section '01; Team Assignments TBD,
-FA,2015,FYR,AHSE 1100,History of Technology,TF 10:50-12:30pm,AC417,4,16.0,Martello,01,,,AHS Foundation,
-FA,2015,FYR,AHSE 1122,Wired Ensemble,T 3:20-5:pm; F 10:50- 12:30pm,AC304 AC305,4,16.0,Dabby,01,,,AHS Foundation,
-FA,2015,FYR,AHSE 1135,"The Digital Eye: Photography, Vision, and Visual Communication",TF 10:50-12:30pm,AC313,4,14.0,Donis-Keller,01,,,AHS Foundation,
-FA,2015,FYR,AHSE 1145,The Human Connection: Tools and Concepts from Anthropology for Understanding Today's World,T 10:50-12:30pm; F 9:30- 12:30pm,AC326,4,16.0,Lynch,01,,,AHS Foundation,
-FA,2015,FYR,AHSE 1199,"Special Topics in Arts Humanities Social Science Foundation:
+FA,2015,E:C,ENGR2510,Software Design,TF 1:30-3:10pm,AC326,4,25.0,Millner,01,,,,
+FA,2015,E:C,ENGR3525,Software Systems,TF 10:50-12:30pm,AC328,4,30.0,Downey,01,,,,
+FA,2015,E:C,ENGR3590,A Computational Introduction to Robotics,MR 1:30-3:10pm,AC318,4,15.0,Ruvolo,01,,,,
+FA,2015,E:C,ENGR3590,A Computational Introduction to Robotics,TF 1:30-3:10pm,AC318,4,15.0,Ruvolo,02,,,,
+FA,2015,E:C,ENGR3599,Special Topics in Computing: Visualizing Data,M 6:15-8:45pm,AC326,4,30.0,Pucella,01,,,prerequisite of ENGR2510,
+FA,2015,ECE,ENGR3410,Computer Architecture,MR 10:50-12:30pm,AC326,4,35.0,Hill,01,,,,
+FA,2015,ECE,ENGR3420,Introduction to Analog and Digital Communications,TF 9-10:40am,AC304,4,24.0,Govindasamy,01,,,,
+FA,2015,ECE,ENGR3430,EE Prototyping,MR 3:20-6pm,AC304,4,24.0,Lundberg,01,,,NOTE: This was typically a spring offering - moving to fall; won't be offered SP16,
+FA,2015,ENGR,ENGR1330,Fundamentals of Machine Shop Operations,W 1-5:00pm,AC104,4,6.0,Andruskiewicz,01,,,,
+FA,2015,ENGR,ENGR2125,"The Engineer's Orchestra I: Acoustics, Waves, Vibrations",TF 1:30-3:10pm,AC304,4,15.0,Dabby; Lee,01,,,CANCELLED,
+FA,2015,ENGR,ENGR2210,Principles of Engineering,TF 10:50-12:30pm,AC306,4,25.0,Hoover; Bennett; Govindasamy; Minch,01,,,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016,
+FA,2015,ENGR,ENGR2210,Principles of Engineering,TF 10:50-12:30pm,AC309,4,25.0,Hoover; Bennett; Govindasamy; Minch,02,,,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016,
+FA,2015,ENGR,ENGR2210,Principles of Engineering,TF 1:30-3:10pm,AC306,4,25.0,Hoover; Bennett; Govindasamy; Minch,03,,,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016,
+FA,2015,ENGR,ENGR2210,Principles of Engineering,TF 1:30-3:10pm,AC309,4,25.0,Hoover; Bennett; Govindasamy; Minch,04,,,beginning in 2016-17 this will be a fall only offering; we will have one section in spring 2016,
+FA,2015,ENGR,ENGR4190,Senior Capstone Program in Engineering (SCOPE),W 9-10:40am; 1-6:00pm,varied,4,90.0,Mulitiple Teams; Various Faculty Advisers and Angels,01-14,,,Enroll in section '01; Team Assignments TBD,
+FA,2015,FYR,AHSE1100,History of Technology,TF 10:50-12:30pm,AC417,4,16.0,Martello,01,,,AHS Foundation,
+FA,2015,FYR,AHSE1122,Wired Ensemble,T 3:20-5:pm; F 10:50- 12:30pm,AC304 AC305,4,16.0,Dabby,01,,,AHS Foundation,
+FA,2015,FYR,AHSE1135,"The Digital Eye: Photography, Vision, and Visual Communication",TF 10:50-12:30pm,AC313,4,14.0,Donis-Keller,01,,,AHS Foundation,
+FA,2015,FYR,AHSE1145,The Human Connection: Tools and Concepts from Anthropology for Understanding Today's World,T 10:50-12:30pm; F 9:30- 12:30pm,AC326,4,16.0,Lynch,01,,,AHS Foundation,
+FA,2015,FYR,AHSE1199,"Special Topics in Arts Humanities Social Science Foundation:
 Media Revolution: Activism and Technology",TF 9-10:40am,AC318,4,16.0,Vitols,01,,,AHS Foundation,
-FA,2015,FYR,AHSE 1199,"Special Topics in Arts Humanities Social Science Foundation:
+FA,2015,FYR,AHSE1199,"Special Topics in Arts Humanities Social Science Foundation:
 Robots, Mutants, and Monsters: Envisioning Science in CInema",TF 10:50-12:30pm,AC318,4,16.0,Vitols,02,,,AHS Foundation; Students enrolled in this course will need to reserve Monday evenings from 7:30-10p for film screenings.,
-FA,2015,FYR,ENGR 1125,"Introduction to Sensors, Instrumentation and Measurement","M 1:30-3:10pm; T 1-
+FA,2015,FYR,ENGR1125,"Introduction to Sensors, Instrumentation and Measurement","M 1:30-3:10pm; T 1-
 3:10pm",MH120 Mon; AC428,4,21.0,Storey; Minch,01,,,,
-FA,2015,FYR,ENGR 1125,"Introduction to Sensors, Instrumentation and Measurement","M 1:30-3:10pm; W 1-
+FA,2015,FYR,ENGR1125,"Introduction to Sensors, Instrumentation and Measurement","M 1:30-3:10pm; W 1-
 3:10pm",MH120 Mon; AC428,4,21.0,Storey; Minch,02,,,,
-FA,2015,FYR,ENGR 1125,"Introduction to Sensors, Instrumentation and Measurement","M 1:30-3:10pm; R 1-
+FA,2015,FYR,ENGR1125,"Introduction to Sensors, Instrumentation and Measurement","M 1:30-3:10pm; R 1-
 3:10pm",MH120 Mon; AC428,4,21.0,Storey; Minch,03,,,,
-FA,2015,FYR,ENGR 1125,"Introduction to Sensors, Instrumentation and Measurement","M 1:30-3:10pm; F 1-
+FA,2015,FYR,ENGR1125,"Introduction to Sensors, Instrumentation and Measurement","M 1:30-3:10pm; F 1-
 3:10pm",MH120 Mon; AC428,4,21.0,Storey; Minch,04,,,,
-FA,2015,FYR,ENGR 1200,Design Nature,MW 3:20-6pm,MH120; AC204,4,28.0,Linder; Hendren; Coso; Rosenwinkel,01,,,,
-FA,2015,FYR,ENGR 1200,Design Nature,MW 3:20-6pm,MH120; AC206,4,28.0,Linder; Hendren; Coso; Rosenwinkel,02,,,,
-FA,2015,FYR,ENGR 1200,Design Nature,MW 3:20-6pm,MH120; AC209,4,28.0,Linder; Hendren; Coso; Rosenwinkel,03,,,,
-FA,2015,FYR,"MTH 1111 and
-SCI 1111",Modeling and Simulation of the Physical World,MR 10:50-12:30pm; W 9- 10:40am,MH120; AC204,2+2,28.0,Somerville; Geddes; Patel; Woodard,01,,,,
-FA,2015,FYR,"MTH 1111 and
-SCI 1111",Modeling and Simulation of the Physical World,MR 10:50-12:30pm; W 9- 10:40am,MH120; AC206,2+2,28.0,Somerville; Geddes; Patel; Woodard,02,,,,
-FA,2015,FYR,"MTH 1111 and
-SCI 1111",Modeling and Simulation of the Physical World,MR 10:50-12:30pm; W 9- 10:40am,MH120; AC209,2+2,28.0,Somerville; Geddes; Patel; Woodard,03,,,,
-FA,2015,FYR,OIE 1000,Olin Introductory Experience,R 3:20-5:00pm,MH120,1,84.0,Tatar,01,,,,
+FA,2015,FYR,ENGR1200,Design Nature,MW 3:20-6pm,MH120; AC204,4,28.0,Linder; Hendren; Coso; Rosenwinkel,01,,,,
+FA,2015,FYR,ENGR1200,Design Nature,MW 3:20-6pm,MH120; AC206,4,28.0,Linder; Hendren; Coso; Rosenwinkel,02,,,,
+FA,2015,FYR,ENGR1200,Design Nature,MW 3:20-6pm,MH120; AC209,4,28.0,Linder; Hendren; Coso; Rosenwinkel,03,,,,
+FA,2015,FYR,"MTH1111 / SCI1111",Modeling and Simulation of the Physical World,MR 10:50-12:30pm; W 9- 10:40am,MH120; AC204,2+2,28.0,Somerville; Geddes; Patel; Woodard,01,,,,
+FA,2015,FYR,"MTH1111 / SCI1111",Modeling and Simulation of the Physical World,MR 10:50-12:30pm; W 9- 10:40am,MH120; AC206,2+2,28.0,Somerville; Geddes; Patel; Woodard,02,,,,
+FA,2015,FYR,"MTH1111 / SCI1111",Modeling and Simulation of the Physical World,MR 10:50-12:30pm; W 9- 10:40am,MH120; AC209,2+2,28.0,Somerville; Geddes; Patel; Woodard,03,,,,
+FA,2015,FYR,OIE1000,Olin Introductory Experience,R 3:20-5:00pm,MH120,1,84.0,Tatar,01,,,,
 FA,2015,"INTEG RATE
-D",ENGR 2199B MTH 2188B,Special Topics in Engineering and Mathematics: Regional Analysis For Development,MR 3:20-5:00pm,AC326,2+2,30.0,Mur-Miranda,B1,,,Prob/Stat Designated Alternative,
+D",ENGR2199B / MTH2188B,Special Topics in Engineering and Mathematics: Regional Analysis For Development,MR 3:20-5:00pm,AC326,2+2,30.0,Mur-Miranda,B1,,,Prob/Stat Designated Alternative,
 FA,2015,"INTEG RATE
-D",SCI 1121A / MTH 2220A,Electricity and Magnetism: Project Based Approach w/ Vector Calculus,MTRF 10:50-12:30pm,AC428,4+2,25.0,Christianson,A1,,,Experimental Offering; Will satisfy both Physics Foundation requirement and Linearity II (note: additional mathematics credits may be necessary for certain majors),
+D",SCI1121A / MTH2220A,Electricity and Magnetism: Project Based Approach w/ Vector Calculus,MTRF 10:50-12:30pm,AC428,4+2,25.0,Christianson,A1,,,Experimental Offering; Will satisfy both Physics Foundation requirement and Linearity II (note: additional mathematics credits may be necessary for certain majors),
 FA,2015,"INTEG RATE
-D",SCI 1210A / AHSE 2199A,Special Topics in AHS and Science: 6 Microbes that Changed the World,"M 1:00-3:10pm; W 1-
+D",SCI1210A / AHSE2199A,Special Topics in AHS and Science: 6 Microbes that Changed the World,"M 1:00-3:10pm; W 1-
 6:00pm",AC406; AC417,4+4,24.0,Huang; Martello,A1,,,Will satisfy Biology requirement,
-FA,2015,ME,ENGR 2340,Dynamics,TF 9-10:40am; W 9:30- 10:30am,AC328,4,40.0,Lee,01,,,,
-FA,2015,ME,ENGR 3310,Transport Phenomena,MR 10:50-12:30pm,AC328,4,28.0,Storey,01,,,,
-FA,2015,ME,ENGR 3330,Mechanical Design,MR 9-10:40am,AC128,4,28.0,Barrett,01,,,,
-FA,2015,ME,ENGR 3370,Controls,MR 1:30-3:10pm,AC304,4,25.0,Lundberg,01,,,NOTE: This was typically a spring offering - moving to fall; won't be offered SP16,
-FA,2015,ME,ENGR 3390,Fundamentals of Robotics,MR 3:20-5:00pm,AC128,4,24.0,Barrett,01,,,,
-FA,2015,MTH,MTH 2110,Discrete Math,MR 9-10:40am,AC326,4,30.0,Adams,01,,,,
-FA,2015,MTH,MTH 2130,Probability and Statistics,TF 1:30-3:10pm,AC113,2,32.0,Patel,01,,,Session I,
-FA,2015,MTH,MTH 2220,Linearity II,MR 1:30-3:10pm,"CC209-213
+FA,2015,ME,ENGR2340,Dynamics,TF 9-10:40am; W 9:30- 10:30am,AC328,4,40.0,Lee,01,,,,
+FA,2015,ME,ENGR3310,Transport Phenomena,MR 10:50-12:30pm,AC328,4,28.0,Storey,01,,,,
+FA,2015,ME,ENGR3330,Mechanical Design,MR 9-10:40am,AC128,4,28.0,Barrett,01,,,,
+FA,2015,ME,ENGR3370,Controls,MR 1:30-3:10pm,AC304,4,25.0,Lundberg,01,,,NOTE: This was typically a spring offering - moving to fall; won't be offered SP16,
+FA,2015,ME,ENGR3390,Fundamentals of Robotics,MR 3:20-5:00pm,AC128,4,24.0,Barrett,01,,,,
+FA,2015,MTH,MTH2110,Discrete Math,MR 9-10:40am,AC326,4,30.0,Adams,01,,,,
+FA,2015,MTH,MTH2130,Probability and Statistics,TF 1:30-3:10pm,AC113,2,32.0,Patel,01,,,Session I,
+FA,2015,MTH,MTH2220,Linearity II,MR 1:30-3:10pm,"CC209-213
 Crescent Rm",4,28.0,Geddes; Somerville,01,,,,
-FA,2015,MTH,MTH 2220,Linearity II,MR 1:30-3:10pm,"CC209-213
+FA,2015,MTH,MTH2220,Linearity II,MR 1:30-3:10pm,"CC209-213
 Crescent Rm",4,28.0,Geddes; Somerville,02,,,,
-FA,2015,MTH,MTH 3170,Non-linear Dynamics and Chaos,MR 1:30-3:10pm,AC113,4,24.0,Hoffman,01,,,,
-FA,2015,SCI,SCI 1210,Principles of Modern Biology (with Lab): Designing Better Drugs to Fight Disease,TF 1:30-3:10pm; Tues 3:20-6:00pm,AC406; AC417,4,24.0,Pratt,01,,,,
-FA,2015,SCI,SCI 1410,Introduction to Material Science and Solid State Chemistry,TR 3:20-6pm,AC413; AC417,4,21.0,Chachra,01,,,,
-FA,2015,SCI,SCI 1410,"Introduction to Material Science and Solid State Chemistry:
+FA,2015,MTH,MTH3170,Non-linear Dynamics and Chaos,MR 1:30-3:10pm,AC113,4,24.0,Hoffman,01,,,,
+FA,2015,SCI,SCI1210,Principles of Modern Biology (with Lab): Designing Better Drugs to Fight Disease,TF 1:30-3:10pm; Tues 3:20-6:00pm,AC406; AC417,4,24.0,Pratt,01,,,,
+FA,2015,SCI,SCI1410,Introduction to Material Science and Solid State Chemistry,TR 3:20-6pm,AC413; AC417,4,21.0,Chachra,01,,,,
+FA,2015,SCI,SCI1410,"Introduction to Material Science and Solid State Chemistry:
 Biomaterials, Polymers and Mechanical Properties",MW 3:20-6pm,AC413; AC328,4,21.0,Chachra,C1,,,,
-FA,2015,SEM,SEM 104,"Work, Play, Balance",R 6:30-8:10pm,AC128,1,12.0,Betsch,S1,,,,
-FA,2015,SEM,SEM 303,Musical Instrument Design and Engineering,T 6:30-8:10pm,AC306,1,20.0,Dorsk,S1,,,,
-FA,2015,SEM,SEM 502,Data Dashboard Design,T 6:30-8:10pm,AC318,1,15.0,Ritter,S1,,,Python experience (not necessarily from a class),
-FA,2015,ADMIN,AWAY 1000,Study Away Program,,,,,Administration,01,,,,
-FA,2015,ADMIN,OIP 1000,The Olin Internship Practicum,,,1,,Phelps,01,,,If engaged in a CPT work activity; see PGP for enrollment,
+FA,2015,SEM,SEM104,"Work, Play, Balance",R 6:30-8:10pm,AC128,1,12.0,Betsch,S1,,,,
+FA,2015,SEM,SEM303,Musical Instrument Design and Engineering,T 6:30-8:10pm,AC306,1,20.0,Dorsk,S1,,,,
+FA,2015,SEM,SEM502,Data Dashboard Design,T 6:30-8:10pm,AC318,1,15.0,Ritter,S1,,,Python experience (not necessarily from a class),
+FA,2015,ADMIN,AWAY1000,Study Away Program,,,,,Administration,01,,,,
+FA,2015,ADMIN,OIP1000,The Olin Internship Practicum,,,1,,Phelps,01,,,If engaged in a CPT work activity; see PGP for enrollment,
 FA,2021,AHS,AHSE0112,AHSE0112: The Olin Conductorless Orchestra,R 6:30-8:30pm,"318
 326
 328",1,30,"Dabby, Diana",01,,AHS,,
@@ -798,7 +780,7 @@ FA,2021,FYR,ENGR1200,ENGR1200: Design Nature,MR 10-12:30pm,"204
 MH120",4,90,"Chachra, Debbie; Ferguson Sauder, Tim; Townsend, Jessica",all section s,,DESIGN Fnd,Available to First Year Students Only,
 FA,2021,FYR,OIE1000,OIE1000: Olin First Year Introduction OFYI,W 2-3:30pm,MH120,1,90,"Waranyuwat, Adva",01,,Required FYR,Available to First Year Students Only,
 FA,2021,"FYR:
-Interdisciplin ary",MTH1111_SCI 1111,MTH1111_SCI1111: Modeling and Simulation of the Physical World,MWR 4-5:30pm,"204
+Interdisciplin ary",MTH1111 / SCI1111,MTH1111_SCI1111: Modeling and Simulation of the Physical World,MWR 4-5:30pm,"204
 206
 209
 213
@@ -809,8 +791,8 @@ FA,2021,Interdisciplin ary,ENGX2000,ENGX2000: Quantitative Engineering Analysis 
 FA,2021,Interdisciplin ary,ENGX2010,ENGX2010: Quantitative Engineering Analysis 3,TF 12-1:30pm,"113
 126
 128",4,90,"Dusek, Jeff; Malley, Melinda; Tow, Emily",01,,Required ENGR,,
-FA,2021,Interdisciplin ary,MTH2131_ ENGR3531,MTH2131_ENGR3531: Data Science,MR 12-1:30pm,326,2+2,30,"del Rosario, Zachary",01,small,ProbStat,,
-FA,2021,Interdisciplin ary,MTH2188A_ ENGR3599A,MTH2188A_ENGR3599A: Machine Learning,TF 10-11:30am,MH120,2+2,48,"Michalka, Sam; Nugent, Carrie",01,large,ProbStat,,
+FA,2021,Interdisciplin ary,MTH2131 / ENGR3531,MTH2131_ENGR3531: Data Science,MR 12-1:30pm,326,2+2,30,"del Rosario, Zachary",01,small,ProbStat,,
+FA,2021,Interdisciplin ary,MTH2188A / ENGR3599A,MTH2188A_ENGR3599A: Machine Learning,TF 10-11:30am,MH120,2+2,48,"Michalka, Sam; Nugent, Carrie",01,large,ProbStat,,
 FA,2021,ME,ENGR2320,ENGR2320: Mechanics of Solids & Structures,R 8-9:30am,328,4,45,"Dusek, Jeff",01,small,Core ME,"Student must elect group A, B, or C along with the standard R 8-9:30am
 lecture",
 FA,2021,ME,ENGR2320 L,ENGR2320: Mechanics of Solids & Structures,A: M 8-9:30am B: T 8-9:30am C: T 2-3:30pm,328,0,15 per group,"Dusek, Jeff",A B C,small,,"Student must elect group A, B, or C along with the standard R 8-9:30am
@@ -860,8 +842,8 @@ FA,2018,ENGR,ENGR2110,ENGR2110: Principles of Engineering,TF 10:50-12:30pm,AC309
 FA,2018,ENGR,ENGR2199,ENGR2199: Special Topics in Engineering: Small Satellite Laboratory,T 3:20-5:30pm,AC304,4,18,"Harris, Scott; Lee, Chris",01,"yes, small",Elective,"Enroll in section 01 and then choose a corresponding working group, either ENGR2199 L, L1 or L2
 enrollment will be open to 6 rising seniors, 6 rising juniors and 6 rising sophomores
 please note that we will be managing enrollment after each registration period in order to balance enrollment between class years",
-FA,2018,ENGR,ENGR2199 L,Small Satellite Laboratory Working Group,M 3:20-5:30pm,,0,18 total,,L1,,,,
-FA,2018,ENGR,ENGR2199 L,Small Satellite Laboratory Working Group,W 3:20-5:30pm,,0,,,L2,,,,
+FA,2018,ENGR,ENGR2199L,Small Satellite Laboratory Working Group,M 3:20-5:30pm,,0,18 total,,L1,,,,
+FA,2018,ENGR,ENGR2199L,Small Satellite Laboratory Working Group,W 3:20-5:30pm,,0,,,L2,,,,
 FA,2018,ENGR,ENGR2199A,ENGR2199A: Special Topics in Engineering: Designing with Stakeholder Groups AC Reboot,W 9-10:50am,AC213,2,by applicati on,"Barrett, Annie; Goldenson, Jeff; Hoover, Aaron; Somerville, Mark",01,,ENGR Elective,,
 FA,2018,ENTRP,AHSE2515,AHSE2515: Iterate,MR 9-10:40am,AC318,2,21,"Bowen, Jim",01,"yes, small","ENTRP
 Concentration",Session I,
@@ -903,10 +885,9 @@ FA,2018,Interdisciplinary,CIE2018B,Curriculum Innov Experiment: Quantitative Eng
 Fnd, Signals Systems, Dynamics",must have successfully completed CIE2018A QEA I in Spring 2018,
 FA,2018,Interdisciplinary,CIE2018B,Curriculum Innov Experiment: Quantitative Engineering Analysis II,MR 1:30-5:00pm,AC113,8,32,"Christianson, Rebecca; Dusek, Jeff; Houston- Edwards, Kelsey; Nugent, Carrie; Ruvolo, Paul",02,no,"Lin I, Lin II, Physics
 Fnd, Signals Systems, Dynamics",must have successfully completed CIE2018A QEA I in Spring 2018,
-FA,2018,Interdisciplinary,ENGR3533/M TH2133,ENGR3533/MTH2133: Computational Bayesian Statistics,TF 1:30-3:10pm,AC318,2+2,25,"Downey, Allen",01,"yes, small",Math - ProbStat Requirement ; Elective E:C,"must enroll in both ENGR3533 and
+FA,2018,Interdisciplinary,ENGR3533 / MTH2133,ENGR3533/MTH2133: Computational Bayesian Statistics,TF 1:30-3:10pm,AC318,2+2,25,"Downey, Allen",01,"yes, small",Math - ProbStat Requirement ; Elective E:C,"must enroll in both ENGR3533 and
 MTH2133",
-FA,2018,Interdisciplinary,"MTH2132
-/SCI2032",MTH2132/SCI2032: Bayesian Inference and Reasoning,TF 10:50-12:30pm,AC328,2+2,50,"Mahajan, Sanjoy",01,"yes, small","Math - ProbStat Requirement; SCI
+FA,2018,Interdisciplinary,"MTH2132 / SCI2032",MTH2132/SCI2032: Bayesian Inference and Reasoning,TF 10:50-12:30pm,AC328,2+2,50,"Mahajan, Sanjoy",01,"yes, small","Math - ProbStat Requirement; SCI
 Elective",must enroll in both MTH2132 and SCI2032,
 FA,2018,ME,ENGR2340,ENGR2340: Dynamics,TF 9-10:40am; W 9:30- 10:30am,AC328,4,40,"Lee, Chris",01,"yes, small",Core ME,,
 FA,2018,ME,ENGR3310,ENGR3310: Transport Phenomena,MR 10:50-12:30pm,AC417; AC409,4,32,"Ferzoco, Alesandra; Storey, Brian",01,"yes, small",Core ME,,
@@ -916,7 +897,7 @@ E:C",,
 FA,2018,MTH,MTH2110,MTH2110: Discrete Math,MR 10:50-12:30pm,AC326,4,33,"Spence Adams, Sarah",02,"yes, large","Math - Adv ECE;
 E:C",,
 FA,2018,MTH,MTH2220,MTH2220: Linearity II,MR 1:30-3:10pm,AC328,4,32,"Hoffman, Aaron",01,no,Requirement - Lin2,,
-FA,2018,Research,"AHSE2097, ENGR2097, MTH2097, SCI2097","AHSE2097, ENGR2097, MTH2097, SCI2097:
+FA,2018,Research, AHSE2097 / ENGR2097 / MTH2097 / SCI2097,"AHSE2097, ENGR2097, MTH2097, SCI2097:
 Cross-disciplinary Research Methods","W 1:30-3:10pm
 required AC428; optional research lab time MR 6-8pm in AC417",AC318,2,25,"Barrett, Dave; Huang, Jean; Morrow, Alex",01,"yes, large",Elective,See course description as enrollment in this course requires enrollment in a specific research activity or research course,
 FA,2018,SCI,SCI1121,SCI1121: Electricity and Magnetism,MR 9-10:40am,AC304,4,24,"Somerville, Mark",01,"yes, small",SCI - Physics Foundation,,
@@ -991,14 +972,14 @@ FA,2017,FYR: ENGR,ENGR1125,"Introduction to Sensors, Instrumentation and Measure
 FA,2017,FYR: ENGR,ENGR1125,"Introduction to Sensors, Instrumentation and Measurement","M 1:30-3:10pm; F 1-
 3:10pm",Mondays in MH120; AC428,4,24.0,Dusek; Hill; Michalka; Storey,04,,Core Requirement,,
 FA,2017,"FYR:
-Interdiscipl inary",MTH1111 SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,AC204; MH120,4,30.0,Downey; Lee; Wood; Woodard,01,,Core Requirement,,
+Interdiscipl inary",MTH1111 / SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,AC204; MH120,4,30.0,Downey; Lee; Wood; Woodard,01,,Core Requirement,,
 FA,2017,"FYR:
-Interdiscipl inary",MTH1111 SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,"AC206, MH120",4,30.0,Downey; Lee; Wood; Woodard,02,,Core Requirement,,
+Interdiscipl inary",MTH1111 / SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,"AC206, MH120",4,30.0,Downey; Lee; Wood; Woodard,02,,Core Requirement,,
 FA,2017,"FYR:
-Interdiscipl inary",MTH1111 SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,AC209; MH120,4,30.0,Downey; Lee; Wood; Woodard,03,,Core Requirement,,
+Interdiscipl inary",MTH1111 / SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,AC209; MH120,4,30.0,Downey; Lee; Wood; Woodard,03,,Core Requirement,,
 FA,2017,Interdiscipl inary,CIE2017B,Curriculum Innov Experiment: Quantitative Engineering Analysis II,MR 1:30-5pm,AC113,8,36.0,"Coso Strong, Geddes Govindasamy, Ruvolo",01,,,"Opt-In for Students Who Enrolled in
 CIE2017A in SP17",
-FA,2017,Interdiscipl inary,ENGR3699A MTH2188A,"Special Topics in Bioengineering: Neurotechnology, Brains and Machines",T 3:20-6:40pm,AC326,2+2,21.0,Michalka,01,"Y, small see below",Core Option: BioE OR Prob/Stat Requirement,,
+FA,2017,Interdiscipl inary,ENGR3699A / MTH2188A,"Special Topics in Bioengineering: Neurotechnology, Brains and Machines",T 3:20-6:40pm,AC326,2+2,21.0,Michalka,01,"Y, small see below",Core Option: BioE OR Prob/Stat Requirement,,
 FA,2017,ME,ENGR2340,Dynamics,TF 1:30-3:10pm,AC328,4,24.0,Anders,01,"Y, small",ME Core,,
 FA,2017,ME,ENGR3310,Transport Phenomena,MR 10:50-12:30pm,AC326,4,28.0,Storey,01,"Y, small",Core - ME,,
 FA,2017,ME,ENGR3330,Mechanical Design,TF 9-10:40am,AC128,4,25.0,Barrett,01,"Y, small",Core - ME,,
@@ -1035,7 +1016,7 @@ FA,2023,,AHSE1199,AHSE1199: AHS Foundation: Introduction to Creative Writing,TF 
 FA,2023,,AHSE1199A,"AHSE1199: AHS Foundation: Environment, Technology, & Society: Just Relations and Transformative Futures",TF 1:00pm-2:40pm,128,4,18,"Horgan, Leah",01,5,AHS Foundation,open to class of 2027,
 FA,2023,,AHSE2135,AHSE2135: Digital Photography: Seeing is Believing,TF 1:00-2:40pm,313,4,20,"Donis-Keller, Helen",01,5,AHS Elective,tentative based on enrollment,
 FA,2023,,AHSE2170,AHSE2170: Teaching and Learning,M 1:00-3:30pm T 1:00-2:40pm,318,4,18,"Zastavker, Yevgeniya",01,5,AHS Elective,Experimental Grading,
-FA,2023,,AHSE2199A_o r_SCI1299,"AHSE2199A: Special Topics in Arts, Humanities and Social Science: Agency, Ethics and Biological Sciences",Lect: TF 1:00pm-2:40pm Lab: W 2:50pm-4:30pm,TF @Wellesley Wed @Olin MAC406,4,4,"Huang, Jean",01,5,AHS Elective,"Cross-Listed; Joint course with Wellesley. Lectures taught on Wellesley campus.
+FA,2023,,AHSE2199A / SCI1299,"AHSE2199A: Special Topics in Arts, Humanities and Social Science: Agency, Ethics and Biological Sciences",Lect: TF 1:00pm-2:40pm Lab: W 2:50pm-4:30pm,TF @Wellesley Wed @Olin MAC406,4,4,"Huang, Jean",01,5,AHS Elective,"Cross-Listed; Joint course with Wellesley. Lectures taught on Wellesley campus.
 Lab taught on Olin campus
 Register for AHSE2199A for AHS credit
 Register for SCI1299 for BIO credit",
@@ -1051,7 +1032,7 @@ FA,2023,,ENGR1200,ENGR1200: Design Nature,TF 9:20am-12:00pm,"MH120 204
 FA,2023,,ENGR1330,ENGR1330: Fundamentals of Machine Shop Operations,W 10:20am-12:00pm W 1:00pm-3:30pm,MACHINE SHOP,4,6,"Mulligan, John",01,20,Elective,,
 FA,2023,,ENGR2110,ENGR2110: Principles Integrated Engineering,MR 1:00pm-2:40pm,309,4,30,"Mbanisi, Kene; Minch, Brad",01,10,Requirement - PIE,,
 FA,2023,,ENGR2110,ENGR2110: Principles Integrated Engineering,MR 2:50pm-4:30pm,309,4,30,"Mbanisi, Kene; Minch, Brad",02,10,Requirement - PIE,`,
-FA,2023,,ENGR2141_an d_AHSE2141,ENGR2141_and_AHSE2141: Engineering for Humanity,T 1:00pm-2:40pm F 12:00pm-2:40pm,228,2+2,20,"Ben-Ur, Ela; Lynch, Caitrin",01,10,"AHS and ENGR
+FA,2023,,ENGR2141 / AHSE2141,ENGR2141_and_AHSE2141: Engineering for Humanity,T 1:00pm-2:40pm F 12:00pm-2:40pm,228,2+2,20,"Ben-Ur, Ela; Lynch, Caitrin",01,10,"AHS and ENGR
 Elective",Tentative based on Enrollment,
 FA,2023,,ENGR2299,ENGR2299: Special Topics in Interior Design: Thoughtful Objects: Form to Fire,W 3:00pm-8:00pm,Mass Art,4,12,"Linder, Benjamin",01,5,Elective; E:Deign intermediate level,Collaboration with Mass Art; Transportation provided,
 FA,2023,,ENGR2299A,"ENGR2299A: Special Topics in Engineering Design:
@@ -1061,7 +1042,7 @@ FA,2023,,ENGR2360,ENGR2360: Introduction to Thermal-Fluid Systems,MR 10:20am-12:
 FA,2023,,ENGR3199,ENGR3199: Special Topics in Engineering: Community- Centered Creation of a Mobile App for Mental Health Equity,MR 1:00pm-2:40pm,113,4,8,"Millner, Amon; Ruvolo, Paul",01,3,Elective,,
 FA,2023,,ENGR3220,ENGR3220: User Experience Design,MR 10:20am-12:00pm,318,4,20,"Millner, Amon",01,10,DSN Depth,,
 FA,2023,,ENGR3260,ENGR3260: Design for Manufacturing,MR 10:20am-12:00pm,113,4,20,"van de Zande, Georgia; Graham-Hayes, Robin (shop support)",01,10,ME Elective DESIGN Depth,Students must elect lab A or B along with the standard MR 10:20am-12:00pm lecture,
-FA,2023,,ENGR3260 L,ENGR3260 L: Design for Manufacturing LAB,Lab A: M 2:50-4:30pm Lab B: M 6:00-7:40pm,113,0,10 per lab,"van de Zande, Georgia; Graham-Hayes, Robin (shop support)",A B,3,ME Elective DESIGN Depth,Students must elect lab A or B along with the standard MR 10:20am-12:00pm lecture,
+FA,2023,,ENGR3260L,ENGR3260 L: Design for Manufacturing LAB,Lab A: M 2:50-4:30pm Lab B: M 6:00-7:40pm,113,0,10 per lab,"van de Zande, Georgia; Graham-Hayes, Robin (shop support)",A B,3,ME Elective DESIGN Depth,Students must elect lab A or B along with the standard MR 10:20am-12:00pm lecture,
 FA,2023,,ENGR3290,ENGR3290: Affordable Design and Entrepreneurship,T 3:30-6:30pm R 3:30-5:30pm,Weissman Foundry,4,5,"Graeff, Erhardt; Hersey, Scott; Johansen, Elizabeth; Linder, Ben; Majluf, Francesca;Taha, Kofi",01,25,DSN Depth,,
 FA,2023,,ENGR3299,ENGR3299: Specials Topics in Design: Introduction to Architecture and Urbanism: Public Space as Public Sphere,M 2:50-5:30pm,326,4,20,"Koff, Dan",01,5,DSN Depth,,
 FA,2023,,ENGR3299A,ENGR3299A: Special Topics in Design: Mixed Methods Product Evaluation,TF 10:20am-12:00pm,326,4,25,"Bloomer, Sarah",01,10,DSN Depth,,
@@ -1080,9 +1061,8 @@ FA,2023,,ENGR3599,ENGR3599: Special Topics in Computing: Longer-term Software De
 Elective",2 credits; full semester,
 FA,2023,,ENGR3599A,ENGR3599A: Special Topics in Computing: Extraordinary Tools for Computing,R 1:00pm-2:40pm,326,2,20,"Matsumoto, Steve",01,10,"Core E:C; Computing
 Elective",2 credits; full semester,
-FA,2023,,"ENGR3599B_o
-r_SCI3199",ENGR3599B: Special Topics in Computing: Scientific Computing,MR 8:30am-10:10am,417,4,8,"Nugent, Carrie",01,5,"Core E:C; Computing
-Elective","Cross‐listed; This course will not be offered in Spring 2024 or Fall 2024;
+FA,2023,,"ENGR3599B / SCI3199",ENGR3599B: Special Topics in Computing: Scientific Computing,MR 8:30am-10:10am,417,4,8,"Nugent, Carrie",01,5,"Core E:C; Computing
+Elective","Cross-listed; This course will not be offered in Spring 2024 or Fall 2024;
 Register for ENGR3599B for ENGR credit",
 FA,2023,,ENGR4190,ENGR4190: SCOPE: Senior Capstone Program in Engineering,"W 8:30am-5:30pm (Lunch 11:30am-12:30pm)
 F 8:30-10:10am",Varies,4,na,"Bloomer, Sarah; Ferzoco, Alessandra;  Neeley, Lawrence; Stein, Lynn",01,na,CAPSTONE-SCOPE,Registration via CAPSTONE Survey,
@@ -1094,20 +1074,15 @@ FA,2023,,ENGX2000,ENGX2000: Quantitative Engineering Analysis 1,MR 2:50pm-4:30pm
 128",4,50,"Michalka, Sam; Shuman, David",02,na,Requirement,,
 FA,2023,,ENGX2010,ENGX2010: Quantitative Engineering Analysis 3,TF 8:30am-10:10am,113,4,30,"Tow, Emily",01,5,Requirement,,
 FA,2023,,ENGX2010,ENGX2010: Quantitative Engineering Analysis 3,TF 10:20am-12:00pm,113,4,30,"Tow, Emily",02,5,Requirement,,
-FA,2023,,"MTH1111_SCI
-1111",MTH1111_SCI1111: Modeling and Simulation of the Physical World,MR 8:30am-10:10am,"126
+FA,2023,,"MTH1111 / SCI1111",MTH1111_SCI1111: Modeling and Simulation of the Physical World,MR 8:30am-10:10am,"126
 128",4,25 per section,"del Rosario, Zachary; Wood, Alison",01-02,na,Requirement,,
-FA,2023,,"MTH1111_SCI
-1112",MTH1111_SCI1111: Modeling and Simulation of the Physical World,MR 10:20am-12:00pm,"126
+FA,2023,,"MTH1111 / SCI1112",MTH1111_SCI1111: Modeling and Simulation of the Physical World,MR 10:20am-12:00pm,"126
 128",4,25 per section,"del Rosario, Zachary; Wood, Alison",03-04,na,Requirement,,
 FA,2023,,MTH2110,MTH2110: Discrete Math,MR 8:30-10:10am,326,4,21,"Spence Adams, Sarah",01,15,Math - Adv ECE; E:C,,
 FA,2023,,MTH2110,MTH2110: Discrete Math,MR 10:20am-12:00pm,326,4,27,"Spence Adams, Sarah",02,15,Math - Adv ECE; E:C,,
-FA,2023,,"MTH2135_and
-_ENGR3635","MTH2135_ENGR3635: Neurotechnology, Brains and Machines",TF 10:20am-12:00pm,318,2+2,24,"Michalka, Sam",01,10,ProbStat; E:Bio elective,,
-FA,2023,,"MTH2135_and
-_ENGR3635","MTH2135_ENGR3635: Neurotechnology, Brains and Machines",TF 1:00pm-2:40pm,304,2+2,24,"Michalka, Sam",02,10,ProbStat; E:Bio elective,,
-FA,2023,,"MTH2136_and
-_SCI2136","MTH2136_and_SCI2136: Astronomy and Statistics:
+FA,2023,,"MTH2135 / ENGR3635","MTH2135_ENGR3635: Neurotechnology, Brains and Machines",TF 10:20am-12:00pm,318,2+2,24,"Michalka, Sam",01,10,ProbStat; E:Bio elective,,
+FA,2023,,"MTH2135 / ENGR3635","MTH2135_ENGR3635: Neurotechnology, Brains and Machines",TF 1:00pm-2:40pm,304,2+2,24,"Michalka, Sam",02,10,ProbStat; E:Bio elective,,
+FA,2023,,"MTH2136 / SCI2136","MTH2136_and_SCI2136: Astronomy and Statistics:
 AstroStats",MR 10:20am-12:00pm,417,2+2,26,"Nugent, Carrie",01,5,ProbStat,This course will not be offered in Spring 2024 or Fall 2024,
 FA,2023,,MTH3199,MTH3199: Special Topics in Mathematics: Climate Mathematics,MR 11:00am-12:30pm,Remote,4,20,"Geddes, John",01,na,Math - Adv ME,This is a REMOTE offering,
 FA,2023,,OIE1000,OIE1000: Olin First Year Introduction (OFYI),W 1:00-2:40pm,"MH120 304
@@ -1117,7 +1092,7 @@ FA,2023,,OIE1000,OIE1000: Olin First Year Introduction (OFYI),W 1:00-2:40pm,"MH1
 417",1,100,"Waranyuwat, Adva",01-05,na,Required First Year,,
 FA,2023,,SCI1270,"SCI1270: Biomes, Climate Change, and Biodiversity (BCB)",TF 2:50pm-4:30pm,"313
 406",4,25,"Donis-Keller, Helen",01,5,SCI - Bio Foundation,,
-FA,2023,,SCI1299_or_A HSE2199A,"SCI1299: Special Topics in Biological Foundations: Agency, Ethics and Biological Sciences",Lect: TF 1:00pm-2:40pm Lab: W 2:50pm-4:30pm,"TF @Wellesley
+FA,2023,,SCI1299 / AHSE2199A,"SCI1299: Special Topics in Biological Foundations: Agency, Ethics and Biological Sciences",Lect: TF 1:00pm-2:40pm Lab: W 2:50pm-4:30pm,"TF @Wellesley
 W @Olin MAC406",4,8,"Huang, Jean",01,5,SCI - Bio Foundation,"Cross-listed; Joint course with Wellesley; Lectures taught on Wellesley campus; Lab taught on Olin campus.
 Register for SCI1299 for BIO credit
 Register for AHSE2199A for AHS credit",
@@ -1125,7 +1100,7 @@ FA,2023,,SCI1420,"SCI1420: Metals, Mining, and the Environment",MR 2:50pm-5:30pm
 FA,2023,,SCI1440,"SCI1440 Materials Creation, Consumption, and Impact",MR 9:20am-12:00pm,413,4,21,"Stolk, Jon",01,10,SCI - MatSci/Chem,,
 FA,2023,,SCI2214,SCI2214: Microbial Diversity,MR 1:00pm-2:40pm,"417
 404",4,24,"Huang, Jean",01,5,Adv Biology,,
-FA,2023,,SCI3199_or_E NGR3599B,SCI3199: Special Topics in Physics: Scientific Computing,MR 8:30am-10:10am,417,4,8,"Nugent, Carrie",01,5,"Core E:C; Computing
+FA,2023,,SCI3199 / ENGR3599B,SCI3199: Special Topics in Physics: Scientific Computing,MR 8:30am-10:10am,417,4,8,"Nugent, Carrie",01,5,"Core E:C; Computing
 Elective","Cross-listed; This course will not be offered in Spring 2024 or Fall 2024;
 Register for SCI3199 for SCI credit",
 FA,2023,,AWAY1000,Study Away Program,na,na,12,na,Administration,01,na,,Enroll in this course number to confirm your Study Away semester,
@@ -1174,9 +1149,9 @@ FA,2016,FYR: ENGR,ENGR1125,Introduction to Sensors Instrumentation and Measureme
 FA,2016,FYR: ENGR,ENGR1125,Introduction to Sensors Instrumentation and Measurement,M 1:30-3:10p Lecture; W 1-3:10pm LAB,MH120 on Mon; AC428,4,21.0,Hill; Storey; Geddes; Michalka,02,"Y, small for xreg",Engineering Core Requirement,,
 FA,2016,FYR: ENGR,ENGR1125,Introduction to Sensors Instrumentation and Measurement,M 1:30-3:10p Lecture; R 1-3:10pm LAB,MH120 on Mon; AC428,4,21.0,Hill; Storey; Geddes; Michalka,03,"Y, small for xreg",Engineering Core Requirement,,
 FA,2016,FYR: ENGR,ENGR1125,Introduction to Sensors Instrumentation and Measurement,M 1:30-3:10p Lecture; F 1-3:10pm LAB,MH120 on Mon; AC428,4,21.0,Hill; Storey; Geddes; Michalka,04,"Y, small for xreg",Engineering Core Requirement,,
-FA,2016,FYR: INTEGRA TED,MTH1111/ SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,MH120; AC204,2+2,30.0,"Somerville, Strong, Woodard, Wood",01,"Y, small for xreg",Mathematics/Scienc e Core,,
-FA,2016,FYR: INTEGRA TED,MTH1111/ SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,MH120; AC206,2+2,30.0,"Somerville, Strong, Woodard, Wood",02,"Y, small for xreg",Mathematics/Scienc e Core,,
-FA,2016,FYR: INTEGRA TED,MTH1111/ SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,MH120; AC209,2+2,30.0,"Somerville, Strong, Woodard, Wood",03,"Y, small for xreg",Mathematics/Scienc e Core,,
+FA,2016,FYR: INTEGRA TED,MTH1111 / SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,MH120; AC204,2+2,30.0,"Somerville, Strong, Woodard, Wood",01,"Y, small for xreg",Mathematics/Scienc e Core,,
+FA,2016,FYR: INTEGRA TED,MTH1111 / SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,MH120; AC206,2+2,30.0,"Somerville, Strong, Woodard, Wood",02,"Y, small for xreg",Mathematics/Scienc e Core,,
+FA,2016,FYR: INTEGRA TED,MTH1111 / SCI1111,Modeling and Simulation of the Physical World,MTR 3:20-5:00pm,MH120; AC209,2+2,30.0,"Somerville, Strong, Woodard, Wood",03,"Y, small for xreg",Mathematics/Scienc e Core,,
 FA,2016,INTEGRA TED,CIE2016B,Qualitative Engineering Analysis II,MR 9-12:30pm,AC113,8,36.0,"Govindasamy; Christianson, Geddes, Lee; Somerville",01,,Opt-In Integrated Req't,Students Currently Enrolled in QEA I (spring 2016) will be added to this section for fall 2016; EXPERIMENTAL Grading,
 FA,2016,ME,ENGR2340,Dynamics,TF 9-10:40am,AC328,4,48.0,Mahajan,01,Y; large,ME Core,,
 FA,2016,ME,ENGR3310,Transport Phenomena,TF 9-10:40am,AC417,4,32.0,Storey,01,"Y, small",ME Core,,
@@ -1207,9 +1182,9 @@ SP,2018,AHS,AHSE2114,SciFi and Historical Context,TF 10:50-12:30pm,AC417,2,24.0,
 SP,2018,AHS,AHSE3190,Arts Humanities Social Sciences Capstone Preparatory Workshop,,,1,,Epstein,01,,"required if planning on a Capstone
 project in Fall 2018",,
 SP,2018,AHS,AHSE4190,Arts Humanities Social Sciences Capstone Project,M 9:10-10:40am,AC417,4,28.0,Epstein,01,,,,
-SP,2018,Crosslisted,AHSE2199 or ENGR2299,Special Topics in AHS or Design Engineering: Tell the Story of What You Make,MR 1:30-4:10pm,AC306,4,24.0,Sauder,01,,,"choose either AHSE or ENGR credit at time of registration; small
+SP,2018,Crosslisted,AHSE2199 / ENGR2299,Special Topics in AHS or Design Engineering: Tell the Story of What You Make,MR 1:30-4:10pm,AC306,4,24.0,Sauder,01,,,"choose either AHSE or ENGR credit at time of registration; small
 waitlist available",
-SP,2018,Crosslisted,ENGR3299 OR SCI2299,Special Topics in Design Engineering or Biological Sciences: Biomimicry,TF1:30-3:10pm,AC213,4,24.0,"Linder, Huang",01,,Available for Design Depth or Upper Level Bio; requires UOCD prereq and foundational bio; sataisfies elective in Sust Cert,"Register for ENGR3299 as design depth or SCI2299 as Advanced Bio;
+SP,2018,Crosslisted,ENGR3299 / SCI2299,Special Topics in Design Engineering or Biological Sciences: Biomimicry,TF1:30-3:10pm,AC213,4,24.0,"Linder, Huang",01,,Available for Design Depth or Upper Level Bio; requires UOCD prereq and foundational bio; sataisfies elective in Sust Cert,"Register for ENGR3299 as design depth or SCI2299 as Advanced Bio;
 small waitlist",
 SP,2018,Design,ENGR2250,User-Oriented Collaborative Design,MR 9:50-12:30pm,AC204 MH120,4,32.0,"Linder, Sarang- Sieminski, Hersey, TBD",01,,required for all sophomores,waitlist available,
 SP,2018,Design,ENGR2250,User-Oriented Collaborative Design,MR 9:50-12:30pm,AC206 MH120,4,32.0,"Linder, Sarang- Sieminski, Hersey, TBD",02,,required for all sophomores,waitlist available,
@@ -1266,8 +1241,8 @@ SP,2018,SCI,SCI1130,Mechanics,MR 9-10:40am,AC328,4,28.0,Mahajan,01,,"Satisfies P
 requirement",,
 SP,2018,SCI,SCI1210,Principles of Modern Biology: Through the Lens of Human Disease,TF 1:30-3:10pm,AC417,4,36.0,Wasylenko,01,,Foundational biology topic,"enroll in one of the two lab sections
 along with the lecture",
-SP,2018,SCI,SCI1210 L,Principles of Modern Biology LAB,T 3:20-6:00pm,AC406,0,18.0,Wasylenko,L1,,,,
-SP,2018,SCI,SCI1210 L,Principles of Modern Biology LAB,W 3:20-6:00pm,AC406,0,18.0,Wasylenko,L2,,,,
+SP,2018,SCI,SCI1210L,Principles of Modern Biology LAB,T 3:20-6:00pm,AC406,0,18.0,Wasylenko,L1,,,,
+SP,2018,SCI,SCI1210L,Principles of Modern Biology LAB,W 3:20-6:00pm,AC406,0,18.0,Wasylenko,L2,,,,
 SP,2018,SCI,SCI1410,Materials Science and Solid State Chemistry (with laboratory): Environmental and Societal Impacts,TW 3:20-6:00pm,AC413,4,21.0,Stolk,B1,,,,
 SP,2018,SCI,SCI1410,Materials Science and Solid State Chemistry (with laboratory): Deliberately Relevant for Engineers,MR 3:20-6:00pm,AC413,4,21.0,Neal,02,,,,
 SP,2018,SCI,SCI2130,Quantum Physics,TF 1:30-3:10pm,AC109,4,15.0,Holt,01,,"may satisfy the Physics foundation
@@ -1288,10 +1263,9 @@ SP,2020,AHS,AHSE3190,AHSE3190: Arts Humanities Social Sciences Capstone Preparat
 SP,2020,AHS,AHSE4190,AHSE4190: Arts Humanities Social Sciences Capstone Project,M 9:00-12:30pm,Library,4,30,"Epstein, Gillian",01,,AHS Capstone,,
 SP,2020,CAPSTONE,ENGR4190,ENGR4190: SCOPE: Senior Capstone Program in Engineering,W 9:00-6:00pm,varied,4,75,"Ferzoco, Alessandra; Hersey, Scott; Sarang- Sieminski, Alisha; Stein, Lynn",01-14,,Capstone,please enroll in the same section you are in for FALL 2019,
 SP,2020,CAPSTONE,ENGR4290,ENGR4290: Affordable Design and Entrepreneurship Engineering Capstone,T 3:30-6:30pm R 3:30-5:30pm,Weissman Foundry,4,TBD,"Graeff, Erhardt; Hersey, Scott; Johansen, Elizabeth; Linder, Ben; Taha, Kofi",01,,Capstone,Register for this course as a capstone; not a design depth,
-SP,2020,Crosslisted,AHSE2599 or ENGR3299,AHSE2599_or_ENGR3299: Environmental Consulting at Olin,T 10:50-12:30pm F 9:00-12:30pm,AC213,4,28,"Lynch, Caitrin; Nugent, Carrie",01,,"E! Elective or Design
+SP,2020,Crosslisted,AHSE2599 / ENGR3299,AHSE2599_or_ENGR3299: Environmental Consulting at Olin,T 10:50-12:30pm F 9:00-12:30pm,AC213,4,28,"Lynch, Caitrin; Nugent, Carrie",01,,"E! Elective or Design
 Depth",Register for AHSE2599 for Entrepreneurship credit or ENGR3299 for Design Depth credit; Waitlist Available,
-SP,2020,Crosslisted,"ENGR3235 or
-SCI2235",ENGR3235_or_SCI2235: Biomimicry,MR 10:50-12:30pm,AC213,4,30,"Huang, Jean; Linder, Ben",01,,"Design Depth OR Adv
+SP,2020,Crosslisted,"ENGR3235 / SCI2235",ENGR3235_or_SCI2235: Biomimicry,MR 10:50-12:30pm,AC213,4,30,"Huang, Jean; Linder, Ben",01,,"Design Depth OR Adv
 Science",Register for ENGR3235 for Design Depth credit or SCI2235 for Science credit; Waitlist Available,
 SP,2020,DSN,ENGR2250,ENGR2250: User-Oriented Collaborative Design,MR 9:50-12:30pm,AC204 MH120,4,32,"Adler, Jon; Bloomer, Sarah; Hendren, Sara; Sauder, Tim; Wood Alison; Zastavker, Yevgeniya",01,,Design Foundation,Waitlist Available,
 SP,2020,DSN,ENGR2250,ENGR2250: User-Oriented Collaborative Design,MR 9:50-12:30pm,AC206 MH120,4,32,"Adler, Jon; Bloomer, Sarah; Hendren, Sara; Sauder, Tim; Wood Alison; Zastavker, Yevgeniya",02,,Design Foundation,Waitlist Available,
@@ -1387,7 +1361,7 @@ FA,2022,,ENGR3252,"ENGR3252: Technology, Accessibilty and Design",MR 2:50-5:10pm
 FA,2022,,ENGR3260,ENGR3260: Design for Manufacturing,TF 2:50-4:30pm,128,4,20,"Barrett, Dave; Faas, Daniela",01,15,"DSN Depth_ME
 Elective","Student must elect lab A or B, along with the
 standard TF 2:50-4:30pm",
-FA,2022,,ENGR3260 L,ENGR3260 L: Design for Manufacturing Lab,Lab A: M 9:20am-12:00pm Lab B:T 9:20am-12:00pm,109,0,10 per lab,"Barrett, Dave; Faas, Daniela",A B,3,"DSN Depth_ME
+FA,2022,,ENGR3260L,ENGR3260 L: Design for Manufacturing Lab,Lab A: M 9:20am-12:00pm Lab B:T 9:20am-12:00pm,109,0,10 per lab,"Barrett, Dave; Faas, Daniela",A B,3,"DSN Depth_ME
 Elective","Student must elect lab A or B, along with the
 standard TF 2:50-4:30pm",
 FA,2022,,ENGR3290,ENGR3290: Affordable Design and Entrepreneurship,T 3:30-6:30pm R 3:30-5:30pm,Weissman Foundry,4,5,"Graeff, Erhardt; Johansen, Elizabeth; Taha, Kofi",01,25,DSN Depth,,
@@ -1402,8 +1376,7 @@ FA,2022,,ENGR3515,ENGR3515: Data Structures and Algorithms,T 2:50-5:30pm,113,4,2
 FA,2022,,ENGR3590,ENGR3590: A Computational Introduction to Robotics,TF 1:00-2:40pm,126,4,24,"Ruvolo, Paul",01,10,Core E:Robo,,
 FA,2022,,ENGR3599,ENGR3599: Special Topics in Computing: Larger-scale Software Development,MR 1:00pm-2:40pm,417,4,40,"Matsumoto, Steve",01,na,"E:C; Computing
 Elective",,
-FA,2022,,"ENGR3820_or
-_SCI3420",ENGR3820_or_SCI3420: Failure Analysis and Prevention,MR 1:00pm-2:40pm,413,4,21,"Stolk, Jon",01,5,"ME or ENGR Elective;
+FA,2022,,"ENGR3820 / SCI3420",ENGR3820_or_SCI3420: Failure Analysis and Prevention,MR 1:00pm-2:40pm,413,4,21,"Stolk, Jon",01,5,"ME or ENGR Elective;
 or Adv Science",Choose ENGR3820 for ME or ELECTIVE credit; Choose SCI3420 for ADV SCIENCE credit,
 FA,2022,,ENGR4190,ENGR4190: SCOPE: Senior Capstone Program in Engineering,W 8:30am-5:30pm F 8:30-10:10am,Varies,4,na,"Bloomer, Sarah; Ferzoco, Alessandra;  Neeley, Lawrence; Stein, Lynn",01,na,CAPSTONE-SCOPE,Registration via CAPSTONE Survey,
 FA,2022,,ENGR4290,ENGR4290: Affordable Design and Entrepreneurship Engineering Capstone,T 3:30-6:30pm R 3:30-5:30pm,Weissman Foundry,4,na,"Graeff, Erhardt; Johansen, Elizabeth; Taha, Kofi",01,na,CAPSTONE-ADE,Registration via CAPSTONE Survey,
@@ -1415,7 +1388,7 @@ MH 120 (Thurs only)",4,90,"Geddes, John; Lohmeyer, Whitney; Shuman, David",01,na
 FA,2022,,ENGX2010,ENGX2010: Quantitative Engineering Analysis 3,MR 1:00pm-2:40pm,"113
 126
 128",4,90,"Geddes, John; Malley, Melinda; Tow, Emily",01,na,Requirement,,
-FA,2022,,MTH1111_SCI 1111,MTH1111_SCI1111: Modeling and Simulation of the Physical World,TWF 2:50-4:30pm,"MH120 204
+FA,2022,,MTH1111 / SCI1111,MTH1111_SCI1111: Modeling and Simulation of the Physical World,TWF 2:50-4:30pm,"MH120 204
 206
 209
 213",4,32 per section,"del Rosario, Zachary; Matsumoto, Steve; Neely, Andy",01-03,na,Requirement - ModSim,,
@@ -1424,7 +1397,7 @@ offerings in the supplement",
 FA,2022,,MTH2110,MTH2110: Discrete Math,MR 10:20am-12:00pm,326,4,27,"Spence Adams, Sarah",02,10,Math - Adv ECE; E:C,"2 sections; See note about timing of future
 offerings in the supplement",
 FA,2022,,MTH2130,MTH2130: Probability and Statistics Topic: Probabilistic Modeling (ProbMod),MR 8:30-10:10am,318,4,18,"Shuman, David",01,18,ProbStat,,
-FA,2022,,MTH2136_an d_SCI2136,MTH2136_and_SCI2136: Astronomy and Statistics: AstroStats,TF 10:20am-12:00pm,MH 120,2+2,30,"Nugent, Carrie",01,20,ProbStat,,
+FA,2022,,MTH2136 / SCI2136,MTH2136_and_SCI2136: Astronomy and Statistics: AstroStats,TF 10:20am-12:00pm,MH 120,2+2,30,"Nugent, Carrie",01,20,ProbStat,,
 FA,2022,,OIE1000,OIE1000: Olin First Year Introduction (OFYI),W 1:00-2:40pm,"MH120 318
 326
 328
@@ -1518,10 +1491,10 @@ SP,2017,AHS,AHSE2199B,Special Topics in Arts Humanities Social Sciences: Virtual
 SP,2017,AHS,AHSE2199C,Special Topics in Arts Humanities Social Sciences: Digital Documentary Storytelling,TF 10:50-12:30pm,AC128,2,10.0,Vitols,01,,AHS Elective,Session II,
 SP,2017,AHS,AHSE3190,Arts Humanities Social Sciences Preparatory Workshop (AHS Prepstone),,,1,,Epstein,01,,Required prerquisite to enroll in AHSE4190,this class has no meeting time,
 SP,2017,AHS,AHSE4190,Arts Humanities Social Sciences Capstone,T 9:10-10:40am,AC417,4,20.0,Epstein,01,,AHS Capstone,NOTE: the Prepstone is a required prerequisite for the Capstone,
-SP,2017,Crosslisted,AHSE2199D OR ENGR2299,"Special Topics in Arts Humanites Social Science: Tell The Story of What You Make  OR
+SP,2017,Crosslisted,AHSE2199D / ENGR2299,"Special Topics in Arts Humanites Social Science: Tell The Story of What You Make  OR
 S pecial Topics in Engineering Design: Tell The Story of What You Make",MR 9-10:40am,AC213,4,18.0,Sauder,01,,AHSE course choice grants AHS credit; ENGR grants ENGR credit,"Choose either AHSE or ENGR option.  small
 Waitlist available",
-SP,2017,Crosslisted,ENGR2999 OR SCI2399,Special Topics in Engineering: Environmental Analysis and Engineering       OR Special Topics in Science: Environmental Analysis and Engineering,MTR 1-3:10,AC417 (MR); AC409 (MTR); AC213 (T),4,24.0,Hersey; Wood,01,,Meets Mat Sci/Chem foundation if SCI option chosen,"Choose either ENGR or SCI option.  small
+SP,2017,Crosslisted,ENGR2999 / SCI2399,Special Topics in Engineering: Environmental Analysis and Engineering       OR Special Topics in Science: Environmental Analysis and Engineering,MTR 1-3:10,AC417 (MR); AC409 (MTR); AC213 (T),4,24.0,Hersey; Wood,01,,Meets Mat Sci/Chem foundation if SCI option chosen,"Choose either ENGR or SCI option.  small
 Waitlist available",
 SP,2017,Design,ENGR2250,User Oriented Collaborative Design,TF 9:50-12:30pm,AC204; MH120,4,32.0,Hendren; Adler; Ben- Ur; Strong; Stein; Adjunct,01,,"Gen. Engineering
 Req't",,
@@ -1592,8 +1565,8 @@ Foundation",small Waitlist available,
 SP,2017,Science,SCI2299,Special Topics in Biological Sciences: Quantitative Biology,TF 1:30-3:10pm,AC304,4,18.0,Wasylenko,01,,"Advanced Biology or Prob Stat Designated
 Alternative","prereq of Mod Bio or equivalent; small
 Waitlist available",
-SP,2017,Seminar,SEM 106,What's It Worth? - Valuing Your Startup or Project Idea,R 7-9:00pm,AC128,1,24.0,Murray. '12,S1,,general credit,,
-SP,2017,Seminar,SEM 504,"Working the Data Science Process with Python… or Dirty Data, Done Dirt Cheap (D4C)",T 7-9:00pm,AC328,1,36.0,"Mitchell, '11",S1,,general credit,"Experience with Python encouraged, but not required.
+SP,2017,Seminar,SEM106,What's It Worth? - Valuing Your Startup or Project Idea,R 7-9:00pm,AC128,1,24.0,Murray. '12,S1,,general credit,,
+SP,2017,Seminar,SEM504,"Working the Data Science Process with Python… or Dirty Data, Done Dirt Cheap (D4C)",T 7-9:00pm,AC328,1,36.0,"Mitchell, '11",S1,,general credit,"Experience with Python encouraged, but not required.
 Please contact the instructor at ryan.e.mitchell@gmail.com if you have any concerns.",
 SP,2017,ADMN,OIP1000,Olin Internship Practicum,,,1,,Phelps,01,,required for international student with internships,See Post Graduate Planning to Enroll,
 SP,2017,ADMN,AWAY1000,The Study Away Program,,,4,,Administration,01,,,enroll in this course if you will be studying away in the spring 2017 semester,
@@ -1660,22 +1633,22 @@ SP,2022,Interdisciplinary,ENGR2199,ENGR2199: Special Topics in Engineering: Engi
 126",2,55,"Lee, Chris; Dabby, Diana",01,8.0,CORE ECE/ME,Session I; 2 credits,
 SP,2022,Interdisciplinary,ENGR2199A,ENGR2199A: Special Topics in Engineering: Engineering Systems Analysis: Dynamics,TF 2-3:30pm,113,2,no cap,"Lee, Chris",01,,Core ME,Session II; 2 credits,
 SP,2022,Interdisciplinary,ENGR2199B,ENGR2199B: Special Topics in Engineering: Engineering Systems Analysis: Signals,TF 12-1:30pm,304,2,no cap,"Dabby, Diana",01,,Core ECE,Session II; 2 credits,
-SP,2022,Interdisciplinary,ENGR3531_ MTH2131,ENGR3531_MTH2131: Data Science,TR 4-5:30pm,318,2+2,30,"Downey, Allen",01,,ProbStat,,
+SP,2022,Interdisciplinary,ENGR3531 / MTH2131,ENGR3531_MTH2131: Data Science,TR 4-5:30pm,318,2+2,30,"Downey, Allen",01,,ProbStat,,
 SP,2022,Interdisciplinary,ENGX2005,ENGX2005: Quantitative Engineering Analysis 2,TF 12-1:30pm,"113
 126
 128",4,92,"del Rosario, Zachary; Geddes, John; Malley, Melinda",01,,Required ENGR,,
-SP,2022,Interdisciplinary,MTH2136_S CI2136,MTH2136_SCI2136: AstroStats,MR 10-11:30am,MH120,2+2,35,"Nugent, Carrie",01,8.0,ProbStat,,
-SP,2022,Interdisciplinary,MTH2188_S CI2099,MTH2188_SCI2099: Designated Alternative in Mathematics/Special Topics in Science: Decision Making in Sustainable Systems,TR 4-5:30pm,113,2+2,30,"Wood, Alison",01,10.0,ProbStat,,
+SP,2022,Interdisciplinary,MTH2136 / SCI2136,MTH2136_SCI2136: AstroStats,MR 10-11:30am,MH120,2+2,35,"Nugent, Carrie",01,8.0,ProbStat,,
+SP,2022,Interdisciplinary,MTH2188 / SCI2099,MTH2188_SCI2099: Designated Alternative in Mathematics/Special Topics in Science: Decision Making in Sustainable Systems,TR 4-5:30pm,113,2+2,30,"Wood, Alison",01,10.0,ProbStat,,
 SP,2022,ME,ENGR2199C,ENGR2199C: Special Topics in Engineering: Fabrication Lab - Mech Proto,M 10-11:30am,128,1,20,"Faas, Daniela",01,10.0,ELECTIVE,,
 SP,2022,ME,ENGR2330,ENGR2330: Introduction to Mechanical Prototyping,W 12-1:30pm (lecture),MH 120,4,20,"Faas, Daniela",01,10.0,ELECTIVE,Students must enrolled in ENGR2330 01 either ENR2330 L lab A or B,
 SP,2022,"(unless noted otherwise)""",Credits,Waitlist,Curriculum Role,,,,Notes,Enroll Limits,,,,
-SP,2022,ME,ENGR2330 L,ENGR2330: Introduction to Mechanical Prototyping,Lab A: M 2-3:30pm Lab B: W 2-3:30pm,128,,20,"Faas, Daniela",A or B,10.0,ELECTIVE,students must enrolled in either lab A or B and ENGR 2330 01,
+SP,2022,ME,ENGR2330L,ENGR2330: Introduction to Mechanical Prototyping,Lab A: M 2-3:30pm Lab B: W 2-3:30pm,128,,20,"Faas, Daniela",A or B,10.0,ELECTIVE,students must enrolled in either lab A or B and ENGR 2330 01,
 SP,2022,ME,ENGR3310,ENGR3310: Transport Phenomena,TF 12-1:30pm,326,4,48,"Tow, Emily",01,,Core ME,,
 SP,2022,ME,ENGR3350,ENGR3350: Finite Element Analysis,TF 12-1:30pm,328,4,20,"Lee, Chris",01,10.0,ME ELECTIVE,,
 SP,2022,ME,ENGR3370,ENGR3370: Controls,T 7:00-10:00pm,326,4,48,"Barragan, Patrick",01,,"ME
 Elective/ECE
 Elective",,
-SP,2022,ME,ENGR3399_ MTH3199,ENGR3399_MTH3199: Special Topics in Mechanical  Engineering: Mechanical Engineering Experiential  Practicum (MEEP!),MR 10-11:30am T 12-1:30pm,MR 126 T 328,4+2,no cap,"Dusek, Jeff; Lee, Chris",01,,ME Elective/,Cancelled,
+SP,2022,ME,ENGR3399 / MTH3199,ENGR3399_MTH3199: Special Topics in Mechanical  Engineering: Mechanical Engineering Experiential  Practicum (MEEP!),MR 10-11:30am T 12-1:30pm,MR 126 T 328,4+2,no cap,"Dusek, Jeff; Lee, Chris",01,,ME Elective/,Cancelled,
 SP,2022,,,,,,,,,,,ADV ME Math,,
 SP,2022,,,,,,,,,,,,,
 SP,2022,MTH,MTH3120,MTH3120: Partial Differential Equations,TF 2-3:30pm,304,4,25,"Geddes, John",01,5.0,ADV MATH,,
