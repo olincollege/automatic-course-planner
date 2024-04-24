@@ -1,59 +1,122 @@
+import tkinter as tk
+from tkinter import ttk
+from pandastable import Table, TableModel
 import pandas as pd
+import random
 
-# Example DataFrame
-columns = [
-    "Semester 1",
-    "Semester 2",
-    "Semester 3",
-    "Semester 4",
-    "Semester 5",
-    "Semester 6",
-    "Semester 7",
-    "Semester 8",
-]
-data = pd.DataFrame(None, index=range(4), columns=columns)
+from controller_vivian import CourseController
 
-# Required Courses for E:C
-electives = {"FoCS": "90%", "Discrete": "10%", "CompRobo": "50%"}
-
-# Dictionary containing courses for each semester
-sem_courses = {
-    "Semester 1": ["QEA1", "Modsim", "DesNat", "AHS Concentration"],
-    "Semester 2": ["QEA2", "ISIM", "Products & Markets", "Softdes"],
-    "Semester 3": ["PIE", "Discrete"],
-    "Semester 4": ["CD", "SoftSys"],
-    "Semester 5": ["Bio", "MatSci"],
-    "Semester 6": [electives],
-    "Semester 7": ["Senior Capstone"],
-    "Semester 8": ["Senior Capstone"],
-}
-
-# Loop through the dictionary and assign courses to DataFrame
-for semester, courses in sem_courses.items():
-    for i, course in enumerate(courses):
-        data.at[i, semester] = course
-
-# Fill the DataFrame with blank values for now
-data = data.fillna("")
-
-# Display the DataFrame
-# data
+# from test_model import CourseModel
 
 
-# Create a function to check if a cell has a value and is a string
-def is_string(val):
-    return isinstance(val, str)
+class DataFrameViewer(tk.Toplevel):
+
+    def __init__(self, parent, dataframe):
+        # Initialize TopLevel window
+        tk.Toplevel.__init__(self, parent)
+        # Store regerence to parent window
+        self.parent = parent
+        # Set window title
+        self.title("Course Schedule Viewer")
+
+        # Create frame inside window
+        self.frame = tk.Frame(self)
+        # Fill window with frame
+        self.frame.pack(fill="both", expand=True)
+
+        # Create table widget with pandas dataframe
+        self.table = Table(
+            self.frame, dataframe=dataframe, showtoolbar=True, showstatusbar=True
+        )
+        self.table.show()
 
 
-# Create a function to apply background color based on the condition
-def highlight_strings(val):
-    if is_string(val) and val != "":
-        return "background-color: green"
-    return ""
+class CourseView:
+    def __init__(self, root):
+        self.root = root
+        self.selected_major = ""
+        self.study_abroad = ""
 
+    def create_window(self):
+        # def show_button():
+        #     button.pack(padx=10, pady=10)
 
-# Apply the style
-styled_df = data.style.applymap(highlight_strings)
+        # def hide_button():
+        #     button.pack_forget()
 
-# Display the styled DataFrame
-styled_df
+        def handle_major_selection(event):
+            if major_dropdown.get():
+                self.selected_major = major.get()
+                self.study_abroad = study_abroad.get()
+            if study_abroad_dropdown.get():
+                print("Selected:", self.selected_major)
+                print("Study Abroad", self.study_abroad)
+
+            if major_dropdown.get() and study_abroad_dropdown.get():
+                self.selected_major = major.get()
+                self.study_abroad = study_abroad.get()
+                print("Selected:", self.selected_major)
+                print("Study Abroad", self.study_abroad)
+                # Show button
+                button.pack(padx=10, pady=10)
+            else:
+                # Hide button
+                button.pack_forget()
+
+        # Create Tkinter root window
+        # root = tk.Tk()
+        self.root.title("Pandas DataFrame Viewer")
+        self.root.geometry("400x300")
+
+        # CONSTRAINTS FOR USER INPUT
+
+        # Store selected Major
+        major = tk.StringVar()
+        major.set("Select a major")
+        major_dropdown = ttk.Combobox(
+            self.root,
+            textvariable=major,
+            values=[
+                "E: Computing",
+                "Mechanical Engineering",
+                "Electrical Engineering",
+                "E: Robo",
+            ],
+            state="readonly",
+            validate="all",
+        )
+        major_dropdown.pack(pady=10)
+
+        study_abroad = tk.StringVar()
+        study_abroad.set("Do you plan to study abroad?")
+        study_abroad_dropdown = ttk.Combobox(
+            self.root,
+            textvariable=study_abroad,
+            values=["Yes", "No"],
+            state="readonly",
+            validate="all",
+        )
+        study_abroad_dropdown.pack(pady=10)
+
+        # Bind the selection event of the dropdown to the handle_major_selection function
+        # major_dropdown.bind(
+        #     "<<ComboboxSelected>>",
+        #     handle_major_selection,
+        # )
+        study_abroad_dropdown.bind(
+            "<<ComboboxSelected>>",
+            handle_major_selection,
+        )
+
+        # Initialize button
+        button = ttk.Button(
+            self.root,
+            text="View 4 Year Course Plan",
+            command=lambda: DataFrameViewer(
+                self.root,
+                CourseController.get_df(self.selected_major, self.study_abroad),
+            ),
+        )
+        button.pack_forget()  # Initially hide the button
+
+        self.root.mainloop()
