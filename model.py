@@ -134,6 +134,64 @@ def main():
 
     root.mainloop()
 
+    # calculate credit needs
+    # requirements
+    credits_took = {
+        "AHSE": 8,
+        "ENGR": 14,
+        "MTH/SCI": 10,
+        "MTH": 6,
+        "OFYI": 1,
+        "TOTAL": 33,
+    }
+    credits_required = {
+        "AHSE": 28,
+        "ENGR": 46,
+        "MTH/SCI": 30,
+        "MTH": 10,
+        "OFYI": 1,
+        "TOTAL": 120,
+    }
+    matsci = False
+    bio = False
+    probstat = False
+    design_depth = False
+
+    def get_empty_schedules(sem_courses):
+        """
+        get empty schedules from sem_courses
+        Args:
+            sem_courses: course database for 4 years.
+        Return:
+            dictionary of how many course are free(should be filled in) for each semester.
+        """
+        emtpy_sem_courses = {}
+        for semester, courses in sem_courses.items():
+            emtpy_sem_courses[semester] = courses.count("")
+        return emtpy_sem_courses
+
+    def get_possible_courses(semester):
+        """
+        for each semester, courses would be offered if they have a likelyhood of more than 0.5.
+        For such courses store the it into a dictionary.
+        Return:
+            dictionary of what courses would be offered each semester
+        """
+        predicted_schedule = pd.read_csv("predicted_schedule.csv")
+        offered_courses = predicted_schedule[
+            predicted_schedule[semester] > 0.5
+        ].index.tolist()
+        return offered_courses
+
+    def calculate_credits():
+        pass
+
+    def fill_empty_schedules():
+        """
+        fill in the sem_course with the possible_courses
+        """
+        pass
+
 
 if __name__ == "__main__":
     main()
