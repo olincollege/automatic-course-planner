@@ -36,25 +36,33 @@ class CourseView:
         self.root = root
         self.selected_major = ""
         self.study_abroad = ""
+        self.LOA = ""
+        self.grad_early = ""
 
     def create_window(self):
-        # def show_button():
-        #     button.pack(padx=10, pady=10)
-
-        # def hide_button():
-        #     button.pack_forget()
+        """
+        Show and run the event of getting user input
+        """
 
         def handle_major_selection(event):
-            if major_dropdown.get():
-                self.selected_major = major.get()
-                self.study_abroad = study_abroad.get()
-            if study_abroad_dropdown.get():
-                print("Selected:", self.selected_major)
-                print("Study Abroad", self.study_abroad)
+            # if major_dropdown.get():
+            #     self.selected_major = major.get()
+            #     print("Selected:", self.selected_major)
 
-            if major_dropdown.get() and study_abroad_dropdown.get():
+            # if study_abroad_dropdown.get():
+            #     self.study_abroad = study_abroad.get()
+            #     print("Study Abroad", self.study_abroad)
+
+            if (
+                major_dropdown.get()
+                and study_abroad_dropdown.get()
+                and LOA_dropdown.get()
+                and grad_early_dropdown.get()
+            ):
                 self.selected_major = major.get()
                 self.study_abroad = study_abroad.get()
+                self.LOA = LOA.get()
+                self.grad_early = grad_early.get()
                 print("Selected:", self.selected_major)
                 print("Study Abroad", self.study_abroad)
                 # Show button
@@ -84,6 +92,7 @@ class CourseView:
             ],
             state="readonly",
             validate="all",
+            width=30,
         )
         major_dropdown.pack(pady=10)
 
@@ -92,18 +101,58 @@ class CourseView:
         study_abroad_dropdown = ttk.Combobox(
             self.root,
             textvariable=study_abroad,
-            values=["Yes", "No"],
+            values=[
+                "N/A",
+                "Sophomore  Fall",
+                "Sophomore Spring",
+                "Junior Fall",
+                "Junior Spring",
+                "Senior Fall",
+                "Senior Spring",
+            ],
             state="readonly",
             validate="all",
+            width=30,
         )
         study_abroad_dropdown.pack(pady=10)
 
+        LOA = tk.StringVar()
+        LOA.set("Do you plan to take an LOA?")
+        LOA_dropdown = ttk.Combobox(
+            self.root,
+            textvariable=LOA,
+            values=[
+                "N/A",
+                "Sophomore  Fall",
+                "Sophomore Spring",
+                "Junior Fall",
+                "Junior Spring",
+                "Senior Fall",
+                "Senior Spring",
+            ],
+            state="readonly",
+            validate="all",
+            width=30,
+        )
+        LOA_dropdown.pack(pady=10)
+
+        grad_early = tk.StringVar()
+        grad_early.set("Do you want to graduate early?")
+        grad_early_dropdown = ttk.Combobox(
+            self.root,
+            textvariable=grad_early,
+            values=["N/A", "One semester early", "One year early"],
+            state="readonly",
+            validate="all",
+            width=30,
+        )
+        grad_early_dropdown.pack(pady=10)
         # Bind the selection event of the dropdown to the handle_major_selection function
         # major_dropdown.bind(
         #     "<<ComboboxSelected>>",
         #     handle_major_selection,
         # )
-        study_abroad_dropdown.bind(
+        grad_early_dropdown.bind(
             "<<ComboboxSelected>>",
             handle_major_selection,
         )
@@ -114,7 +163,9 @@ class CourseView:
             text="View 4 Year Course Plan",
             command=lambda: DataFrameViewer(
                 self.root,
-                CourseController.get_df(self.selected_major, self.study_abroad),
+                CourseController.get_df(
+                    self.selected_major, self.study_abroad, self.LOA, self.grad_early
+                ),
             ),
         )
         button.pack_forget()  # Initially hide the button
