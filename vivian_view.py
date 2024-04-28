@@ -5,6 +5,7 @@ import pandas as pd
 import random
 
 from vivian_controller import CourseController
+from vivian_model import CourseModel
 
 # from test_model import CourseModel
 
@@ -63,8 +64,8 @@ class CourseView:
                 self.study_abroad = study_abroad.get()
                 self.LOA = LOA.get()
                 self.grad_early = grad_early.get()
-                print("Selected:", self.selected_major)
-                print("Study Abroad", self.study_abroad)
+                # print("Selected:", self.selected_major)
+                # print("Study Abroad", self.study_abroad)
                 # Show button
                 button.pack(padx=10, pady=10)
             else:
@@ -72,7 +73,6 @@ class CourseView:
                 button.pack_forget()
 
         # Create Tkinter root window
-        # root = tk.Tk()
         self.root.title("Pandas DataFrame Viewer")
         self.root.geometry("400x300")
 
@@ -163,7 +163,7 @@ class CourseView:
             text="View 4 Year Course Plan",
             command=lambda: DataFrameViewer(
                 self.root,
-                CourseController.get_df(
+                CourseModel.get_df(
                     self.selected_major, self.study_abroad, self.LOA, self.grad_early
                 ),
             ),
