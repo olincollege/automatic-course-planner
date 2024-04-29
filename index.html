@@ -15,13 +15,15 @@
             line-height: 1.6;
         }
 
-        h1, h2 {
+        h1 {
             color: #0066cc;
             text-align: center;
             margin-top: 40px;
         }
 
         h2 {
+            color: #0066cc;
+            text-align: left;
             margin-top: 30px;
         }
 
@@ -60,16 +62,20 @@
 </head>
 <body>
     <h1>Four-Year Automated Course Planner</h1>
-    <h2>The Great Plan</h2>
     <p>GitHub Repo: <a href="https://github.com/olincollege/automatic-course-planner">automatic-course-planner</a></p>
     
     <h2>Project Description</h2>
-    <p>A mix of interactive visualization that automates 4 years of course scheduling, tailored for first-year Oliners. Users input their major and other constraints to generate a personalized course plan.</p>
+    <p>Our project is an automatic course planner tailored for first-year Olin students. It is a mix of interactive visualization that outputs a personalized four-year course schedule when the user inputs their major, whether or not they will take an LOA, graduate early, study abroad, and which senior capstone they will take. 
+
+        To use our project, <b> Paste in text from our readme. </b> Our full Github repository is here: https://github.com/olincollege/automatic-course-planner.
+    </p>
     
     <h2>Interactivity</h2>
-    <p>Users interact with the project by selecting their major and indicating preferences such as study abroad or graduating early. They can refresh for different course schedules and save their plan as a CSV file.</p>
+    <p>Our project is used by the user by first inputting their constraints: major, whether or not they will take an LOA, whether or not they will study abroad, whether or not they will graduate early, and what senior capstone they will take. Our system then uses a predictive algorithm that uses past course offerings to guess what courses will be offered in the next years. Taking into account user constraints and major requirements, a table of eight (or less) semesters of courses will be shown. If the user likes the schedule shown, they have the option to save the file to their computer as a CSV file. If not, the user can prompt the program to generate another schedule. 
+        <b>Eventually add a video/screenshot of our program being used.</b>
+    </p>
     
-    <h2>Ethics</h2>
+    <!-- <h2>Ethics</h2>
     <p>The project aims to assist first-year Oliners in planning their course schedules. Data collected are non-sensitive user preferences. Potential malicious behavior, such as brute force attacks or data theft, is mitigated by not storing sensitive information.</p>
     
     <h2>Model</h2>
@@ -79,7 +85,7 @@
     <p>Input page allows users to select their major, choose courses, and set preferences. Output page displays the generated course plan and allows users to save it in various formats.</p>
     
     <h2>Controller</h2>
-    <p>User input triggers methods in model classes to update the state and compute the course plan. The controller manages interactions between the user interface and the model.</p>
+    <p>User input triggers methods in model classes to update the state and compute the course plan. The controller manages interactions between the user interface and the model.</p> -->
     
     <h2>Next Steps</h2>
     <p>Consider integrating a database of courses for each profile, allowing underclassmen to connect with upperclassmen. Explore additional resources for specific engineering majors.</p>
@@ -89,6 +95,7 @@
         <li><a href="https://olin.smartcatalogiq.com/en/2023-24/catalog/programs-of-study-and-degree-requirements/academic-programs/engineering/">General Engineering</a></li>
         <li><a href="https://olin.smartcatalogiq.com/en/2023-24/catalog/programs-of-study-and-degree-requirements/academic-programs/electrical-and-computer-engineering-ece/">ECE Program</a></li>
         <li><a href="https://olin.smartcatalogiq.com/en/2023-24/catalog/programs-of-study-and-degree-requirements/academic-programs/mechanical-engineering-me/">ME Program</a></li>
+        <li><a href="https://www.olin.edu/academics-registrars-office-semester-information-registration-faq/archived-semester-offerings">Past Course Offerings</a></li>
     </ul>
 
     <div class="team-members">
