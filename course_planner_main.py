@@ -4,8 +4,9 @@ Main program to set up and run the automated course planner
 
 import tkinter as tk
 
-from test_view import CourseView
-from test_controller import CourseController
+from vivian_view import CourseView
+
+# from vivian_controller import CourseController
 
 
 def main():

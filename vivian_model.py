@@ -3,6 +3,8 @@ CREATES STUDENT SCHEDULE WITH THE PREDICTION MODEL
 """
 
 import pandas as pd
+import numpy as np
+import random
 from course_planner_helper import (
     get_course_type,
     get_possible_courses,
@@ -32,14 +34,12 @@ class CourseModel:
         self.loa = loa
         self.grad_early = grad_early
 
-        # To adjust later on
-        # self.num_sem = 8
-        # self.sem_columns = self.columns
+        self.MAX_COURSES = 4
 
         # Initialize empty dataframe
         self.df = pd.DataFrame(
             "",
-            index=range(5),
+            index=range(self.MAX_COURSES),
             columns=[
                 "Freshmen Fall",
                 "Freshmen Spring",
@@ -54,7 +54,16 @@ class CourseModel:
         self.empty_sem_courses = {}
 
         # Courses taken
-        self.courses_took = []
+        self.courses_took = [
+            "MTH1111/SCI1111",  # ModSim
+            "ENGR1200",  # DesNat
+            "AHSE0112",  # OCO
+            "ENGX2005",  # QEA 2
+            "ENGR1125",  # ISIM
+            "AHSE1515",  # P&M
+            "ENGR2110",  # PIE
+            "ENGR2250",  # CD
+        ]
 
         self.TOTAL_CREDITS_REQUIRED = {  # should not change
             "AHSE": 28,
@@ -129,6 +138,7 @@ class CourseModel:
             "matsci": False,
         }
 
+    # USER CONSTRAINED METHODS
     def fill_major_required_courses(self):
         """
         Create and fill the dataframe with required courses.
@@ -164,6 +174,21 @@ class CourseModel:
             for i, course in enumerate(courses):
                 self.df.at[i, semester] = course
 
+    def fill_loa(self):
+        """
+        Fill dataframe with blocked out spots of when
+        user is taking an LOA
+        """
+        # Add an extra row if someone is taking an LOA
+        self.MAX_COURSES = 5
+        empty_row_data = [np.nan] * len(self.df.columns)  # Create a list of NaN values
+        self.df.loc[len(self.df)] = empty_row_data
+
+        # Blocking out the LOA semester
+        if self.loa != "N/A":
+            for i in range(len(self.df)):
+                self.df.at[i, self.loa] = "LOA"
+
     def fill_study_abroad(self):
         """
         Fill dataframe with blocked out spots of when
@@ -174,18 +199,6 @@ class CourseModel:
             for i in range(len(self.df)):
                 self.df.at[i, self.study_abroad] = "Study Abroad: AHS"
 
-    def fill_loa(self):
-        """
-        Fill dataframe with blocked out spots of when
-        user is taking an LOA
-        """
-        # Blocking out the LOA semester
-        if self.loa != "N/A":
-            for i in range(len(self.df)):
-                self.df.at[i, self.loa] = "LOA"
-        # Add an extra semester
-        self.df["Extra Sem"] = ""
-
     def fill_grad_early(self):
         """
         Fill dataframe with blocked out spots of if
@@ -195,23 +208,13 @@ class CourseModel:
         if self.grad_early != "N/A":
             if self.grad_early == "One semester early":
                 for i in range(len(self.df)):
-                    self.df.at[i, "Senior Spring"] = "Already Graduated!"
+                    self.df.iloc[i, -1] = "Already Graduated!"
             if self.grad_early == "One year early":
                 for i in range(len(self.df)):
-                    self.df.at[i, "Senior Fall"] = "Already Graduated!"
-                    self.df.at[i, "Senior Spring"] = "Already Graduated!"
+                    self.df.iloc[i, -2] = "Already Graduated!"
+                    self.df.iloc[i, -1] = "Already Graduated!"
 
-    def list_courses_took(self):
-        """
-        Update list of courses taken
-        """
-        # NEED TO FIX IT SO THAT WHENEVER THIS IS CALLED IT DOESNT
-        # KEEP ADDING ON TO IT, WHICH MEANS REPEATS
-        for column in self.df.columns:
-            for course in self.df[column]:
-                # Check if the value is not empty
-                if course != "":
-                    self.courses_took.append(course)
+    # OTHER METHODS
 
     def calculate_credits_taken(self):
         """
@@ -224,20 +227,9 @@ class CourseModel:
             if course_type:
                 # If the course type is valid, add the corresponding credits
                 if course_type == "MTH" or "SCI":
-                    self.credits_took["MTH/SCI"] += 1
-                self.credits_took[course_type] += 1
-                self.credits_took["TOTAL"] += 1
-
-    def calculate_credits_left(self):
-        """
-        Subtract TOTAL_CREDITS_REQUIRED - credits taken
-        """
-        self.calculate_credits_taken()
-
-        self.credits_left = {
-            key: self.TOTAL_CREDITS_REQUIRED[key] - self.credits_took[key]
-            for key in self.TOTAL_CREDITS_REQUIRED
-        }
+                    self.credits_took["MTH/SCI"] += 4
+                self.credits_took[course_type] += 4
+                self.credits_took["TOTAL"] += 4
 
     def get_empty_schedules(self):
         """
@@ -250,7 +242,7 @@ class CourseModel:
             self.empty_sem_courses[semester] = courses.count("")
 
     def fill_other_requirements(self):
-        MAX_COURSES = 4
+        # CHECK UPDATED
         for (
             course_type,
             courses,
@@ -261,7 +253,7 @@ class CourseModel:
                 for semester in possible_semesters:
                     # if the person is taking less courses than MAX_COURSES in the semester
                     if (
-                        len(self.required_courses[semester]) < MAX_COURSES
+                        len(self.required_courses[semester]) < self.MAX_COURSES
                         and not self.other_requirements_fulfilled[course_type]
                     ):
                         # fill in the sem_courses
@@ -271,6 +263,103 @@ class CourseModel:
                         self.courses_took.append(course)
                         self.other_requirements_fulfilled[course_type] = True
                         break
+
+    def choose_course(self, semester, course_type="ALL"):
+        """
+        choose a course for the course_type and semester according to its liklihood of offering
+        if course_type is ALL, choose from any subject
+
+        Args:
+        course_type:
+        semester:
+
+        return:
+            course num
+        """
+        if course_type == "ALL":
+            possible_courses = get_possible_courses(semester, df)
+            all_possible_courses = {}
+            for courses in possible_courses.values():
+                all_possible_courses.update(courses)
+
+            possible_courses = all_possible_courses
+            print(possible_courses)
+        else:  # if there is a choosen course type
+            possible_courses = get_possible_courses(semester, df)[course_type]
+        # Extract course names and their weights
+        course_names = list(possible_courses.keys())
+        weights = list(possible_courses.values())
+
+        # Randomly choose a course based on weights
+        random_course = random.choices(course_names, weights=weights)[0]
+        return random_course
+
+    def fill_empty_schedules(sem_courses):
+        """
+        Fill courses in semesters based on major requirements, course offerings, and credit requirements.
+        """
+
+        while credits_needed["TOTAL"] > 0:
+            # fill MTH if not enough math credit
+            if credits_needed["MTH"] > 0:
+                for semester, courses in sem_courses.items():
+                    if len(courses) < MAX_NUM_COURSE:
+                        choosen_course = choose_course(semester, "MTH")  # course num
+                        choosen_course_title = df.T[choosen_course][
+                            "Course Title"
+                        ]  # course title
+                        sem_courses[semester].append(choosen_course_title)
+                        courses_took.append(choosen_course)
+                        credits_needed["MTH"] -= 4
+                        credits_needed["MTH/SCI"] -= 4
+                        credits_needed["TOTAL"] -= 4
+            # fill MTH/SCI
+            elif credits_needed["MTH/SCI"] > 0:
+                for semester, courses in sem_courses.items():
+                    if len(courses) < MAX_NUM_COURSE:
+                        # if MTH/SCI just fill in with SCI courses??
+                        choosen_course = choose_course(semester, "SCI")  # course num
+                        choosen_course_title = df.T[choosen_course][
+                            "Course Title"
+                        ]  # course title
+                        sem_courses[semester].append(choosen_course_title)
+                        courses_took.append(choosen_course)
+                        credits_needed["SCI"] -= 4
+                        credits_needed["MTH/SCI"] -= 4
+                        credits_needed["TOTAL"] -= 4
+            # fill ENG
+            elif credits_needed["ENG"] > 0:
+                for semester, courses in sem_courses.items():
+                    if len(courses) < MAX_NUM_COURSE:
+                        choosen_course = choose_course(semester, "SCI")  # course num
+                        choosen_course_title = df.T[choosen_course][
+                            "Course Title"
+                        ]  # course title
+                        sem_courses[semester].append(choosen_course_title)
+                        courses_took.append(choosen_course)
+                        credits_needed["ENG"] -= 4
+                        credits_needed["TOTAL"] -= 4
+            # fill AHS --> just 'AHS', no calculation
+            elif credits_needed["AHS"] > 0:
+                for semester, courses in sem_courses.items():
+                    if len(courses) < MAX_NUM_COURSE:
+                        sem_courses[semester].append("AHS")
+                        courses_took.append("AHS")
+                        credits_needed["AHS"] -= 4
+                        credits_needed["TOTAL"] -= 4
+            # fill TOTAL with any course
+            else:
+                for semester, courses in sem_courses.items():
+                    if len(courses) < MAX_NUM_COURSE:
+                        choosen_course = choose_course(semester)  # course num
+                        choosen_course_title = df.T[choosen_course][
+                            "Course Title"
+                        ]  # course title
+                        sem_courses[semester].append(choosen_course_title)
+                        courses_took.append(choosen_course)
+                        credits_needed[choosen_course[0:3]] -= 4  # course type
+                        credits_needed["TOTAL"] -= 4
+        return sem_courses
 
     def get_df(self):
         """

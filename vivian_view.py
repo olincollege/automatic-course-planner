@@ -35,10 +35,15 @@ class DataFrameViewer(tk.Toplevel):
 class CourseView:
     def __init__(self, root):
         self.root = root
-        self.selected_major = ""
+        self.major = ""
         self.study_abroad = ""
-        self.LOA = ""
+        self.loa = ""
         self.grad_early = ""
+
+        # self.controller = CourseController()
+        self.controller = CourseController(
+            self.major, self.study_abroad, self.loa, self.grad_early
+        )
 
     def create_window(self):
         """
@@ -50,23 +55,21 @@ class CourseView:
             #     self.selected_major = major.get()
             #     print("Selected:", self.selected_major)
 
-            # if study_abroad_dropdown.get():
-            #     self.study_abroad = study_abroad.get()
-            #     print("Study Abroad", self.study_abroad)
-
             if (
                 major_dropdown.get()
                 and study_abroad_dropdown.get()
-                and LOA_dropdown.get()
+                and loa_dropdown.get()
                 and grad_early_dropdown.get()
             ):
-                self.selected_major = major.get()
+                self.major = major.get()
                 self.study_abroad = study_abroad.get()
-                self.LOA = LOA.get()
+                self.loa = loa.get()
                 self.grad_early = grad_early.get()
-                # print("Selected:", self.selected_major)
-                # print("Study Abroad", self.study_abroad)
-                # Show button
+
+                self.controller = CourseController(
+                    self.major, self.study_abroad, self.loa, self.grad_early
+                )
+
                 button.pack(padx=10, pady=10)
             else:
                 # Hide button
@@ -116,11 +119,11 @@ class CourseView:
         )
         study_abroad_dropdown.pack(pady=10)
 
-        LOA = tk.StringVar()
-        LOA.set("Do you plan to take an LOA?")
-        LOA_dropdown = ttk.Combobox(
+        loa = tk.StringVar()
+        loa.set("Do you plan to take an LOA?")
+        loa_dropdown = ttk.Combobox(
             self.root,
-            textvariable=LOA,
+            textvariable=loa,
             values=[
                 "N/A",
                 "Sophomore  Fall",
@@ -134,7 +137,7 @@ class CourseView:
             validate="all",
             width=30,
         )
-        LOA_dropdown.pack(pady=10)
+        loa_dropdown.pack(pady=10)
 
         grad_early = tk.StringVar()
         grad_early.set("Do you want to graduate early?")
@@ -147,11 +150,8 @@ class CourseView:
             width=30,
         )
         grad_early_dropdown.pack(pady=10)
-        # Bind the selection event of the dropdown to the handle_major_selection function
-        # major_dropdown.bind(
-        #     "<<ComboboxSelected>>",
-        #     handle_major_selection,
-        # )
+
+        # Once the last dropdown has been selected, show the button
         grad_early_dropdown.bind(
             "<<ComboboxSelected>>",
             handle_major_selection,
@@ -163,9 +163,7 @@ class CourseView:
             text="View 4 Year Course Plan",
             command=lambda: DataFrameViewer(
                 self.root,
-                CourseModel.get_df(
-                    self.selected_major, self.study_abroad, self.LOA, self.grad_early
-                ),
+                self.controller.get_df(),
             ),
         )
         button.pack_forget()  # Initially hide the button

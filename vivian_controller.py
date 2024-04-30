@@ -8,41 +8,75 @@ from pandastable import Table, TableModel
 import pandas as pd
 import random
 
-from test_model import CourseModel
+from vivian_model import CourseModel
 
 
 class CourseController:
-    def __init__(self, major, study_abroad, LOA, grad_early):
-        self.model = CourseModel(major, study_abroad, LOA, grad_early)
+    """
+    This controller helps points to correct functions to run in model
+    """
 
-    # make an object of the course model class - with all user inputs
-    # call the get_df functon by obj.get_df
+    def __init__(self, major, study_abroad, loa, grad_early):
+        self.model = CourseModel(major, study_abroad, loa, grad_early)
+
+    # Methods should be in order of which ones to run first
+    def major_constraint(self):
+        """
+        Point to correct model function(s) to fill major required courses
+        """
+        self.model.fill_major_required_courses()
+
+    def study_abroad_constraint(self):
+        """
+        Point to correct model function(s) to fill study abroad semester
+        """
+        self.model.fill_study_abroad()
+
+    def loa_constraint(self):
+        """
+        Point to correct model function(s) to fill loa semester
+        """
+        self.model.fill_loa()
+
+    def grad_early_constraint(self):
+        """
+        Point to correct model function(s) to fill graduating early semesters
+        """
+        self.model.fill_grad_early()
+
+    def other_requirements(self):
+        """
+        Point to correct model function(s) to fill other requirements
+        """
+        pass
+
+    def major_electives(self):
+        """
+        Point to correct model function(s) to fill elective courses
+        """
+        pass
+
+    def fill_empty_schedule(self):
+        """
+        Point to correct model function(s) to fill rest of empty schedule
+        """
+        pass
 
     def get_df(self):
         """
-        Gets the dataframe based on user input constraints
-
-        Idk why this method is here, but i just need something
-        in controller. Pressing the button could be here, but
-        its jsut so much easier keeping everything in the tkinter
-        class in view.
+        Fills out and returns a full dataframe of courses
         """
+        # Constrain the model with user constraints
+        self.major_constraint()
+        self.loa_constraint()
+        self.study_abroad_constraint()
+        self.grad_early_constraint()
+
+        self.other_requirements()
+        self.major_electives()
+
+        self.fill_empty_schedule()
+
+        # Other contraints -- other requirements, major electives
+
         return self.model.get_df()
-
-    # def handle_major_selection(event):
-    #     if (
-    #         major_dropdown.get()
-    #         and study_abroad_dropdown.get()
-    #         and LOA_dropdown.get()
-    #         and grad_early_dropdown.get()
-    #     ):
-    #         # self.selected_major = major.get()
-    #         # self.study_abroad = study_abroad.get()
-    #         # self.LOA = LOA.get()
-    #         # self.grad_early = grad_early.get()
-
-    #         # Show button
-    #         button.pack(padx=10, pady=10)
-    #     else:
-    #         # Hide button
-    #         button.pack_forget()
