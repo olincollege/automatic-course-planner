@@ -42,7 +42,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-The project aims to help college students plan out their 4-year course schedule based on their major and any other constraints they have such as study abroad, leave of absence, or early graduation. The project predicts what courses will be offered for the next four years based on the past 10 years of course-offering data. For the prediction model we used, the SARIMAX model which does time series forecasting. The prediction model built for this project is in `course_offering_prediction.ipynb` file.    
+The project aims to help college students plan out their 4-year course schedule based on their major and any other constraints they have such as studying abroad, leave of absence, or early graduation. The project predicts what courses will be offered for the next four years based on the past 10 years of course offering data. The prediction model we used was the SARIMAX model which does time series forecasting. The prediction model built for this project is in `course_offering_prediction.ipynb` file.    
 
 From the predicted course offering and the likelihood of the courses' offering for each semester, we filled in the requirements for graduation starting with the major requirement and general requirement along with the credit requirement. Since the credit requirements do not have to be a specific course, they are picked out randomly from the courses that are more than 50% likely to be offered, weighted by the likelihood of their offering. 
 
@@ -75,7 +75,7 @@ To get a local copy up and running follow these simple example steps.
 4. Choose if you are studying abroad and the according semester
 5. Choose if you are graduating early and the according semester
 6. Press on the `View 4 Year Course Plan` button
-7. Your 4-year course schedule is generated!!
+7. Your 4-year course schedule has been generated!!
 
 
 <!-- ROADMAP -->
