@@ -66,13 +66,33 @@
             text-align: center;
             margin-top: 40px;
         }
-        .team-images{
+        /* .team-images{
             margin-right: 10px;
             margin-left: 10px;
             margin-top: 10px;
             text-align: right;
             border: 2px solid #0066cc;
-        }
+        } */
+
+        .container {
+            display: flex;
+            align-items: center;
+            }
+            
+        .image {
+            flex: 1;
+            margin-right: 20px;
+            border: 2px solid #0066cc;
+            }
+
+        .image-text {
+            flex: 2;
+            }
+
+        /* img {
+            max-width: 100%;
+            height: auto;
+            } */
     </style>
 </head>
 <body>
@@ -120,8 +140,17 @@
 
     <div class="team-members">
         <h3>Team Members</h3>
-        <p><b>Aditi Bharadwaj</b>         <img src="team_member_images/aditi.jpg" alt="aditi's picture" width="100px" height="100px" class="team-images"><br>
-            <span>Likes reading and crocheting! Class of 2027, E:Sustainability.</span><br></p>
+        <!-- <p><b>Aditi Bharadwaj</b>         <img src="team_member_images/aditi.jpg" alt="aditi's picture" width="100px" height="100px" class="team-images"><br>
+            <span>Likes reading and crocheting! Class of 2027, E:Sustainability.</span><br></p> -->
+            <div class="container">
+                <div class="image">
+                  <img src="example.jpg" alt="Person's Photo">
+                </div>
+                <div class="image-text">
+                  <b>Aditi Bharadwaj</b>
+                  <p>Likes reading and crocheting! Class of 2027, E:Sustainability.</p>
+                </div>
+              </div>
             <!-- <b>Dongim Lee</b><br>
             <b>Sally Lee</b><br>
             <b>Vivian Mak</b></p> -->
