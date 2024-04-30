@@ -62,8 +62,8 @@ class CourseView:
                 and grad_early_dropdown.get()
             ):
                 self.major = major.get()
-                self.study_abroad = study_abroad.get()
                 self.loa = loa.get()
+                self.study_abroad = study_abroad.get()
                 self.grad_early = grad_early.get()
 
                 self.controller = CourseController(
@@ -99,26 +99,6 @@ class CourseView:
         )
         major_dropdown.pack(pady=10)
 
-        study_abroad = tk.StringVar()
-        study_abroad.set("Do you plan to study abroad?")
-        study_abroad_dropdown = ttk.Combobox(
-            self.root,
-            textvariable=study_abroad,
-            values=[
-                "N/A",
-                "Sophomore  Fall",
-                "Sophomore Spring",
-                "Junior Fall",
-                "Junior Spring",
-                "Senior Fall",
-                "Senior Spring",
-            ],
-            state="readonly",
-            validate="all",
-            width=30,
-        )
-        study_abroad_dropdown.pack(pady=10)
-
         loa = tk.StringVar()
         loa.set("Do you plan to take an LOA?")
         loa_dropdown = ttk.Combobox(
@@ -138,6 +118,26 @@ class CourseView:
             width=30,
         )
         loa_dropdown.pack(pady=10)
+
+        study_abroad = tk.StringVar()
+        study_abroad.set("Do you plan to study abroad?")
+        study_abroad_dropdown = ttk.Combobox(
+            self.root,
+            textvariable=study_abroad,
+            values=[
+                "N/A",
+                "Sophomore  Fall",
+                "Sophomore Spring",
+                "Junior Fall",
+                "Junior Spring",
+                "Senior Fall",
+                "Senior Spring",
+            ],
+            state="readonly",
+            validate="all",
+            width=30,
+        )
+        study_abroad_dropdown.pack(pady=10)
 
         grad_early = tk.StringVar()
         grad_early.set("Do you want to graduate early?")

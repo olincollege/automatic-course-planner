@@ -44,23 +44,18 @@ class CourseController:
         """
         self.model.fill_grad_early()
 
-    def other_requirements(self):
+    def fill_other_requirements(self):
         """
-        Point to correct model function(s) to fill other requirements
+        Point to correct model function(s) to fill other requirements (major electives, AHS,)
         """
-        pass
-
-    def major_electives(self):
-        """
-        Point to correct model function(s) to fill elective courses
-        """
-        pass
+        self.model.fill_other_requirements()
 
     def fill_empty_schedule(self):
         """
         Point to correct model function(s) to fill rest of empty schedule
         """
-        pass
+
+        self.model.fill_empty_schedules()
 
     def get_df(self):
         """
@@ -72,8 +67,8 @@ class CourseController:
         self.study_abroad_constraint()
         self.grad_early_constraint()
 
-        self.other_requirements()
-        self.major_electives()
+        # self.fill_other_requirements()
+        self.fill_empty_schedule()
 
         self.fill_empty_schedule()
 
