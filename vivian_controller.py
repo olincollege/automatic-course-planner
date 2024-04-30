@@ -62,8 +62,8 @@ class CourseController:
         Fills out and returns a full dataframe of courses
         """
         # Constrain the model with user constraints
+        self.loa_constraint()  # will set max num of courses
         self.major_constraint()
-        self.loa_constraint()
         self.study_abroad_constraint()
         self.grad_early_constraint()
 
