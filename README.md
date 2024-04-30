@@ -11,13 +11,11 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/olincollege/automatic-course-planner"><strong>Explore the website »</strong></a>
+    <a href="https://olincollege.github.io/automatic-course-planner"><strong>Explore the website »</strong></a>
     <br />
     <br />
     <a href="https://olincollege.github.io/automatic-course-planner">View Demo</a>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -39,7 +37,6 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -51,7 +48,6 @@ From the predicted course offering and the likelihood of the courses' offering f
 
 The user's constraints are received and the generated 4-year course schedule for the user is shown in a user-friendly way through the Tkinter library.  
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -69,9 +65,6 @@ To get a local copy up and running follow these simple example steps.
    pip install -r requirements.txt
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -84,9 +77,6 @@ To get a local copy up and running follow these simple example steps.
 6. Press on the `View 4 Year Course Plan` button
 7. Your 4-year course schedule is generated!!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -98,12 +88,8 @@ To get a local copy up and running follow these simple example steps.
 - [ ] Fill credit requirements
 - [ ] Show personalized 4-year course schedule
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
