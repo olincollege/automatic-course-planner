@@ -1,5 +1,4 @@
-import pandas as pd
-from vivian_model import CourseModel
+from model import CourseModel
 
 
 def test_grad_early_na():

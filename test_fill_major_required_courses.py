@@ -1,4 +1,4 @@
-from vivian_model import CourseModel
+from model import CourseModel
 
 
 def test_E_C():

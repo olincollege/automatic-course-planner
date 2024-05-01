@@ -1,5 +1,5 @@
 import pytest
-from vivian_model import CourseModel
+from model import CourseModel
 
 
 def test_get_possible_courses_freshmen_fall():

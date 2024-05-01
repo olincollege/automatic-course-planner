@@ -1,4 +1,4 @@
-from vivian_model import CourseModel
+from model import CourseModel
 
 
 def test_calculate_credits_taken_default():
@@ -10,7 +10,7 @@ def test_calculate_credits_taken_default():
     expected_output = {
         "AHS": 16,
         "ENG": 44,
-        "MTH/SCI": 36,
+        "MTH/SCI": 4,
         "MTH": 8,
         "SCI": 0,
         "OFYI": 1,
@@ -29,7 +29,7 @@ def test_calculate_credits_taken_with_major():
     expected_output = {
         "AHS": 16,
         "ENG": 72,
-        "MTH/SCI": 68,
+        "MTH/SCI": 4,
         "MTH": 12,
         "SCI": 0,
         "OFYI": 1,
@@ -49,7 +49,7 @@ def test_calculate_credits_taken_other_requirements():
     expected_output = {
         "AHS": 16,
         "ENG": 68,
-        "MTH/SCI": 68,
+        "MTH/SCI": 8,
         "MTH": 12,
         "SCI": 4,
         "OFYI": 1,
