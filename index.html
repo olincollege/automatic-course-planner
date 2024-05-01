@@ -73,13 +73,6 @@
             text-align: center;
             margin-top: 40px;
         }
-        /* .team-images{
-            margin-right: 10px;
-            margin-left: 10px;
-            margin-top: 10px;
-            text-align: right;
-            border: 2px solid #0066cc;
-        } */
 
         .container {
             display: flex;
@@ -91,7 +84,6 @@
             margin-left: 500px;
             margin-bottom: 100px;
             padding-right:20px;
-            /* border: 2px solid #0066cc; */
             }
 
         .image-text {
@@ -135,11 +127,6 @@
             width: 100%;
             height: 100%;
             }
-
-        /* img {
-            max-width: 100%;
-            height: auto;
-            } */
     </style>
 </head>
 <body>
@@ -165,40 +152,16 @@
     <h2>Interactivity</h2>
     <p>Our project is used by the user by first inputting their constraints: major, whether or not they will take an LOA, whether or not they will study abroad, whether or not they will graduate early, and what senior capstone they will take. Our system then uses a predictive algorithm that uses past course offerings to guess what courses will be offered in the next years. Taking into account user constraints and major requirements, a table of eight (or less) semesters of courses will be shown. If the user likes the schedule shown, they have the option to save the file to their computer as a CSV file. If not, the user can prompt the program to generate another schedule. 
         <br> Below is a video demonstration of our project.
-        <!-- <div class="video-wrapper">
-            <iframe width="560" height="315" src="https://youtu.be/y_L1suXd7xI?si=pUZ5pGEzbU4sTZ91" frameborder="0" allowfullscreen></iframe>
-        </div> -->
-        <!-- <video controls width="560" height="315">
-            <source src="https://www.youtube.com/watch?v=y_L1suXd7xI" type="video/mp4">
-            Your browser does not support the video tag.
-        </video> -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/y_L1suXd7xI?si=IqBN-2xPiUj_oaZm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3GuKPOddF5c?si=iLbm0O_T2zwsa8Hp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </p>
-    
-    <!-- <h2>Ethics</h2>
-    <p>The project aims to assist first-year Oliners in planning their course schedules. Data collected are non-sensitive user preferences. Potential malicious behavior, such as brute force attacks or data theft, is mitigated by not storing sensitive information.</p> -->
-    
     <h2>Architecture</h2>
     <ul class="bulleted-list">
         <li class="list-item">Model: returns a dataframe with full schedule based on user input constraints (major, study abroad, LOA, graduating early) and predicted course offerings.</li>
         <li class="list-item">View: shows tkinter window, dropdown, and button</li>
         <li class="list-item">Controller: handles user input and updates our model with different constraints</li>
         </ul>
-        <p>Below is a diagram of how our model generates the courses for the four-year course plan.</p>
+        <p>Below is a diagram of how our model generates the courses for the four-year course plan.<br></p>
         <img src="model.jpg" alt="model diagram" width="684px" height="265px" style="margin:0px 0px 0px 200px">
-    <!-- <p>The project maintains user data (major, preferences) and generates a four-year course plan. This information is stored in classes like User and CoursePlan.</p> -->
-    
-    <!-- <h2>View</h2>
-    <p>Input page allows users to select their major, choose courses, and set preferences. Output page displays the generated course plan and allows users to save it in various formats.</p>
-     -->
-    <!-- <h2>Controller</h2>
-    <p>User input triggers methods in model classes to update the state and compute the course plan. The controller manages interactions between the user interface and the model.</p> -->
-    
-    <!-- <h2>Next Steps</h2>
-    <p>Consider integrating a database of courses for each profile, allowing underclassmen to connect with upperclassmen. Explore additional resources for specific engineering majors.</p> -->
-    
-    
-
     <h2>Resources</h2>
     <ul>
         <li><a href="https://olin.smartcatalogiq.com/en/2023-24/catalog/programs-of-study-and-degree-requirements/academic-programs/engineering/">General Engineering</a></li>
