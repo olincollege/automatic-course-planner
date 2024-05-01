@@ -40,7 +40,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="product_screenshot.jpg" alt="product screenshot" width="1000" >
 
 The project aims to help college students plan out their 4-year course schedule based on their major and any other constraints they have such as studying abroad, leave of absence, or early graduation. The project predicts what courses will be offered for the next four years based on the past 10 years of course offering data. The prediction model we used was the SARIMAX model which does time series forecasting. The prediction model built for this project is in `course_offering_prediction.ipynb` file.    
 
