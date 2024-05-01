@@ -94,7 +94,7 @@ Our website can be found at <a>https://olincollege.github.io/automatic-course-pl
 
 <!-- CREDITS -->
 ## Credits
-Contributors on this project include Aditi Bharadwaj, Dongim Lee, Sally Lee, and Vivian Mak. Information about course offerings was taken from Olin College's website and catalogs. Information about the predictive model we used, the SARIMAX model, was taken from <a href="[https://olincollege.github.io/automatic-course-planner](https://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html)">this link</a>.
+Contributors on this project include Aditi Bharadwaj, Dongim Lee, Sally Lee, and Vivian Mak. Information about course offerings was taken from Olin College's website and catalogs. Information about the predictive model we used, the SARIMAX model, was taken from <a href="https://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html">this link</a>.
 
 <!-- LICENSE -->
 ## License
