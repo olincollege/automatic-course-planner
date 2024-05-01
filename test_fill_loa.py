@@ -1,8 +1,18 @@
+"""
+Module: test_loa.py
+
+This module contains unit tests for handling Leave of Absence (LOA) scenarios
+in the CourseModel class from the model.py module.
+"""
+
 from model import CourseModel
 
 
 def test_no_loa():
-    # Test case: No LOA
+    """
+    Test case for no Leave of Absence (LOA).
+    Expected output: No changes in the dataframe.
+    """
     coursemodel = CourseModel("N/A", "N/A", "N/A", "N/A")
     coursemodel.fill_loa()
     expected_dic = {
@@ -19,7 +29,10 @@ def test_no_loa():
 
 
 def test_loa_sophomore_fall():
-    # Test case: LOA in Sophomore Fall
+    """
+    Test case for LOA in sophomore fall.
+    Expected output: LOA marked in sophomore fall semester.
+    """
     coursemodel = CourseModel("N/A", "sophomore fall", "N/A", "N/A")
     coursemodel.fill_loa()
     expected_dic = {
@@ -36,7 +49,10 @@ def test_loa_sophomore_fall():
 
 
 def test_loa_senior_spring_major_courses():
-    # Test case: LOA in Senior Spring with required major courses
+    """
+    Test case for LOA in senior spring with required major courses.
+    Expected output: LOA marked in senior spring semester and major courses retained.
+    """
     coursemodel = CourseModel("E: Computing", "senior spring", "N/A", "N/A")
     coursemodel.fill_loa()
     coursemodel.fill_major_required_courses()

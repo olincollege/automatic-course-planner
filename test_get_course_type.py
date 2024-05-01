@@ -1,7 +1,15 @@
+"""
+Module: test_get_course_type.py
+
+This module contains unit tests for the `get_course_type` method 
+of the CourseModel class from the model.py module. The method is responsible 
+for extracting the course type prefix from a course number.
+"""
+
 from model import CourseModel
 
 
-def test_get_course_type_MTH():
+def test_get_course_type_math():
     """
     Test case for MTH prefix.
     """
@@ -10,7 +18,7 @@ def test_get_course_type_MTH():
     assert result == "MTH"
 
 
-def test_get_course_type_ENG():
+def test_get_course_type_engineering():
     """
     Test case for ENG prefix.
     """
@@ -19,7 +27,7 @@ def test_get_course_type_ENG():
     assert result == "ENG"
 
 
-def test_get_course_type_SCI():
+def test_get_course_type_science():
     """
     Test case for SCI prefix.
     """
@@ -28,7 +36,7 @@ def test_get_course_type_SCI():
     assert result == "SCI"
 
 
-def test_get_course_type_AHS():
+def test_get_course_type_ahs():
     """
     Test case for AHS prefix.
     """

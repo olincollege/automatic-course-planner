@@ -1,3 +1,11 @@
+"""
+Module: test_other_requirements.py
+
+This module contains unit tests for the CourseModel class 
+from the model.py module, specifically testing the filling of 
+other requirements such as non-major courses, study abroad, and early graduation.
+"""
+
 from model import CourseModel
 
 

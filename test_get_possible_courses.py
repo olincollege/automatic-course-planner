@@ -1,3 +1,13 @@
+"""
+Module: test_get_possible_courses.py
+
+This module contains unit tests for the `get_possible_courses` method 
+of the CourseModel class from the model.py module. The method is responsible 
+for retrieving the possible courses for a given semester.
+
+Each function in this module represents a specific test case scenario.
+"""
+
 import pytest
 from model import CourseModel
 

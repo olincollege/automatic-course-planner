@@ -1,7 +1,15 @@
+"""
+Module: test_major_courses.py
+
+This module contains unit tests for the CourseModel class 
+from the model.py module, specifically testing the filling of 
+major required courses for different engineering majors.
+"""
+
 from model import CourseModel
 
 
-def test_E_C():
+def test_engineering_computing():
     """
     Test case for major E:C
     """
@@ -27,7 +35,7 @@ def test_E_C():
     assert coursemodel.sem_courses == expected_output
 
 
-def test_MechE():
+def test_mechanical_engineering():
     """
     Test case for major MechE
     """
@@ -60,7 +68,7 @@ def test_MechE():
     assert coursemodel.sem_courses == expected_output
 
 
-def test_ECE():
+def test_electrical_engineering():
     """
     Test case for major ECE
     """

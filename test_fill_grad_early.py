@@ -1,3 +1,10 @@
+"""
+Module: test_grad_early.py
+
+This module contains unit tests for the grad_early method in 
+the CourseModel class from the model.py module.
+"""
+
 from model import CourseModel
 
 
@@ -89,8 +96,10 @@ def test_grad_early_one_year_with_major():
 
 def test_grad_early_one_semester_with_major_and_study_abroad():
     """
-    Test case when graduation is specified as one semester early with required major courses and study abroad.
-    Expected output: "Already Graduated!" marked in Senior Spring semester, study abroad marked in Junior Fall semester.
+    Test case when graduation is specified as one semester early with
+    required major courses and study abroad.
+    Expected output: "Already Graduated!" marked in Senior Spring semester,
+    study abroad marked in Junior Fall semester.
     """
     coursemodel = CourseModel(
         "E: Computing", "N/A", "junior fall", "One semester early"

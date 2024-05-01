@@ -1,3 +1,11 @@
+"""
+Module: test_study_abroad.py
+
+This module contains unit tests for the CourseModel class 
+from the model.py module, specifically testing the functionality 
+related to study abroad semesters.
+"""
+
 from model import CourseModel
 
 
@@ -63,8 +71,10 @@ def test_study_abroad_with_major():
 
 def test_study_abroad_sophomore_fall_with_different_major():
     """
-    Test case when study abroad semester is specified as Sophomore Fall with required major courses for different major.
-    Expected output: "Study Abroad: AHS" marked in the Sophomore Fall semester, with correct major courses for MechE.
+    Test case when study abroad semester is specified as
+    Sophomore Fall with required major courses for different major.
+    Expected output: "Study Abroad: AHS" marked in the Sophomore Fall semester,
+    with correct major courses for MechE.
     """
     coursemodel = CourseModel(
         "Mechanical Engineering", "junior fall", "sophomore fall", "N/A"

@@ -1,3 +1,9 @@
+"""
+Module: test_course_model.py
+
+This module contains unit tests for the CourseModel class in the model.py module.
+"""
+
 from model import CourseModel
 
 
