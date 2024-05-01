@@ -93,7 +93,7 @@ class CourseModel:
         # Constraints -- based on major
         self.major_requirements = {
             "E: Computing": {
-                "ENGR2510": [True, 0],
+                "ENGR2510": [False, 0],
                 "ENGR3525": [False, 1],
                 "ENGR3599A/ENGR3520": [False, 1],
                 "ENGR3220/ENGR3410/ENGR3540": [False, 1],
@@ -101,7 +101,7 @@ class CourseModel:
             },
             "Electrical Engineering": {
                 "ENGX2010": [False, 0],
-                "ENGR2510": [True, 0],
+                "ENGR2510": [False, 0],
                 "ENGX2134": [False, 1],
                 "ENGR2410": [False, 1],
                 "ENGR2420": [False, 1],
