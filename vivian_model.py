@@ -17,7 +17,7 @@ class CourseModel:
     All the logic behind the dataframe
     """
 
-    def __init__(self, major, study_abroad, loa, grad_early):
+    def __init__(self, major, loa, study_abroad, grad_early):
         """
         initilize everything in self
 
@@ -28,6 +28,16 @@ class CourseModel:
             grad_early: a string representing user input of graduating early
         """
 
+        self.courses_list_remove = {
+            "freshman fall": [],
+            "freshman spring": [],
+            "sophomore fall": [],
+            "sophomore spring": [],
+            "junior fall": [],
+            "junior spring": [],
+            "senior fall": [],
+            "senior spring": [],
+        }
         # User inputs
         self.major = major
         self.study_abroad = study_abroad
@@ -248,9 +258,9 @@ class CourseModel:
                 self.df_transposed.columns
             )  # Create a list of NaN values
             self.df_transposed.loc[len(self.df_transposed)] = empty_row_data
+
             # Blocking out the LOA semester
-            for i in range(len(self.df_transposed)):
-                self.df_transposed.at[i, self.loa] = "LOA"
+            self.sem_courses[self.loa] = ["LOA"] * self.MAX_COURSES
 
     def fill_study_abroad(self):
         """
@@ -444,8 +454,25 @@ class CourseModel:
         course_names = list(possible_courses.keys())
         weights = list(possible_courses.values())
         # Randomly choose a course based on weights
-        random_course = random.choices(course_names, weights=weights)[0]
-        return random_course
+
+        # for course in self.courses_list_remove[semester]:
+        #     if course in course_names:
+        #         index = course_names.index(course)
+        #         course_names.remove(course)
+        #         weights.pop(index)
+
+        chosen_course = random.choices(course_names, weights=weights)[0]
+
+        # self.courses_list_remove[semester].append(chosen_course)
+
+        # course_names.remove(chosen_course)
+        # if the chosen course is in the courses took, choose another course
+        # while chosen_course in self.courses_took:
+        #     chosen_course = random.choices(course_names, weights=weights)[0]
+        #     print("chosen course", chosen_course)
+        #     print(self.courses_took)
+        #     print()
+        return chosen_course
 
     def fill_empty_schedules(self):
         """
@@ -492,6 +519,7 @@ class CourseModel:
                         ]  # course title
                         self.sem_courses[semester].append(choosen_course_title)
                         self.courses_took.append(choosen_course)
+                        print(self.credits_needed["MTH/SCI"])
                         self.credits_needed["MTH/SCI"] -= 4
                         self.credits_needed["TOTAL"] -= 4
 
@@ -553,3 +581,9 @@ class CourseModel:
                 value.append("")
         filled_df = pd.DataFrame(self.sem_courses)
         return filled_df
+
+
+# coursemodel = CourseModel("E:Computing", "junior fall", "N/A", "N/A")
+# coursemodel.fill_loa()
+
+# print(coursemodel.sem_courses)
