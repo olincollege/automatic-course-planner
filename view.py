@@ -1,18 +1,38 @@
+"""
+Viewer class shows the Tkinter window and handles selection
+"""
+
 import tkinter as tk
 from tkinter import ttk
-from pandastable import Table, TableModel
-import pandas as pd
-import random
+from pandastable import Table
 
-from vivian_controller import CourseController
-from vivian_model import CourseModel
-
-# from test_model import CourseModel
+from controller import CourseController
 
 
 class DataFrameViewer(tk.Toplevel):
+    """
+    A class for displaying a pandas DataFrame in a Tkinter window.
+
+    Attributes:
+        parent: The parent Tkinter window.
+        dataframe: The pandas DataFrame to be displayed.
+
+    Methods:
+        __init__: Initializes the DataFrameViewer.
+    """
 
     def __init__(self, parent, dataframe):
+        """
+        Initializes the DataFrameViewer.
+
+        Args:
+            parent: The parent Tkinter window.
+            dataframe: The pandas DataFrame to be displayed.
+
+        Returns:
+            None
+        """
+
         # Initialize TopLevel window
         tk.Toplevel.__init__(self, parent)
         # Store regerence to parent window
@@ -31,30 +51,64 @@ class DataFrameViewer(tk.Toplevel):
         )
         self.table.show()
 
+        # pylint: disable=too-few-public-methods
+
 
 class CourseView:
+    """
+    A class for displaying and interacting with the course selection interface.
+
+    Attributes:
+        root: The Tkinter root window.
+        major: The selected major.
+        study_abroad: The selection for studying abroad.
+        loa: The selection for taking an LOA.
+        grad_early: The selection for graduating early.
+        controller: An instance of CourseController for managing course data.
+
+    Methods:
+        __init__: Initializes the CourseView.
+        create_window: Creates and displays the course selection interface.
+    """
+
     def __init__(self, root):
+        """
+        Initializes the CourseView.
+
+        Args:
+            root: The Tkinter root window.
+
+        Returns:
+            None
+        """
         self.root = root
         self.major = ""
         self.study_abroad = ""
         self.loa = ""
         self.grad_early = ""
-
-        # self.controller = CourseController()
         self.controller = CourseController(
             self.major, self.study_abroad, self.loa, self.grad_early
         )
 
     def create_window(self):
         """
-        Show and run the event of getting user input
+        Creates and displays the course selection window.
+
+        Returns:
+            None
         """
 
         def handle_major_selection(event):
-            # if major_dropdown.get():
-            #     self.selected_major = major.get()
-            #     print("Selected:", self.selected_major)
+            # pylint: disable=unused-argument
+            """
+            Event handler for major selection.
 
+            Args:
+                event: The event object.
+
+            Returns:
+                None
+            """
             if (
                 major_dropdown.get()
                 and study_abroad_dropdown.get()
@@ -105,12 +159,6 @@ class CourseView:
             textvariable=loa,
             values=[
                 "N/A",
-                # "Sophomore  Fall",
-                # "Sophomore Spring",
-                # "Junior Fall",
-                # "Junior Spring",
-                # "Senior Fall",
-                # "Senior Spring",
                 "sophomore fall",
                 "sophmore spring",
                 "junior fall",
@@ -131,12 +179,6 @@ class CourseView:
             textvariable=study_abroad,
             values=[
                 "N/A",
-                # "Sophomore Fall",
-                # "Sophomore Spring",
-                # "Junior Fall",
-                # "Junior Spring",
-                # "Senior Fall",
-                # "Senior Spring",
                 "sophomore fall",
                 "sophmore spring",
                 "junior fall",
@@ -177,6 +219,5 @@ class CourseView:
                 self.controller.get_df(),
             ),
         )
-        # button.pack_forget()  # Initially hide the button
 
         self.root.mainloop()
