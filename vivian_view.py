@@ -164,7 +164,7 @@ class CourseView:
 
         # Once the last dropdown has been selected, show the button
         grad_early_dropdown.bind(
-            "<<ComboboxSelected>>",get_possible_semesters
+            "<<ComboboxSelected>>",
             handle_major_selection,
         )
 
@@ -177,6 +177,6 @@ class CourseView:
                 self.controller.get_df(),
             ),
         )
-        button.pack_forget()  # Initially hide the button
+        # button.pack_forget()  # Initially hide the button
 
         self.root.mainloop()
