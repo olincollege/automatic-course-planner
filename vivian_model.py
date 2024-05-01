@@ -34,7 +34,8 @@ class CourseModel:
         self.grad_early = grad_early
 
         self.MAX_COURSES = 4
-        self.df = pd.read_csv("predicted_schedule.csv", index_col=0).T
+        self.df_transposed = pd.read_csv("predicted_schedule.csv", index_col=0).T
+        self.df = pd.read_csv("predicted_schedule.csv", index_col=0)
 
         # Initialize empty dataframe
         # self.df = pd.DataFrame(
@@ -55,7 +56,7 @@ class CourseModel:
             "freshmen fall": [],
             "freshmen spring": [],
             "sophomore fall": [],
-            "sophmore spring": [],
+            "sophomore spring": [],
             "junior fall": [],
             "junior spring": [],
             "senior fall": [],
@@ -190,14 +191,14 @@ class CourseModel:
         for courses, [took, level] in self.major_requirements[self.major].items():
             courses_separated = courses.split("/")
             for course in courses_separated:
-                offering_semester_prediction = self.df[course].to_frame().T
+                offering_semester_prediction = self.df_transposed[course].to_frame().T
                 offering_semester_prediction.set_index("Course Title", inplace=True)
                 offered_semesters = [
                     semester
                     for semester, value in offering_semester_prediction.items()
                     if float(value) >= 0.5
                 ]
-                course_title = self.df[course]["Course Title"]
+                course_title = self.df_transposed[course]["Course Title"]
                 # print(course_title, offering_semester_prediction)
 
                 # print(f"{course_title}:{offered_semesters}")
@@ -231,12 +232,12 @@ class CourseModel:
             # Add an extra row if someone is taking an LOA
             self.MAX_COURSES = 5
             empty_row_data = [np.nan] * len(
-                self.df.columns
+                self.df_transposed.columns
             )  # Create a list of NaN values
-            self.df.loc[len(self.df)] = empty_row_data
+            self.df_transposed.loc[len(self.df_transposed)] = empty_row_data
             # Blocking out the LOA semester
-            for i in range(len(self.df)):
-                self.df.at[i, self.loa] = "LOA"
+            for i in range(len(self.df_transposed)):
+                self.df_transposed.at[i, self.loa] = "LOA"
 
     def fill_study_abroad(self):
         """
@@ -290,7 +291,7 @@ class CourseModel:
         else:
             return None
 
-    def get_possible_courses(self, semester, df):
+    def get_possible_courses(self, semester):
         """
         Get possible course for each semester as a dictionary along with its likelihood of offering
         Args:
@@ -301,15 +302,16 @@ class CourseModel:
         """
         # Initialize an empty dictionary to store offered courses by type
         offered_courses = {"MTH": {}, "ENG": {}, "SCI": {}, "AHS": {}}
-
+        # print(self.df.head(3))
         # Find the corresponding column index for the semester
         semester_column = semester.lower()
-
+        # print(self.df.columns)
         # Check if the semester column exists in the DataFrame
-        if semester_column in df.columns:
+        if semester_column in self.df.columns:
+            print(semester_column)
             # Filter the DataFrame for courses offered in the specified semester with values greater than 0.5
-            courses_offered = df[df[semester_column] > 0.5]
-
+            courses_offered = self.df[self.df[semester_column] > 0.5]
+            # print(courses_offered)
             # Iterate through the courses offered and categorize them by type
             for course in courses_offered.index.tolist():
                 course_type = self.get_course_type(course)
@@ -347,7 +349,6 @@ class CourseModel:
         possible_semesters = possible_semesters_df[
             possible_semesters_df["Likelihood"] > 0.5
         ]["Semester"].tolist()
-
         return possible_semesters
 
     # OTHER METHODS
@@ -393,7 +394,7 @@ class CourseModel:
                         and not self.other_requirements_fulfilled[course_type]
                     ):
                         # fill in the sem_courses
-                        course_title = self.df[course]["Course Title"]
+                        course_title = self.df_transposed[course]["Course Title"]
                         self.sem_courses[semester].append(course_title)
                         # add it to the courses_took
                         self.courses_took.append(course)
@@ -433,7 +434,7 @@ class CourseModel:
         # return random_course
 
         if course_type == "ALL":
-            possible_courses = self.get_possible_courses(semester, self.df)
+            possible_courses = self.get_possible_courses(semester)
             all_possible_courses = {}
             for courses in possible_courses.values():
                 all_possible_courses.update(courses)
@@ -441,11 +442,11 @@ class CourseModel:
             possible_courses = all_possible_courses
             # print(possible_courses)
         else:  # if there is a choosen course type
-            possible_courses = self.get_possible_courses(semester, self.df)[course_type]
+            possible_courses = self.get_possible_courses(semester)[course_type]
+            print("possible courses", possible_courses)
         # Extract course names and their weights
         course_names = list(possible_courses.keys())
         weights = list(possible_courses.values())
-
         # Randomly choose a course based on weights
         random_course = random.choices(course_names, weights=weights)[0]
         return random_course
@@ -454,17 +455,25 @@ class CourseModel:
         """
         Fill courses in semesters based on major requirements, course offerings, and credit requirements.
         """
+        print(self.credits_needed)
         while self.credits_needed["TOTAL"] > 0:
             # fill MTH if not enough math credit
             if self.credits_needed["MTH"] > 0:
                 for semester, courses in self.sem_courses.items():
                     if len(courses) < self.MAX_COURSES:
-                        choosen_course = self.choose_course(
+
+                        print(semester)
+                        choosen_course = self.choose_course(  # not transposed df
                             semester, "MTH"
                         )  # course num
-                        choosen_course_title = self.df.T[choosen_course][
+                        print(choosen_course)
+                        print(self.df_transposed[choosen_course]["Course Title"])
+                        choosen_course_title = self.df_transposed[
+                            choosen_course
+                        ][  # transposed df
                             "Course Title"
                         ]  # course title
+                        print("asdfasdf" + choosen_course_title)
                         self.sem_courses[semester].append(choosen_course_title)
                         self.courses_took.append(choosen_course)
                         self.credits_needed["MTH"] -= 4
@@ -478,7 +487,7 @@ class CourseModel:
                         choosen_course = self.choose_course(
                             semester, "SCI"
                         )  # course num
-                        choosen_course_title = self.df.T[choosen_course][
+                        choosen_course_title = self.df_transposed.T[choosen_course][
                             "Course Title"
                         ]  # course title
                         self.sem_courses[semester].append(choosen_course_title)
@@ -493,7 +502,7 @@ class CourseModel:
                         choosen_course = self.choose_course(
                             semester, "SCI"
                         )  # course num
-                        choosen_course_title = self.df.T[choosen_course][
+                        choosen_course_title = self.df_transposed.T[choosen_course][
                             "Course Title"
                         ]  # course title
                         self.sem_courses[semester].append(choosen_course_title)
@@ -513,7 +522,7 @@ class CourseModel:
                 for semester, courses in self.sem_courses.items():
                     if len(courses) < self.MAX_COURSES:
                         choosen_course = self.choose_course(semester)  # course num
-                        choosen_course_title = self.df.T[choosen_course][
+                        choosen_course_title = self.df_transposed.T[choosen_course][
                             "Course Title"
                         ]  # course title
                         self.sem_courses[semester].append(choosen_course_title)
@@ -528,3 +537,8 @@ class CourseModel:
 
         """
         return pd.DataFrame(self.sem_courses)
+
+
+model = CourseModel("E:C", "N/A", "N/A", "N/A")
+# print(model.choose_course("sophomore spring", "MTH"))
+print(model.fill_empty_schedules())

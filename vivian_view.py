@@ -164,7 +164,7 @@ class CourseView:
 
         # Once the last dropdown has been selected, show the button
         grad_early_dropdown.bind(
-            "<<ComboboxSelected>>",
+            "<<ComboboxSelected>>",get_possible_semesters
             handle_major_selection,
         )
 
