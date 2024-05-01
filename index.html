@@ -35,6 +35,13 @@
             padding: 0 200px 0 200px;
         }
 
+        h4 {
+            color: #000000;
+            text-align: left;
+            margin-top: 30px;
+            padding: 0 200px 0 200px;
+        }
+
         p {
             margin: 10px 0;
             padding: 0 200px;
@@ -87,17 +94,26 @@
 
         .image-text {
             flex: 2;
-            margin-right:400px;
+            margin-right:200px;
             margin-bottom: 20px;
             }
         .bulleted-list {
             list-style-type: disc;
-            margin-left: 80px;
+            margin-left: 200px;
             }
         
         .list-item {
             margin-left: 0px;
-            padding-left: 20px;
+            padding-left: 220px;
+            }
+
+        .numbered-list {
+            margin-left: 200px; 
+            }
+
+        .numbered-list li {
+            margin-left: 0px;
+            padding-left: 220px;
             }
 
         /* img {
@@ -110,14 +126,21 @@
     <h1>Four-Year Automated Course Planner</h1>
     <p>GitHub Repo: <a href="https://github.com/olincollege/automatic-course-planner">automatic-course-planner</a></p>
     
-    <h2>Project Description</h2>
-    <p>Our project is an automatic course planner tailored for first-year Olin students. It is a mix of interactive visualization that outputs a personalized four-year course schedule when the user inputs their major, whether or not they will take an LOA, graduate early, study abroad, and which senior capstone they will take. 
+    <h2>About The Project</h2>
+    <p>Our project is an automatic course planner tailored for first-year Olin students. It is a mix of interactive visualization that outputs a personalized four-year course schedule when the user inputs their major, whether or not they will take an LOA, graduate early, study abroad, and which senior capstone they will take. The project predicts what courses will be offered for the next four years based on the past 10 years of Olin course offering data. The prediction model we used was the SARIMAX model which does time series forecasting. <br>
 
         Information about how to use our course planner is in the next section. Our full Github repository is here: https://github.com/olincollege/automatic-course-planner.
     </p>
 
     <h2>How to Use Our Course Planner</h2>
-        <p>To use our course planner, start by cloning our Github repository by running <code>"git clone https://github.com/github_username/repo_name.git"</code> and install the requirements by running <code>"pip install -r requirements.txt"</code>. Next, run the course_planner_main.py file and respond to the prompts that come up on the window to generate your four-year course schedule! For more detailed information, visit the <a href="https://github.com/olincollege/automatic-course-planner?tab=readme-ov-file">README</a> on our Github.</p> 
+        <p>To use our course planner, follow the steps below.
+            <ol class="numbered-list">
+                <li>Clone our Github repository by running <code>git clone https://github.com/github_username/repo_name.git</code></li>
+                <li> Install the requirements by running <code>"pip install -r requirements.txt"</code></li>
+                <li>Run the course_planner_main.py file and respond to the prompts that come up on the window.</li> 
+                <li>Your four year course schedule is now generated.</li>
+            </ol>
+            <br>For more detailed information, visit the <a href="https://github.com/olincollege/automatic-course-planner?tab=readme-ov-file">README</a> on our Github.</p> 
     
     <h2>Interactivity</h2>
     <p>Our project is used by the user by first inputting their constraints: major, whether or not they will take an LOA, whether or not they will study abroad, whether or not they will graduate early, and what senior capstone they will take. Our system then uses a predictive algorithm that uses past course offerings to guess what courses will be offered in the next years. Taking into account user constraints and major requirements, a table of eight (or less) semesters of courses will be shown. If the user likes the schedule shown, they have the option to save the file to their computer as a CSV file. If not, the user can prompt the program to generate another schedule. 
