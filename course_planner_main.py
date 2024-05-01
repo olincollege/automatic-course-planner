@@ -10,7 +10,6 @@ from vivian_view import CourseView
 
 
 def main():
-
     root = tk.Tk()
     # controller = CourseController()
 
