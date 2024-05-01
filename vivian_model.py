@@ -23,8 +23,8 @@ class CourseModel:
 
         Args:
             major: a string representing user input of selected major
-            study_abroad: a string represtiing user input of study abraod semester
             LOA: a string representing user input of LOA semester
+            study_abroad: a string represtiing user input of study abraod semester
             grad_early: a string representing user input of graduating early
         """
 

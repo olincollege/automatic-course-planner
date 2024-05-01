@@ -21,7 +21,7 @@ def get_course_type(course):
         return None
 
 
-def get_possible_courses(semester, df):
+def get_possible_courses(df, semester):
     """
     Get possible course for each semester as a dictionary along with its likelihood of offering
     Args:
@@ -30,6 +30,7 @@ def get_possible_courses(semester, df):
     Returns:
         course offering dictionary with likelihood, separated by course type
     """
+
     # Initialize an empty dictionary to store offered courses by type
     offered_courses = {"MTH": {}, "ENG": {}, "SCI": {}, "AHS": {}}
 
@@ -52,7 +53,7 @@ def get_possible_courses(semester, df):
     return offered_courses
 
 
-def get_possible_semesters(course_number):
+def get_possible_semesters(df, course_number):
     """
     Extracts semesters with a likelihood greater than 0.5 for a given course number ordered by likelihood.
 
@@ -64,7 +65,7 @@ def get_possible_semesters(course_number):
         list: An ordered list of semesters with likelihood greater than 0.5 for the given course number.
     """
     # Remove the first element (Course Title) from the row and make it into DataFrame
-    possible_semesters_df = pd.DataFrame(df[course_number][1:])
+    possible_semesters_df = pd.DataFrame(df.loc[course_number][1:])
 
     # Reset the index to have the semester as a column
     possible_semesters_df.reset_index(inplace=True)

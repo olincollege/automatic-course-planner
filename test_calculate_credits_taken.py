@@ -1,54 +1,90 @@
-import pytest
-
-# Import the function to be tested
-from model import calculate_credits_taken
+from vivian_model import CourseModel
 
 
-# Define the test cases
-@pytest.mark.parametrize(
-    "courses_dict, expected_credits_took",
-    [
-        # Test case covering basic functionality with known inputs and outputs
-        (
-            {
-                "Freshmen Fall": ["ENGR4190", "ENGR3392", "MTH2199", "AHSE1122"],
-                "Freshmen Spring": ["SCI2210", "SCI1240", "MTH2188", "ENGX2000"],
-                "Sophomore Fall": ["ENGX2005", "ENGX2199", "ENGR3810", "ENGR3599B"],
-                "Sophomore Spring": ["ENGR3440", "ENGR3250", "ENGR2320", "ENGR1200"],
-                "Junior Fall": ["ENGR3299", "SCI1230", "SCI2220", "SCI3320"],
-                "Junior Spring": ["SUST3301", "MTH3199", "", ""],
-                "Senior Fall": ["ENGX2199", "", "", ""],
-                "Senior Spring": ["ENGR3640", "", "", ""],
-            },
-            {"AHSE": 4, "ENGR": 56, "MTH/SCI": 28, "MTH": 12, "OFYI": 0, "TOTAL": 88},
-        ),
-        # Add more test cases here to cover various scenarios and edge cases
-        # Test case with empty courses dictionary
-        ({}, {"AHSE": 0, "ENGR": 0, "MTH/SCI": 0, "MTH": 0, "OFYI": 0, "TOTAL": 0}),
-        # Test case with one semester and one course
-        (
-            {"Freshmen Fall": ["ENGR4190"]},
-            {"AHSE": 0, "ENGR": 4, "MTH/SCI": 0, "MTH": 0, "OFYI": 0, "TOTAL": 4},
-        ),
-        # Test case with a course contributing to multiple areas
-        (
-            {"Junior Spring": ["ENGR2199B/MTH2188B"]},
-            {"AHSE": 0, "ENGR": 2, "MTH/SCI": 2, "MTH": 2, "OFYI": 0, "TOTAL": 4},
-        ),
-        # Add more test cases as needed to cover other scenarios
-    ],
-)
-def test_calculate_credits_taken(courses_dict, expected_credits_took):
+def test_calculate_credits_taken_default():
     """
-    Test the calculate_credits_taken function.
-
-    Args:
-        courses_dict: Input dictionary with semesters as keys and lists of course numbers
-            as values for each key.
-        expected_credits_took: Expected output dictionary indicating credits taken for each area.
+    Test case for default required courses
     """
-    # Call the function to get the actual result
-    actual_credits_took = calculate_credits_taken(courses_dict)
+    coursemodel = CourseModel("N/A", "N/A", "N/A", "N/A")
+    coursemodel.calculate_credits_taken()
+    expected_output = {
+        "AHS": 16,
+        "ENG": 44,
+        "MTH/SCI": 36,
+        "MTH": 8,
+        "SCI": 0,
+        "OFYI": 1,
+        "TOTAL": 69,
+    }
+    assert coursemodel.credits_took == expected_output
 
-    # Check if the actual result matches the expected result
-    assert actual_credits_took == expected_credits_took
+
+def test_calculate_credits_taken_with_major():
+    """
+    Test case for required major courses with a specified major
+    """
+    coursemodel = CourseModel("Mechanical Engineering", "N/A", "N/A", "N/A")
+    coursemodel.fill_major_required_courses()
+    coursemodel.calculate_credits_taken()
+    expected_output = {
+        "AHS": 16,
+        "ENG": 72,
+        "MTH/SCI": 68,
+        "MTH": 12,
+        "SCI": 0,
+        "OFYI": 1,
+        "TOTAL": 101,
+    }
+    assert coursemodel.credits_took == expected_output
+
+
+def test_calculate_credits_taken_other_requirements():
+    """
+    Test case for all required courses filled up
+    """
+    coursemodel = CourseModel("E: Computing", "N/A", "N/A", "N/A")
+    coursemodel.fill_major_required_courses()
+    coursemodel.fill_other_requirements()
+    coursemodel.calculate_credits_taken()
+    expected_output = {
+        "AHS": 16,
+        "ENG": 68,
+        "MTH/SCI": 68,
+        "MTH": 12,
+        "SCI": 4,
+        "OFYI": 1,
+        "TOTAL": 101,
+    }
+
+    assert coursemodel.credits_took == expected_output
+
+
+def test_calculate_credits_taken_final():
+    """
+    Test case for all course schedule filled up, checking for total credits took
+    greater than required minimum credits (120).
+    """
+    coursemodel = CourseModel("Mechanical Engineering", "N/A", "N/A", "N/A")
+    coursemodel.fill_major_required_courses()
+    coursemodel.fill_other_requirements()
+    coursemodel.fill_empty_schedules()
+    coursemodel.calculate_credits_taken()
+    assert (coursemodel.credits_took["TOTAL"]) >= 120
+
+
+def test_calculate_credits_taken_final_with_options():
+    """
+    Test case for all course schedule filled up with study abroad and early graduation,
+    checking for total credits took greater than required minimum credits (120).
+    """
+    coursemodel = CourseModel(
+        "Electrical Engineering", "N/A", "junior spring", "One semester early"
+    )
+    coursemodel.fill_loa()
+    coursemodel.fill_major_required_courses()
+    coursemodel.fill_grad_early()
+    coursemodel.fill_study_abroad()
+    coursemodel.fill_other_requirements()
+    coursemodel.fill_empty_schedules()
+    coursemodel.calculate_credits_taken()
+    assert (coursemodel.credits_took["TOTAL"]) >= 120
