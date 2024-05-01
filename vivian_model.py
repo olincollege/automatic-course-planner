@@ -6,9 +6,10 @@ import pandas as pd
 import numpy as np
 import random
 
-# import warnings
+import warnings
+
 # # Settings the warnings to be ignored
-# warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignore")
 
 
 class CourseModel:
@@ -53,14 +54,24 @@ class CourseModel:
         #     ],
         # )
         self.sem_courses = {
-            "freshmen fall": [],
-            "freshmen spring": [],
-            "sophomore fall": [],
-            "sophomore spring": [],
+            "freshmen fall": ["QEA1", "Modsim", "DesNat", "AHS"],
+            "freshmen spring": [
+                "QEA2",
+                "ISIM",
+                "P&M",
+            ],
+            "sophomore fall": [
+                "PIE",
+            ],
+            "sophomore spring": [
+                "CD",
+            ],
             "junior fall": [],
             "junior spring": [],
-            "senior fall": [],
-            "senior spring": [],
+            "senior fall": ["Capstone"],
+            "senior spring": [
+                "Capstone",
+            ],
         }
         self.emtpy_sem_courses = {}
 
@@ -77,21 +88,22 @@ class CourseModel:
         ]
 
         self.credits_needed = {  # should not change
-            "AHS": 28,
-            "ENG": 46,
-            "MTH/SCI": 30,
-            "MTH": 10,
+            "AHS": 28 - 8,
+            "ENG": 46 - 24,
+            "MTH/SCI": 30 - 4,
+            "MTH": 10 - 4,
+            "SCI": 0,
             "OFYI": 1,
-            "TOTAL": 120,
+            "TOTAL": 120 - 37,
         }
         self.credits_took = {
-            "AHS": 0,
-            "ENG": 0,
-            "MTH/SCI": 0,
-            "MTH": 0,
+            "AHS": 8,
+            "ENG": 24,
+            "MTH/SCI": 4,
+            "MTH": 4,
             "SCI": 0,
-            "OFYI": 0,
-            "TOTAL": 0,
+            "OFYI": 1,
+            "TOTAL": 37,
         }
 
         # Constraints -- based on major
@@ -143,9 +155,9 @@ class CourseModel:
         # Requirements
         self.other_requirements = {
             "bio_requirements": [
-                "ENGR3235",  # / SCI2235",
-                "SCI1250",  # / AHSE2150",
-                "SCI1260_AHSE2160",
+                "ENGR3235/SCI2235",
+                "SCI1250/AHSE2150",
+                "SCI1260/AHSE2160",
                 "SCI1270",
                 "SCI1299",
                 "SCI2214",
@@ -157,27 +169,27 @@ class CourseModel:
                 "ENGR3260",
                 "ENGR3299",
                 "ENGR3299A",
-                "ENGR3235 / SCI2235",
+                "ENGR3235/SCI2235",
                 "AHSE2199/ENGR2299",
                 "ENGR3252",
                 "ENGR3210",
             ],
             "probstat_requirements": [
-                "MTH2135 / ENGR3635",
-                "MTH2136 / SCI2136",
+                "MTH2135/ENGR3635",
+                "MTH2136/SCI2136",
                 "MTH2130",
-                "ENGR3531 / MTH2131",
-                "MTH2188A / ENGR3599A",
-                "ENGR3533 / MTH2133",
+                "ENGR3531/MTH2131",
+                "MTH2188A/ENGR3599A",
+                "ENGR3533/MTH2133",
             ],
             "matsci_requirements": ["SCI1320", "SCI1410", "SCI1440", "SCI1420"],
         }
 
         self.other_requirements_fulfilled = {
-            "bio": False,
-            "design_depth": False,
-            "probstat": False,
-            "matsci": False,
+            "bio_requirements": False,
+            "design_depth_requirements": False,
+            "probstat_requirements": False,
+            "matsci_requirements": False,
         }
 
     # USER CONSTRAINED METHODS
@@ -217,6 +229,9 @@ class CourseModel:
                         self.major_requirements[self.major][courses][0] = True
                         # add the course number to courses_took
                         self.courses_took.append(course)
+                        # update credits needed
+                        self.credits_needed[course[:3]] -= 4
+                        self.credits_needed["TOTAL"] -= 4
                         # update level
                         LAST_LEVEL = level
                         break
@@ -244,9 +259,11 @@ class CourseModel:
         """
         # Blocking out the study abroad semester
         if self.study_abroad != "N/A":
-            self.sem_courses[self.study_abroad] = ["Study Abroad: AHS"] * len(
-                self.sem_courses[self.study_abroad]
-            )
+            self.sem_courses[self.study_abroad] = [
+                "Study Abroad: AHS"
+            ] * self.MAX_COURSES
+            self.credits_needed["AHS"] -= 12
+            self.credits_needed["TOTAL"] -= 12
 
     def fill_grad_early(self):
         """
@@ -256,17 +273,19 @@ class CourseModel:
         # Blocking out graduating early
         if self.grad_early != "N/A":
             if self.grad_early == "One semester early":
-                self.sem_courses["senior spring"] = ["Graduating Early!"] * len(
-                    self.sem_courses["Senior Spring"]
-                )
+                self.MAX_COURSES = 5
+                self.sem_courses["senior spring"] = [
+                    "Graduating Early!"
+                ] * self.MAX_COURSES
 
             if self.grad_early == "One year early":
-                self.sem_courses["senior spring"] = ["Graduating Early!"] * len(
-                    self.sem_courses["senior spring"]
-                )
-                self.sem_courses["senior fall"] = ["Graduating Early!"] * len(
-                    self.sem_courses["senior fall"]
-                )
+                self.MAX_COURSES = 5
+                self.sem_courses["senior spring"] = [
+                    "Graduating Early!"
+                ] * self.MAX_COURSES
+                self.sem_courses["senior fall"] = [
+                    "Graduating Early!"
+                ] * self.MAX_COURSES
 
     # HELPER METHODS
 
@@ -293,7 +312,7 @@ class CourseModel:
         """
         Get possible course for each semester as a dictionary along with its likelihood of offering
         Args:
-            semester(str): semester that you want to check the course offering for (e.g., 'freshman fall')
+            semester(str): semester that you want to check the course offering for (e.g., 'freshmen fall')
             df (DataFrame): DataFrame containing the course offering data
         Returns:
             course offering dictionary with likelihood, separated by course type
@@ -328,7 +347,7 @@ class CourseModel:
             list: An ordered list of semesters with likelihood greater than 0.5 for the given course number.
         """
         # Remove the first element (Course Title) from the row and make it into DataFrame
-        possible_semesters_df = pd.DataFrame(self.df[course_number][1:])
+        possible_semesters_df = pd.DataFrame(self.df_transposed[course_number][1:])
 
         # Reset the index to have the semester as a column
         possible_semesters_df.reset_index(inplace=True)
@@ -392,6 +411,9 @@ class CourseModel:
                         self.sem_courses[semester].append(course_title)
                         # add it to the courses_took
                         self.courses_took.append(course)
+                        # update credits needed
+                        self.credits_needed[course[:3]] -= 4
+                        self.credits_needed["TOTAL"] -= 4
                         self.other_requirements_fulfilled[course_type] = True
                         break
         # return self.sem_courses
@@ -429,14 +451,19 @@ class CourseModel:
         """
         Fill courses in semesters based on major requirements, course offerings, and credit requirements.
         """
+        print("ITS WORKING 1")
         while self.credits_needed["TOTAL"] > 0:
+            print(self.credits_needed)
             # fill MTH if not enough math credit
             if self.credits_needed["MTH"] > 0:
+                print("mathcredits", self.credits_needed["MTH"])
                 for semester, courses in self.sem_courses.items():
                     if len(courses) < self.MAX_COURSES:
+                        print(semester)
                         choosen_course = self.choose_course(  # not transposed df
                             semester, "MTH"
                         )  # course num
+                        print(choosen_course)
                         choosen_course_title = self.df_transposed[
                             choosen_course
                         ][  # transposed df
@@ -447,9 +474,14 @@ class CourseModel:
                         self.credits_needed["MTH"] -= 4
                         self.credits_needed["MTH/SCI"] -= 4
                         self.credits_needed["TOTAL"] -= 4
+                        print(self.credits_needed)
+                        break
             # fill MTH/SCI
+
             elif self.credits_needed["MTH/SCI"] > 0:
+                print("Goes to mth/sci")
                 for semester, courses in self.sem_courses.items():
+                    print(semester)
                     if len(courses) < self.MAX_COURSES:
                         # if MTH/SCI just fill in with SCI courses??
                         choosen_course = self.choose_course(
@@ -460,16 +492,20 @@ class CourseModel:
                         ]  # course title
                         self.sem_courses[semester].append(choosen_course_title)
                         self.courses_took.append(choosen_course)
-                        self.credits_needed["SCI"] -= 4
                         self.credits_needed["MTH/SCI"] -= 4
                         self.credits_needed["TOTAL"] -= 4
+
             # fill ENG
             elif self.credits_needed["ENG"] > 0:
+                print("Goes to eng")
                 for semester, courses in self.sem_courses.items():
+                    print(semester)
                     if len(courses) < self.MAX_COURSES:
+                        print(len(courses))
                         choosen_course = self.choose_course(
-                            semester, "SCI"
+                            semester, "ENG"
                         )  # course num
+                        print(choosen_course)
                         choosen_course_title = self.df_transposed[choosen_course][
                             "Course Title"
                         ]  # course title
@@ -477,16 +513,21 @@ class CourseModel:
                         self.courses_took.append(choosen_course)
                         self.credits_needed["ENG"] -= 4
                         self.credits_needed["TOTAL"] -= 4
+                        print(self.credits_needed)
+
             # fill AHS --> just 'AHS', no calculation
             elif self.credits_needed["AHS"] > 0:
+                print("Goes to ahs")
                 for semester, courses in self.sem_courses.items():
                     if len(courses) < self.MAX_COURSES:
                         self.sem_courses[semester].append("AHS")
                         self.courses_took.append("AHS")
                         self.credits_needed["AHS"] -= 4
                         self.credits_needed["TOTAL"] -= 4
+
             # fill TOTAL with any course
             else:
+                print("Goes to total")
                 for semester, courses in self.sem_courses.items():
                     if len(courses) < self.MAX_COURSES:
                         choosen_course = self.choose_course(semester)  # course num
@@ -497,11 +538,18 @@ class CourseModel:
                         self.courses_took.append(choosen_course)
                         self.credits_needed[choosen_course[0:3]] -= 4  # course type
                         self.credits_needed["TOTAL"] -= 4
-        return self.sem_courses
+
+        # return self.sem_courses
+        print(self.sem_courses)
 
     def get_df(self):
         """
         CALL ALL THE OTHER FUNCTIONS TO FILL DF BEFORE RETURNING
 
         """
-        return pd.DataFrame(self.sem_courses)
+        max_length = max(len(lst) for lst in self.sem_courses.values())
+        for key, value in self.sem_courses.items():
+            while len(value) < max_length:
+                value.append("")
+        filled_df = pd.DataFrame(self.sem_courses)
+        return filled_df
