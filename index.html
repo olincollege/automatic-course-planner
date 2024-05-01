@@ -89,31 +89,36 @@
         .image {
             flex: 1;
             margin-left: 500px;
+            margin-bottom: 100px;
+            padding-right:20px;
             /* border: 2px solid #0066cc; */
             }
 
         .image-text {
             flex: 2;
-            margin-right:200px;
-            margin-bottom: 20px;
+            margin-right:500px;
+            margin-bottom: 100px;
+            padding-left:0px;
             }
         .bulleted-list {
             list-style-type: disc;
-            margin-left: 200px;
+            margin-left: 220px; 
+            padding-left: 0px;
             }
         
         .list-item {
             margin-left: 0px;
-            padding-left: 220px;
+            padding-left: 20px;
             }
 
         .numbered-list {
-            margin-left: 200px; 
+            margin-left: 220px; 
+            padding-left: 0px;
             }
 
         .numbered-list li {
             margin-left: 0px;
-            padding-left: 220px;
+            padding-left: 20px;
             }
 
         /* img {
@@ -133,14 +138,14 @@
     </p>
 
     <h2>How to Use Our Course Planner</h2>
-        <p>To use our course planner, follow the steps below.
+        <p>To use our course planner, follow the steps below.</p>
             <ol class="numbered-list">
                 <li>Clone our Github repository by running <code>git clone https://github.com/github_username/repo_name.git</code></li>
-                <li> Install the requirements by running <code>"pip install -r requirements.txt"</code></li>
+                <li> Install the requirements by running <code>pip install -r requirements.txt</code></li>
                 <li>Run the course_planner_main.py file and respond to the prompts that come up on the window.</li> 
                 <li>Your four year course schedule is now generated.</li>
             </ol>
-            <br>For more detailed information, visit the <a href="https://github.com/olincollege/automatic-course-planner?tab=readme-ov-file">README</a> on our Github.</p> 
+            <p>For more detailed information, visit the <a href="https://github.com/olincollege/automatic-course-planner?tab=readme-ov-file">README</a> on our Github.</p> 
     
     <h2>Interactivity</h2>
     <p>Our project is used by the user by first inputting their constraints: major, whether or not they will take an LOA, whether or not they will study abroad, whether or not they will graduate early, and what senior capstone they will take. Our system then uses a predictive algorithm that uses past course offerings to guess what courses will be offered in the next years. Taking into account user constraints and major requirements, a table of eight (or less) semesters of courses will be shown. If the user likes the schedule shown, they have the option to save the file to their computer as a CSV file. If not, the user can prompt the program to generate another schedule. 
@@ -177,6 +182,8 @@
         <li><a href="https://olin.smartcatalogiq.com/en/2023-24/catalog/programs-of-study-and-degree-requirements/academic-programs/electrical-and-computer-engineering-ece/">ECE Program</a></li>
         <li><a href="https://olin.smartcatalogiq.com/en/2023-24/catalog/programs-of-study-and-degree-requirements/academic-programs/mechanical-engineering-me/">ME Program</a></li>
         <li><a href="https://www.olin.edu/academics-registrars-office-semester-information-registration-faq/archived-semester-offerings">Past Course Offerings</a></li>
+        <li><a href="https://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html">SARIMAX Model</a></li>
+        <li><a href="https://docs.python.org/3/library/tkinter.html">Tkinter Library</a></li>
     </ul>
 
     <div class="team-members">
@@ -186,9 +193,8 @@
                 <img src="team_member_images/aditi_1.jpg" alt="aditi's picture" width="100px" height="100px">
             </div>
             <div class="image-text">
-                <b>Aditi Bharadwaj</b>
-                <p>Likes reading and crocheting! <br>Class of 2027, E:Sustainability.</p>
-            <p></p>
+                <b><a href="https://github.com/aditib5">Aditi Bharadwaj</a></b><br>
+                Likes reading and crocheting! <br>Class of 2027, E:Sustainability.
             </div>
         </div>
         <div class="container">
@@ -196,9 +202,8 @@
                 <img src="team_member_images/dongim.jpg" alt="dongim's picture" width="100px" height="100px">
             </div>
             <div class="image-text">
-                <b>Dongim Lee</b>
-                <p>Likes playing guitar, figure skating, and baking! <br>Class of 2027, Maybe E:C.</p>
-            <p></p>
+                <b><a href="https://github.com/dongim04">Dongim Lee</a></b><br>
+                Likes playing guitar, figure skating, and baking! <br>Class of 2027, Maybe E:C.
             </div>
         </div>
         <div class="container">
@@ -206,19 +211,17 @@
                 <img src="team_member_images/sally_1.jpg" alt="sally's picture" width="100px" height="100px">
             </div>
             <div class="image-text">
-                <b>Sally Lee</b>
-                <p>Likes traveling and crocheting! <br>Class of 2027, E:C.</p>
-            <p></p>
+                <b><a href="https://github.com/delee5695">Sally Lee</a></b><br>
+                Likes traveling and crocheting! <br>Class of 2027, E:C.
             </div>
         </div>  
         <div class="container">
             <div class="image">
-                <img src="team_member_images/vivian.jpg" alt="sally's picture" width="100px" height="100px">
+                <img src="team_member_images/vivian.jpg" alt="vivian's picture" width="100px" height="100px">
             </div>
             <div class="image-text">
-                <b>Vivian Mak</b>
-                <p>Does not know what she likes :p <br>Class of 2027, E:Robo.</p>
-            <p></p>
+                <b><a href="https://github.com/VivianMak">Vivian Mak</a></b><br>
+                Does not know what she likes :p <br>Class of 2027, E:Robo.
             </div>
         </div>  
     </div>
