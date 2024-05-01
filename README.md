@@ -14,7 +14,7 @@
     <a href="https://olincollege.github.io/automatic-course-planner"><strong>Explore the website »</strong></a>
     <br />
     <br />
-    <a href="https://olincollege.github.io/automatic-course-planner">View Demo</a>
+    <a href="https://www.youtube.com/watch?v=y_L1suXd7xI">View Demo</a>
 </div>
 
 <!-- TABLE OF CONTENTS -->
