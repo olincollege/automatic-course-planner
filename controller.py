@@ -2,13 +2,7 @@
 Get user input from dropdowns (major for now)
 """
 
-import tkinter as tk
-from tkinter import ttk
-from pandastable import Table, TableModel
-import pandas as pd
-import random
-
-from vivian_model import CourseModel
+from model import CourseModel
 
 
 class CourseController:
@@ -17,7 +11,7 @@ class CourseController:
     """
 
     def __init__(self, major, study_abroad, loa, grad_early):
-        self.model = CourseModel(major, study_abroad, loa, grad_early)
+        self.model = CourseModel(major, loa, study_abroad, grad_early)
 
     # Methods should be in order of which ones to run first
     def major_constraint(self):
