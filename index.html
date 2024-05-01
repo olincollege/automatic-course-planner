@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f8f8f8;
+            background-color: #ffffff;
             color: #333;
             margin: 0;
             padding: 0;
@@ -90,8 +90,9 @@
             margin-right:400px;
             margin-bottom: 20px;
             }
-        ul {
-            list-style-type: circle;
+        .bulleted-list {
+            list-style-type: disc;
+            margin-left: 20px;
             }
 
         /* img {
@@ -122,13 +123,13 @@
     <p>The project aims to assist first-year Oliners in planning their course schedules. Data collected are non-sensitive user preferences. Potential malicious behavior, such as brute force attacks or data theft, is mitigated by not storing sensitive information.</p> -->
     
     <h2>Architecture</h2>
-    <ul>
+    <ul class="bulleted-list">
         <li>Model: returns a dataframe with full schedule based on user input constraints (major, study abroad, LOA, graduating early) and predicted course offerings.</li>
         <li>View: shows tkinter window, dropdown, and button</li>
         <li>Controller: handles user input and updates our model with different constraints</li>
         </ul>
         <p>Below is a diagram of how our model generates the courses for the four-year course plan.</p>
-        <img src="model.jpg" alt="model diagram" width="1027px" height="397px">
+        <img src="model.jpg" alt="model diagram" width="684px" height="265px">
     <!-- <p>The project maintains user data (major, preferences) and generates a four-year course plan. This information is stored in classes like User and CoursePlan.</p> -->
     
     <!-- <h2>View</h2>
@@ -154,7 +155,7 @@
         <h3>Team Members</h3>
         <div class="container">
             <div class="image">
-                <img src="team_member_images/aditi.jpg" alt="aditi's picture" width="100px" height="100px">
+                <img src="team_member_images/aditi_1.jpg" alt="aditi's picture" width="100px" height="100px">
             </div>
             <div class="image-text">
                 <b>Aditi Bharadwaj</b>
@@ -174,7 +175,7 @@
         </div>
         <div class="container">
             <div class="image">
-                <img src="team_member_images/sally.jpg" alt="sally's picture" width="100px" height="100px">
+                <img src="team_member_images/sally_1.jpg" alt="sally's picture" width="100px" height="100px">
             </div>
             <div class="image-text">
                 <b>Sally Lee</b>
