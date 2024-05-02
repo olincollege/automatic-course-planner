@@ -327,7 +327,7 @@ class CourseModel:
             course_number (str): The course number for which semesters are to be extracted.
 
         Returns:
-            list: An ordered list of semesters with likelihood greater than
+            pssible_semesters(list): An ordered list of semesters with likelihood greater than
                 0.5 for the given course number.
         """
         # Remove the first element (Course Title) from the row and make it into DataFrame
@@ -368,7 +368,7 @@ class CourseModel:
         """
         get empty schedules from sem_courses
         Return:
-            dictionary of how many course are free(should be filled in) for each semester.
+            empty_sem_courses: dictionary of how many course are free(should be filled in) for each semester.
         """
         empty_sem_courses = {}
         for semester, courses in self.sem_courses.items():
@@ -377,8 +377,7 @@ class CourseModel:
 
     def fill_other_requirements(self):
         """
-
-        DO SOCAFKJASDKLFATINGS
+        fills in other requirements other than the major requirements
         """
         for (
             course_type,
@@ -412,11 +411,11 @@ class CourseModel:
         if course_type is ALL, choose from any subject
 
         Args:
-        course_type:
-        semester:
+        course_type: a string representing the type of the course like 'ENG'
+        semester: a string representing the semester like 'sophomore fall'
 
         return:
-            course num
+            course num: a string representing the course number like 'ENG2430'
         """
         if course_type == "ALL":
             possible_courses = self.get_possible_courses(semester)
@@ -515,7 +514,8 @@ class CourseModel:
     def get_df(self):
         """
         CALL ALL THE OTHER FUNCTIONS TO FILL DF BEFORE RETURNING
-
+        Returns:
+            filled_df: a pandas dataframe that has all the 4 year course plan
         """
         # Make sure the lists in the dictionary are all the same length
         max_length = max(len(lst) for lst in self.sem_courses.values())
